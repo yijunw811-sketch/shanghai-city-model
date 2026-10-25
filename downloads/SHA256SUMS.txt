@@ -1,1 +1,2 @@
 6e98e742c3861e605236c0f59c570bbe5f0b3eadd813a1bca314d97588c5c309  downloads/shanghai-city-model-delivery-v2.zip
+c42df79c7a1abbf3954649eaac8ecdcc82497c614d929b5cb90c85e4c787e030  downloads/shanghai-city-model-delivery-v3.zip
