@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "name": "shanghai_large_study_boundary",
+  "metadata": {
+    "coordinate_reference_system": "EPSG:4326 (assumed, unverified: check source CRS and GCJ-02/BD-09 offset)",
+    "source_file": "boundary.csv",
+    "original_elevation_unit": "metre; only boundary sample elevations, not a DEM"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "large_study_boundary",
+        "boundary_type": "closed_polygon",
+        "elevation_samples_m": [
+          5.1897949809,
+          5.1897949809,
+          5.5662492765,
+          5.5662492765,
+          5.1897949809
+        ],
+        "crs_warning": "Longitude/Latitude presumed WGS84; source CRS must be independently verified before overlay",
+        "utm_working_crs": "EPSG:32651"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.4048638239,
+              31.3171844724
+            ],
+            [
+              121.4048638239,
+              31.2829837492
+            ],
+            [
+              121.4658442408,
+              31.2829837492
+            ],
+            [
+              121.4658442408,
+              31.3171844724
+            ],
+            [
+              121.4048638239,
+              31.3171844724
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
