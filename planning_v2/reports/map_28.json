@@ -1,0 +1,32 @@
+{
+  "id": "28",
+  "title": "冬夏植被指数季节差｜2026年",
+  "en": "Summer minus winter NDVI on joint valid pixels",
+  "kind": "raster",
+  "layer": "ndvi_seasonal_difference2026_10m",
+  "field": null,
+  "cmap": "RdYlGn",
+  "note": "9月14日NDVI减2月21日NDVI；只用双方有效像元10m。含物候、太阳角度与季节影响，不是永久绿化变化。",
+  "findings": [
+    "有效像元统计中位值 0.0384",
+    "显示色阶 P2—P98；有效像元 209,221"
+  ],
+  "data_signature": "a39102380b333ac2d28ae57cd699b4fb033925671679bac4d275e4f3a5a6b9d39a978073707cb147696630620f3f2a538dc85524be909bf160946d1811923f35b61901d8ad60ad00364f76737189dfbe7e76de5197885633dc6ca45a41cba75fatlas-v2c",
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv"
+}

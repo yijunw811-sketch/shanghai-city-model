@@ -1,0 +1,38 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "land",
+  "checked_utc": "2026-10-25T15:29:14.884729+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "ODbL-1.0",
+  "rows_bbox_candidates": 220,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/base/land/00011/00011.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=base/type=land/part-00011-fa228c40-7581-512f-b3a0-fb114f2fa3b9-c000.zstd.parquet",
+      "file_bytes": 406362424,
+      "rowgroups": [],
+      "bbox_matched_rows": 0,
+      "new_range_bytes": 347240,
+      "requests": 2,
+      "license": "ODbL-1.0"
+    },
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/base/land/00036/00036.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=base/type=land/part-00036-0583efc7-7d83-571e-b3e5-f9d2fcf624d3-c000.zstd.parquet",
+      "file_bytes": 739568101,
+      "rowgroups": [
+        115
+      ],
+      "bbox_matched_rows": 220,
+      "new_range_bytes": 3379531,
+      "requests": 3,
+      "license": "ODbL-1.0"
+    }
+  ],
+  "sha256": "3d2c42a9799b850db194a2235d716367bd1bf64b80e756e9429a91c0272f117d"
+}

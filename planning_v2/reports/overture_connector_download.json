@@ -1,0 +1,29 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "connector",
+  "checked_utc": "2026-10-25T15:29:07.941094+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "ODbL-1.0",
+  "rows_bbox_candidates": 6664,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/transportation/connector/00030/00030.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=transportation/type=connector/part-00030-09105508-00f4-52af-b20c-9599b8ec34c6-c000.zstd.parquet",
+      "file_bytes": 761270580,
+      "rowgroups": [
+        153,
+        155
+      ],
+      "bbox_matched_rows": 6664,
+      "new_range_bytes": 5485705,
+      "requests": 4,
+      "license": "ODbL-1.0"
+    }
+  ],
+  "sha256": "34eb12849c03e18dd9beb00e0f020a2e1a917a944a56ac8f752a34d42b944557"
+}

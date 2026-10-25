@@ -1,0 +1,32 @@
+{
+  "id": "08",
+  "title": "车行路网密度与节点连通",
+  "en": "Mapped vehicle network density",
+  "kind": "grid",
+  "layer": null,
+  "field": "vehicle_density_km_km2",
+  "cmap": "YlOrRd",
+  "note": "源线长度(km) / 裁切网格面积(km²)；双幅路分别计入，非道路走廊去重长度。节点只按真实OSM ID连接。",
+  "findings": [
+    "有效分析单元 103 / 103",
+    "有效单元中位值 9.93；显示上限P98 33.2"
+  ],
+  "data_signature": "a39102380b333ac2d28ae57cd699b4fb033925671679bac4d275e4f3a5a6b9d39a978073707cb147696630620f3f2a538dc85524be909bf160946d1811923f35b61901d8ad60ad00364f76737189dfbe7e76de5197885633dc6ca45a41cba75fatlas-v2c",
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv"
+}

@@ -1,0 +1,7 @@
+{
+  "joint_valid_cells": 24451,
+  "method": "WorldCover modal resampling onto CLCD30m; counts reflect coarse-grid comparison, not accuracy truth or change attribution",
+  "impervious_built_agreement_fraction": 0.8596376426322032,
+  "not_same_year": true,
+  "not_functional_landuse": true
+}

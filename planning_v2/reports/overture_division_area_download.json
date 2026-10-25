@@ -1,0 +1,66 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "division_area",
+  "checked_utc": "2026-10-25T15:28:59.660945+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "ODbL-1.0",
+  "rows_bbox_candidates": 66,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/divisions/division_area/00001/00001.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=divisions/type=division_area/part-00001-749d4f52-020c-56d1-a7b6-b52cc598af16-c000.zstd.parquet",
+      "file_bytes": 560177995,
+      "rowgroups": [
+        40
+      ],
+      "bbox_matched_rows": 0,
+      "new_range_bytes": 7676006,
+      "requests": 3,
+      "license": "ODbL-1.0"
+    },
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/divisions/division_area/00002/00002.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=divisions/type=division_area/part-00002-78492e75-1dd3-5fab-a54d-395730d5c814-c000.zstd.parquet",
+      "file_bytes": 660566023,
+      "rowgroups": [
+        2,
+        16
+      ],
+      "bbox_matched_rows": 2,
+      "new_range_bytes": 34340703,
+      "requests": 4,
+      "license": "ODbL-1.0"
+    },
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/divisions/division_area/00006/00006.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=divisions/type=division_area/part-00006-40e7b5b5-ea5a-50b5-92fa-af0ec90581dd-c000.zstd.parquet",
+      "file_bytes": 669259042,
+      "rowgroups": [],
+      "bbox_matched_rows": 0,
+      "new_range_bytes": 326484,
+      "requests": 2,
+      "license": "ODbL-1.0"
+    },
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/divisions/division_area/00007/00007.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=divisions/type=division_area/part-00007-d6e7a745-606f-5e85-9ffb-393dbdae0728-c000.zstd.parquet",
+      "file_bytes": 580792064,
+      "rowgroups": [
+        26,
+        38,
+        39,
+        41
+      ],
+      "bbox_matched_rows": 64,
+      "new_range_bytes": 73050760,
+      "requests": 8,
+      "license": "ODbL-1.0"
+    }
+  ],
+  "sha256": "ffd1f19e6d417332afb42b1474c402089e016c1a87aab2893d3a00a16a32e57d"
+}

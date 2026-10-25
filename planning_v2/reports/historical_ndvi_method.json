@@ -1,0 +1,11 @@
+{
+  "source_url": "https://zenodo.org/records/21345765",
+  "license": "CC-BY-4.0",
+  "aoi_coverage_percent": 48.4788288781253,
+  "native_coordinate_arrays": "latitude/longitude",
+  "crs_inferred": true,
+  "grid_resolution": "nominal250m; geographic spacing in original preserved",
+  "observed_only": true,
+  "not_cross_sensor_trend": "MODIS historic and Sentinel2026 cannot directly be compared as vegetation change",
+  "output": "outputs/gis/planning_raw_sources/research/21345765/observed_only_ndvi_2020_2024_geographic.tif"
+}

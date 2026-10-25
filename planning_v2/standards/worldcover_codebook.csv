@@ -1,0 +1,12 @@
+code,class_cn,year,license,classification_type
+10,树木覆盖,2021,CC-BY-4.0,physical_land_cover_not_functional_land_use
+20,灌木,2021,CC-BY-4.0,physical_land_cover_not_functional_land_use
+30,草地,2021,CC-BY-4.0,physical_land_cover_not_functional_land_use
+40,耕作地表,2021,CC-BY-4.0,physical_land_cover_not_functional_land_use
+50,建成地表,2021,CC-BY-4.0,physical_land_cover_not_functional_land_use
+60,裸地稀疏植被,2021,CC-BY-4.0,physical_land_cover_not_functional_land_use
+70,冰雪,2021,CC-BY-4.0,physical_land_cover_not_functional_land_use
+80,永久水体,2021,CC-BY-4.0,physical_land_cover_not_functional_land_use
+90,草本湿地,2021,CC-BY-4.0,physical_land_cover_not_functional_land_use
+95,红树林,2021,CC-BY-4.0,physical_land_cover_not_functional_land_use
+100,苔藓地衣,2021,CC-BY-4.0,physical_land_cover_not_functional_land_use

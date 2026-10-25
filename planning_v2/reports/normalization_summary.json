@@ -1,0 +1,35 @@
+{
+  "aoi_area_km2": 22.00912078313864,
+  "context_area_km2": 72.94072078592765,
+  "context_buffer_m": 2000,
+  "osm_raw_elements": 105434,
+  "osm_features_context": 11426,
+  "poi_context_unique": 1930,
+  "poi_aoi_unique": 469,
+  "poi_aoi_categories": {
+    "commercial": 138,
+    "other_service": 133,
+    "culture_sports": 80,
+    "education": 63,
+    "daily_service": 29,
+    "health": 15,
+    "employment_proxy": 7,
+    "safety": 2,
+    "elderly": 2
+  },
+  "poi_matches_merged": 9,
+  "transit_source_records_aoi": 554,
+  "route_relations_context": 330,
+  "building_count_preserved": 11856,
+  "snapshot_dates": [
+    "2026-10-25T15:36:21Z",
+    "2026-10-25T15:37:26Z",
+    "2026-10-25T15:38:31Z",
+    "2026-10-25T15:38:31Z",
+    "2026-10-25T15:39:36Z",
+    "2026-10-25T15:40:36Z",
+    "2026-10-25T15:41:36Z",
+    "2026-10-25T15:41:36Z"
+  ],
+  "design_site": "not provided; no layer fabricated"
+}

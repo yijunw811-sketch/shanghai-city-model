@@ -1,0 +1,10 @@
+{
+  "query": "[out:json][timeout:90];rel[\"type\"=\"restriction\"](31.26494281595918,121.38385012775849,31.335225264086052,121.48685853933276);out body;>;out skel qt;",
+  "snapshot": {
+    "timestamp_osm_base": "2026-10-25T17:17:16Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "relations": 38,
+  "via_node_records": 30,
+  "raw_sha256": "846927a673a30907f23d50935ca1e16356639841afede7e38db5b6733fb0255b"
+}

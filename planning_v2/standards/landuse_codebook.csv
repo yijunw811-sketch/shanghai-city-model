@@ -1,0 +1,10 @@
+analysis_class,class_name,guide_2023_reference,mapping_status,is_statutory
+residential,居住功能,07,research reference only; 2023 official original/latest revision could not be verified via accessible official search,False
+public_service,公共管理与服务,08,research reference only; 2023 official original/latest revision could not be verified via accessible official search,False
+commercial,商业商务,09,research reference only; 2023 official original/latest revision could not be verified via accessible official search,False
+industrial,工业仓储,10/11,research reference only; 2023 official original/latest revision could not be verified via accessible official search,False
+transport,交通与停车,12,research reference only; 2023 official original/latest revision could not be verified via accessible official search,False
+green_open,绿地与开敞,14,research reference only; 2023 official original/latest revision could not be verified via accessible official search,False
+water,水域,17,research reference only; 2023 official original/latest revision could not be verified via accessible official search,False
+construction,在建待核实,,research reference only; 2023 official original/latest revision could not be verified via accessible official search,False
+unknown,待核实,,research reference only; 2023 official original/latest revision could not be verified via accessible official search,False

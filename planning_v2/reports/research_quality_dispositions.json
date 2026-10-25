@@ -1,0 +1,17 @@
+[
+  {
+    "record": "21217171",
+    "decision": "retained_nonspatial_reference",
+    "reason": "500m grid IDs have no coordinates or fishnet origin. No reconstruction from FID. Sentiment is not footfall; raw user text absent."
+  },
+  {
+    "record": "18673350",
+    "decision": "unverified_citywide_reference_only",
+    "reason": "No authenticated station/measurement lineage. No AOI air-pollution surface generated."
+  },
+  {
+    "record": "21345765",
+    "decision": "partial_historical_reference",
+    "reason": "2012–2024 MODIS-derived cube covers only southern AOI; coordinates and observed mask retained, temporal interpolation not an observation."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "text": "WorldPop API",
+    "url": "https://www.worldpop.org/sdi/introapi/"
+  },
+  {
+    "text": "WorldPop API",
+    "url": "https://www.worldpop.org/sdi/introapi/"
+  },
+  {
+    "text": "Advanced Data API Queries",
+    "url": "/sdi/advancedapi"
+  },
+  {
+    "text": "REST API rate-limits",
+    "url": "/sdi/api_rate_limits"
+  },
+  {
+    "text": "REST API",
+    "url": "/sdi/introapi"
+  }
+]

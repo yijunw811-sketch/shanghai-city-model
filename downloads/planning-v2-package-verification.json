@@ -1,0 +1,23 @@
+[
+  {
+    "file": "shanghai-planning-v2-gis.zip",
+    "bytes": 36169034,
+    "sha256": "0c0e3c56b5d475086c1ae7a176adc6a6e7988a3c30d44f081053eec1a37b2e5d",
+    "members": 40,
+    "CRC_verified": true
+  },
+  {
+    "file": "shanghai-planning-v2-atlas.zip",
+    "bytes": 83867782,
+    "sha256": "17e1ba1bc97afb48d76cc2d6ecff34144c818c191cc44f79bd89def1d4c9db1f",
+    "members": 124,
+    "CRC_verified": true
+  },
+  {
+    "file": "shanghai-planning-v2-sources-repro.zip",
+    "bytes": 63138541,
+    "sha256": "4b55feb5d4e1e7aed948439ed46da317fb8b2230f784965a03b819a5d5c0a9c8",
+    "members": 378,
+    "CRC_verified": true
+  }
+]

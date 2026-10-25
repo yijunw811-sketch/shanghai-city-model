@@ -1,0 +1,32 @@
+{
+  "id": "02",
+  "title": "建筑密度分析",
+  "en": "Building footprint density",
+  "kind": "grid",
+  "layer": null,
+  "field": "building_density",
+  "cmap": "YlOrBr",
+  "note": "建筑占地并集面积 / 裁切后500米网格面积；边界网格修正，重叠占地不重复计入。",
+  "findings": [
+    "有效分析单元 103 / 103",
+    "有效单元中位值 0.222；显示上限P98 0.351"
+  ],
+  "data_signature": "a39102380b333ac2d28ae57cd699b4fb033925671679bac4d275e4f3a5a6b9d39a978073707cb147696630620f3f2a538dc85524be909bf160946d1811923f35b61901d8ad60ad00364f76737189dfbe7e76de5197885633dc6ca45a41cba75fatlas-v2c",
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv"
+}

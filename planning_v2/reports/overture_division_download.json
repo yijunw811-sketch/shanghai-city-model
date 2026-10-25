@@ -1,0 +1,28 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "division",
+  "checked_utc": "2026-10-25T15:32:25.705721+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "ODbL-1.0",
+  "rows_bbox_candidates": 64,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/divisions/division/00000/00000.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=divisions/type=division/part-00000-fc5242dc-0596-5fd7-b815-8ff9633b67f3-c000.zstd.parquet",
+      "file_bytes": 584189981,
+      "rowgroups": [
+        227
+      ],
+      "bbox_matched_rows": 64,
+      "new_range_bytes": 3467069,
+      "requests": 3,
+      "license": "ODbL-1.0"
+    }
+  ],
+  "sha256": "a0a828a82af64cab999a099e24cd58971234591862c73b3850eddad844beda3f"
+}

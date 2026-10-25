@@ -1,0 +1,86 @@
+[
+  {
+    "kind": "bathymetry",
+    "context_exact_count": 0,
+    "aoi_intersection_count": 0,
+    "license": "CC0-1.0"
+  },
+  {
+    "kind": "building",
+    "context_exact_count": 40048,
+    "aoi_intersection_count": 12023,
+    "license": "ODbL-1.0"
+  },
+  {
+    "kind": "building_part",
+    "context_exact_count": 40,
+    "aoi_intersection_count": 0,
+    "license": "ODbL-1.0"
+  },
+  {
+    "kind": "connector",
+    "context_exact_count": 6246,
+    "aoi_intersection_count": 1956,
+    "license": "ODbL-1.0"
+  },
+  {
+    "kind": "division_area",
+    "context_exact_count": 57,
+    "aoi_intersection_count": 22,
+    "license": "ODbL-1.0"
+  },
+  {
+    "kind": "division_boundary",
+    "context_exact_count": 0,
+    "aoi_intersection_count": 0,
+    "license": "ODbL-1.0"
+  },
+  {
+    "kind": "division",
+    "context_exact_count": 60,
+    "aoi_intersection_count": 15,
+    "license": "ODbL-1.0"
+  },
+  {
+    "kind": "infrastructure",
+    "context_exact_count": 3555,
+    "aoi_intersection_count": 1273,
+    "license": "ODbL-1.0"
+  },
+  {
+    "kind": "land",
+    "context_exact_count": 208,
+    "aoi_intersection_count": 43,
+    "license": "ODbL-1.0"
+  },
+  {
+    "kind": "land_cover",
+    "context_exact_count": 3,
+    "aoi_intersection_count": 2,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "kind": "land_use",
+    "context_exact_count": 1833,
+    "aoi_intersection_count": 493,
+    "license": "ODbL-1.0"
+  },
+  {
+    "kind": "place",
+    "context_exact_count": 665,
+    "aoi_intersection_count": 131,
+    "license": "other"
+  },
+  {
+    "kind": "segment",
+    "context_exact_count": 5683,
+    "aoi_intersection_count": 1917,
+    "license": "ODbL-1.0"
+  },
+  {
+    "kind": "water",
+    "context_exact_count": 178,
+    "aoi_intersection_count": 72,
+    "license": "ODbL-1.0"
+  }
+]

@@ -1,0 +1,3 @@
+source,year,cells_intersect_aoi,model_estimate_aoi_area_weighted,valid_aoi_fraction
+ghsl2020,2020,2336,521288.9501632884,0.9999999999999974
+worldpop2025,2025,48,456084.43723566213,0.9999999999999649

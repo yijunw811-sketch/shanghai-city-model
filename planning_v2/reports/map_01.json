@@ -1,0 +1,32 @@
+{
+  "id": "01",
+  "title": "现状土地功能分类",
+  "en": "Existing mapped land functions",
+  "kind": "land",
+  "layer": null,
+  "field": null,
+  "cmap": "YlOrRd",
+  "note": "现状功能研究分类；非法定用途。仅映射有证据的面，不用单个POI填满未知地。2023指南参考代码的最新修订未核实。",
+  "findings": [
+    "待核实功能面积占 47.7%",
+    "分类面总覆盖研究边界 22.009 km²（含待核实）"
+  ],
+  "data_signature": "a39102380b333ac2d28ae57cd699b4fb033925671679bac4d275e4f3a5a6b9d39a978073707cb147696630620f3f2a538dc85524be909bf160946d1811923f35b61901d8ad60ad00364f76737189dfbe7e76de5197885633dc6ca45a41cba75fatlas-v2c",
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv"
+}

@@ -1,0 +1,21 @@
+{
+  "aoi_area_m2": 22009120.78313864,
+  "aoi_area_km2": 22.00912078313864,
+  "baseline_unclassified_km2": 14.086697685008867,
+  "baseline_unclassified_percent": 64.0039092147688,
+  "building_count": 11856,
+  "height_source_counts": {
+    "landuse_context_default_estimate": 10125,
+    "type_default_estimate": 1708,
+    "osm_levels_times_3m": 23
+  },
+  "road_building_conflict_records": 19,
+  "road_building_conflict_area_m2": 2276.410939939537,
+  "dangling_review_count": 267,
+  "schematic_steep_segments": 9,
+  "design_site_files": [],
+  "protected_files": 41,
+  "crs": "EPSG:32651",
+  "source_crs": "WGS84 confirmed by user in prior task",
+  "context_buffer_m": 2000
+}

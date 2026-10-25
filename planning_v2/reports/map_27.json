@@ -1,0 +1,33 @@
+{
+  "id": "27",
+  "title": "历史水面观测频率｜1984—2021",
+  "en": "Historical water observation occurrence",
+  "kind": "raster",
+  "layer": "jrc_water_occurrence1984_2021_30m",
+  "field": null,
+  "cmap": "Blues",
+  "note": "EC JRC GSW v1.4历史水面观测频率%；仅局部六瓦片压缩约20KB。不是2026水边界、洪水概率或法定蓝线。",
+  "findings": [
+    "有效像元统计中位值 0",
+    "色阶P2—P98，无跨度用全值域；有效像元 24,467",
+    "历史频率最高48%；不能否定窄河渠的存在"
+  ],
+  "data_signature": "a39102380b333ac2d28ae57cd699b4fb033925671679bac4d275e4f3a5a6b9d39a978073707cb147696630620f3f2a538dc85524be909bf160946d1811923f35b61901d8ad60ad00364f76737189dfbe7e76de5197885633dc6ca45a41cba75fatlas-v2c",
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv"
+}

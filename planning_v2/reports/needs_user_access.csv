@@ -1,0 +1,10 @@
+platform,resource,url,observed_blocker,required_next_action
+上海市公共数据开放平台,道路/教育/卫生/养老/公园/统计开放表,https://data.sh.gov.cn/view/,HTTP503 in this session; authentication requirement unconfirmed,Actual licensed downloadable catalogue/API; check access from normal browser or request official export
+上海市规划和自然资源局,现状调查图斑、控规/红蓝绿线及官方分类修订,https://ghzyj.sh.gov.cn/,No verified reusable precise vectors; metadata/publication pages only,Official published reusable vector/table and terms; images remain reference only
+自然资源部,2023用地用海分类指南正式原文及最新修订,https://www.mnr.gov.cn/,Proxy403; official gov search returned zero for long/short queries,Provide accessible official document or restored official endpoint; codebook remains research reference
+上海市统计局/各区,细尺度普查、年龄结构、社区人口,https://tjj.sh.gov.cn/,Homepage accessible; targeted yearbook/census pages blocked403 in this session,Public tables and matching statistical boundaries; do not allocate district age counts into AOI
+WorldPop,China2025 native100m population,https://hub.worldpop.org/geodata/summary?id=72927,~922MB file ignores byte Range; 1km fallback acquired,Efficient official COG/window service or authorized regional subset
+Tsinghua / Starcloud,EULUC城市功能用地,https://data-starcloud.pcl.ac.cn/,Official old portal migrated; new host unavailable in this session,Accessible licensed regional download; do not bypass site
+GHSL,GHS AGE建成时间代理,https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_AGE_GLOBE_R2025A/,Global ZIP only; no regional tile/efficient window path found,Efficient subset; model epochs are not building construction year
+商业地图/API,批量持久化POI或交通流,User licensed provider only,No provided lawful bulk-reuse permission or authorized key,User licensed export and reuse scope; do not scrape display maps
+WorldPop,2025年龄性别约1km原生模型,https://hub.worldpop.org/geodata/listing?id=139,Official archive1.19GB; individual files~22MB ignore Range200,Efficient authorized regional age-sex subsets; do not bulk-download dozens of national rasters or infer age from total population

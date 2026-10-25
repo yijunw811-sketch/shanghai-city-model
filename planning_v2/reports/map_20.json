@@ -1,0 +1,32 @@
+{
+  "id": "20",
+  "title": "夏季植被指数｜2026年9月14日",
+  "en": "ndvi_summer2026_10m",
+  "kind": "raster",
+  "layer": "ndvi_summer2026_10m",
+  "field": null,
+  "cmap": "YlGn",
+  "note": "Sentinel-2 10m NDVI；排除SCL云阴影。已逐波段同景镜像交叉核验1000DN差并避免重复扣offset。",
+  "findings": [
+    "有效像元统计中位值 0.275",
+    "显示色阶 P2—P98；有效像元 209,229"
+  ],
+  "data_signature": "a39102380b333ac2d28ae57cd699b4fb033925671679bac4d275e4f3a5a6b9d39a978073707cb147696630620f3f2a538dc85524be909bf160946d1811923f35b61901d8ad60ad00364f76737189dfbe7e76de5197885633dc6ca45a41cba75fatlas-v2c",
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv"
+}

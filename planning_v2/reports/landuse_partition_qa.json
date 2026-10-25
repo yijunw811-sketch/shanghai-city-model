@@ -1,0 +1,10 @@
+{
+  "aoi_m2": 22009120.78313864,
+  "partition_sum_m2": 22009120.78313808,
+  "union_m2": 22009120.78313803,
+  "overlap_m2": 5.21540641784668e-08,
+  "same_rule_baseline_function_unknown_km2": 10.554130624249314,
+  "enhanced_function_unknown_km2": 10.4918178947889,
+  "old_physical_unclassified_km2_not_comparable": 14.086697685,
+  "classification": "Observed-source polygon functional interpretation, not legal planning land use; unknown preserved"
+}

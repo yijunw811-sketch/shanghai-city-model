@@ -1,0 +1,32 @@
+{
+  "id": "10",
+  "title": "日常服务慢行可达性",
+  "en": "Daily-service walking reach",
+  "kind": "access",
+  "layer": "daily_service",
+  "field": null,
+  "cmap": "YlOrRd",
+  "note": "基于OSM步行节点和已映射设施，5/10/15分钟；结果为可达路段，不是欧氏圈或服务人口比例。",
+  "findings": [
+    "上下文合格接入节点 23",
+    "15分钟可达已映射步行长度占 18.6%（非人口）"
+  ],
+  "data_signature": "a39102380b333ac2d28ae57cd699b4fb033925671679bac4d275e4f3a5a6b9d39a978073707cb147696630620f3f2a538dc85524be909bf160946d1811923f35b61901d8ad60ad00364f76737189dfbe7e76de5197885633dc6ca45a41cba75fatlas-v2c",
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv"
+}

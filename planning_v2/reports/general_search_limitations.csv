@@ -1,0 +1,6 @@
+engine,query,outcome,evidence
+Bing HTML,site:gov.cn 国土空间调查 规划 用地用海 分类指南 2023 234 修订2025 2026,irrelevant_results_rejected,Returned Minecraft pages despite government/topic query; not used as evidence
+Bing RSS,自然资发2023 234 分类指南,irrelevant_and_reuse_restricted_rejected,Returned unrelated church pages; RSS explicitly restricts reuse beyond personal aggregator
+Bing China,自然资发2023 234 分类指南,no_visible_results,HTML contained only search shell
+Google,上海 国土空间 用地用海分类 指南2023 234号,javascript_required,No visible results in accessible HTML
+DuckDuckGo,Shanghai land use GIS data open population,human_challenge,HTTP202 human challenge; no bypass attempted

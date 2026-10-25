@@ -1,0 +1,28 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "place",
+  "checked_utc": "2026-10-25T15:28:53.104849+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "other",
+  "rows_bbox_candidates": 697,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/places/place/00015/00015.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00015-eb1c1331-f519-5db6-8fef-74a77e5776ff-c000.zstd.parquet",
+      "file_bytes": 733499664,
+      "rowgroups": [
+        86
+      ],
+      "bbox_matched_rows": 697,
+      "new_range_bytes": 4336682,
+      "requests": 3,
+      "license": "other"
+    }
+  ],
+  "sha256": "1a97bd55ddaa55f078f720159b28a35a001b3932139d25c134cfcd2a48364868"
+}

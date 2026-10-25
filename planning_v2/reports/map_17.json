@@ -1,0 +1,32 @@
+{
+  "id": "17",
+  "title": "模型人口密度｜2020年100米",
+  "en": "GHSL model population 2020",
+  "kind": "population",
+  "layer": "population_ghsl2020",
+  "field": "population_density_km2",
+  "cmap": "YlOrRd",
+  "note": "GHSL R2023A 2020原生100m格网，边界按像元面积比例裁切。模型不是普查街坊实测人口。",
+  "findings": [
+    "有效分析单元 2336 / 2336",
+    "有效单元中位值 1.82e+04；显示上限P98 8.27e+04"
+  ],
+  "data_signature": "a39102380b333ac2d28ae57cd699b4fb033925671679bac4d275e4f3a5a6b9d39a978073707cb147696630620f3f2a538dc85524be909bf160946d1811923f35b61901d8ad60ad00364f76737189dfbe7e76de5197885633dc6ca45a41cba75fatlas-v2c",
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv"
+}

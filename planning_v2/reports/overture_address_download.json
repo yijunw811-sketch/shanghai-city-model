@@ -1,0 +1,26 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "address",
+  "checked_utc": "2026-10-25T15:28:53.863095+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "other",
+  "rows_bbox_candidates": 0,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/addresses/address/00057/00057.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=addresses/type=address/part-00057-04cc2a04-912b-5810-b4af-fe1c2ffd288c-c000.zstd.parquet",
+      "file_bytes": 324494004,
+      "rowgroups": [],
+      "bbox_matched_rows": 0,
+      "new_range_bytes": 737809,
+      "requests": 2,
+      "license": "other"
+    }
+  ],
+  "outcome": "no_records_after_spatial_filter"
+}

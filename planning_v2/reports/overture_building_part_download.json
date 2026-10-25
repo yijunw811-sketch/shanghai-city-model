@@ -1,0 +1,28 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "building_part",
+  "checked_utc": "2026-10-25T15:32:28.630476+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "ODbL-1.0",
+  "rows_bbox_candidates": 40,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/buildings/building_part/00000/00000.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=buildings/type=building_part/part-00000-bd282a3b-17f8-59d2-be35-2c8995e1f976-c000.zstd.parquet",
+      "file_bytes": 617182971,
+      "rowgroups": [
+        166
+      ],
+      "bbox_matched_rows": 40,
+      "new_range_bytes": 3474602,
+      "requests": 3,
+      "license": "ODbL-1.0"
+    }
+  ],
+  "sha256": "c5ebd1cde9e9cbe15fe5a0527de0fe473dd8fe8b55cbc7184e98638dd5e32ec2"
+}

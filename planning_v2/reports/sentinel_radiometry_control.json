@@ -1,0 +1,118 @@
+{
+  "S2B_51RUQ_20260914_0_L2A": {
+    "season": "summer",
+    "acquired": "2026-09-14T02:49:02.210000Z",
+    "pc_product": "S2B_MSIL2A_20260914T023529_R089_T51RUQ_20260914T044641",
+    "bands": {
+      "red": {
+        "common_pixels": 775982,
+        "pc_minus_aws_dn_p01_p50_p99": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "exact_1000_fraction": 0.9999948452412556,
+        "pc_asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/51/R/UQ/2026/09/14/S2B_MSIL2A_20260914T023529_N0512_R089_T51RUQ_20260914T044641.SAFE/GRANULE/L2A_T51RUQ_A049736_20260914T023843/IMG_DATA/R10m/T51RUQ_20260914T023529_B04_10m.tif"
+      },
+      "nir": {
+        "common_pixels": 775982,
+        "pc_minus_aws_dn_p01_p50_p99": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "exact_1000_fraction": 1.0,
+        "pc_asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/51/R/UQ/2026/09/14/S2B_MSIL2A_20260914T023529_N0512_R089_T51RUQ_20260914T044641.SAFE/GRANULE/L2A_T51RUQ_A049736_20260914T023843/IMG_DATA/R10m/T51RUQ_20260914T023529_B08_10m.tif"
+      },
+      "green": {
+        "common_pixels": 775982,
+        "pc_minus_aws_dn_p01_p50_p99": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "exact_1000_fraction": 0.9999974226206279,
+        "pc_asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/51/R/UQ/2026/09/14/S2B_MSIL2A_20260914T023529_N0512_R089_T51RUQ_20260914T044641.SAFE/GRANULE/L2A_T51RUQ_A049736_20260914T023843/IMG_DATA/R10m/T51RUQ_20260914T023529_B03_10m.tif"
+      },
+      "swir16": {
+        "common_pixels": 194242,
+        "pc_minus_aws_dn_p01_p50_p99": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "exact_1000_fraction": 1.0,
+        "pc_asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/51/R/UQ/2026/09/14/S2B_MSIL2A_20260914T023529_N0512_R089_T51RUQ_20260914T044641.SAFE/GRANULE/L2A_T51RUQ_A049736_20260914T023843/IMG_DATA/R20m/T51RUQ_20260914T023529_B11_20m.tif"
+      }
+    },
+    "xml_boa_offsets": [
+      "-1000"
+    ],
+    "xml_quantification_values": [
+      "10000"
+    ],
+    "dn_shift_pc_minus_aws": 1000,
+    "effective_aws_reflectance_offset": 0.0,
+    "interpretation": "PC unharmonized DN = AWS harmonized DN +1000 on same original scene. With product BOA correction -1000/10000, AWS pixels must not receive the offset a second time. Original STAC band offset is retained as conflicting metadata, never silently overwritten.",
+    "status": "verified_same_scene_mirror_representation",
+    "not_independent_ground_measurement": true
+  },
+  "S2C_51RUQ_20260221_0_L2A": {
+    "season": "winter",
+    "acquired": "2026-02-21T02:49:06.443000Z",
+    "pc_product": "S2C_MSIL2A_20260221T023731_R089_T51RUQ_20260221T060315",
+    "bands": {
+      "red": {
+        "common_pixels": 775982,
+        "pc_minus_aws_dn_p01_p50_p99": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "exact_1000_fraction": 0.9999987113103139,
+        "pc_asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/51/R/UQ/2026/02/21/S2C_MSIL2A_20260221T023731_N0512_R089_T51RUQ_20260221T060315.SAFE/GRANULE/L2A_T51RUQ_A007638_20260221T023729/IMG_DATA/R10m/T51RUQ_20260221T023731_B04_10m.tif"
+      },
+      "nir": {
+        "common_pixels": 775982,
+        "pc_minus_aws_dn_p01_p50_p99": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "exact_1000_fraction": 1.0,
+        "pc_asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/51/R/UQ/2026/02/21/S2C_MSIL2A_20260221T023731_N0512_R089_T51RUQ_20260221T060315.SAFE/GRANULE/L2A_T51RUQ_A007638_20260221T023729/IMG_DATA/R10m/T51RUQ_20260221T023731_B08_10m.tif"
+      },
+      "green": {
+        "common_pixels": 775982,
+        "pc_minus_aws_dn_p01_p50_p99": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "exact_1000_fraction": 0.9999948452412556,
+        "pc_asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/51/R/UQ/2026/02/21/S2C_MSIL2A_20260221T023731_N0512_R089_T51RUQ_20260221T060315.SAFE/GRANULE/L2A_T51RUQ_A007638_20260221T023729/IMG_DATA/R10m/T51RUQ_20260221T023731_B03_10m.tif"
+      },
+      "swir16": {
+        "common_pixels": 194242,
+        "pc_minus_aws_dn_p01_p50_p99": [
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "exact_1000_fraction": 1.0,
+        "pc_asset_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/51/R/UQ/2026/02/21/S2C_MSIL2A_20260221T023731_N0512_R089_T51RUQ_20260221T060315.SAFE/GRANULE/L2A_T51RUQ_A007638_20260221T023729/IMG_DATA/R20m/T51RUQ_20260221T023731_B11_20m.tif"
+      }
+    },
+    "xml_boa_offsets": [
+      "-1000"
+    ],
+    "xml_quantification_values": [
+      "10000"
+    ],
+    "dn_shift_pc_minus_aws": 1000,
+    "effective_aws_reflectance_offset": 0.0,
+    "interpretation": "PC unharmonized DN = AWS harmonized DN +1000 on same original scene. With product BOA correction -1000/10000, AWS pixels must not receive the offset a second time. Original STAC band offset is retained as conflicting metadata, never silently overwritten.",
+    "status": "verified_same_scene_mirror_representation",
+    "not_independent_ground_measurement": true
+  }
+}

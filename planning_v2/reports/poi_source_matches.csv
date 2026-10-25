@@ -1,0 +1,10 @@
+retained_id,linked_id,match_rule,distance_m,retained_source,linked_source
+osm:node:12480145207,osm:way:695947822,exact_normalized_name_and_category_distance_le25m,10.939538005646737,OpenStreetMap contributors,OpenStreetMap contributors
+osm:way:1460637638,gers:4b93c543-4af5-4874-aa3a-cfb1c054b5c3,exact_normalized_name_and_category_distance_le25m,6.460233365819722,OpenStreetMap contributors,Overture Maps Foundation
+osm:way:666302132,gers:27e6d25b-dcd4-4f85-881c-29bc6eff4872,exact_normalized_name_and_category_distance_le25m,6.715660792032691,OpenStreetMap contributors,Overture Maps Foundation
+osm:node:12347257301,gers:190ec958-9e20-4df6-99e7-7aa9dabd9b6a,exact_normalized_name_and_category_distance_le25m,15.871683763977344,OpenStreetMap contributors,Overture Maps Foundation
+osm:relation:11182877,gers:435b377f-e00d-455d-a6a0-9af1db2bdd45,exact_normalized_name_and_category_distance_le25m,24.6126082875559,OpenStreetMap contributors,Overture Maps Foundation
+gers:2cc66b17-084b-4da3-8429-16c8ff10a880,gers:50f2cd16-b560-42b8-b696-95d7f969cd65,exact_normalized_name_and_category_distance_le25m,8.736690688017933e-08,Overture Maps Foundation,Overture Maps Foundation
+osm:way:404710124,gers:d41e0745-37c5-4a20-9816-833ce6562f4f,exact_normalized_name_and_category_distance_le25m,3.711878678967034,OpenStreetMap contributors,Overture Maps Foundation
+osm:way:1385175405,gers:122430e7-533d-42a7-becf-8cc9d68235ef,exact_normalized_name_and_category_distance_le25m,19.901016955100832,OpenStreetMap contributors,Overture Maps Foundation
+osm:way:24448592,gers:f01049e5-e88e-4e08-86ef-325d8268b80c,exact_normalized_name_and_category_distance_le25m,14.14131836561187,OpenStreetMap contributors,Overture Maps Foundation

@@ -1,0 +1,9 @@
+{
+  "source_url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_54009_100/V1-0/tiles/GHS_POP_E2020_GLOBE_R2023A_54009_100_V1_0_R6_C30.zip",
+  "source_archive_sha256": "523b1df1c64b5f2167cea1ec10d49944246a091ad497db9fa32d40711e5c71e0",
+  "source_archive_bytes": 31528808,
+  "selected_tile_verified_contains_AOI": true,
+  "year": 2020,
+  "type": "modeled population count per native100m cell",
+  "scope": "native cropped context; do not mistake for measured resident population"
+}

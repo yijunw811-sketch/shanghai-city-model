@@ -1,0 +1,32 @@
+{
+  "id": "25",
+  "title": "夏季建成光谱指数",
+  "en": "ndbi_summer2026_20m",
+  "kind": "raster",
+  "layer": "ndbi_summer2026_20m",
+  "field": null,
+  "cmap": "RdYlBu_r",
+  "note": "Sentinel-2 NDBI=(SWIR−NIR)/(SWIR+NIR)，20m；裸地等可混淆，不是法定建设用地。",
+  "findings": [
+    "有效像元统计中位值 -0.062",
+    "显示色阶 P2—P98；有效像元 52,313"
+  ],
+  "data_signature": "a39102380b333ac2d28ae57cd699b4fb033925671679bac4d275e4f3a5a6b9d39a978073707cb147696630620f3f2a538dc85524be909bf160946d1811923f35b61901d8ad60ad00364f76737189dfbe7e76de5197885633dc6ca45a41cba75fatlas-v2c",
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv"
+}

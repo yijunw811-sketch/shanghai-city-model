@@ -1,0 +1,50 @@
+{
+  "protected_original_files": 41,
+  "all_original_hashes_unchanged": true,
+  "spatial_tables_read_back": 75,
+  "invalid_geometries": 0,
+  "A1_maps_verified": 28,
+  "A3_maps_verified": 28,
+  "rasters_verified": 13,
+  "source_records": 138,
+  "topic_requirements": 194,
+  "functional_partition_qa": {
+    "aoi_m2": 22009120.78313864,
+    "partition_sum_m2": 22009120.78313808,
+    "union_m2": 22009120.78313803,
+    "overlap_m2": 5.21540641784668e-08,
+    "same_rule_baseline_function_unknown_km2": 10.554130624249314,
+    "enhanced_function_unknown_km2": 10.4918178947889,
+    "old_physical_unclassified_km2_not_comparable": 14.086697685,
+    "classification": "Observed-source polygon functional interpretation, not legal planning land use; unknown preserved"
+  },
+  "network": {
+    "segments_context": 23737,
+    "walk_nodes": 19320,
+    "walk_components": 56,
+    "largest_component_node_fraction": 0.9594202898550724,
+    "explicitly_closed_barrier_nodes_removed": 31,
+    "seed_counts_context": {
+      "commercial": 70,
+      "culture_sports": 10,
+      "daily_service": 23,
+      "education": 12,
+      "elderly": 0,
+      "employment_proxy": 0,
+      "health": 5,
+      "other_service": 111,
+      "safety": 0,
+      "transit": 910,
+      "parks": 259
+    },
+    "limitations": [
+      "2km context truncation",
+      "Unmapped sidewalks/crossings and opening hours unknown",
+      "Vehicle turn restriction relations retained in raw; not applied to descriptive density; no driving routing",
+      "Cycle/vehicle permission defaults and directions retained, not a travel-time graph",
+      "Unknown gate access remains unverified; not wheelchair routing",
+      "Source-node junctions only; no false geometric bridge crossing joins"
+    ]
+  },
+  "limitations": "No claim of complete real-world facilities/land-use survey; source dates, unresolved gaps and inference explicitly retained"
+}

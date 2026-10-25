@@ -1,0 +1,29 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "water",
+  "checked_utc": "2026-10-25T15:29:11.643238+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "ODbL-1.0",
+  "rows_bbox_candidates": 190,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/base/water/00027/00027.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=base/type=water/part-00027-ae01f3fc-9546-580d-8cd4-3451d8289240-c000.zstd.parquet",
+      "file_bytes": 966822436,
+      "rowgroups": [
+        54,
+        55
+      ],
+      "bbox_matched_rows": 190,
+      "new_range_bytes": 11553691,
+      "requests": 4,
+      "license": "ODbL-1.0"
+    }
+  ],
+  "sha256": "c043f915b704cf97970ab1f32c63862714c911c81117ef9fcaca123c9e787e29"
+}

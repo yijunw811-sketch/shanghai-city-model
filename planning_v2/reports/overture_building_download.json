@@ -1,0 +1,44 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "building",
+  "checked_utc": "2026-10-25T15:29:13.662608+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "ODbL-1.0",
+  "rows_bbox_candidates": 42316,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/buildings/building/00483/00483.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=buildings/type=building/part-00483-34e6ccad-9ef2-58a2-89a0-df74482e6a4c-c000.zstd.parquet",
+      "file_bytes": 497152503,
+      "rowgroups": [
+        110,
+        111,
+        122
+      ],
+      "bbox_matched_rows": 22591,
+      "new_range_bytes": 13435664,
+      "requests": 5,
+      "license": "ODbL-1.0"
+    },
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/buildings/building/00486/00486.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=buildings/type=building/part-00486-d625ea5f-cfe2-5347-89ae-254b8c1fdee1-c000.zstd.parquet",
+      "file_bytes": 511014769,
+      "rowgroups": [
+        162,
+        168,
+        169
+      ],
+      "bbox_matched_rows": 19725,
+      "new_range_bytes": 8119289,
+      "requests": 5,
+      "license": "ODbL-1.0"
+    }
+  ],
+  "sha256": "7c2ee489081d83c3f90fd1f77185127ceb701a5145a6180686f131238d3ab80e"
+}

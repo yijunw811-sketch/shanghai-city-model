@@ -1,0 +1,28 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "bathymetry",
+  "checked_utc": "2026-10-25T15:32:29.286773+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "CC0-1.0",
+  "rows_bbox_candidates": 2,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/base/bathymetry/00000/00000.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=base/type=bathymetry/part-00000-f694f37d-3f93-5e9b-a2c1-8e4584376f38-c000.zstd.parquet",
+      "file_bytes": 52029695,
+      "rowgroups": [
+        15
+      ],
+      "bbox_matched_rows": 2,
+      "new_range_bytes": 3357337,
+      "requests": 2,
+      "license": "CC0-1.0"
+    }
+  ],
+  "sha256": "90590c197e1266e2c07ac18ab8defe4299805e2ef76291ae340501679b9c1ea2"
+}

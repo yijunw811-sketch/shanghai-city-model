@@ -1,0 +1,72 @@
+{
+  "scene_id": "S2C_51RUQ_20260221_0_L2A",
+  "datetime": "2026-02-21T02:49:06.443000Z",
+  "context_cloud_fraction": 4.63339545515388e-05,
+  "stac_scene_cloud_fraction": 0.025276,
+  "original_calibrations": {
+    "red": [
+      {
+        "nodata": 0,
+        "data_type": "uint16",
+        "spatial_resolution": 10,
+        "scale": 0.0001,
+        "offset": -0.1
+      }
+    ],
+    "nir": [
+      {
+        "nodata": 0,
+        "data_type": "uint16",
+        "spatial_resolution": 10,
+        "scale": 0.0001,
+        "offset": -0.1
+      }
+    ],
+    "green": [
+      {
+        "nodata": 0,
+        "data_type": "uint16",
+        "spatial_resolution": 10,
+        "scale": 0.0001,
+        "offset": -0.1
+      }
+    ],
+    "swir16": [
+      {
+        "nodata": 0,
+        "data_type": "uint16",
+        "spatial_resolution": 20,
+        "scale": 0.0001,
+        "offset": -0.1
+      }
+    ]
+  },
+  "effective_calibrations": {
+    "red": {
+      "scale": 0.0001,
+      "catalog_offset": -0.1,
+      "effective_offset": 0.0,
+      "control_evidence": "reports/sentinel_radiometry_control.json"
+    },
+    "nir": {
+      "scale": 0.0001,
+      "catalog_offset": -0.1,
+      "effective_offset": 0.0,
+      "control_evidence": "reports/sentinel_radiometry_control.json"
+    },
+    "green": {
+      "scale": 0.0001,
+      "catalog_offset": -0.1,
+      "effective_offset": 0.0,
+      "control_evidence": "reports/sentinel_radiometry_control.json"
+    },
+    "swir16": {
+      "scale": 0.0001,
+      "catalog_offset": -0.1,
+      "effective_offset": 0.0,
+      "control_evidence": "reports/sentinel_radiometry_control.json"
+    }
+  },
+  "boa_offset_applied_flag": true,
+  "no_independent_field_measurement": true
+}

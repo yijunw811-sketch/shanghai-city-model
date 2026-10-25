@@ -1,0 +1,42 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "segment",
+  "checked_utc": "2026-10-25T15:29:06.938165+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "ODbL-1.0",
+  "rows_bbox_candidates": 6026,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/transportation/segment/00120/00120.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=transportation/type=segment/part-00120-075ebaba-939e-5706-83bc-1fc22c8fd006-c000.zstd.parquet",
+      "file_bytes": 505942702,
+      "rowgroups": [],
+      "bbox_matched_rows": 0,
+      "new_range_bytes": 2085084,
+      "requests": 2,
+      "license": "ODbL-1.0"
+    },
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/transportation/segment/00121/00121.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=transportation/type=segment/part-00121-cccfb596-ef68-5733-a09c-003ac5c18c54-c000.zstd.parquet",
+      "file_bytes": 510807239,
+      "rowgroups": [
+        10,
+        11,
+        14,
+        32,
+        33
+      ],
+      "bbox_matched_rows": 6026,
+      "new_range_bytes": 19818141,
+      "requests": 7,
+      "license": "ODbL-1.0"
+    }
+  ],
+  "sha256": "657a64bbaba6b7ca4e77de6be173f122e22faed38b63e6eb478fc0a79e761e08"
+}

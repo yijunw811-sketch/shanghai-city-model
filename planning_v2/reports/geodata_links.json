@@ -1,0 +1,98 @@
+[
+  {
+    "text": "查找数据",
+    "url": "/data/"
+  },
+  {
+    "text": "数据汇交",
+    "url": "/main/archiving/archiving_pro"
+  },
+  {
+    "text": "数据直接下载",
+    "url": "/thematicView/"
+  },
+  {
+    "text": "数据中心资源",
+    "url": "/data/publisher.html"
+  },
+  {
+    "text": "国际数据资源",
+    "url": "/main/navigation/list"
+  },
+  {
+    "text": "国家高能物理科学数据中心",
+    "url": "http://www.nhepsdc.cn/"
+  },
+  {
+    "text": "国家基因组科学数据中心",
+    "url": "https://ngdc.cncb.ac.cn/"
+  },
+  {
+    "text": "国家微生物科学数据中心",
+    "url": "http://www.nmdc.cn/"
+  },
+  {
+    "text": "国家空间科学数据中心",
+    "url": "http://www.nssdc.ac.cn/"
+  },
+  {
+    "text": "国家天文科学数据中心",
+    "url": "http://nadc.china-vo.org/"
+  },
+  {
+    "text": "国家对地观测科学数据中心",
+    "url": "http://www.chinageoss.cn/"
+  },
+  {
+    "text": "国家极地科学数据中心",
+    "url": "http://www.chinare.org.cn/"
+  },
+  {
+    "text": "国家青藏高原科学数据中心",
+    "url": "http://data.tpdc.ac.cn/"
+  },
+  {
+    "text": "国家生态科学数据中心",
+    "url": "http://www.cnern.org.cn/"
+  },
+  {
+    "text": "国家冰川冻土沙漠科学数据中心",
+    "url": "http://www.ncdc.ac.cn/"
+  },
+  {
+    "text": "国家计量科学数据中心",
+    "url": "http://www.nmdc.ac.cn/"
+  },
+  {
+    "text": "国家材料腐蚀与防护科学数据中心",
+    "url": "https://www.corrdata.org.cn/"
+  },
+  {
+    "text": "国家人口健康科学数据中心",
+    "url": "http://www.ncmi.cn/"
+  },
+  {
+    "text": "国家基础学科公共科学数据中心",
+    "url": "http://www.nsdata.cn/"
+  },
+  {
+    "text": "国家农业科学数据中心",
+    "url": "http://www.agridata.cn/"
+  },
+  {
+    "text": "国家林业和草原科学数据中心",
+    "url": "http://www.forestdata.cn/"
+  },
+  {
+    "text": "国家气象科学数据中心",
+    "url": "http://data.cma.cn/"
+  },
+  {
+    "text": "国家地震科学数据中心",
+    "url": "http://data.earthquake.cn/"
+  },
+  {
+    "text": "国家海洋科学数据中心",
+    "url": "http://mds.nmdis.org.cn/"
+  }
+]

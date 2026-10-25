@@ -1,0 +1,32 @@
+{
+  "id": "12",
+  "title": "已映射教育设施步行覆盖",
+  "en": "Mapped education walking access",
+  "kind": "access",
+  "layer": "education",
+  "field": null,
+  "cmap": "YlOrRd",
+  "note": "公共服务分项之一：教育。只计算能接入真实路网的设施；无床位、等级或容量推断。其它分项见数据库和覆盖表。",
+  "findings": [
+    "上下文合格接入节点 12",
+    "15分钟可达已映射步行长度占 32.6%（非人口）"
+  ],
+  "data_signature": "a39102380b333ac2d28ae57cd699b4fb033925671679bac4d275e4f3a5a6b9d39a978073707cb147696630620f3f2a538dc85524be909bf160946d1811923f35b61901d8ad60ad00364f76737189dfbe7e76de5197885633dc6ca45a41cba75fatlas-v2c",
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv"
+}

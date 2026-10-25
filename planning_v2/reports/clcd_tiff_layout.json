@@ -1,0 +1,39 @@
+{
+  "tags": {
+    "ImageWidth": "228579",
+    "ImageLength": "131361",
+    "RowsPerStrip": "1",
+    "Compression": "5",
+    "ModelPixelScaleTag": "(0.0002694945852358565, 0.0002694945852358565, 0.0)",
+    "ModelTiepointTag": "(0.0, 0.0, 0.0, 73.4862484659363, 53.561451959200134, 0.0)",
+    "GeoKeyDirectoryTag": "(1, 1, 0, 7, 1024, 0, 1, 2, 1025, 0, 1, 1, 2048, 0, 1, 4326, 2049, 34737, 7, 0, 2054, 0, 1, 9102, 2057, 34736, 1, 1, 2059, 34736, 1, 0)"
+  },
+  "geotiff_metadata": {
+    "KeyDirectoryVersion": 1,
+    "KeyRevision": 1,
+    "KeyRevisionMinor": 0,
+    "GTModelTypeGeoKey": 2,
+    "GTRasterTypeGeoKey": 1,
+    "GeographicTypeGeoKey": 4326,
+    "GeogCitationGeoKey": "WGS 84",
+    "GeogAngularUnitsGeoKey": 9102,
+    "GeogSemiMajorAxisGeoKey": 6378137.0,
+    "GeogInvFlatteningGeoKey": 298.257223563,
+    "ModelPixelScale": [
+      0.0002694945852358565,
+      0.0002694945852358565,
+      0.0
+    ],
+    "ModelTiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      73.4862484659363,
+      53.561451959200134,
+      0.0
+    ]
+  },
+  "tiled": false,
+  "segments": 131361,
+  "bytes_metadata_read": 1576848
+}

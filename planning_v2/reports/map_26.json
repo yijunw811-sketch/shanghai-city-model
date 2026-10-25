@@ -1,0 +1,32 @@
+{
+  "id": "26",
+  "title": "历史物理地表覆盖｜2019年",
+  "en": "CLCD historical physical land cover 2019",
+  "kind": "raster",
+  "layer": "clcd2019_30m",
+  "field": null,
+  "cmap": "tab10",
+  "note": "CLCD2019原生约30米；仅选取压缩扫描行局部解码。与WorldCover2021年份/方法不同，不能直接把差异当真实变化。",
+  "findings": [
+    "有效像元统计中位值 8",
+    "显示色阶 P2—P98；有效像元 24,451"
+  ],
+  "data_signature": "a39102380b333ac2d28ae57cd699b4fb033925671679bac4d275e4f3a5a6b9d39a978073707cb147696630620f3f2a538dc85524be909bf160946d1811923f35b61901d8ad60ad00364f76737189dfbe7e76de5197885633dc6ca45a41cba75fatlas-v2c",
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv"
+}

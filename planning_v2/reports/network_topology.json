@@ -1,0 +1,28 @@
+{
+  "segments_context": 23737,
+  "walk_nodes": 19320,
+  "walk_components": 56,
+  "largest_component_node_fraction": 0.9594202898550724,
+  "explicitly_closed_barrier_nodes_removed": 31,
+  "seed_counts_context": {
+    "commercial": 70,
+    "culture_sports": 10,
+    "daily_service": 23,
+    "education": 12,
+    "elderly": 0,
+    "employment_proxy": 0,
+    "health": 5,
+    "other_service": 111,
+    "safety": 0,
+    "transit": 910,
+    "parks": 259
+  },
+  "limitations": [
+    "2km context truncation",
+    "Unmapped sidewalks/crossings and opening hours unknown",
+    "Vehicle turn restriction relations retained in raw; not applied to descriptive density; no driving routing",
+    "Cycle/vehicle permission defaults and directions retained, not a travel-time graph",
+    "Unknown gate access remains unverified; not wheelchair routing",
+    "Source-node junctions only; no false geometric bridge crossing joins"
+  ]
+}

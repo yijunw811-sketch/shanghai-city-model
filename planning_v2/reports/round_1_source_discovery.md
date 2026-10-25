@@ -1,0 +1,44 @@
+# 第1轮：全主题元数据与可访问性探测
+
+本轮仅把真实返回结果作为证据；网站首页成功不等于专题已下载，网络阻断不等于数据不存在。
+
+- baoshan：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://www.shbsq.gov.cn/
+- cdse_stac：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://stac.dataspace.copernicus.eu/v1/collections
+- copdem_registry：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://raw.githubusercontent.com/awslabs/open-data-registry/main/datasets/copernicus-dem.yaml
+- copernicus：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://dataspace.copernicus.eu/
+- dynamicworld：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1
+- earthdata：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://cmr.earthdata.nasa.gov/search/collections.json?keyword=land%20surface%20temperature&page_size=5
+- earthsearch：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://earth-search.aws.element84.com/v1/collections
+- geoboundaries：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://www.geoboundaries.org/api/current/gbOpen/CHN/ADM2/
+- geofabrik：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://download.geofabrik.de/asia/china.html
+- ghsl：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://human-settlement.emergency.copernicus.eu/datasets.php
+- ghsl_data：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/
+- hongkou：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://www.shhk.gov.cn/
+- jingan：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://www.jingan.gov.cn/
+- mee：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://www.mee.gov.cn/
+- mnr：blocked_proxy；HTTPSConnectionPool(host='www.mnr.gov.cn', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))；https://www.mnr.gov.cn/
+- mwr：http_503；HTTP 503; remote access/authorization and platform policy need distinguishing; no bypass attempted；https://www.mwr.gov.cn/
+- nbs：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://www.stats.gov.cn/
+- openmeteo：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://open-meteo.com/en/docs/historical-weather-api
+- overture_docs：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://docs.overturemaps.org/getting-data/
+- overture_root：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://stac.overturemaps.org/catalog.json
+- planetary：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://planetarycomputer.microsoft.com/api/stac/v1/collections
+- sh_culture：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://whlyj.sh.gov.cn/
+- sh_education：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://edu.sh.gov.cn/
+- sh_environment：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://sthj.sh.gov.cn/
+- sh_gov：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://www.shanghai.gov.cn/
+- sh_green：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://lhsr.sh.gov.cn/
+- sh_health：http_503；HTTP 503; remote access/authorization and platform policy need distinguishing; no bypass attempted；https://wsjkw.sh.gov.cn/
+- sh_housing：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://zjw.sh.gov.cn/
+- sh_open：http_503；HTTP 503; remote access/authorization and platform policy need distinguishing; no bypass attempted；https://data.sh.gov.cn/view/
+- sh_planning：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://ghzyj.sh.gov.cn/
+- sh_stats：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://tjj.sh.gov.cn/
+- sh_tdt：http_503；HTTP 503; remote access/authorization and platform policy need distinguishing; no bypass attempted；https://qucity.shanghai-map.net/
+- sh_transport：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://jtw.sh.gov.cn/
+- surfacewater：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://global-surface-water.appspot.com/download
+- wikidata：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://query.wikidata.org/
+- worldcover：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://esa-worldcover.org/en/data-access
+- worldcover_cog：range_metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_N30E120_Map.tif
+- worldpop：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://hub.worldpop.org/
+- worldpop_data：range_not_supported；Range probe HTTP 200; full raster download not attempted；https://data.worldpop.org/GIS/Population/Global_2000_2020/2020/CHN/chn_ppp_2020_UNadj.tif
+- zenodo：metadata_fetched；需继续核查专题内容、许可与AOI贡献；https://zenodo.org/api/records?q=Shanghai%20geospatial&size=5

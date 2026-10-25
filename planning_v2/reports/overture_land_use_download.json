@@ -1,0 +1,50 @@
+{
+  "release": "2026-10-21.0",
+  "kind": "land_use",
+  "checked_utc": "2026-10-25T15:29:03.393376+00:00",
+  "bbox_w_s_e_n": [
+    121.38385012775849,
+    31.26494281595918,
+    121.48685853933276,
+    31.335225264086052
+  ],
+  "collection_license": "ODbL-1.0",
+  "rows_bbox_candidates": 1936,
+  "partitions": [
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/base/land_use/00005/00005.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=base/type=land_use/part-00005-4b348911-5003-5832-bf07-565da304d853-c000.zstd.parquet",
+      "file_bytes": 580046502,
+      "rowgroups": [],
+      "bbox_matched_rows": 0,
+      "new_range_bytes": 666645,
+      "requests": 2,
+      "license": "ODbL-1.0"
+    },
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/base/land_use/00008/00008.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=base/type=land_use/part-00008-542e33fe-998c-5dee-851c-3e25303b9b03-c000.zstd.parquet",
+      "file_bytes": 561797130,
+      "rowgroups": [
+        22
+      ],
+      "bbox_matched_rows": 1,
+      "new_range_bytes": 4719017,
+      "requests": 3,
+      "license": "ODbL-1.0"
+    },
+    {
+      "stac_item": "https://stac.overturemaps.org/2026-10-21.0/base/land_use/00027/00027.json",
+      "asset": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=base/type=land_use/part-00027-68450557-5887-5c9a-b07a-6c527441894d-c000.zstd.parquet",
+      "file_bytes": 443418830,
+      "rowgroups": [
+        91
+      ],
+      "bbox_matched_rows": 1935,
+      "new_range_bytes": 3451064,
+      "requests": 3,
+      "license": "ODbL-1.0"
+    }
+  ],
+  "sha256": "ed3c373c9bdf543687c6d5a75fbbd56c3421b5c6ef95019324d2ae578b0eb0fb"
+}
