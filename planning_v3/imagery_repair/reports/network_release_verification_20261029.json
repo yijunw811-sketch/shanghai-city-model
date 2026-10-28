@@ -1,0 +1,25 @@
+{
+  "runtime_revision": "10",
+  "policy": "enforced",
+  "three_domains_allowed": true,
+  "tests": [
+    {
+      "url": "https://shanghai.tianditu.gov.cn/map/views/theme.html",
+      "status": 403,
+      "content_type": "text/html",
+      "message": "403 å½åè®¿é®çä¼¼æ»å»è¡ä¸ºï¼å·²è¢«ç½ç«ç®¡çåè®¾ç½®ä¸ºæ¦æª ãå½åç½åã ãå®¢æ·ç«¯ç¹å¾ã ãå®¢æ·ç«¯IPã ãå½åæ¶é´ã"
+    },
+    {
+      "url": "https://mape.shanghai-map.net/arcgis/rest/services/SHMAP_IMAGE/MapServer?f=pjson",
+      "status": 503,
+      "content_type": "text/plain",
+      "message": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: TLS_error:|268435581:SSL routines:OPENSSL_internal:CERTIFICATE_VERIFY_FAILED:TLS_error_end"
+    },
+    {
+      "url": "https://map4.shanghai-map.net/arcgis/rest/services/shyx2024/MapServer?f=pjson",
+      "status": 503,
+      "content_type": "text/plain",
+      "message": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: TLS_error:|268435581:SSL routines:OPENSSL_internal:CERTIFICATE_VERIFY_FAILED:TLS_error_end"
+    }
+  ]
+}

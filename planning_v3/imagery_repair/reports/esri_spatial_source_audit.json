@@ -1,0 +1,181 @@
+{
+  "source": "Esri World Imagery / public metadata",
+  "service": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "source_footprints": [
+    {
+      "OBJECTID": 2807139,
+      "SRC_DATE": 20250425,
+      "SRC_RES": 0.5,
+      "SRC_ACC": 8.47,
+      "SRC_DESC": "WV02",
+      "NICE_NAME": "Vivid Advanced",
+      "NICE_DESC": "Vantor",
+      "MinMapLevel": 12,
+      "MaxMapLevel": 18,
+      "aoi_intersection_m2": 1856209.1607473812,
+      "design_intersection_m2": 0.0
+    },
+    {
+      "OBJECTID": 3144165,
+      "SRC_DATE": 20250407,
+      "SRC_RES": 0.34,
+      "SRC_ACC": 8.47,
+      "SRC_DESC": "LG03",
+      "NICE_NAME": "Vivid Advanced",
+      "NICE_DESC": "Vantor",
+      "MinMapLevel": 12,
+      "MaxMapLevel": 19,
+      "aoi_intersection_m2": 19120700.886013918,
+      "design_intersection_m2": 660947.6494989629
+    },
+    {
+      "OBJECTID": 3144175,
+      "SRC_DATE": 20250418,
+      "SRC_RES": 0.31,
+      "SRC_ACC": 8.47,
+      "SRC_DESC": "WV03",
+      "NICE_NAME": "Vivid Advanced",
+      "NICE_DESC": "Vantor",
+      "MinMapLevel": 12,
+      "MaxMapLevel": 19,
+      "aoi_intersection_m2": 1032210.7363779496,
+      "design_intersection_m2": 0.0
+    }
+  ],
+  "fixed_location_identify": [
+    {
+      "id": "P01",
+      "bounds_32651": [
+        350650.0,
+        3463850.0,
+        350850.0,
+        3464050.0
+      ],
+      "point_32651": [
+        350750.0,
+        3463950.0
+      ],
+      "source_results": [
+        {
+          "layerId": 0,
+          "layerName": "World Imagery",
+          "displayFieldName": "SOURCE_INFO",
+          "value": "Vivid Advanced",
+          "attributes": {
+            "OBJECTID": "3144165",
+            "Shape": "Polygon",
+            "DATE (YYYYMMDD)": "20250407",
+            "RESOLUTION (M)": "0.34",
+            "ACCURACY (M)": "8.47",
+            "DESCRIPTION": "LG03",
+            "SOURCE_INFO": "Vivid Advanced",
+            "SOURCE": "Vantor",
+            "SRC_DATE2": "4/7/2025",
+            "MinMapLevel": "12",
+            "MaxMapLevel": "19",
+            "DrawOrder": "80",
+            "BlockName": "DYNAMIC_ESRI_Shanghai_25Q3",
+            "ReleaseName": "Raster Basemaps 2025.R10"
+          }
+        }
+      ],
+      "actual_new_image_acquired": false
+    },
+    {
+      "id": "P02",
+      "bounds_32651": [
+        351840.0,
+        3463830.0,
+        352040.0,
+        3464030.0
+      ],
+      "point_32651": [
+        351941.5783348387,
+        3463928.690214272
+      ],
+      "source_results": [
+        {
+          "layerId": 0,
+          "layerName": "World Imagery",
+          "displayFieldName": "SOURCE_INFO",
+          "value": "Vivid Advanced",
+          "attributes": {
+            "OBJECTID": "3144165",
+            "Shape": "Polygon",
+            "DATE (YYYYMMDD)": "20250407",
+            "RESOLUTION (M)": "0.34",
+            "ACCURACY (M)": "8.47",
+            "DESCRIPTION": "LG03",
+            "SOURCE_INFO": "Vivid Advanced",
+            "SOURCE": "Vantor",
+            "SRC_DATE2": "4/7/2025",
+            "MinMapLevel": "12",
+            "MaxMapLevel": "19",
+            "DrawOrder": "80",
+            "BlockName": "DYNAMIC_ESRI_Shanghai_25Q3",
+            "ReleaseName": "Raster Basemaps 2025.R10"
+          }
+        }
+      ],
+      "actual_new_image_acquired": false
+    },
+    {
+      "id": "P03",
+      "bounds_32651": [
+        350230.0,
+        3463800.0,
+        350430.0,
+        3464000.0
+      ],
+      "point_32651": [
+        350338.7682165541,
+        3463890.923935336
+      ],
+      "source_results": [
+        {
+          "layerId": 0,
+          "layerName": "World Imagery",
+          "displayFieldName": "SOURCE_INFO",
+          "value": "Vivid Advanced",
+          "attributes": {
+            "OBJECTID": "3144165",
+            "Shape": "Polygon",
+            "DATE (YYYYMMDD)": "20250407",
+            "RESOLUTION (M)": "0.34",
+            "ACCURACY (M)": "8.47",
+            "DESCRIPTION": "LG03",
+            "SOURCE_INFO": "Vivid Advanced",
+            "SOURCE": "Vantor",
+            "SRC_DATE2": "4/7/2025",
+            "MinMapLevel": "12",
+            "MaxMapLevel": "19",
+            "DrawOrder": "80",
+            "BlockName": "DYNAMIC_ESRI_Shanghai_25Q3",
+            "ReleaseName": "Raster Basemaps 2025.R10"
+          }
+        }
+      ],
+      "actual_new_image_acquired": false
+    }
+  ],
+  "aoi_area_m2": 22009120.78313864,
+  "design_area_m2": 660947.6494989631,
+  "submeter_metadata_footprint_coverage_aoi_fraction": 1.0,
+  "submeter_metadata_footprint_coverage_design_fraction": 0.9999999999999997,
+  "coverage_caveat": "Metadata footprint union only. Does not establish actual rendered pixel availability or which overlapping source wins at every scale.",
+  "native_gsd_definition": "SRC_RES published by service; not independent sensor verification and not tile pixel spacing",
+  "accuracy_caveat": "SRC_ACC=8.47m is publisher metadata, confidence convention unverified; not a measured RMSE. Clear imagery can still be geographically displaced.",
+  "license_verified_for_this_workflow": false,
+  "imagery_acquired": false,
+  "registration_control_points_measured": 0,
+  "high_resolution_replacement_complete": false,
+  "protected_source_SHA256_unchanged": {
+    "planning_v3/outputs/gis/reference_v2.gpkg": true,
+    "planning_v3/outputs/gis/refined_analysis_v3.gpkg": true,
+    "planning_v3/outputs/gis/reference_analysis_v2.gpkg": true,
+    "planning_v3/data/satellite/sentinel_truecolor_10m_context.tif": true,
+    "上海城市模型_Codex云端起步包/outputs/gis/city.gpkg": true,
+    "上海城市模型_Codex云端起步包/outputs/gis/overture_audit.gpkg": true,
+    "planning_v3/data/boundary/选定范围.csv": true
+  }
+}

@@ -4,7 +4,9 @@
 
 已实际完成：源数据/导出/QGIS配置诊断；三组200×200m固定原生窗口；与原始TCI源的3600个RGB值一致性抽查；原工程备份；纯影像与轻叠加主题；108层重开和预览测试；源GIS/影像/设计CSV哈希不变。
 
-未完成：0.3–1m或1–2m合法影像获取、实际新旧三组对比、配准残差和正式高清A1/A3/300DPI图纸。指定三个主机被云端代理HTTPS隧道403拒绝，尚未到达服务端。域名放行草稿已保存，但当前运行策略revision8尚未应用。
+已新增：Esri来源足迹与三个固定位置identify核查。核心区候选为0.34 m、2025-04-07；亚米级元数据足迹并集覆盖全部研究区，尚未验证实际渲染。发布者位置精度8.47 m，不是本项目RMSE。
+
+未完成：合法新影像获取、三组实际新旧比较、配准残差和正式高清图。当前官方主机已放行：天地图主题页返回防护403，两个MapServer出现上游TLS证书验证失败503；没有绕过。Esri服务和通用条款可访问，但源专属条款指向的www.arcgis.com、goto.arcgisonline.com尚未放行。这两个域名已保存到草稿，需要在环境设置保存并发布，再核验许可。没有申请付费API或下载Esri图像。
 
 ## 应用补丁
 
@@ -19,8 +21,8 @@
 
 ## 恢复源访问后
 
-先在云环境设置应用已经保存的域名增补：shanghai.tianditu.gov.cn、mape.shanghai-map.net、map4.shanghai-map.net。替代及PR所需还包括services.arcgisonline.com、www.esri.com、api.openaerialmap.org、api.github.com。
+在环境设置保存并发布新增的www.arcgis.com、goto.arcgisonline.com，读取服务项目页专属使用条款。许可未核实前不启用候选为正式高清层，不打包下载影像。
 
-运行 python planning_v3/imagery_repair/scripts/02_probe_services.py。脚本只取公开元数据，不抓瓦片、不登录、不申请/提取令牌，不调用付费API。先核实真实GSD、拍摄日期、CRS与条款；tile LOD不是拍摄GSD，服务名2024不是拍摄日期，匿名可读不是下载/再分发授权。
+元数据复核：python planning_v3/imagery_repair/scripts/06_esri_source_audit.py；报告更新：python planning_v3/imagery_repair/scripts/04_quality_report.py。06只调用公开来源query/identify，不下载影像；04检测到新审计后生成最新报告，避免恢复旧的网络阻断判断。02可按需重新测试服务元数据。
 
 取得合法源后应沿用reports/fixed_comparison_windows.json中三组EPSG:32651范围作同范围、同显示比例对比；记录真实同名点而不是猜测配准误差，最后再出正式高清图。原生像元不能通过300DPI或上采样冒充更高分辨率。

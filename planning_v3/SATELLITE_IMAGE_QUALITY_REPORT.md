@@ -1,90 +1,91 @@
-# SATELLITE IMAGE QUALITY REPORT
+# SATELLITE_IMAGE_QUALITY_REPORT
 
-上海GIS V3 · 2026-10-29（上海时间）
+上海 GIS V3 · 2026-10-29（上海时间）
 
-**结论：已确认原影像屋顶不清晰的主要原因是原生10m采样不足。尚未完成0.3–1m/1–2m真实影像替换。指定官方服务的请求被云端代理在建立HTTPS隧道时403拒绝，尚未到达服务端，不能把这个错误说成官方服务失效、需要令牌或许可禁止。**
+**当前结果：已锁定覆盖核心区的真正亚米级影像候选，但尚未取得并验证新影像，不能宣称高清替换完成。Esri 服务对核心设计区标注的源分辨率为 0.34 m，拍摄日期为 2025-04-07。影像位置精度字段为 8.47 m，不能将清晰度等同于测量精度。**
 
-## 1. 原影像与模糊诊断
+## 1. 原影像诊断
 
-- 源：Copernicus Sentinel-2 L2A官方TCI真彩色；S2B_51RUQ_20261014_0_L2A；实际拍摄2026-10-14 02:49:03 UTC（上海10:49），不是下载日。
-- 实际GeoTIFF：3通道uint8、EPSG:32651、[10.0, 10.0]m/pixel、[787, 986]像素，DEFLATE无损压缩，概览[2, 4, 8, 16]。
-- 当前实际源是本地10m GeoTIFF，不是低缩放级别在线XYZ瓦片；也不是NDVI/LST/DSM伪装真彩色。源文件未上采样成虚假的0.5m。
-- S02 A1比例1:4000，每个10m源像元在纸面为2.50mm。地图宽约2455.7m，仅约245.6个独立原生像元。20m屋顶宽度只有约2像元，屋顶边缘和小空地无法从数据中恢复。
-- 原A1 PNG为[3973, 2806]、约120DPI。即使改300DPI，每个原生10m像元也只是变成约29.53个打印像素，不增加真实地物信息。因此原输出DPI不足不是当前主要成因。
-- 三个固定窗口各抽查1200个RGB值，与原始公开TCI源对应原生窗口完全相同，DN平均绝对差0；没有发现该裁剪流程造成附加重采样或有损压缩。这个结论只覆盖抽查窗口，不是任意历史处理的绝对证明。
-- 本地TIFF为DEFLATE，PNG无损，检查的S01–S03 PDF嵌入图像为FlateDecode，不存在已发现的连续JPEG重压缩证据。
-- 原QGIS RGB=1/2/3、亮度0、对比度0、gamma1；原放大方式为最近邻、无锐化。S02本来就是纯RGB+必要边界，无密集建筑轮廓，说明线条不是纯影像模糊主因；S03叠加可能增加视觉杂乱。
+原底图为 Copernicus Sentinel-2 L2A 官方 TCI 真彩色，S2B_51RUQ_20261014_0_L2A，拍摄时间 2026-10-14T02:49:03.229Z；本地 GeoTIFF 为 EPSG:32651、原生 10×10 m、3通道 uint8、DEFLATE 无损压缩。它是本地栅格源，不是低缩放等级在线瓦片；没有变成虚假的0.5 m产品。
 
-## 2. 官方与替代源实际测试
+核心图比例1:4000，每个10 m源像元占纸面2.5 mm，地图宽度仅约245.6个独立源像元。原PNG约120 DPI；300 DPI只会将每个源像元画成约29.53个打印像素，不能恢复屋顶和小尺度地物。三个旧图窗口与远程原始TCI对应的3600个RGB值全部相同，平均DN差为0，未发现此裁剪流程造成附加损失。
 
-| 候选 | 实际访问结果 | 真采集GSD/日期/CRS | 账号与使用许可 |
+TIFF/PNG无损，检查的PDF嵌入图像为FlateDecode，未发现连续JPEG重压缩。原QGIS亮度0、对比度0、gamma1、无锐化；S02本来没有密集建筑轮廓，因此纯影像模糊主因是原生10 m不足。S03叠加线条可能增加视觉杂乱，已做可逆的轻叠加样式。
+
+## 2. 已测试来源及实际结果
+
+当前运行环境策略为 revision13、enforced。三个上海官方主机、Esri服务、Esri法律文件和OpenAerialMap已放行，不再沿用早前revision8的代理隧道403判断。
+
+| 来源 | 当前实测 | 判断 |
 |---|---|---|
-| tianditu_shanghai | HTTPS代理隧道403，未到服务端 | 未取得，不能猜测 | 未知，不把公开URL等同授权 |
-| shanghai_airphoto | HTTPS代理隧道403，未到服务端 | 未取得，不能猜测 | 未知，不把公开URL等同授权 |
-| shanghai_2024 | HTTPS代理隧道403，未到服务端 | 未取得，不能猜测 | 未知，不把公开URL等同授权 |
+| 天地图·上海主题页 | HTTP403，页面称访问被网站防护拦截 | 未绕过；影像GSD、日期、CRS、授权未知 |
+| 上海SHMAP_IMAGE | 网关HTTP503，上游TLS证书校验失败 | 未关闭TLS校验；未取得服务元数据 |
+| 上海shyx2024 | 网关HTTP503，上游TLS证书校验失败 | 服务名年份不能当拍摄日期 |
+| Esri World Imagery | REST元数据、来源足迹query和三个位置identify均HTTP200 | 核心区0.34 m候选；尚未取得图像和专属条款 |
+| OpenAerialMap | AOI目录HTTP200，3个相交产品 | 2个1000 m、1个1180.715 m，虽标注WorldView传感器仍不符合高清要求，全部排除 |
+| Earth Search/Planetary Computer NAIP | 前阶段上海bbox查询0条 | 美国航空集合不能作为上海影像 |
+| qucity公开旧入口 | IIS默认页 | HTTP200不是影像服务可用证明 |
 
-候选原始地址：
+官方地址与全部服务探测记录保留在 `imagery_repair/reports/`。没有付费API、批量瓦片抓取、共享密钥提取、登录绕过或AI补画。
 
-- https://shanghai.tianditu.gov.cn/map/views/theme.html
-- https://mape.shanghai-map.net/arcgis/rest/services/SHMAP_IMAGE/MapServer
-- https://map4.shanghai-map.net/arcgis/rest/services/shyx2024/MapServer
+## 3. 双尺度候选与真实分辨率
 
-Esri World Imagery公开元数据及官方条款、OpenAerialMap目录也实际测试，同样被当前出站策略拒绝；没有使用付费API、未提取应用密钥、未下载瓦片。可访问的qucity旧入口只返回IIS默认页，HTTP200不代表可用影像。Earth Search和Planetary Computer元数据可访问；两处NAIP亚米航空集合对上海设计区bbox实际查询均返回0，不能将美国航空产品当上海数据。
+Esri World Imagery REST：
+https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer
 
-深层LOD或服务导出像元间距不等于原始拍摄分辨率；shyx2024服务名不等于已核实的2024拍摄日期。只有在元数据和源许可足够时才能作这些判断。
+从其公开来源图层 `/0/query` 取得3个相交影像元数据足迹，转换到EPSG:32651与真实边界求交：
 
-## 3. 当前选择与双尺度方案
+| 对象ID | 发布者标注GSD | 拍摄日期 | 源 | 与核心区相交 |
+|---|---|---|---|---|
+| 3144165 | 0.34 m | 2025-04-07 | Vantor / Vivid Advanced / LG03 | 覆盖整个660947.6495 m²核心区 |
+| 3144175 | 0.31 m | 2025-04-18 | Vantor / Vivid Advanced / WV03 | 无 |
+| 2807139 | 0.50 m | 2025-04-25 | Vantor / Vivid Advanced / WV02 | 无 |
 
-- 城市背景：继续保留2026-10-14原生10m真彩色，作为明确标注的备用背景。
-- 核心区：没有取得可合法验证的0.3–1m或1–2m源，不宣称已有高清替换。
-- 合法在线层或离线影像两条路径都保留；在源CRS、原生GSD、真实日期、访问身份与学术输出/缓存/下载/再分发许可确认前，不启用未知服务为高清层。
-- 未验证连接信息在imagery_repair/data/pending_service_connections.json，仅是候选清单，不是已可用图层。
+3个亚米级元数据足迹的并集覆盖整个22.0091208 km²研究区。**这只是来源元数据足迹覆盖，不是实际渲染无缺口验收。** 背景区涉及多个日期，不能标成全域单一拍摄日。核心区三个固定点identify均返回对象3144165、0.34 m、2025-04-07。
 
-## 4. 配准与三组固定位置
+源GSD来自SRC_RES字段，不是根据最深瓦片LOD推断。服务EPSG:3857可通过标准投影转换到EPSG:32651，但转换公式准确不证明源影像定位准确。服务位置精度SRC_ACC=8.47 m，置信统计定义尚未核实；它不是本项目实测RMSE。
 
-以下位置均实际落在66.0948公顷用户设计范围内，旧图窗口严格固定为EPSG:32651的200×200m，原生20×20像元，裁剪不重采样。后续新图必须沿用相同空间范围和显示比例。
+## 4. 使用许可与数据交付边界
 
-| ID | 类型 | 参考坐标E,N | 窗口 | 新旧对比状态 |
+已读取Esri公开Master Agreement和Website Properties Terms（相关条款、URL、文件SHA256见 `esri_license_evidence.json`）。网站通用条款2.2描述内部/非商业用途的有限许可；同时有专属条款、第三方内容和用途限制。Master Agreement 3.2区分署名静态地图输出与底图数据离线保存，不能把通用条款或公开匿名接口视为任意GeoTIFF下载/再分发许可。
+
+服务元数据 `licenseInfo` 为空，其“更多信息及使用条款”指向 `https://goto.arcgisonline.com/maps/World_Imagery`。当前环境尚未放行该域名及ArcGIS项目页 `www.arcgis.com`，专属条款未能读取。两个精确域名已加入环境配置草稿，工具确认saved、requires_publish=true。**草稿保存不等于生效：需在环境设置保存并发布后复测。** 这是读取真实条款的网络前提，不是购买影像或索取令牌。
+
+当前未申请账户、未调用收费接口，也未以“用户同意使用”代替数据提供方许可。未下载或打包Esri原始/渲染影像。许可核实后优先提供合法在线图层；仅在明确允许时保存GeoTIFF/COG。若需要已有机构授权或服务限制外部客户端，将如实报告，不能默认QGIS适用。
+
+## 5. 三组同尺度比较与配准状态
+
+三个比较窗口已冻结，不因候选源改变而重选：
+
+| ID | 类型 | EPSG:32651窗口xmin,ymin,xmax,ymax | 旧源 |
 |---|---|---|---|
-| P01 | 建筑密集区 | 350750.000, 3463950.000 | 200×200m | 旧图已冻结，新图未取得 |
-| P02 | 道路交叉口 | 351941.578, 3463928.690 | 200×200m | 旧图已冻结，新图未取得 |
-| P03 | 已映射绿地 | 350338.768, 3463890.924 | 200×200m | 旧图已冻结，新图未取得 |
+| P01 | 建筑密集区 | 350650,3463850,350850,3464050 | 200×200 m，20×20原生像元 |
+| P02 | 道路交叉口 | 351840,3463830,352040,3464030 | 同上 |
+| P03 | 已映射绿地 | 350230,3463800,350430,3464000 | 同上 |
 
-[三个固定基线窗口300DPI预览](imagery_repair/outputs/three_fixed_baseline_windows_300dpi.png)；[PDF](imagery_repair/outputs/three_fixed_baseline_windows.pdf)。这不是已经完成的新旧高清对比。三个原生裁剪TIFF、窗口范围JSON、位置GeoPackage已实际生成。
+[旧图三个固定窗口预览](imagery_repair/outputs/three_fixed_baseline_windows_300dpi.png)。本次新增每个固定点的Esri来源identify原始结果；**仍不是新旧图像比较**。新图像未取得，实际新旧比较0组，同名地面点实测0个，未计算配准残差/RMSE，也未靠目测宣称准确。
 
-当前参考节点来自既有GIS而非独立测量控制。尚不能计算新影像相对GIS的残差/RMSE，不能仅凭视觉宣称准确。服务恢复后须先核实真实CRS和转换操作的精度，使用可辨识稳定地面道路节点/角点记录新图像素坐标，计算同名点残差；不可将CGCS2000、WGS84、GCJ等默认为一致，更不能手工猜偏移。
+后续须在合法影像上对可辨识的稳定地面路口/角点进行分布式检查，记录图像像素和地图坐标，与既有GIS的相对残差区分于绝对测量精度。建筑屋顶受楼高和侧视影响，不能将屋顶角点无条件当作地面控制点。不得凭SRC_ACC或投影操作的0 m数学精度宣称亚米配准。
 
-## 5. QGIS显示修正及输出测试
+## 6. QGIS显示与正式输出
 
-- 原工程已备份；更新现有planning_analysis_v3.qgz，并另存planning_analysis_v3_imagery_diagnostic.qgz。
-- 保留原纯矢量主题，新增IMAGE_A_纯影像_原生10m备用、IMAGE_B_轻叠加_原生10m备用。全部明确是10m备用，未命名为已替换高清。
-- 纯图层保持完整自然RGB，最近邻放大，不锐化；缩小使用适当浏览重采样/现有概览。轻叠加建筑轮廓0.05mm/25%不透明度，主要道路0.06mm/40%不透明度，绿地水面仅轻边界，降低遮挡。这里的显示权重在设计范围内外一致。
-- 设计朱红线、白衬线和源几何保持；无外围蒙版，无场地内填色，没有重裁已有分析数据。
-- 实际重开修改工程108有效图层、无缺失源；原生布局诊断预览实际导出。原始GIS库、真实边界CSV和原影像等7项关键文件SHA256全未变。
-- S01–S03布局配置300DPI，以备合法高分源取得后输出；本轮没有用300DPI重出旧图冒充正式高清图。已生成的300DPI图仅是清晰标识的诊断窗口。
+上一阶段已实际更新主V3工程并另存诊断工程，重开108个有效图层，原工程有回滚备份。保留纯矢量主题，提供明确标注原生10 m备用的纯影像/轻叠加主题。建筑轮廓不透明度25%、主要道路40%，未改原始专题数据。
 
-## 6. 许可与再分发
+真实设计范围保留朱红线与细白衬线，无内部填色、外围灰色蒙版或区外压暗。此次仅新增来源核查，不启用许可未经证实的高清层，不改变真实边界或既有分析裁剪范围。7项受保护输入SHA256再次全部一致。
 
-- 旧Sentinel影像延续Copernicus开放数据条款及署名；本轮原生小窗口为同源基线，不产生新的高分影像许可。
-- 三个官方候选、Esri与OpenAerialMap的具体服务学术图纸使用/本地缓存/下载/再分发条件仍未核实，访问被代理拦截不代表源自身禁止或允许。不得因为匿名可读就批量抓瓦片。
-- 源许可不允许离线时只配置合法在线方式，不将服务图像打包再分发；任何凭证需合法授权并通过安全环境配置，不从页面提取共享密钥。
+卫星布局已配置300 DPI并有原生10 m显示测试。根据用户要求，真正影像替换、三个同范围对比和配准检查完成前，不重新输出并冠以“高清”的A1/A3/300 DPI正式图。当前正式高清图输出数0。
 
-## 7. 当前阻断与续跑
+## 7. 下一阶段及审计材料
 
-运行中的云环境出站策略仍为revision8；三个指定主机不在该策略中。已经通过配置工具保存完整保留式域名增补，返回requires_publish=true；保存草稿没有自动应用到当前实例。需在云环境设置应用后重新验证，不是索取个人地图账号或付款。
+优先完成专属条款访问；确认合法在线/有限静态输出路径后，在现有固定窗口检验真实像素与地物细节，再检查配准。通过后更新纯高清/高清叠加主题，导出核心、城市背景、叠加、比较四类A1/A3/300 DPI图。
 
-必要主机：shanghai.tianditu.gov.cn、mape.shanghai-map.net、map4.shanghai-map.net；替代与PR还包括services.arcgisonline.com、www.esri.com、api.openaerialmap.org、api.github.com。
+- `imagery_repair/reports/esri_spatial_source_audit.json`：足迹覆盖、源字段、三个固定点identify、7项SHA校验。
+- `imagery_repair/data/esri_source_footprints.geojson`：公开来源元数据足迹，非影像文件。
+- `imagery_repair/data/esri_aoi_source_footprints.json`：REST原始响应。
+- `imagery_repair/data/openaerialmap_aoi_metadata.json`：排除的低分辨率产品证据。
+- `imagery_repair/reports/esri_license_evidence.json`：通用条款核查证据及未完成事项。
+- `imagery_repair/reports/network_release_verification_20261029.json`：官方主机放行后的错误类型。
+- `imagery_repair/reports/fixed_comparison_windows.json`：冻结窗口，不包含新图。
+- 原生像素、QGIS渲染、DPI与旧文件完整性诊断仍保留。
 
-恢复访问后先运行imagery_repair/scripts/02_probe_services.py，取得元数据及可证明的使用条款；再决定合法服务配置或有限离线获取，完成真实同名点配准和三组同范围对比。最后才输出核心高清、城市背景高清、GIS叠加及新旧比较的A1/A3与300DPI PNG。当前这些正式高清交付仍未完成。
-
-## 8. 审计材料
-
-- imagery_repair/reports/native_raster_diagnosis.json
-- imagery_repair/reports/native_source_pixel_control.json
-- imagery_repair/reports/export_resolution_diagnosis.json
-- imagery_repair/reports/qgis_source_render_audit.json
-- imagery_repair/reports/initial_service_access.json
-- imagery_repair/reports/service_capability_rights_matrix.json
-- imagery_repair/reports/accessible_alternative_catalogue_checks.json
-- imagery_repair/reports/fixed_comparison_windows.json
-- imagery_repair/reports/display_patch_validation.json
+**交付状态：候选源的亚米GSD及元数据覆盖已证实；图像取得、专属用途许可、三组真实比较、配准实测和正式高清图尚未完成。**

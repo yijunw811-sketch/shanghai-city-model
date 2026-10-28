@@ -1,0 +1,12 @@
+{
+  "provider_candidate": "arcgismapserver (ams)",
+  "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "enabled": false,
+  "reason": "Source-specific use rights not verified; metadata only",
+  "service_CRS": "EPSG:3857",
+  "project_CRS": "EPSG:32651",
+  "core_source_GSD_m": 0.34,
+  "core_capture_date": "2025-04-07",
+  "position_accuracy_metadata_m": 8.47,
+  "no_offline_redistribution_permission_established": true
+}

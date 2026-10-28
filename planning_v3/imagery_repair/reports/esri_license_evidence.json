@@ -1,0 +1,27 @@
+{
+  "documents": [
+    {
+      "title": "Esri Master Agreement",
+      "url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/ma-full/ma-full.pdf",
+      "http_status": 200,
+      "pdf_sha256": "0084cfc2fb6c0c12448de3c9205deb2eae9ec84c46f9adf13c562d18cf7fe45e",
+      "relevant_excerpts": [
+        "3.2 Permitted Uses. \n \na. Unless otherwise authorized in writing, Customer may only use Data with the Products for which Esri has \nprovided the Data. \nb. Subject to the restrictions set forth in this Agreement and provided that Customer affixes an attribution \nstatement to the Data representations acknowledging Esri or its applicable licensor(s) as the source of the \nportion(s) of the Data used for the Data representation, Customer may: \n \n \n1. Create representations of Data in hard-copy or static, electronic format (e.g., PDF, GIF, JPEG, HTML); in \nArcGIS Web Maps; or in Esri Story Maps apps for the purposes of visualizing Data (including basic \ninteractions such as panning, zooming, and identifying map features with simple pop-ups); and \n \n2. Use and include such representations of Data in presentation packages, marketing studies, or other \nreports or documents containing map images or data summaries derived from the use of Esri Products to \nthird parties. \n \nc. Customer may take Online Services basemaps offline through Esri Content Packages and subsequently \ndeliver (transfer) them to any device for use with licensed ArcGIS Runtime applications and ArcGIS Desktop. \nCustomer may not otherwise scrape, download, or store Data. \nd. Customer may make any internal use of geocoded results that are obtained and stored in compliance with \nthis Agreement. Customer may not redistribute geocoded results except to (i) use and/or display on a map in \nconnection with Customer’s public, non-revenue generating website(s), (ii) permit access to third-parties for \nthe purposes of Customer’s business, or (iii) deliver to third parties, on a noncommercial/non-revenue \ngenerating basis, static results, static output or static base map renderings. \n \n"
+      ]
+    },
+    {
+      "title": "Esri Website Properties Terms",
+      "url": "https://www.esri.com/content/dam/esrisites/en-us/media/legal/terms-and-conditions/website-terms.pdf",
+      "http_status": 200,
+      "pdf_sha256": "cdf691256908b3e34f2f018dcd005676597c58754298be41f375322830fb1b22",
+      "relevant_excerpts": [
+        "2.2 Grant of Noncommercial Use of Services. You may download, view, copy, and print Services available on \nEsri Website Properties solely for Your own internal purposes or for Your own Noncommercial Use unless \notherwise specified. Services may not be reproduced or transmitted for commercial purposes, in any form or by \nany means, electronic or mechanical, including photocopying and recording, or by any information storage or \nretrieval system now known or later developed, except as expressly permitted in writing by Esri. Proper attribution \nto Esri must be given for any use of the Services. For the purposes of this Article 2.2, \"Noncommercial Use\" \nmeans Your authorized use of the Services wherein You provide the Services to third parties at no charge, and \nthat You and/or Your third-party customers do not generate income or promote the generation of income or any \nother means of commercial advantage or private financial gain from such use. Noncommercial Use may include \nteaching, classroom use, scholarship, and/or research, subject to the fair use rights enumerated in sections 107 \nand 108 of the Copyright Act (Title 17 of the United States Code). Esri reserves the right to determine whether \nYour use of Services that are accessed through ArcGIS Online qualifies as a no-charge, Noncommercial Use or \nas a commercial purpose that requires a separate license and license fee. Esri may at any time, and at its sole \ndiscretion, change, alter, or discontinue the ArcGIS Online Service(s) provided to You or any third-party customer \naccessing these no-charge Services. \n \n",
+        "1.2 Third-Party Content. When using the Services, You may have the opportunity to leave the Esri Website in \norder to access and download additional content provided by third parties, including software, data, and imagery, \nas more fully described in Article 4.3 herein. You acknowledge that third party content is solely the responsibility \nof the third-party content provider. These Terms of Use do not convey to You any rights to access or use third-\nparty content (including copying, distributing, creating derivative works from, or publicly displaying). Access and \nuse of third-party content may require that You agree to different or separate terms, conditions, and restrictions. \nAgreeing to any such terms and conditions will be between You and the third-party content provider and will not \naffect these Terms of Use or any separate agreements You may have with Esri. \n \n"
+      ]
+    }
+  ],
+  "specific_item_terms_accessible": false,
+  "rights_for_QGIS_workflow": "not_yet_verified",
+  "raw_imagery_redistribution_allowed": false,
+  "raw_imagery_downloads": 0
+}

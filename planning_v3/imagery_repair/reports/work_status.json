@@ -40,7 +40,13 @@
       "mean_absolute_DN_difference": 0.0
     }
   ],
-  "blocker": "Runtime proxy403 to required hosts; draft saved but not applied; service rights/CRS/GSD/dates unknown",
+  "blocker": "Source-specific Esri terms linked to www.arcgis.com and goto.arcgisonline.com not accessible under current egress policy; draft saved, not applied",
   "no_paid_API": true,
-  "no_AI_or_sharpening": true
+  "no_AI_or_sharpening": true,
+  "runtime_revision": "13",
+  "candidate_metadata_GSD_m": 0.34,
+  "candidate_capture_date": "2025-04-07",
+  "candidate_metadata_coverage_core_fraction": 1.0,
+  "candidate_metadata_coverage_context_fraction": 1.0,
+  "candidate_spatial_accuracy_metadata_m": 8.47
 }

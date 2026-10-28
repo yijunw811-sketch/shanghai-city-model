@@ -1,0 +1,2493 @@
+{
+  "date": "2026-10-28",
+  "branch": "planning-v3-cartography-20261028",
+  "source_base_commit": "abea6f332ba64eca89717c0a4c3cf2c5b705b4f1",
+  "map_count": 39,
+  "source_protection_verified": true,
+  "protected_count": 992,
+  "qgis": "outputs/qgis/planning_analysis_v3.qgz",
+  "limitations": "Native10m imagery; sparse known functions/commercial observations; native1km population preserved; PR status in downloads separately",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6133,
+      "sha256": "bc894880887eead049df71728a96052cc744fb74a969326ab54269c7b427ffd3"
+    },
+    {
+      "path": "SATELLITE_IMAGE_QUALITY_REPORT.md",
+      "bytes": 8421,
+      "sha256": "45c7adff0a2b4c8ca8b87d43de8db7336ebe45aa8cec7d8f404a4ae5326930b8"
+    },
+    {
+      "path": "data/boundary/design_site.geojson",
+      "bytes": 1363,
+      "sha256": "5df79910e4d54e7f74a9863664fb9c001a5a18763ce4d633b1cc2cd3565c1292"
+    },
+    {
+      "path": "data/boundary/design_site.gpkg",
+      "bytes": 98304,
+      "sha256": "3fbf6ce35da6d6147ddf0e1e09b818c67aac60e566a84cd898e44045b889dfdd"
+    },
+    {
+      "path": "data/boundary/选定范围.csv",
+      "bytes": 805,
+      "sha256": "0d1acebe6e070a4027d6df2c01a65cb4d8dd548f70124355cccb3f2281075bc9"
+    },
+    {
+      "path": "data/grid_100m/grid_100m.gpkg",
+      "bytes": 1757184,
+      "sha256": "2063e56fa27fc6d332777f2558c25027201143b6dd9978257b237d7cb27084ae"
+    },
+    {
+      "path": "data/grid_200m/grid_200m.gpkg",
+      "bytes": 548864,
+      "sha256": "6bd44ab83b30ac0de8fc0786492af4c00a34f424f8a2a25a8801885064f4f62b"
+    },
+    {
+      "path": "data/grid_50m/grid_50m.gpkg",
+      "bytes": 1216512,
+      "sha256": "f6d1bcef3763086905ccdf46f363e6971d881c1867f3b8af55e1567ec95c7adc"
+    },
+    {
+      "path": "data/rasters_v2/clcd2019_30m.tif",
+      "bytes": 4704,
+      "sha256": "50eb439809e87c32d9e3f5d3b0efa7634531293febac67629d98cca82c1c01c3"
+    },
+    {
+      "path": "data/rasters_v2/clcd2019_30m.tif.aux.xml",
+      "bytes": 358,
+      "sha256": "549078b5e447863a76ebba23bde5e447a4d83a7f028b24276072fbb71687195f"
+    },
+    {
+      "path": "data/rasters_v2/dsm_copernicus2021_30m.tif",
+      "bytes": 91225,
+      "sha256": "7fc408a4d3eb3b12ba3c09f645fccb47b047d4af8128130742f2e7309c8c8d1d"
+    },
+    {
+      "path": "data/rasters_v2/dsm_copernicus2021_30m.tif.aux.xml",
+      "bytes": 372,
+      "sha256": "b3707cce392d8fef2ff34fc9cc7b857139dcd0183f0b0e38e491e2fab1960ea7"
+    },
+    {
+      "path": "data/rasters_v2/dsm_slope2021_30m.tif",
+      "bytes": 92496,
+      "sha256": "58a8014a9407d84978a0613bba29a3991b7a1eff9bb7f50472071b3e3dadf04c"
+    },
+    {
+      "path": "data/rasters_v2/jrc_water_occurrence1984_2021_30m.tif",
+      "bytes": 4829,
+      "sha256": "c8556695876083203d56f3a7ac049a327f970681ae4351ddd8840bd2ef028d65"
+    },
+    {
+      "path": "data/rasters_v2/jrc_water_occurrence1984_2021_30m.tif.aux.xml",
+      "bytes": 362,
+      "sha256": "971b7001f107dfb293ca9b377b9ba83089cd1f23c937527c7396222662edee85"
+    },
+    {
+      "path": "data/rasters_v2/lst_summer2026_effective100m.tif",
+      "bytes": 10127,
+      "sha256": "b61e315585c8b31812014c8711adfb3a3300130e14185293913f56afed4bedf8"
+    },
+    {
+      "path": "data/rasters_v2/lst_summer2026_effective100m.tif.aux.xml",
+      "bytes": 386,
+      "sha256": "595ac25b71978c0642b5566bc63574c1341d94c06dd1d65e6bc80cfbb7403752"
+    },
+    {
+      "path": "data/rasters_v2/ndbi_summer2026_20m.tif",
+      "bytes": 200908,
+      "sha256": "47f2388bbd23021337238e98ba89c14f634103b12b8bfa58671f4687f8962960"
+    },
+    {
+      "path": "data/rasters_v2/ndbi_summer2026_20m.tif.aux.xml",
+      "bytes": 391,
+      "sha256": "38f1cff7dda0dd4d59727acdcf9cc915f880f8dcbcba9b4cffe9f782ab66d713"
+    },
+    {
+      "path": "data/rasters_v2/ndbi_winter2026_20m.tif",
+      "bytes": 210929,
+      "sha256": "a76c600197cb89ad029970c57205f5cdc46f1f9c8c8f20d7892438b1377e3406"
+    },
+    {
+      "path": "data/rasters_v2/ndvi_seasonal_difference2026_10m.tif",
+      "bytes": 782653,
+      "sha256": "e2530424d607a2c13c5f7eb088fd81d976caab77d59c1a68e6b595ca67c259d1"
+    },
+    {
+      "path": "data/rasters_v2/ndvi_seasonal_difference2026_10m.tif.aux.xml",
+      "bytes": 441,
+      "sha256": "362c52580fe66407535d1af6f483ec11d2e35de0a4240f3f6012fa73c110a8c8"
+    },
+    {
+      "path": "data/rasters_v2/ndvi_summer2026_10m.tif",
+      "bytes": 770518,
+      "sha256": "2426a0c2dda022edeb7b55b9a2c3f0c1d4fdf634440bdaf487ab8afab79e9821"
+    },
+    {
+      "path": "data/rasters_v2/ndvi_summer2026_10m.tif.aux.xml",
+      "bytes": 440,
+      "sha256": "983907604b48395de6fd7a9579ed172a4876ff96e699d6699d4e558641d76666"
+    },
+    {
+      "path": "data/rasters_v2/ndvi_winter2026_10m.tif",
+      "bytes": 803357,
+      "sha256": "f6cabc94a3b677927815e9645f9ff4b43b04aa8211f85f21a0876d63ca0a5dc3"
+    },
+    {
+      "path": "data/rasters_v2/ndvi_winter2026_10m.tif.aux.xml",
+      "bytes": 439,
+      "sha256": "dab4d6eae2b184ba3674e9f132569ffca0cacb96f998edbbf44613431f632e45"
+    },
+    {
+      "path": "data/rasters_v2/ndwi_summer2026_10m.tif",
+      "bytes": 767214,
+      "sha256": "d7b0f955a9234fa4d913859e8574641988da28cc5e9bb13c70c3b8dc3af7af54"
+    },
+    {
+      "path": "data/rasters_v2/ndwi_summer2026_10m.tif.aux.xml",
+      "bytes": 440,
+      "sha256": "f7bb83f470e089ab6c2c2c55ad2ab1e0bfd49b4bbab39d8b1196c75ba18fa1bd"
+    },
+    {
+      "path": "data/rasters_v2/ndwi_winter2026_10m.tif",
+      "bytes": 797725,
+      "sha256": "459ab15b9ce2f235652d1b581d90ca19d2d7321e54ad0b34855e16ee1d27f54c"
+    },
+    {
+      "path": "data/rasters_v2/worldcover2021_10m.tif",
+      "bytes": 35589,
+      "sha256": "d52e95148f56c6b4a1ac16afaf886aadaecc7e0716027417a764686d1240c207"
+    },
+    {
+      "path": "data/rasters_v2/worldcover2021_10m.tif.aux.xml",
+      "bytes": 410,
+      "sha256": "d2473069ed2db874b146e33d2150f3cfb4b90dff0feaddf73bdba1880dcb691c"
+    },
+    {
+      "path": "data/satellite/S2A_51RUQ_20261008_0_L2A_SCL.tif",
+      "bytes": 20833,
+      "sha256": "a5795b12acf6e116d7b13478906277f085da469eef505df135b1c3241056dc4d"
+    },
+    {
+      "path": "data/satellite/S2B_51RUQ_20260914_0_L2A_SCL.tif",
+      "bytes": 25643,
+      "sha256": "a48076ec4f9f6d15329423b9d84c435053e3c8c239f18152af2baac6ab86e824"
+    },
+    {
+      "path": "data/satellite/S2B_51RUQ_20261014_0_L2A_SCL.tif",
+      "bytes": 26746,
+      "sha256": "67f9b210902a1e61ba46898e22e921763d0a949846daecd876fd16eb0e687fae"
+    },
+    {
+      "path": "data/satellite/S2C_51RUQ_20260221_0_L2A_SCL.tif",
+      "bytes": 12813,
+      "sha256": "38c0c092b556b8ae02c61336c555e077f0d897b5c72c8fd19853e1191a46e157"
+    },
+    {
+      "path": "data/satellite/S2C_51RUQ_20261006_0_L2A_SCL.tif",
+      "bytes": 22766,
+      "sha256": "f51cd6a459604a86bccc28d1e26ad25dd193d13d2d989726295bc3c146a27d51"
+    },
+    {
+      "path": "data/satellite/S2C_51RUQ_20261026_0_L2A_SCL.tif",
+      "bytes": 13520,
+      "sha256": "9efa7bad378b7062a12ec45b02ade490581233163f4e1692460dd3e2d9af1cb8"
+    },
+    {
+      "path": "data/satellite/latest_sentinel_stac.json",
+      "bytes": 198754,
+      "sha256": "0f8a615db92859f5588e3fa2c448f8b70df7a392c6032329ec336f7251e438a5"
+    },
+    {
+      "path": "data/satellite/selected_scene_stac.json",
+      "bytes": 33733,
+      "sha256": "e09fcf3cf8310b2a3616176dfb950de1d37d1f178b8e87918560e174dbfe35ce"
+    },
+    {
+      "path": "data/satellite/sentinel_truecolor_10m_context.tif",
+      "bytes": 2759777,
+      "sha256": "a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fb"
+    },
+    {
+      "path": "data/satellite/sentinel_truecolor_10m_context.tif.aux.xml",
+      "bytes": 1172,
+      "sha256": "a3eb85f8c6db79d4e84823c0ca9c18abcb75f76175f59abb11f413f23d954388"
+    },
+    {
+      "path": "data/v2_reference/cache/source_discovery/s2_summer_stac.json",
+      "bytes": 113282,
+      "sha256": "6ca20835b8d00a05190775c98486f14f4061dce699a01b1e17ca05badaf17682"
+    },
+    {
+      "path": "data/v2_reference/cache/source_discovery/s2_winter_stac.json",
+      "bytes": 317099,
+      "sha256": "abd87a525d8e38907b435b4cea3a3d5657fc914c9297f76e3e40d7c11b5a1626"
+    },
+    {
+      "path": "data/v2_reference/outputs/maps/A1/02_建筑密度分析.png",
+      "bytes": 252068,
+      "sha256": "5bdc003b0823897f05c65f7221851bf67a34afc82c7da9647d3db10b6821ebe9"
+    },
+    {
+      "path": "data/v2_reference/outputs/maps/A1/04_建筑体量强度代理.png",
+      "bytes": 251716,
+      "sha256": "40a8ecb9022026b0b6be906ad979b17ec8b310193a54d00a43c3bfa4fe8b6096"
+    },
+    {
+      "path": "data/v2_reference/outputs/maps/A1/06_已映射城市功能混合度.png",
+      "bytes": 373488,
+      "sha256": "9bf91d6e2fe88bc271306258f9a4fb4cc94c2ca3dceb5038c66a7f4bf0a43974"
+    },
+    {
+      "path": "data/v2_reference/outputs/maps/A1/08_车行路网密度与节点连通.png",
+      "bytes": 263849,
+      "sha256": "1f8fc45418cd50552b3a18de364aefe00bbc698add2e74983bcd10c17b16878e"
+    },
+    {
+      "path": "data/v2_reference/outputs/maps/A1/11_商业POI观察密度.png",
+      "bytes": 255416,
+      "sha256": "adea2241846335b08128fdb422101b3b6fa1ab041f567a773a130758e38d7886"
+    },
+    {
+      "path": "data/v2_reference/outputs/maps/A1/15_公共环境改善机会研究初筛.png",
+      "bytes": 273733,
+      "sha256": "178e2e69e7fa0753bd6c5d1233d5674ce183b15468a0edeeb6e9be2076569561"
+    },
+    {
+      "path": "data/v2_reference/outputs/maps/A1/16_现状数据问题与改善机会.png",
+      "bytes": 312735,
+      "sha256": "f80e9123ee12615f871a5436e37d49c1f7a7954aa6f64ecf051cd3f8f57816f3"
+    },
+    {
+      "path": "data/v2_reference/outputs/maps/A1/18_模型人口密度_2025年约1公里.png",
+      "bytes": 343190,
+      "sha256": "f5cf473b3faec0291e7288af70fb858fe236cb9a6281994556f5bbb308458166"
+    },
+    {
+      "path": "data/v2_reference/outputs/qgis/planning_analysis.qgz",
+      "bytes": 303738,
+      "sha256": "d650256c214d30c242d32087ee9b00f17841e6ad97f1a774038af98db555f890"
+    },
+    {
+      "path": "data/v2_reference/reports/final_qa.json",
+      "bytes": 1898,
+      "sha256": "56d6cd50d8ad1cdde566d01b706bad432a483db4077712cc59b660c29e171c5b"
+    },
+    {
+      "path": "data/v2_reference/reports/map_01.json",
+      "bytes": 991,
+      "sha256": "424930c9ac0e84979482772acd765e730cc11d1b735d1b5f102f60535e535c0b"
+    },
+    {
+      "path": "data/v2_reference/reports/map_02.json",
+      "bytes": 938,
+      "sha256": "c5a783ab22ee2195e7ff65cf8329afe57d32e81a8708ed56419a4dceea9bfd3c"
+    },
+    {
+      "path": "data/v2_reference/reports/map_03.json",
+      "bytes": 935,
+      "sha256": "484fff261084a7e2df04525bb477fc5f17abf1dc29fe525d22349db295d4e4ea"
+    },
+    {
+      "path": "data/v2_reference/reports/map_04.json",
+      "bytes": 952,
+      "sha256": "de1d3581a5d86cc32416d9896c9a24a04809acd7781b8dedeb9ad64fa4877acc"
+    },
+    {
+      "path": "data/v2_reference/reports/map_05.json",
+      "bytes": 902,
+      "sha256": "cfd99f719ae6a2be492abbeb22578b150fede1a2f625d416000d986ca9def211"
+    },
+    {
+      "path": "data/v2_reference/reports/map_06.json",
+      "bytes": 958,
+      "sha256": "9bcb8e2838575f8ca51c4857701adb878ae70a038e16bb9086fed82395a69e36"
+    },
+    {
+      "path": "data/v2_reference/reports/map_07.json",
+      "bytes": 932,
+      "sha256": "1970cdfeaf1e61c99caf9ac5a0b1331651700e9d7946eef44acc56e8c4b90df0"
+    },
+    {
+      "path": "data/v2_reference/reports/map_08.json",
+      "bytes": 986,
+      "sha256": "909cdf38ce2e59fd0958f8ef402a8410fccaee1cdc2d92ea86511867875a8736"
+    },
+    {
+      "path": "data/v2_reference/reports/map_09.json",
+      "bytes": 999,
+      "sha256": "fd0a7f6979f1ca8ab5f02189d1654233c9c6cf60086aa064fddb46c0738258bd"
+    },
+    {
+      "path": "data/v2_reference/reports/map_10.json",
+      "bytes": 970,
+      "sha256": "1bac01514d4ee34739e00dbfb1262451e131754b8b54959db795b85f6fb35a5c"
+    },
+    {
+      "path": "data/v2_reference/reports/map_11.json",
+      "bytes": 967,
+      "sha256": "bc5cbfdf67150d904aa5fc89d997328130c283b7750beaa0b9ba6a231b773adf"
+    },
+    {
+      "path": "data/v2_reference/reports/map_12.json",
+      "bytes": 1008,
+      "sha256": "24acf7538087227450ceb35760a17cc56ca6e6fed8c84e900a167e1847a358dc"
+    },
+    {
+      "path": "data/v2_reference/reports/map_13.json",
+      "bytes": 923,
+      "sha256": "d860eaa336c18a9905059c82a849eda1d5e9a1eb8a73d39c84867c2da23f7695"
+    },
+    {
+      "path": "data/v2_reference/reports/map_14.json",
+      "bytes": 991,
+      "sha256": "0982c3120cd596461535ee40c12395fd777b5976f2c9d36af13a5f44ce66101d"
+    },
+    {
+      "path": "data/v2_reference/reports/map_15.json",
+      "bytes": 1027,
+      "sha256": "c70976d1c79ab58dbaf3083c149982b680f14b0ca755517692db3bc191e5927c"
+    },
+    {
+      "path": "data/v2_reference/reports/map_16.json",
+      "bytes": 975,
+      "sha256": "aba396d3d8d2dee0ab8ce2438248c340799d13344359343c6cf0ff4179bd6f6c"
+    },
+    {
+      "path": "data/v2_reference/reports/map_17.json",
+      "bytes": 993,
+      "sha256": "44c274f25b238e99c3c6a406c9db8b33d6810e63a30fa217fa3aa124069c38d5"
+    },
+    {
+      "path": "data/v2_reference/reports/map_18.json",
+      "bytes": 1030,
+      "sha256": "242047b31f8bc5156e7c72f6cb6baf6ec0b482e7a6526ca3b05e5294a5c03bbb"
+    },
+    {
+      "path": "data/v2_reference/reports/map_19.json",
+      "bytes": 893,
+      "sha256": "9fcad8ce2daa86a5e2f82d724c77682a0a612836e195990019e1c710e1ab3431"
+    },
+    {
+      "path": "data/v2_reference/reports/map_20.json",
+      "bytes": 958,
+      "sha256": "ab1cd24a9c6635e2c9c34ff29180d6720d09dbb71effc1346e6bdb535c14cb48"
+    },
+    {
+      "path": "data/v2_reference/reports/map_21.json",
+      "bytes": 949,
+      "sha256": "289c34338f772856468dca10d77e08995d93be41896205b1bbb7ff2ac82ba571"
+    },
+    {
+      "path": "data/v2_reference/reports/map_22.json",
+      "bytes": 991,
+      "sha256": "5d058b3ad0c31d83b1c378643d8a0e399f5fba27f3b46a0c0942fda664babad2"
+    },
+    {
+      "path": "data/v2_reference/reports/map_23.json",
+      "bytes": 944,
+      "sha256": "b965ac80edf4243989bd5af0a40e1045a29cef50c00a32a9a12a067d7193d485"
+    },
+    {
+      "path": "data/v2_reference/reports/map_24.json",
+      "bytes": 931,
+      "sha256": "72de9034ed4c3f36ae51a7112c9d1a554b97a30c5787c8c75beb9d4c3cb39ceb"
+    },
+    {
+      "path": "data/v2_reference/reports/map_25.json",
+      "bytes": 930,
+      "sha256": "f7f0ec6fd7c11f056151e332f26086df0af1e7f97f3a9ca33dae5cea21a8efbb"
+    },
+    {
+      "path": "data/v2_reference/reports/map_26.json",
+      "bytes": 992,
+      "sha256": "85fa907979df89d31c0b6df94e6bc8c71a3eb409520a6e8b478046b38105737f"
+    },
+    {
+      "path": "data/v2_reference/reports/map_27.json",
+      "bytes": 1082,
+      "sha256": "396c8765f761742dc305347bf76d42667aa37e5909e577c28fb64820dad995a3"
+    },
+    {
+      "path": "data/v2_reference/reports/map_28.json",
+      "bytes": 1017,
+      "sha256": "c7e3243f53639ac99f7768500b06f6c96b515726cacf97887200d90d59064b95"
+    },
+    {
+      "path": "data/v2_reference/reports/methods_and_limitations.md",
+      "bytes": 4367,
+      "sha256": "56ed169a22d5c99bc7d418f48a6f834e3ecc4939a963650345ba5dfd29129e6a"
+    },
+    {
+      "path": "data/v2_reference/reports/sentinel_summer_selection.json",
+      "bytes": 1707,
+      "sha256": "dd4cccbba6dc49f9a42272a75ee7d63b733aa60d3cfabdc033c59388621860a1"
+    },
+    {
+      "path": "data/v2_reference/reports/sentinel_winter_selection.json",
+      "bytes": 1708,
+      "sha256": "fc5f88e59ad00239167c01c5a46e3dc82779ff9253315b1c544debdf1219ff05"
+    },
+    {
+      "path": "data/v2_reference/reports/source_registry.csv",
+      "bytes": 60069,
+      "sha256": "d0e4693d7b6d0d990ec042c088e791849e3541346ce4d1c1627ec92d19f9e285"
+    },
+    {
+      "path": "imagery_repair/README.md",
+      "bytes": 3080,
+      "sha256": "677587a4a1dd92371a72c8d3d8c347f14473b2a424d0e837220816a79680b22c"
+    },
+    {
+      "path": "imagery_repair/data/P01_old_native10m.tif",
+      "bytes": 1543,
+      "sha256": "f4339ef0c96eceac98380d725d8ca3c7b36e935647712ec5db69d2a6f3c8e8d7"
+    },
+    {
+      "path": "imagery_repair/data/P02_old_native10m.tif",
+      "bytes": 1542,
+      "sha256": "92ba463b8ef6e33541a61ebc113d5c21492a65d7952ea81f5dfc9674f0ada0bb"
+    },
+    {
+      "path": "imagery_repair/data/P03_old_native10m.tif",
+      "bytes": 1385,
+      "sha256": "f15c9de85ff1fb5a8e96690035649c023be21f053b871c2e503ae6d51a90941f"
+    },
+    {
+      "path": "imagery_repair/data/comparison_locations.gpkg",
+      "bytes": 98304,
+      "sha256": "f9ee3ac120af2f72416e2ed0d244f5c1a5462e034fe8aa42dc8b95cffe576c7f"
+    },
+    {
+      "path": "imagery_repair/data/esri_aoi_source_footprints.json",
+      "bytes": 2467227,
+      "sha256": "c54882cb4fe8177a828ed631d48ee8448ddf4c23afbc6e91f717dd8f72dbd1d6"
+    },
+    {
+      "path": "imagery_repair/data/esri_pending_connection.json",
+      "bytes": 459,
+      "sha256": "8461d290ee146af6f7a4c33a6b9a0c14cf0c9cf35a90b82142b60f735c11b8d6"
+    },
+    {
+      "path": "imagery_repair/data/esri_source_footprints.geojson",
+      "bytes": 2481793,
+      "sha256": "c5b732f168111ddea51fe1027f2ffbff6ab8178f001ba4dfa9240329ab985860"
+    },
+    {
+      "path": "imagery_repair/data/esri_world_imagery_metadata.json",
+      "bytes": 14652,
+      "sha256": "11ac170787e17368120ea0154dce11d13f9bc28133a500fa257189ba6a523a22"
+    },
+    {
+      "path": "imagery_repair/data/openaerialmap_aoi_metadata.json",
+      "bytes": 9617,
+      "sha256": "febcf0f057efd82d8963ca93c9ca79cfd92693e50e34c11d6b364848cff8ef25"
+    },
+    {
+      "path": "imagery_repair/data/pending_service_connections.json",
+      "bytes": 1231,
+      "sha256": "d49bba428ad9f75507b80128df03f52ce68d4a26c24bc9955704ac358900400e"
+    },
+    {
+      "path": "imagery_repair/outputs/P01_baseline_native10m.png",
+      "bytes": 1247,
+      "sha256": "f429179569dfe195637e738ed25f8439aab47b4adce743fd44e1f2be41e5b3fb"
+    },
+    {
+      "path": "imagery_repair/outputs/P02_baseline_native10m.png",
+      "bytes": 1316,
+      "sha256": "5658380a9a604bde4d91129aabdfd010dd74bc575113a2185cb99ca601d264cf"
+    },
+    {
+      "path": "imagery_repair/outputs/P03_baseline_native10m.png",
+      "bytes": 1147,
+      "sha256": "91b9141cbf22a703a5855fb3ea73b5d2103ac936685d62beae734338e26286b3"
+    },
+    {
+      "path": "imagery_repair/outputs/QGIS_native10m_fallback_display_test.png",
+      "bytes": 309138,
+      "sha256": "82bd6b7a31ad00d7695b428a29d885801a8af85e37c2c32c4d6bbd76f24f38d4"
+    },
+    {
+      "path": "imagery_repair/outputs/blue_network_light_overlay.qml",
+      "bytes": 24704,
+      "sha256": "9bacc3238b53042e0234fe1617e5be42af28ab5cc00eff69f7e60bb632da5657"
+    },
+    {
+      "path": "imagery_repair/outputs/buildings_enriched_light_overlay.qml",
+      "bytes": 34063,
+      "sha256": "52ddfec243cad6da6d7875325285ed6f4dabcd3b9c42987d277e8aad874a209c"
+    },
+    {
+      "path": "imagery_repair/outputs/green_spaces_all_light_overlay.qml",
+      "bytes": 25281,
+      "sha256": "eb15e20f005c872d2d4082b36bde9a65648427da5d80eb1384ac65b0e2c6e205"
+    },
+    {
+      "path": "imagery_repair/outputs/road_network_vehicle_light_overlay.qml",
+      "bytes": 28685,
+      "sha256": "33d3b1aa92f7bea218b17579a4d87f470a2708e7fc6b51b55fd442372b1d6c5e"
+    },
+    {
+      "path": "imagery_repair/outputs/three_fixed_baseline_windows.pdf",
+      "bytes": 48442,
+      "sha256": "dba87de9e0872aea4a4d518d5ad0e97d4b661552e1472ca49f0f514c2077fff6"
+    },
+    {
+      "path": "imagery_repair/outputs/three_fixed_baseline_windows_300dpi.png",
+      "bytes": 237787,
+      "sha256": "d29dba119dc5f1049ae1c96f731bd936c8f1242116399ad293ff6467d292456d"
+    },
+    {
+      "path": "imagery_repair/reports/PR_BODY.md",
+      "bytes": 1423,
+      "sha256": "2e339a3ff4cd1f651002c010edcb92321b19773da8d3bb454a2372ec37f61bf6"
+    },
+    {
+      "path": "imagery_repair/reports/accessible_alternative_catalogue_checks.json",
+      "bytes": 8306,
+      "sha256": "b5f38c827b66c378e30f43bc0a1aa8c86cc82e18be4e7f69064859364f0d59bd"
+    },
+    {
+      "path": "imagery_repair/reports/alternative_access_checks.json",
+      "bytes": 1440,
+      "sha256": "c20a20206c2d9b00c46428908b5cf7a781a457b770e2a4ccaa5f98b2cedfe88b"
+    },
+    {
+      "path": "imagery_repair/reports/display_patch_validation.json",
+      "bytes": 1733,
+      "sha256": "a988d4b5f1041e47e66040e3d60c42bae3d22f5bdfd18fe370e3fcb7013e75cb"
+    },
+    {
+      "path": "imagery_repair/reports/esri_license_evidence.json",
+      "bytes": 5146,
+      "sha256": "49a744995573ffc88953d94b494b7d8757c94d76f278e466e8c7f3aaf39930d9"
+    },
+    {
+      "path": "imagery_repair/reports/esri_spatial_source_audit.json",
+      "bytes": 5708,
+      "sha256": "555d3251536c31e4879c8bd3877423e69351b0ae86a305f9ddc40f1312c92e0a"
+    },
+    {
+      "path": "imagery_repair/reports/export_resolution_diagnosis.json",
+      "bytes": 1546,
+      "sha256": "2515fef3467ae173fc179c25fd1290a41d0ea7049df453e7f622d22c64d62f27"
+    },
+    {
+      "path": "imagery_repair/reports/fixed_comparison_windows.json",
+      "bytes": 2308,
+      "sha256": "167c45e3d096e9560b7a04234e1e2f9e3e3aa091f28e8f50962b917e211113fe"
+    },
+    {
+      "path": "imagery_repair/reports/initial_service_access.json",
+      "bytes": 1228,
+      "sha256": "c9b6c18316babc5518911fe034adcbb9b3cecec1b14788638fc98ed1de830b2d"
+    },
+    {
+      "path": "imagery_repair/reports/native_raster_diagnosis.json",
+      "bytes": 611,
+      "sha256": "35ed24767b9285e2edc6aa39f8f9b1c0cdab2c6fe44a157bea503c05449c551f"
+    },
+    {
+      "path": "imagery_repair/reports/native_source_pixel_control.json",
+      "bytes": 599,
+      "sha256": "80db5292b6c4232d2f013aa86ce9a76cf92f43740613c161abbf53366a8f83dc"
+    },
+    {
+      "path": "imagery_repair/reports/network_release_verification_20261029.json",
+      "bytes": 1358,
+      "sha256": "f7157275f7537ccee1c27c55348340ffaaf09aa2ee399aa07751a47dbb6dc127"
+    },
+    {
+      "path": "imagery_repair/reports/qgis_source_render_audit.json",
+      "bytes": 3249,
+      "sha256": "cd5afd7c1c7637d688f8be4e7e8ecfce90f9d0e92e792fabbc67fcac68022d3a"
+    },
+    {
+      "path": "imagery_repair/reports/qucity_public_entry_inspection.json",
+      "bytes": 253,
+      "sha256": "80e5b62677ea1eb009a205e660b7c187df1754aeef2e39945d9ea6b30a682d0f"
+    },
+    {
+      "path": "imagery_repair/reports/runtime_blocker.json",
+      "bytes": 391,
+      "sha256": "3f1d183878f7890944d6d44aa84da2df429d7aa61049a1d84d7b6b4e662347b2"
+    },
+    {
+      "path": "imagery_repair/reports/service_capability_rights_matrix.json",
+      "bytes": 5983,
+      "sha256": "960ab319d6f2912df94326ddc635d9bc2edfb36666f5c59440e22d3120e1139d"
+    },
+    {
+      "path": "imagery_repair/reports/work_status.json",
+      "bytes": 1522,
+      "sha256": "f3c88f8a6a9e09c325093a75fae9709a5cd5651e8f38304dba01e489b75594f5"
+    },
+    {
+      "path": "imagery_repair/scripts/01_diagnose_and_windows.py",
+      "bytes": 9823,
+      "sha256": "9bf1b1f7cdf905d71057081a0e8cb1c1ea8c42f6703081e63f8eeec1f67d3073"
+    },
+    {
+      "path": "imagery_repair/scripts/02_probe_services.py",
+      "bytes": 3646,
+      "sha256": "2e965382d060d8edf8d5ce997b3eac2ac89ac7af1a51f1946dd0f6602777f188"
+    },
+    {
+      "path": "imagery_repair/scripts/03_patch_display.py",
+      "bytes": 7161,
+      "sha256": "bfa4005db31be12debb14344c43e7f24b30a874c8d1b10c13d7d71b30711baa9"
+    },
+    {
+      "path": "imagery_repair/scripts/04_quality_report.py",
+      "bytes": 9970,
+      "sha256": "4274c156fa92e84eff85cc6fa84be27e08b35d1c5083f91edc2b8d4fc1e5e88b"
+    },
+    {
+      "path": "imagery_repair/scripts/05_package_patch.py",
+      "bytes": 2373,
+      "sha256": "e4abf36925a8a7b106cdf82ffccd41dcd99af00b47e01b6740f65ea296a5aac7"
+    },
+    {
+      "path": "imagery_repair/scripts/06_esri_source_audit.py",
+      "bytes": 4317,
+      "sha256": "d12e86b46ef0f5cfb507395daab0623d1fdd044cad20db640d02cf901d857bbb"
+    },
+    {
+      "path": "imagery_repair/scripts/07_refresh_source_report.py",
+      "bytes": 9947,
+      "sha256": "3998f949a4a58b279a98536ccc35f4d89e36255f42f888a7c3d4b4f9a882a70e"
+    },
+    {
+      "path": "imagery_repair/scripts/08_package_source_audit.py",
+      "bytes": 2717,
+      "sha256": "7873f3f335a98ba2e3530719b1a9513bf68a4be323429ba70a44e265f2d5612b"
+    },
+    {
+      "path": "imagery_repair/state/base_manifest_before_patch.json",
+      "bytes": 79310,
+      "sha256": "7463192a56e493426c4e033b6b9e4a1c8692b4a0574eb0bcfdd461ddb4a922f6"
+    },
+    {
+      "path": "imagery_repair/state/planning_analysis_v3_before_imagery_repair.qgz",
+      "bytes": 689727,
+      "sha256": "a8e80fd2896bfedfff66bb56938e12b74d7a447b52c622f8bf0c52cea91d7859"
+    },
+    {
+      "path": "imagery_repair/state/protected_inputs.json",
+      "bytes": 894,
+      "sha256": "8333cd31227d57f83fef8e58f45b321579444cac9a5f44ae445bfe65b1f2574d"
+    },
+    {
+      "path": "outputs/RESULTS_INDEX.html",
+      "bytes": 38543,
+      "sha256": "dec9aa138bf02a8dbd734d941ef7d4690cc5c3d5a765002c24f7f1605df2a5fe"
+    },
+    {
+      "path": "outputs/comparisons/02_V2_V3.png",
+      "bytes": 157568,
+      "sha256": "1cd5b5a1cd9fdf7c347cfc09f0e1916ce6f20db3dcf2bb15481356c060066586"
+    },
+    {
+      "path": "outputs/comparisons/04_V2_V3.png",
+      "bytes": 147422,
+      "sha256": "09783c82649476f9aaa7c4e8ce49d8a3ae599107db4157180676883d37edd203"
+    },
+    {
+      "path": "outputs/comparisons/06_V2_V3.png",
+      "bytes": 315903,
+      "sha256": "e919db6560dcfa81d54a7d022f19f587863bb7335f81eacd412217dd021e9d7f"
+    },
+    {
+      "path": "outputs/comparisons/08_V2_V3.png",
+      "bytes": 173601,
+      "sha256": "dcd10b4535363b184fb32f4d4f5d6eae1bef15aa353500784844f9814658e536"
+    },
+    {
+      "path": "outputs/comparisons/11_V2_V3.png",
+      "bytes": 127951,
+      "sha256": "2db0c180ab5cce256b5a590b37cbe30d62a38c612ae9c98caedc56ab5c80f46d"
+    },
+    {
+      "path": "outputs/comparisons/15_V2_V3.png",
+      "bytes": 171962,
+      "sha256": "82e9b091adc9eb926a1450098bc6ee5cca487bd62c6035bfe3e3dab7ec5afc3d"
+    },
+    {
+      "path": "outputs/comparisons/16_V2_V3.png",
+      "bytes": 199001,
+      "sha256": "e7c4d1adb598f9485e8307487f61dbc70fcb826d27d682ff3b51813dda47d56e"
+    },
+    {
+      "path": "outputs/comparisons/18_V2_V3.png",
+      "bytes": 164875,
+      "sha256": "e28fe19f49667f43d6f88e5cc6475eb016452bfd0b8f639893936b6b977ac4d7"
+    },
+    {
+      "path": "outputs/comparisons/building_density_sensitivity.png",
+      "bytes": 89913,
+      "sha256": "5f12679a16998f6285700aa2921b694d57e2a8a03d87c13f313c5f3e79f0da32"
+    },
+    {
+      "path": "outputs/comparisons/commercial_kde_sensitivity.png",
+      "bytes": 73734,
+      "sha256": "6d0a030e1951bba86380c49ecf9ef1c5e5ce79376fd3667095f8dc056ca7c5a2"
+    },
+    {
+      "path": "outputs/gis/reference_analysis_v2.gpkg",
+      "bytes": 37703680,
+      "sha256": "12c2718ed77ed66b0bc2ee0fe15226bf0739c4cd024aa60c3fcd0d3865c20ad4"
+    },
+    {
+      "path": "outputs/gis/reference_v2.gpkg",
+      "bytes": 186851328,
+      "sha256": "240b7bfdab61b24fe3badad1e9144617318ac227b0ae83ca29e7a1becde84798"
+    },
+    {
+      "path": "outputs/gis/refined_analysis_v3.gpkg",
+      "bytes": 3809280,
+      "sha256": "1040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03"
+    },
+    {
+      "path": "outputs/maps/A1/01_现状土地功能分类.pdf",
+      "bytes": 804431,
+      "sha256": "eae4c763ed96f5a2ffa46e635b20f4a9fee1357cc128c7eaad969912900477d2"
+    },
+    {
+      "path": "outputs/maps/A1/01_现状土地功能分类.png",
+      "bytes": 906626,
+      "sha256": "a5573ea1b7cb252732a66e6003607d966ae85148217788a735852165bb6b6589"
+    },
+    {
+      "path": "outputs/maps/A1/01_现状土地功能分类.svg",
+      "bytes": 2889502,
+      "sha256": "58a2689950c5aad2dc26de8919ac57761a8d139f016ad56d4b54baa00323ad94"
+    },
+    {
+      "path": "outputs/maps/A1/02_建筑密度分析.pdf",
+      "bytes": 715149,
+      "sha256": "23adaae3dac46cd4427cc2cc4ca2f8b5f41b511f3723e84a9231db58f7949d08"
+    },
+    {
+      "path": "outputs/maps/A1/02_建筑密度分析.png",
+      "bytes": 288842,
+      "sha256": "64d0d20731ecc67c22f1fb250b6888dc72ff47819d71c834ad5d41775b8b5330"
+    },
+    {
+      "path": "outputs/maps/A1/02_建筑密度分析.svg",
+      "bytes": 2967655,
+      "sha256": "6a4e16017b9f088b35739560376237509478f91661aed99932c42a78790630b3"
+    },
+    {
+      "path": "outputs/maps/A1/03_建筑高度分布_全部含估算.pdf",
+      "bytes": 1299798,
+      "sha256": "4db7e06bebb4c100c22d1892777ab46b69a0f84b0fd530c878f2805e217d4ac5"
+    },
+    {
+      "path": "outputs/maps/A1/03_建筑高度分布_全部含估算.png",
+      "bytes": 2147211,
+      "sha256": "d35549e1faab94efe82e051d87da003f8f689aa94b27d88ca3828b8ae637787a"
+    },
+    {
+      "path": "outputs/maps/A1/03_建筑高度分布_全部含估算.svg",
+      "bytes": 4925230,
+      "sha256": "80066a2eba457952889a79b21242d783a12ff2348f65e1557360345dd128982a"
+    },
+    {
+      "path": "outputs/maps/A1/04_建筑体量强度代理.pdf",
+      "bytes": 712236,
+      "sha256": "83816421d8b11c1607f64800ebc9364f3b5e0bf91f5a44cb8d1bdb09dfa31d1d"
+    },
+    {
+      "path": "outputs/maps/A1/04_建筑体量强度代理.png",
+      "bytes": 295705,
+      "sha256": "56d5c50b95b62ce3834f9064c2f95032cc189391beb43be1f5a00cb58c1a3125"
+    },
+    {
+      "path": "outputs/maps/A1/04_建筑体量强度代理.svg",
+      "bytes": 2969027,
+      "sha256": "8261486bb64090a85d49c9569ae9958125b1797a4cea03ad17c3081835eb9d87"
+    },
+    {
+      "path": "outputs/maps/A1/05_城市肌理与图底关系.pdf",
+      "bytes": 679930,
+      "sha256": "d345824f584a7098fd159c810113b29f62ae860f228dccecb9b0dd08d3a37660"
+    },
+    {
+      "path": "outputs/maps/A1/05_城市肌理与图底关系.png",
+      "bytes": 2266533,
+      "sha256": "74e5881905924fe409e49823153d4b03f3217c29d73f770469b95a4095aeeedf"
+    },
+    {
+      "path": "outputs/maps/A1/05_城市肌理与图底关系.svg",
+      "bytes": 2544653,
+      "sha256": "148415476a249e147b56088ee11f44195daa1c84bde76853efdb1e7ad5605e7a"
+    },
+    {
+      "path": "outputs/maps/A1/06_已映射土地功能面积混合度.pdf",
+      "bytes": 695496,
+      "sha256": "f0daba74e6b06a6008930d3569b932461fc987f097caf245f87dc55884ebe128"
+    },
+    {
+      "path": "outputs/maps/A1/06_已映射土地功能面积混合度.png",
+      "bytes": 311216,
+      "sha256": "f85e76d8411ac5276fdcd3acdbda470a5682799f76554f7687caffa1d41a47d8"
+    },
+    {
+      "path": "outputs/maps/A1/06_已映射土地功能面积混合度.svg",
+      "bytes": 2678957,
+      "sha256": "e7ccf1761c31d239910f8b3103a55c5b1c7cfac70ffb164908c824c4f9fae919"
+    },
+    {
+      "path": "outputs/maps/A1/07_道路等级与交通结构.pdf",
+      "bytes": 886186,
+      "sha256": "70b2086d9c0f7e49b4a06715cfc26121d8f59242580ce463b80e65ee8f35de2e"
+    },
+    {
+      "path": "outputs/maps/A1/07_道路等级与交通结构.png",
+      "bytes": 2631338,
+      "sha256": "df2319a81eb24b018b32c6c029ea64ec26b1f1cfef986b3de3c0952bbc52a21b"
+    },
+    {
+      "path": "outputs/maps/A1/07_道路等级与交通结构.svg",
+      "bytes": 5074855,
+      "sha256": "3967404f8d345869b6f0ae8baa9dcd7702f9e72cce05210129f4c1bbea38ee08"
+    },
+    {
+      "path": "outputs/maps/A1/08_车行路网密度与节点连通.pdf",
+      "bytes": 709077,
+      "sha256": "160afbfc881f0a1d60ab2069eb32032ea39677826ca8222c2767e32cb2fc9a32"
+    },
+    {
+      "path": "outputs/maps/A1/08_车行路网密度与节点连通.png",
+      "bytes": 365206,
+      "sha256": "519c48f02f56adb849b5d02ea4ef7e53a27093dc0b1a13a54a953ef8443b88ee"
+    },
+    {
+      "path": "outputs/maps/A1/08_车行路网密度与节点连通.svg",
+      "bytes": 2781609,
+      "sha256": "621e78c8a7d107ea9c86a1c3e94a0c2e26b79294d822317ba9365010b27ba478"
+    },
+    {
+      "path": "outputs/maps/A1/09_公共交通接入与步行网络覆盖.pdf",
+      "bytes": 975804,
+      "sha256": "cb83609b56b65e6e0c71c932e3715f457bac945d1b1bc44240669729c5c5cf56"
+    },
+    {
+      "path": "outputs/maps/A1/09_公共交通接入与步行网络覆盖.png",
+      "bytes": 2741538,
+      "sha256": "d2d7dff154475a5ebf5ea3ca0155ede2748c53c430925694a579e18fa67ff6be"
+    },
+    {
+      "path": "outputs/maps/A1/09_公共交通接入与步行网络覆盖.svg",
+      "bytes": 5513853,
+      "sha256": "c6d2917bcddb92bfd85f8aa128380b652dcc4e86bd6a887420d64941a1d4becf"
+    },
+    {
+      "path": "outputs/maps/A1/10_日常服务慢行可达性.pdf",
+      "bytes": 718898,
+      "sha256": "a381dfc77c8c8be91d3753d4fa99aac95afb6093c3733ad139c4099907a467c0"
+    },
+    {
+      "path": "outputs/maps/A1/10_日常服务慢行可达性.png",
+      "bytes": 1853933,
+      "sha256": "2cbf22bd772d069b7f11570ee22c72e6962203c00d98c04ec198023038d8c59d"
+    },
+    {
+      "path": "outputs/maps/A1/10_日常服务慢行可达性.svg",
+      "bytes": 2958399,
+      "sha256": "bfb5b43bd1d6c96a87586f782536f0e394bc5154e06c7280f95b00f9d52e1e7b"
+    },
+    {
+      "path": "outputs/maps/A1/11_商业POI观察密度.pdf",
+      "bytes": 691231,
+      "sha256": "9084f06efc1c85c17f1302acb20245e5ff9ba79ceb07ed955af3b0326ae86638"
+    },
+    {
+      "path": "outputs/maps/A1/11_商业POI观察密度.png",
+      "bytes": 286808,
+      "sha256": "565d1c9a31d9ae5229d279743e4da12b1a10c2e17db82fe51053842c02bc5211"
+    },
+    {
+      "path": "outputs/maps/A1/11_商业POI观察密度.svg",
+      "bytes": 2665878,
+      "sha256": "99d62e77f7a87fb0a64d2cd196f2ef240cb72b223c1d3812f3d6b068434c8332"
+    },
+    {
+      "path": "outputs/maps/A1/12_已映射教育设施步行覆盖.pdf",
+      "bytes": 752124,
+      "sha256": "7a3729fb5690291b62965eb994679e99ecd7aebc7a0b0bf558ccd50a0c912a98"
+    },
+    {
+      "path": "outputs/maps/A1/12_已映射教育设施步行覆盖.png",
+      "bytes": 2001426,
+      "sha256": "0d1f5d257543cd9f1a9d66ea0978b9cf755621a5d9de23e4c218c389d603b452"
+    },
+    {
+      "path": "outputs/maps/A1/12_已映射教育设施步行覆盖.svg",
+      "bytes": 3214963,
+      "sha256": "1b16a9e2499a308e5f73b2d99e885c0ad7f5489fef53107e5dea77577217f1d0"
+    },
+    {
+      "path": "outputs/maps/A1/13_蓝绿空间现状网络.pdf",
+      "bytes": 763435,
+      "sha256": "2b620e590c324097d2d845beabf6b07065d4c73448372a74643535875b64f614"
+    },
+    {
+      "path": "outputs/maps/A1/13_蓝绿空间现状网络.png",
+      "bytes": 1803159,
+      "sha256": "66b7ca77443b80ea84247c08b5c660e94c21f1db4335066a5429257d7dd74b4f"
+    },
+    {
+      "path": "outputs/maps/A1/13_蓝绿空间现状网络.svg",
+      "bytes": 2772527,
+      "sha256": "f856324cb7f9309e6f0c796c102d8cc5c094cc568bc380d595e51311415ea269"
+    },
+    {
+      "path": "outputs/maps/A1/14_公园绿地网络可达性.pdf",
+      "bytes": 861296,
+      "sha256": "fa4e6545c710fc71fbd4797d08ffb2ac1ce6b26d591f78a172ea44067f0f4f23"
+    },
+    {
+      "path": "outputs/maps/A1/14_公园绿地网络可达性.png",
+      "bytes": 2409022,
+      "sha256": "54f2997964ca099564baf2428467f53b98bffb5dc9fdf4438e99ae60a03af606"
+    },
+    {
+      "path": "outputs/maps/A1/14_公园绿地网络可达性.svg",
+      "bytes": 4354589,
+      "sha256": "e59e75530137c5d5abf210e24f7758e06b75e27df12ccc4fa7f9800f39dddcb6"
+    },
+    {
+      "path": "outputs/maps/A1/15_公共环境改善机会研究初筛.pdf",
+      "bytes": 723645,
+      "sha256": "1c4ef3601e97fb2c9d17f72bcfc2319fee558e4989468ef5f92533ce8b8771e4"
+    },
+    {
+      "path": "outputs/maps/A1/15_公共环境改善机会研究初筛.png",
+      "bytes": 316909,
+      "sha256": "2c57570b436ebcd92a351202bffdd68518c87481d0bbae14b20fc08f1cecf39b"
+    },
+    {
+      "path": "outputs/maps/A1/15_公共环境改善机会研究初筛.svg",
+      "bytes": 2994245,
+      "sha256": "e0f8cd585841a5674b4deaa0f8c5534a47db933d6040d987c68c95dabf2a8192"
+    },
+    {
+      "path": "outputs/maps/A1/16_现状数据问题与改善机会.pdf",
+      "bytes": 730334,
+      "sha256": "15f2914e689fe8fad445d7ef78afefd2422e846badc7daa0d9ef929d1ba7c8f8"
+    },
+    {
+      "path": "outputs/maps/A1/16_现状数据问题与改善机会.png",
+      "bytes": 355409,
+      "sha256": "20f2930819bb065e09e85bfa6c7dad6349f97a93db08b4cc7de8558da887c569"
+    },
+    {
+      "path": "outputs/maps/A1/16_现状数据问题与改善机会.svg",
+      "bytes": 3029725,
+      "sha256": "77eb56516ee75533ae41264b2e8b3329280d37992cf66710331759872e2d2ec4"
+    },
+    {
+      "path": "outputs/maps/A1/17_模型人口密度_2020年100米.pdf",
+      "bytes": 731035,
+      "sha256": "cf3c1af44186fa49c40e15c57244d7426336cbe355bcd8e22f241d8d4a426b14"
+    },
+    {
+      "path": "outputs/maps/A1/17_模型人口密度_2020年100米.png",
+      "bytes": 1116019,
+      "sha256": "1d84c064e0b2c593d28bb7d8117d07b7e324f9882f9a695265bef5e174372236"
+    },
+    {
+      "path": "outputs/maps/A1/17_模型人口密度_2020年100米.svg",
+      "bytes": 2964372,
+      "sha256": "675a13d73d937429efeecc288d05e653384637efcdfaf51e76252d4f16fefda3"
+    },
+    {
+      "path": "outputs/maps/A1/18_模型人口密度_2025年约1公里.pdf",
+      "bytes": 681929,
+      "sha256": "e57add29b12f5c9bc5142ad5bbac6f9aedd068d746bca9cdefe7dae80664a041"
+    },
+    {
+      "path": "outputs/maps/A1/18_模型人口密度_2025年约1公里.png",
+      "bytes": 345307,
+      "sha256": "786db24cad767c3ca6ce8e04809c6f994d734da8bbb59360e92c9dbc1782473c"
+    },
+    {
+      "path": "outputs/maps/A1/18_模型人口密度_2025年约1公里.svg",
+      "bytes": 2571185,
+      "sha256": "871e36e633300db3529188d09635147511c711b22e00e46446ca197f7be5ec51"
+    },
+    {
+      "path": "outputs/maps/A1/19_物理地表覆盖_2021年.pdf",
+      "bytes": 119015,
+      "sha256": "450de8ef298021b5da0c0d2fcaa8428dba90e4b33b6e522cd81cc17803ebe86f"
+    },
+    {
+      "path": "outputs/maps/A1/19_物理地表覆盖_2021年.png",
+      "bytes": 332220,
+      "sha256": "6dc2e268984d852033bb74900484d37d8b778e39bdeb5973dd2a91a495f29961"
+    },
+    {
+      "path": "outputs/maps/A1/19_物理地表覆盖_2021年.svg",
+      "bytes": 296591,
+      "sha256": "e1a3377e819ffef08e40fd2a9b7d1aa958d92a8fa22d074c28343f197828142b"
+    },
+    {
+      "path": "outputs/maps/A1/20_夏季植被指数_2026年9月14日.pdf",
+      "bytes": 462389,
+      "sha256": "9564c86900b55901682cd9dbf1fcfb16a3164d570d924785c808635f1019bb70"
+    },
+    {
+      "path": "outputs/maps/A1/20_夏季植被指数_2026年9月14日.png",
+      "bytes": 989034,
+      "sha256": "05820b4c502f37426dc3a5bfba57973a6d0394b42e9f1d78e012f9df1c45c25f"
+    },
+    {
+      "path": "outputs/maps/A1/20_夏季植被指数_2026年9月14日.svg",
+      "bytes": 1142676,
+      "sha256": "0122f73b726c56832c2ee7898189b11f4f06b02b152c41272a280d4573b34dc2"
+    },
+    {
+      "path": "outputs/maps/A1/21_冬季植被指数_2026年2月21日.pdf",
+      "bytes": 470142,
+      "sha256": "4e0fa6beb55cb7cd07b02f02bd3309a09aa0d6edfc740cc4501872e81ab657a8"
+    },
+    {
+      "path": "outputs/maps/A1/21_冬季植被指数_2026年2月21日.png",
+      "bytes": 1011657,
+      "sha256": "9bda2859a10ea107eebc960d5e755cfc80aeb6fab2fbca9de99893fdf038b0bb"
+    },
+    {
+      "path": "outputs/maps/A1/21_冬季植被指数_2026年2月21日.svg",
+      "bytes": 1170304,
+      "sha256": "01a23b5f5ebd0ea7cdb8fd964b3f9abb25ee1324b5383ac094c9dc1c7d6efbb8"
+    },
+    {
+      "path": "outputs/maps/A1/22_夏季卫星地表温度_2026年8月1日.pdf",
+      "bytes": 115936,
+      "sha256": "486fc0bd4564d762b3e26109697edff3c794da435d7e3a9910f78a33ac827fda"
+    },
+    {
+      "path": "outputs/maps/A1/22_夏季卫星地表温度_2026年8月1日.png",
+      "bytes": 295706,
+      "sha256": "3bd53dfeab8cf4921be752d03326284ab4d2931e1c355ee6065f003825b11159"
+    },
+    {
+      "path": "outputs/maps/A1/22_夏季卫星地表温度_2026年8月1日.svg",
+      "bytes": 240858,
+      "sha256": "32f257927073a590309769eaf405f56f0a6597b4b4186a10873d4fbaa8108323"
+    },
+    {
+      "path": "outputs/maps/A1/23_表面高程_2021年约30米.pdf",
+      "bytes": 157418,
+      "sha256": "80cbaa3745b26f5a25ff3828d1b7e274e8159965aa8ee6a1e18b7da9a17fa30d"
+    },
+    {
+      "path": "outputs/maps/A1/23_表面高程_2021年约30米.png",
+      "bytes": 377824,
+      "sha256": "17567583f9dc79bac6a2b336fe8dda17111b65ee5d9bcec5956f2dc342978636"
+    },
+    {
+      "path": "outputs/maps/A1/23_表面高程_2021年约30米.svg",
+      "bytes": 345557,
+      "sha256": "abf10373b545cdcb4781deed0e86e5631ce755a11b1d5e5aeb59cf2fd7014de6"
+    },
+    {
+      "path": "outputs/maps/A1/24_夏季水体光谱指数.pdf",
+      "bytes": 439138,
+      "sha256": "d329644b43752d234e0dffc30daa2dc5e350f97cccf25105f46d98702532f0ca"
+    },
+    {
+      "path": "outputs/maps/A1/24_夏季水体光谱指数.png",
+      "bytes": 928484,
+      "sha256": "1df1a266e9cf0829c192f2dd942d0f9c88ca8cadf6da4a4975d6c2588e2ba305"
+    },
+    {
+      "path": "outputs/maps/A1/24_夏季水体光谱指数.svg",
+      "bytes": 1062036,
+      "sha256": "87f1bc08d4bc7872ba11b2b530675e1341a122605e8131208de95c0428bbfa98"
+    },
+    {
+      "path": "outputs/maps/A1/25_夏季建成光谱指数.pdf",
+      "bytes": 201554,
+      "sha256": "88f1a8f7747572c6aa369db05059581ce589796604bc48fc2dac5144045cb098"
+    },
+    {
+      "path": "outputs/maps/A1/25_夏季建成光谱指数.png",
+      "bytes": 464033,
+      "sha256": "989a641e4ddb69d3b7ac36c28c877f6aa4722c99e40344c0ddb41cbfe176562e"
+    },
+    {
+      "path": "outputs/maps/A1/25_夏季建成光谱指数.svg",
+      "bytes": 451346,
+      "sha256": "12a46edaa704e26fa8d62f87d9f5829a2b00d024be7051ea66d82a2c7c7e2533"
+    },
+    {
+      "path": "outputs/maps/A1/26_历史物理地表覆盖_2019年.pdf",
+      "bytes": 86986,
+      "sha256": "11a8f143d62ec159baa5857fb5e870110a120ff4abff8b440ba7c6abba0877ab"
+    },
+    {
+      "path": "outputs/maps/A1/26_历史物理地表覆盖_2019年.png",
+      "bytes": 280734,
+      "sha256": "961f58c2275c9b7b91b54442b6867ea981ebbc8de602b939029f188f85695bae"
+    },
+    {
+      "path": "outputs/maps/A1/26_历史物理地表覆盖_2019年.svg",
+      "bytes": 234529,
+      "sha256": "36c7ce98528d1c4169e2be6b72f853d4849da72f05d47f0aa5eac3ed11ef5a62"
+    },
+    {
+      "path": "outputs/maps/A1/27_历史水面观测频率_1984—2021.pdf",
+      "bytes": 96748,
+      "sha256": "c6fd217e1cd3611ee55715d929310fd10d93c0ec73ea32f0222a892789d47ee6"
+    },
+    {
+      "path": "outputs/maps/A1/27_历史水面观测频率_1984—2021.png",
+      "bytes": 286075,
+      "sha256": "3d4615515cc272b600990cc87c14b59faab46d0623bcac1f4e6acb93cf681d22"
+    },
+    {
+      "path": "outputs/maps/A1/27_历史水面观测频率_1984—2021.svg",
+      "bytes": 232975,
+      "sha256": "d0b81db2f9820cb0dc33d0f3994fee96324b897da78ab023a0ac153f9e896306"
+    },
+    {
+      "path": "outputs/maps/A1/28_冬夏植被指数季节差_2026年.pdf",
+      "bytes": 454528,
+      "sha256": "71cce8d369dcff0709b154dfd1ef749f558bc090524ec67fad56c254f2a57fc8"
+    },
+    {
+      "path": "outputs/maps/A1/28_冬夏植被指数季节差_2026年.png",
+      "bytes": 1033604,
+      "sha256": "023e832c445c954118155a4ac0f3464d3c830c131e0e88165339695c88da159b"
+    },
+    {
+      "path": "outputs/maps/A1/28_冬夏植被指数季节差_2026年.svg",
+      "bytes": 1194006,
+      "sha256": "bd60a210570c766c765079a8e77d6d14c1cbb5295ce231c59395c18bb4190e8b"
+    },
+    {
+      "path": "outputs/maps/A1/R01_建筑基底覆盖率_100米.pdf",
+      "bytes": 739416,
+      "sha256": "9b0dfc94106052b5ed95d0270cb31a7d32ca4e8c5085ec5d3f186ac2cd70b2f7"
+    },
+    {
+      "path": "outputs/maps/A1/R01_建筑基底覆盖率_100米.png",
+      "bytes": 278443,
+      "sha256": "1f9bb3a039b5d0771b8bc0d3eba27cef0f557c55510035f3d1f9a8d510e8537b"
+    },
+    {
+      "path": "outputs/maps/A1/R01_建筑基底覆盖率_100米.svg",
+      "bytes": 2989809,
+      "sha256": "c91010d0df342eec2bb212368ed9cac8be20404431cd3c856a47d36d5bc2081f"
+    },
+    {
+      "path": "outputs/maps/A1/R02_估高建筑体量代理_100米.pdf",
+      "bytes": 736353,
+      "sha256": "1e57366bb0d62ac470a7afe3a07cb64bbe77120453d7019d38ed2d681968756e"
+    },
+    {
+      "path": "outputs/maps/A1/R02_估高建筑体量代理_100米.png",
+      "bytes": 272151,
+      "sha256": "e5cb23a7a0bd8bd1a439c43031f2d8134b3caaa97538ab7392da9d778866b8f6"
+    },
+    {
+      "path": "outputs/maps/A1/R02_估高建筑体量代理_100米.svg",
+      "bytes": 2986303,
+      "sha256": "baf2400abeab7b839dec06426900c32fc2d88556248e4be7023bb0e38b50ae1e"
+    },
+    {
+      "path": "outputs/maps/A1/R03_已映射土地功能混合_200米.pdf",
+      "bytes": 725935,
+      "sha256": "f826777c61d8276b80feffc22add67189231c0076614ee5856655643be0dbf2d"
+    },
+    {
+      "path": "outputs/maps/A1/R03_已映射土地功能混合_200米.png",
+      "bytes": 302669,
+      "sha256": "fe4b50315d0e9b11720b553042acbf24848f84508342e292c92351225316971a"
+    },
+    {
+      "path": "outputs/maps/A1/R03_已映射土地功能混合_200米.svg",
+      "bytes": 2719166,
+      "sha256": "1a461012951bb5e19399a8efc545e055bf7c7755341fc2d9d8b06369a0b46db9"
+    },
+    {
+      "path": "outputs/maps/A1/R04_车行路网与真实节点_200米.pdf",
+      "bytes": 721327,
+      "sha256": "8837158b64310bf9f8bde2d53e7a25afba78f6566d63c12b4d19906a53773a73"
+    },
+    {
+      "path": "outputs/maps/A1/R04_车行路网与真实节点_200米.png",
+      "bytes": 312934,
+      "sha256": "a2bc4e2093a568ff1890a98c1eb7bc1058cbdbe8b301e89f8995d76fb9314ccf"
+    },
+    {
+      "path": "outputs/maps/A1/R04_车行路网与真实节点_200米.svg",
+      "bytes": 2730014,
+      "sha256": "f6d8c5ffcc324dcb0b3949ec73d6b95e01c7a027037ad68c978b312bfdeffb95"
+    },
+    {
+      "path": "outputs/maps/A1/R05_商业观察密度_200米.pdf",
+      "bytes": 722398,
+      "sha256": "d2f96458b167ed828338c7a188aab5b3fec84c892481dc3c6de1b2bf2d4e3fad"
+    },
+    {
+      "path": "outputs/maps/A1/R05_商业观察密度_200米.png",
+      "bytes": 301680,
+      "sha256": "bd5433b3568a44ff5d43c774aab64fb863389d0beb92d9ad1360a6d87c1d57e5"
+    },
+    {
+      "path": "outputs/maps/A1/R05_商业观察密度_200米.svg",
+      "bytes": 2711616,
+      "sha256": "0cdbb99108983b0b0f486b46eda4f7c86d50d0104e80f1c6d5d00d8d6873ed14"
+    },
+    {
+      "path": "outputs/maps/A1/R06_公共环境改善机会_100米.pdf",
+      "bytes": 743163,
+      "sha256": "2fcfb94f1491a1008d8e9669ae68f7f73fd6676b5ebba9b6e21902186eed174a"
+    },
+    {
+      "path": "outputs/maps/A1/R06_公共环境改善机会_100米.png",
+      "bytes": 297241,
+      "sha256": "b294f23d5f60dcbe849a3b5f458ee57d8fa0093c7db14fe6c2cc49e853762e37"
+    },
+    {
+      "path": "outputs/maps/A1/R06_公共环境改善机会_100米.svg",
+      "bytes": 3001198,
+      "sha256": "627598824a1ee12a29a24abd85d25f5c867cf883c05bf691cbc7421b745e5e8e"
+    },
+    {
+      "path": "outputs/maps/A1/R07_数据问题与改善机会_100米.pdf",
+      "bytes": 748272,
+      "sha256": "93d1e378ef41c314774cb267663e3ce00580a6843624e3bb80ca4284adb451d0"
+    },
+    {
+      "path": "outputs/maps/A1/R07_数据问题与改善机会_100米.png",
+      "bytes": 307579,
+      "sha256": "0366989d2ff5b10f3ba1f432af9762977a24f9d9eacef3c1a43efa3a928b90de"
+    },
+    {
+      "path": "outputs/maps/A1/R07_数据问题与改善机会_100米.svg",
+      "bytes": 3038223,
+      "sha256": "bdbe1a85c784ca3d691faecef0df0e374c116880e4593a6175ebf39c63879650"
+    },
+    {
+      "path": "outputs/maps/A1/R08_2025模型人口_原生约1公里.pdf",
+      "bytes": 745412,
+      "sha256": "6f9cf6aaf89c7f91691771480fe7b0723b857c5aaf9f2cc87b63467768e112e5"
+    },
+    {
+      "path": "outputs/maps/A1/R08_2025模型人口_原生约1公里.png",
+      "bytes": 1691125,
+      "sha256": "f319f0f96b01abcfc1977c87367c678872adeb16a8980e55f69b3b89b9552d0f"
+    },
+    {
+      "path": "outputs/maps/A1/R08_2025模型人口_原生约1公里.svg",
+      "bytes": 3113380,
+      "sha256": "ee8705ea7bbc4373660e98db4bc4a7d52a03a074eed280f9d79267e036686f58"
+    },
+    {
+      "path": "outputs/maps/A1/S01_研究区卫星影像总览.pdf",
+      "bytes": 1110506,
+      "sha256": "af811834d3fbc23eea02d5496960129b150ce99d854182b373d9b1ebc6e54b52"
+    },
+    {
+      "path": "outputs/maps/A1/S01_研究区卫星影像总览.png",
+      "bytes": 1388328,
+      "sha256": "3b6468b91eeae3c2d46b0164bd057f44d73e216ba44a8cf348c117f25177ddd5"
+    },
+    {
+      "path": "outputs/maps/A1/S01_研究区卫星影像总览.svg",
+      "bytes": 1644695,
+      "sha256": "298f2aa3ffb14a2dc38f5e7f7b1332db27f53da0eb5927aa27d67810edc1bb1e"
+    },
+    {
+      "path": "outputs/maps/A1/S02_核心设计区卫星现状.pdf",
+      "bytes": 276540,
+      "sha256": "fdd3a6148c503b53c4642995d801c5d8f5f32266755d9b9aacd33b125896c4a7"
+    },
+    {
+      "path": "outputs/maps/A1/S02_核心设计区卫星现状.png",
+      "bytes": 513370,
+      "sha256": "a8aeed71dd9cbbd518fa49f27abcb4da82d754b6dcae0bee359e670dfc554581"
+    },
+    {
+      "path": "outputs/maps/A1/S02_核心设计区卫星现状.svg",
+      "bytes": 495180,
+      "sha256": "d0d09d645c80fbbb3ec986f74781563e7d4ab35c6de6c629a41c750f854a09ca"
+    },
+    {
+      "path": "outputs/maps/A1/S03_卫星影像与城市综合空间.pdf",
+      "bytes": 2013383,
+      "sha256": "a8d671e30d938a8b409662121bb5661e1223d38cec169c7d5f14542b359254c9"
+    },
+    {
+      "path": "outputs/maps/A1/S03_卫星影像与城市综合空间.png",
+      "bytes": 4329235,
+      "sha256": "45dd662b44674d6fd99a8c2abcb4fd39bc24c8d39e54900ea25c09744eeceba1"
+    },
+    {
+      "path": "outputs/maps/A1/S03_卫星影像与城市综合空间.svg",
+      "bytes": 8065115,
+      "sha256": "a5e7484d40104178f431c00b5819b3c95482dcd94a808813ab2e7831f00f47d7"
+    },
+    {
+      "path": "outputs/maps/A3_review/01_现状土地功能分类.pdf",
+      "bytes": 807129,
+      "sha256": "2325092554ec2a917dd7341ceb3d6c3c59c5ba1b9b5f15551d66cb0954f7b2ee"
+    },
+    {
+      "path": "outputs/maps/A3_review/02_建筑密度分析.pdf",
+      "bytes": 721136,
+      "sha256": "1e0d7f6f8221aa453d4deb61dfe76818b94cae765e5dc196372ba1f98ede2c27"
+    },
+    {
+      "path": "outputs/maps/A3_review/03_建筑高度分布_全部含估算.pdf",
+      "bytes": 1313914,
+      "sha256": "2f1dd5f1a4097ec9f07e64851f339a316a84888103757252779c57c820d29de9"
+    },
+    {
+      "path": "outputs/maps/A3_review/04_建筑体量强度代理.pdf",
+      "bytes": 718470,
+      "sha256": "182f1983100092ce64de48e939b4caa399a470c83f9f7865ad40ab6d72b09618"
+    },
+    {
+      "path": "outputs/maps/A3_review/05_城市肌理与图底关系.pdf",
+      "bytes": 687029,
+      "sha256": "4d121cf5e05fd9ecb4d563cdee67d13158c745b3df22f65eeced8dc2512447d4"
+    },
+    {
+      "path": "outputs/maps/A3_review/06_已映射土地功能面积混合度.pdf",
+      "bytes": 702167,
+      "sha256": "ff41d33762203da9049d6f6b4571098abff963df5a81d40422c627201818c7b4"
+    },
+    {
+      "path": "outputs/maps/A3_review/07_道路等级与交通结构.pdf",
+      "bytes": 888172,
+      "sha256": "e791ac076c50531d15df88592cfae51323ccbc950edfb0464135e09b759d5e24"
+    },
+    {
+      "path": "outputs/maps/A3_review/08_车行路网密度与节点连通.pdf",
+      "bytes": 715622,
+      "sha256": "17f5e8d3f2b84974d5b1848fc516a671ae93cdceeab18daeb6ec3f95a87a09b8"
+    },
+    {
+      "path": "outputs/maps/A3_review/09_公共交通接入与步行网络覆盖.pdf",
+      "bytes": 974245,
+      "sha256": "f34f495c7643bbdeda400b57f4f330be4fe2257e12f2f51f3a14e9b3425250fc"
+    },
+    {
+      "path": "outputs/maps/A3_review/10_日常服务慢行可达性.pdf",
+      "bytes": 724302,
+      "sha256": "789533ca77832ad3821f3a4f5300294acfadf667021d52fccfd33171c5f9e018"
+    },
+    {
+      "path": "outputs/maps/A3_review/11_商业POI观察密度.pdf",
+      "bytes": 698102,
+      "sha256": "09498e5b583d9b72d1717c35435ab79bae1339ccc56d6a0592112c3ed50a8cbe"
+    },
+    {
+      "path": "outputs/maps/A3_review/12_已映射教育设施步行覆盖.pdf",
+      "bytes": 757507,
+      "sha256": "461aa4029c0fa88a389f8cb7653a71e6885eea59986704d9de8952bb8bf08197"
+    },
+    {
+      "path": "outputs/maps/A3_review/13_蓝绿空间现状网络.pdf",
+      "bytes": 767039,
+      "sha256": "af618dc34ddb90cf7dd5da191f88d8f74e92c3819fe0a9a3c69d2794f551d446"
+    },
+    {
+      "path": "outputs/maps/A3_review/14_公园绿地网络可达性.pdf",
+      "bytes": 863405,
+      "sha256": "ebf429299510486b1959e98e577ffb87805189ed6f631905adc586c12439c8e4"
+    },
+    {
+      "path": "outputs/maps/A3_review/15_公共环境改善机会研究初筛.pdf",
+      "bytes": 729780,
+      "sha256": "a8b75ca1d3041dd53bc338a400cddb779c8d27e289ee3132108ea9f045357b6e"
+    },
+    {
+      "path": "outputs/maps/A3_review/16_现状数据问题与改善机会.pdf",
+      "bytes": 736394,
+      "sha256": "022283b0611f154f9035448deb371a857c26cd79a6f57cbe6bad1e967ef1b42a"
+    },
+    {
+      "path": "outputs/maps/A3_review/17_模型人口密度_2020年100米.pdf",
+      "bytes": 736177,
+      "sha256": "2f57f5a14b94868d46db9d7446382a64badb1435169f74031a5d693e39871e41"
+    },
+    {
+      "path": "outputs/maps/A3_review/18_模型人口密度_2025年约1公里.pdf",
+      "bytes": 688823,
+      "sha256": "236dc35badd5e4104bce85c1c37521c453c11b33e13d89c0ab9e29007f10f37c"
+    },
+    {
+      "path": "outputs/maps/A3_review/19_物理地表覆盖_2021年.pdf",
+      "bytes": 99831,
+      "sha256": "91dad9c906c2b23bed5278a492eb6e99838850fdc7df508ab2b2755b17072873"
+    },
+    {
+      "path": "outputs/maps/A3_review/20_夏季植被指数_2026年9月14日.pdf",
+      "bytes": 437382,
+      "sha256": "618d6db29b30dbde034104bbe19e3907bb1c47dee4d1c45d691eef8429709a2b"
+    },
+    {
+      "path": "outputs/maps/A3_review/21_冬季植被指数_2026年2月21日.pdf",
+      "bytes": 438436,
+      "sha256": "df2754989e9f6780f5c935ea0c1e64001f5fba0313f6f7ec1d9ec5f868d6c7d0"
+    },
+    {
+      "path": "outputs/maps/A3_review/22_夏季卫星地表温度_2026年8月1日.pdf",
+      "bytes": 81377,
+      "sha256": "ce11f28899347073c879d4847fcf1b9c272102baf66d93bc24b876cef0bd028e"
+    },
+    {
+      "path": "outputs/maps/A3_review/23_表面高程_2021年约30米.pdf",
+      "bytes": 118100,
+      "sha256": "493a0972f5f2cebb2639525ba52d624ca79bc216fe51d42bd0fbadfdc451fa83"
+    },
+    {
+      "path": "outputs/maps/A3_review/24_夏季水体光谱指数.pdf",
+      "bytes": 386960,
+      "sha256": "914a0be0f5d378854410795a268391fb31cf80513e048112a8a636545efe4efa"
+    },
+    {
+      "path": "outputs/maps/A3_review/25_夏季建成光谱指数.pdf",
+      "bytes": 155799,
+      "sha256": "5913785293e7f3112e4538e1012c1bc55c1fa29bfa9999c242b209bd5657251e"
+    },
+    {
+      "path": "outputs/maps/A3_review/26_历史物理地表覆盖_2019年.pdf",
+      "bytes": 75588,
+      "sha256": "30f6bb1b4d950b29997aa82a32cf2ca9ce71b015c6d893a2a99a668790185d8c"
+    },
+    {
+      "path": "outputs/maps/A3_review/27_历史水面观测频率_1984—2021.pdf",
+      "bytes": 75127,
+      "sha256": "0f7c5f98f7f6197a3189ecb63b0ddee3f40d7d94dd1814d0810bc66ea904019c"
+    },
+    {
+      "path": "outputs/maps/A3_review/28_冬夏植被指数季节差_2026年.pdf",
+      "bytes": 414549,
+      "sha256": "4e470ff36a4db3d92f6bd6bf931f5033c0d361622ffade01b6f0eaa3f3b27653"
+    },
+    {
+      "path": "outputs/maps/A3_review/R01_建筑基底覆盖率_100米.pdf",
+      "bytes": 743662,
+      "sha256": "70ea5b1553a257041310d1b87cf05a4fd669fb6c80026f912a524bf27f9e09c6"
+    },
+    {
+      "path": "outputs/maps/A3_review/R02_估高建筑体量代理_100米.pdf",
+      "bytes": 740837,
+      "sha256": "6a5c959d6c041888e452659c50de76e66b0e3c1e1e9ab03e2773ef88966175b5"
+    },
+    {
+      "path": "outputs/maps/A3_review/R03_已映射土地功能混合_200米.pdf",
+      "bytes": 731059,
+      "sha256": "01b59038c87a9bdab5c1197fb15a165a6e587c41fbc483efb33fb6a2d73fc3a8"
+    },
+    {
+      "path": "outputs/maps/A3_review/R04_车行路网与真实节点_200米.pdf",
+      "bytes": 726468,
+      "sha256": "9ab3bdb00234dc5f5a0553984235022d31b00781e75a7b8548d494cdaa5106e3"
+    },
+    {
+      "path": "outputs/maps/A3_review/R05_商业观察密度_200米.pdf",
+      "bytes": 727320,
+      "sha256": "30e629c51bca6fb078954e28b2ac3d7f4bb0a90025ea04d1a68e8919ea055749"
+    },
+    {
+      "path": "outputs/maps/A3_review/R06_公共环境改善机会_100米.pdf",
+      "bytes": 747679,
+      "sha256": "3479134b65902a1950526d3941e48c566fbaf53abd82c0041eeed4bd4b9ecb24"
+    },
+    {
+      "path": "outputs/maps/A3_review/R07_数据问题与改善机会_100米.pdf",
+      "bytes": 752627,
+      "sha256": "110d4430597c22c04051573a1bfef8b523b83f2ade541945aa3daac39a761fcc"
+    },
+    {
+      "path": "outputs/maps/A3_review/R08_2025模型人口_原生约1公里.pdf",
+      "bytes": 700516,
+      "sha256": "5c3fb4a9b1bc7a5309d1a9fe36924b6fb3faf5c6627ddf9b1583ef279a5704c2"
+    },
+    {
+      "path": "outputs/maps/A3_review/S01_研究区卫星影像总览.pdf",
+      "bytes": 992308,
+      "sha256": "9b390b54e6cdce5ffbf035d6b20a61b895ce8ea70e91245d46e3bfc89599d15a"
+    },
+    {
+      "path": "outputs/maps/A3_review/S02_核心设计区卫星现状.pdf",
+      "bytes": 240448,
+      "sha256": "f6a092c5f697cb8d77d8e8b6dbf286705a458e795ca789f83261b627c28334b3"
+    },
+    {
+      "path": "outputs/maps/A3_review/S03_卫星影像与城市综合空间.pdf",
+      "bytes": 1901522,
+      "sha256": "9140c2d277165634e2b8f59745a7cde692121e0400b8044d0fb247780123b1c8"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R01_建筑基底覆盖率_100米.pdf",
+      "bytes": 739416,
+      "sha256": "9b0dfc94106052b5ed95d0270cb31a7d32ca4e8c5085ec5d3f186ac2cd70b2f7"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R01_建筑基底覆盖率_100米.png",
+      "bytes": 278443,
+      "sha256": "1f9bb3a039b5d0771b8bc0d3eba27cef0f557c55510035f3d1f9a8d510e8537b"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R01_建筑基底覆盖率_100米.svg",
+      "bytes": 2989809,
+      "sha256": "c91010d0df342eec2bb212368ed9cac8be20404431cd3c856a47d36d5bc2081f"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R02_估高建筑体量代理_100米.pdf",
+      "bytes": 736353,
+      "sha256": "1e57366bb0d62ac470a7afe3a07cb64bbe77120453d7019d38ed2d681968756e"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R02_估高建筑体量代理_100米.png",
+      "bytes": 272151,
+      "sha256": "e5cb23a7a0bd8bd1a439c43031f2d8134b3caaa97538ab7392da9d778866b8f6"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R02_估高建筑体量代理_100米.svg",
+      "bytes": 2986303,
+      "sha256": "baf2400abeab7b839dec06426900c32fc2d88556248e4be7023bb0e38b50ae1e"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R03_已映射土地功能混合_200米.pdf",
+      "bytes": 725935,
+      "sha256": "f826777c61d8276b80feffc22add67189231c0076614ee5856655643be0dbf2d"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R03_已映射土地功能混合_200米.png",
+      "bytes": 302669,
+      "sha256": "fe4b50315d0e9b11720b553042acbf24848f84508342e292c92351225316971a"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R03_已映射土地功能混合_200米.svg",
+      "bytes": 2719166,
+      "sha256": "1a461012951bb5e19399a8efc545e055bf7c7755341fc2d9d8b06369a0b46db9"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R04_车行路网与真实节点_200米.pdf",
+      "bytes": 721327,
+      "sha256": "8837158b64310bf9f8bde2d53e7a25afba78f6566d63c12b4d19906a53773a73"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R04_车行路网与真实节点_200米.png",
+      "bytes": 312934,
+      "sha256": "a2bc4e2093a568ff1890a98c1eb7bc1058cbdbe8b301e89f8995d76fb9314ccf"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R04_车行路网与真实节点_200米.svg",
+      "bytes": 2730014,
+      "sha256": "f6d8c5ffcc324dcb0b3949ec73d6b95e01c7a027037ad68c978b312bfdeffb95"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R05_商业观察密度_200米.pdf",
+      "bytes": 722398,
+      "sha256": "d2f96458b167ed828338c7a188aab5b3fec84c892481dc3c6de1b2bf2d4e3fad"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R05_商业观察密度_200米.png",
+      "bytes": 301680,
+      "sha256": "bd5433b3568a44ff5d43c774aab64fb863389d0beb92d9ad1360a6d87c1d57e5"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R05_商业观察密度_200米.svg",
+      "bytes": 2711616,
+      "sha256": "0cdbb99108983b0b0f486b46eda4f7c86d50d0104e80f1c6d5d00d8d6873ed14"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R06_公共环境改善机会_100米.pdf",
+      "bytes": 743163,
+      "sha256": "2fcfb94f1491a1008d8e9669ae68f7f73fd6676b5ebba9b6e21902186eed174a"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R06_公共环境改善机会_100米.png",
+      "bytes": 297241,
+      "sha256": "b294f23d5f60dcbe849a3b5f458ee57d8fa0093c7db14fe6c2cc49e853762e37"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R06_公共环境改善机会_100米.svg",
+      "bytes": 3001198,
+      "sha256": "627598824a1ee12a29a24abd85d25f5c867cf883c05bf691cbc7421b745e5e8e"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R07_数据问题与改善机会_100米.pdf",
+      "bytes": 748272,
+      "sha256": "93d1e378ef41c314774cb267663e3ce00580a6843624e3bb80ca4284adb451d0"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R07_数据问题与改善机会_100米.png",
+      "bytes": 307579,
+      "sha256": "0366989d2ff5b10f3ba1f432af9762977a24f9d9eacef3c1a43efa3a928b90de"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R07_数据问题与改善机会_100米.svg",
+      "bytes": 3038223,
+      "sha256": "bdbe1a85c784ca3d691faecef0df0e374c116880e4593a6175ebf39c63879650"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R08_2025模型人口_原生约1公里.pdf",
+      "bytes": 745412,
+      "sha256": "6f9cf6aaf89c7f91691771480fe7b0723b857c5aaf9f2cc87b63467768e112e5"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R08_2025模型人口_原生约1公里.png",
+      "bytes": 1691125,
+      "sha256": "f319f0f96b01abcfc1977c87367c678872adeb16a8980e55f69b3b89b9552d0f"
+    },
+    {
+      "path": "outputs/maps/refined_analysis/R08_2025模型人口_原生约1公里.svg",
+      "bytes": 3113380,
+      "sha256": "ee8705ea7bbc4373660e98db4bc4a7d52a03a074eed280f9d79267e036686f58"
+    },
+    {
+      "path": "outputs/maps/satellite/S01_研究区卫星影像总览.pdf",
+      "bytes": 1110506,
+      "sha256": "af811834d3fbc23eea02d5496960129b150ce99d854182b373d9b1ebc6e54b52"
+    },
+    {
+      "path": "outputs/maps/satellite/S01_研究区卫星影像总览.png",
+      "bytes": 1388328,
+      "sha256": "3b6468b91eeae3c2d46b0164bd057f44d73e216ba44a8cf348c117f25177ddd5"
+    },
+    {
+      "path": "outputs/maps/satellite/S01_研究区卫星影像总览.svg",
+      "bytes": 1644695,
+      "sha256": "298f2aa3ffb14a2dc38f5e7f7b1332db27f53da0eb5927aa27d67810edc1bb1e"
+    },
+    {
+      "path": "outputs/maps/satellite/S02_核心设计区卫星现状.pdf",
+      "bytes": 276540,
+      "sha256": "fdd3a6148c503b53c4642995d801c5d8f5f32266755d9b9aacd33b125896c4a7"
+    },
+    {
+      "path": "outputs/maps/satellite/S02_核心设计区卫星现状.png",
+      "bytes": 513370,
+      "sha256": "a8aeed71dd9cbbd518fa49f27abcb4da82d754b6dcae0bee359e670dfc554581"
+    },
+    {
+      "path": "outputs/maps/satellite/S02_核心设计区卫星现状.svg",
+      "bytes": 495180,
+      "sha256": "d0d09d645c80fbbb3ec986f74781563e7d4ab35c6de6c629a41c750f854a09ca"
+    },
+    {
+      "path": "outputs/maps/satellite/S03_卫星影像与城市综合空间.pdf",
+      "bytes": 2013383,
+      "sha256": "a8d671e30d938a8b409662121bb5661e1223d38cec169c7d5f14542b359254c9"
+    },
+    {
+      "path": "outputs/maps/satellite/S03_卫星影像与城市综合空间.png",
+      "bytes": 4329235,
+      "sha256": "45dd662b44674d6fd99a8c2abcb4fd39bc24c8d39e54900ea25c09744eeceba1"
+    },
+    {
+      "path": "outputs/maps/satellite/S03_卫星影像与城市综合空间.svg",
+      "bytes": 8065115,
+      "sha256": "a5e7484d40104178f431c00b5819b3c95482dcd94a808813ab2e7831f00f47d7"
+    },
+    {
+      "path": "outputs/previews/INDEX_V3.png",
+      "bytes": 3357044,
+      "sha256": "13167317b656da05f0fe4ebf1ae3924e75ee561c17619e43634c3a3ab03cb176"
+    },
+    {
+      "path": "outputs/previews/QGIS_native_02.png",
+      "bytes": 255826,
+      "sha256": "731a5ae9ece9b9a6d52e320f5231fc52c2dbf168584e8191640c3847e9f2784b"
+    },
+    {
+      "path": "outputs/previews/QGIS_native_R01.png",
+      "bytes": 184056,
+      "sha256": "456c648fe30841cf3f8d22cedfcadc846104c04b34c80dd8ed6b206d8d6272b7"
+    },
+    {
+      "path": "outputs/previews/QGIS_native_S02.png",
+      "bytes": 334048,
+      "sha256": "939acfdcd839275fb2e40a5dd77eb553e215e03a7b177ecbbaa8bfc2e1bede7d"
+    },
+    {
+      "path": "outputs/previews/QGIS_native_S03.png",
+      "bytes": 2731997,
+      "sha256": "02b474b48d340b27ac660716667d767565ecf9b22a0c77c66ef9640180681d0b"
+    },
+    {
+      "path": "outputs/previews/QGIS_vector_satellite_removed.png",
+      "bytes": 221996,
+      "sha256": "ae4832486cf958d5435b0b4be2c796b3b42a6ec9300a4e705e0524580bc15782"
+    },
+    {
+      "path": "outputs/previews/satellite_vector_registration.png",
+      "bytes": 557579,
+      "sha256": "74eff0a09057bcbe8ca40170f12f9f023ca7244a737bd9366e2147a611c96f4c"
+    },
+    {
+      "path": "outputs/qgis/planning_analysis_v3.qgz",
+      "bytes": 705949,
+      "sha256": "6113636fc30c58c769fd7c9a1694746c1d8ecee33947f72fd6c0f9747bcfdc63"
+    },
+    {
+      "path": "outputs/qgis/planning_analysis_v3_imagery_diagnostic.qgz",
+      "bytes": 705985,
+      "sha256": "30eec39ed355247348133047968619ebb30f68018f37d2e563ee4f81c7438124"
+    },
+    {
+      "path": "reports/PR_BODY.md",
+      "bytes": 1524,
+      "sha256": "b9af4ed61197464ec557b8ea458fad09d352491b2e2bda28a41bd1ab08f1a4a4"
+    },
+    {
+      "path": "reports/baseline_execution.log",
+      "bytes": 45,
+      "sha256": "3b9cf63f1a3502e79d8555f964088d70820d9119138a2be6fc237f7d3df44608"
+    },
+    {
+      "path": "reports/color_quality_checks.json",
+      "bytes": 6924,
+      "sha256": "eb633b08a6ee1184dcfaf8a3098dd063412c678f143f8bf1979f9882b2ff1447"
+    },
+    {
+      "path": "reports/comparisons_execution.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/delivery_summary_v3.md",
+      "bytes": 5928,
+      "sha256": "dd3c95540c83e67c2ec0a1a0cef368dc97062695ed2629e177e64b994ff9f9f1"
+    },
+    {
+      "path": "reports/design_boundary_geometry_repair.json",
+      "bytes": 375,
+      "sha256": "0715d232c227411ad128bc3db06d2386bf0b218fb7723ff6f4ab5e989cf19ba9"
+    },
+    {
+      "path": "reports/design_boundary_search.json",
+      "bytes": 506,
+      "sha256": "8a4ac8af6785f4d00f2400757d7c55469b77c6f68ba1fce0052a588a7dd2937f"
+    },
+    {
+      "path": "reports/design_boundary_validation.json",
+      "bytes": 1377,
+      "sha256": "02e2aeb19e11a8e82abce20b903d03af69b6299846b97f7cb150db1f25a9744e"
+    },
+    {
+      "path": "reports/design_scale_sensitivity.csv",
+      "bytes": 967,
+      "sha256": "8acf8e7cc2ba909d23321fdc991a8d9df4c8780a253492e6a29308d057584147"
+    },
+    {
+      "path": "reports/final_qa_v3.json",
+      "bytes": 3543,
+      "sha256": "cf4a35cfea5e3418365e46ba46a792f6dcab4496c946847ef7c22c938a4c1540"
+    },
+    {
+      "path": "reports/function_inference_sensitivity.csv",
+      "bytes": 869,
+      "sha256": "543e11e3fde2bcf1b1ad12532226f08b38f183773c79cc920f9124dfae67bcf8"
+    },
+    {
+      "path": "reports/functional_coverage_threshold_sensitivity.csv",
+      "bytes": 208,
+      "sha256": "d334a62af68cc83d176df5f0464402a3473eb763c4019d7c5da72f947a71535d"
+    },
+    {
+      "path": "reports/github_api_check.json",
+      "bytes": 411,
+      "sha256": "a854a11172bd5c7a9026e59364f8eff347ae8b658a7b7ae1f03ee89d7430f9df"
+    },
+    {
+      "path": "reports/grid_conservation_checks.json",
+      "bytes": 933,
+      "sha256": "efcf3ccc1026cb1fc567601a1c60e56efdf8752e80874ae80c0d7cdc1da72081"
+    },
+    {
+      "path": "reports/grid_method.json",
+      "bytes": 670,
+      "sha256": "0f36b522ee46b5850a54fedeadb9d9c7cefeb97784b5892aff716a4d9f85d9a4"
+    },
+    {
+      "path": "reports/indicator_scale_selection.json",
+      "bytes": 1525,
+      "sha256": "8bbf2f017daf5347339b26d1df1b6c113b443191cc91ec2a3714427f06cdbb27"
+    },
+    {
+      "path": "reports/kde_bandwidth_sensitivity.csv",
+      "bytes": 557,
+      "sha256": "414480e42651d40253214b32e8eb331c11890fb79a0f31739c3cbd73ae4cb370"
+    },
+    {
+      "path": "reports/map_01.json",
+      "bytes": 1403,
+      "sha256": "9f9f3faa2a49d1b7acf10f27533a63de73041e68cddcb700b327014a0761171d"
+    },
+    {
+      "path": "reports/map_02.json",
+      "bytes": 1609,
+      "sha256": "0513425a3ccc46d07ad3d74b259d1a598d0d11aa7d8f71f1f434061336af0f04"
+    },
+    {
+      "path": "reports/map_03.json",
+      "bytes": 1372,
+      "sha256": "a142230f72556f04abed29e6b64ceb511a764fe0e618bbfe3e0ee921157d89b5"
+    },
+    {
+      "path": "reports/map_04.json",
+      "bytes": 1626,
+      "sha256": "6af85204d190070fa5a0f497f79d1ab7e2cc81f47aa57101b07cdf937ce28fe4"
+    },
+    {
+      "path": "reports/map_05.json",
+      "bytes": 1320,
+      "sha256": "780940c01e7039700d0d72d63aa14403407b50c8da0273cb9b0cc5c02d592be0"
+    },
+    {
+      "path": "reports/map_06.json",
+      "bytes": 1702,
+      "sha256": "07b1cb01fc954ea5de9c8c352221e6fc73d99f412eec2905e14fa6688698be11"
+    },
+    {
+      "path": "reports/map_07.json",
+      "bytes": 1357,
+      "sha256": "1ca61955e96e637c24daba92b1b081b3d1a8e49f360b904cc2888cc8eb74db66"
+    },
+    {
+      "path": "reports/map_08.json",
+      "bytes": 1582,
+      "sha256": "8a64a4ab3392793b3d67885ddb5f88e7f176e3a805b5bcc98b1c01ac1ccbc610"
+    },
+    {
+      "path": "reports/map_09.json",
+      "bytes": 1437,
+      "sha256": "c1cf95b00233f702225f3fd5a4e9bc8490a7ed0de90995b6ab2bfb60e1c8dac6"
+    },
+    {
+      "path": "reports/map_10.json",
+      "bytes": 1397,
+      "sha256": "a3c606582f3f03bb076b86d6fdc1a725d9fada0ee8b6690633ef22796fed365f"
+    },
+    {
+      "path": "reports/map_11.json",
+      "bytes": 1592,
+      "sha256": "71c777dda4e60860a59ed051af55f286d60ebb2f8d5c5b734ed2bd87b3ad3afd"
+    },
+    {
+      "path": "reports/map_12.json",
+      "bytes": 1441,
+      "sha256": "0a752c66435e7113dfc1abccd4cffc3c5618236f6176e938ba9fec35234d0809"
+    },
+    {
+      "path": "reports/map_13.json",
+      "bytes": 1326,
+      "sha256": "5571db2f62fbd7b75c8a8454a93124688d2f583561ae9dd9a8bfba3579610d75"
+    },
+    {
+      "path": "reports/map_14.json",
+      "bytes": 1417,
+      "sha256": "8e59cfa1d1d94d79f2442efec8cd199617e675be64c9c0e7e5856af716bb2e0c"
+    },
+    {
+      "path": "reports/map_15.json",
+      "bytes": 1730,
+      "sha256": "b4fc215187a7cd21c8b89e50c72781db98c501606c065c33099a0dbe8a1180f0"
+    },
+    {
+      "path": "reports/map_16.json",
+      "bytes": 1698,
+      "sha256": "336cdfc8d352aafa6244f9d33b7f5a7775abcc62c961a560413e8d6eaa4368c6"
+    },
+    {
+      "path": "reports/map_17.json",
+      "bytes": 1617,
+      "sha256": "9275acb8e12f5268b1416ff3cb1b0782f0fbc98af54360925fb5a497ccddb477"
+    },
+    {
+      "path": "reports/map_18.json",
+      "bytes": 1660,
+      "sha256": "55416fd1cf054fa3d94a88cdae83273393acfcc1230153a77a48359359e44976"
+    },
+    {
+      "path": "reports/map_19.json",
+      "bytes": 1962,
+      "sha256": "e0594f06e3f351751a3ded66008c036d1f14c4d49233d97d12b24c03f5c76066"
+    },
+    {
+      "path": "reports/map_20.json",
+      "bytes": 1489,
+      "sha256": "028dc8fb31d3dac113af9d6b3670d8cc1e71eef002a653e44c9c445fe6e485f3"
+    },
+    {
+      "path": "reports/map_21.json",
+      "bytes": 1480,
+      "sha256": "1e148dd60871d4e9fcf3899b2fd439cc69aad59448b10b4cddadd64514b6854b"
+    },
+    {
+      "path": "reports/map_22.json",
+      "bytes": 1561,
+      "sha256": "afa96996c943207c66e9752bab03ec1725208e6fcda99c9533a5052351225c65"
+    },
+    {
+      "path": "reports/map_23.json",
+      "bytes": 1496,
+      "sha256": "ebb900927e28945e5b3fc84ff15bc580290aa9bd4dda47fa4d448e233d772f7c"
+    },
+    {
+      "path": "reports/map_24.json",
+      "bytes": 1451,
+      "sha256": "7ee0ec9f1dfc6f69ee3aca38b77b549a8fc620ed0b44c6255c3033d3139e6438"
+    },
+    {
+      "path": "reports/map_25.json",
+      "bytes": 1450,
+      "sha256": "71e2d019abf13b907e745bfab2335a5baf702d527b98456373df2502ffefcae9"
+    },
+    {
+      "path": "reports/map_26.json",
+      "bytes": 1963,
+      "sha256": "6fa318a4fad09d1147c6e51b3a76a9a9fb0fddad374585e6a7d99406cd005c5b"
+    },
+    {
+      "path": "reports/map_27.json",
+      "bytes": 1536,
+      "sha256": "3a781c0f94f015d38806328ecc70288630138b8a23b89ed3dc21293ba55c6efa"
+    },
+    {
+      "path": "reports/map_28.json",
+      "bytes": 1552,
+      "sha256": "cf810ef010ffd44d70be8579049b2ba07ff2bc774dc630d4bee696b92d3982db"
+    },
+    {
+      "path": "reports/map_R01.json",
+      "bytes": 1397,
+      "sha256": "c9cc6e2c48f82d21a268aca307af92fce1d442b8d8e6ac54473ede652687e8f4"
+    },
+    {
+      "path": "reports/map_R02.json",
+      "bytes": 1391,
+      "sha256": "75a03008e373bf9a86e63fe2e6e3de7fc2972c0b8dd292bdfb7bc03673c1a2d7"
+    },
+    {
+      "path": "reports/map_R03.json",
+      "bytes": 1544,
+      "sha256": "5cdafa33019d177c63fa6c12a3794d5859bf14d0cb9c6b846edd94c5ac54201c"
+    },
+    {
+      "path": "reports/map_R04.json",
+      "bytes": 1437,
+      "sha256": "97648f7e675d7d97dfe3824b229ec16e11e76f7ea995b575db1efe9a49a9f986"
+    },
+    {
+      "path": "reports/map_R05.json",
+      "bytes": 1489,
+      "sha256": "db882525cc33913fd020fb48695cb618c180396af7ccd16e94834dcc714d9483"
+    },
+    {
+      "path": "reports/map_R06.json",
+      "bytes": 1459,
+      "sha256": "045568c1c38095ec55a5d8cbfbf0e436e75206c378e9aa337210515821b281d5"
+    },
+    {
+      "path": "reports/map_R07.json",
+      "bytes": 1459,
+      "sha256": "3fb56880696709a74f7d5101b6c026acf7f6d1d2945f084860a4361859a99d1d"
+    },
+    {
+      "path": "reports/map_R08.json",
+      "bytes": 1491,
+      "sha256": "2d7a32efa1e0d735ea16709b7d711c1bb875f55b60be731d661b48b8106b6444"
+    },
+    {
+      "path": "reports/map_S01.json",
+      "bytes": 1218,
+      "sha256": "899893e3d14f4a859ce2f24861ec20e2df96453312591d2741441836d5a2aeed"
+    },
+    {
+      "path": "reports/map_S02.json",
+      "bytes": 1228,
+      "sha256": "c4d962aa98176ea16040a30faddf71300d34bc3e6395d4129ee0fe3d201321c6"
+    },
+    {
+      "path": "reports/map_S03.json",
+      "bytes": 1253,
+      "sha256": "636b7ca08067f798fd2255f772a7354c8f06638c8b947b7e6e894d1bc2615403"
+    },
+    {
+      "path": "reports/map_catalog_v3.csv",
+      "bytes": 38417,
+      "sha256": "c300ed217dc4f2fdf98c18edf29ffc19fa2f9f56f7b2652de30a357248b1264b"
+    },
+    {
+      "path": "reports/map_catalog_v3.json",
+      "bytes": 63622,
+      "sha256": "651827c357c3189ca0a188cd10cc4a08d737023775146cbbcd58202f67441cb2"
+    },
+    {
+      "path": "reports/map_export_validation_v3.csv",
+      "bytes": 4038,
+      "sha256": "deb53a7142fd4527a00d0a3b75ef3b40450f6fdf9897b108dcdaf4a598ee968b"
+    },
+    {
+      "path": "reports/maps_execution.log",
+      "bytes": 284,
+      "sha256": "5bcbc015069375c85e2bf6a776ea1e06f6d6d673f9fd3e2c0fbd827ff4953106"
+    },
+    {
+      "path": "reports/multiscale_execution.log",
+      "bytes": 229,
+      "sha256": "0777153bbb34ac825904aca565a83d588c86f5d8ec1e44cd85caed58d76c1ce0"
+    },
+    {
+      "path": "reports/output_layer_inventory_v3.csv",
+      "bytes": 4994,
+      "sha256": "20915bc75557908f17f0be689d9688962216234d337fbc18d846787417d92ee2"
+    },
+    {
+      "path": "reports/place_label_overlap_review.csv",
+      "bytes": 35,
+      "sha256": "1b0103decab22a444657865e59c3e9dd42f5529f8ce1236ca8b38709c3c9b67a"
+    },
+    {
+      "path": "reports/protected_v2_baseline.csv",
+      "bytes": 134731,
+      "sha256": "dd6a3934feda22f7b8ba42d583aeecc13f51ca27b1fad7889fd8ae9c2c654874"
+    },
+    {
+      "path": "reports/protected_v2_verification.csv",
+      "bytes": 203313,
+      "sha256": "7d2e9211dc3e5477a8b4244bf3c1ee4ae82762785b8f810776a9ad5f364d147d"
+    },
+    {
+      "path": "reports/qa_execution.log",
+      "bytes": 40,
+      "sha256": "f1de2050f7725ff9579729f6bd4777cb08eb4edaeaa683a8b7c5afcdcb8b1af4"
+    },
+    {
+      "path": "reports/qgis_execution.log",
+      "bytes": 20221,
+      "sha256": "785f4364480d60711c5d17790502d8f540904cc9a35186644e74e7c896e7bf04"
+    },
+    {
+      "path": "reports/qgis_validation_v3.json",
+      "bytes": 12662,
+      "sha256": "da592056e2edd429ac252d087b88eb8791ffcec2e217d5c29a646e0348d50215"
+    },
+    {
+      "path": "reports/reference_copy_content_checks.json",
+      "bytes": 789,
+      "sha256": "6f5a00521320404ffe99193e24dbb534c526027d16e70dd39b5c9477258895a8"
+    },
+    {
+      "path": "reports/registration_check.json",
+      "bytes": 425,
+      "sha256": "69b8c3e37fc7f5cd9bdd38ba5a75c24ce86265270292fb774f727767c01ce27a"
+    },
+    {
+      "path": "reports/registration_review_locations.csv",
+      "bytes": 2764,
+      "sha256": "9d0be6ef4a887797207968b2924d6c877f08ff2124407d75b861f1799fd569d1"
+    },
+    {
+      "path": "reports/resume_status.txt",
+      "bytes": 487,
+      "sha256": "b3ae3f26151acab4d926a867dec829ce99468b4bffc7aa73313354eaacdd36eb"
+    },
+    {
+      "path": "reports/satellite_execution.log",
+      "bytes": 1314,
+      "sha256": "13630860b307c51a25d0f3613cf89c3e6cce806e78bfa853496f509b04938e74"
+    },
+    {
+      "path": "reports/satellite_provenance.json",
+      "bytes": 2603,
+      "sha256": "b8fcf4f9c1d507b2302914f599332c0a54a63a8f35a038875ce8a92ca09da3bb"
+    },
+    {
+      "path": "reports/satellite_source_discovery.json",
+      "bytes": 565,
+      "sha256": "374eeb6a605f3188c31e47e5ce73f9a2ac67c7ca96456c4ab7461324f938dd7c"
+    },
+    {
+      "path": "reports/scale_sensitivity.csv",
+      "bytes": 2951,
+      "sha256": "09f8b057ebc8fc5a146b543435f86bd35032e012be349d7d2de86e583c9a4ec0"
+    },
+    {
+      "path": "reports/scale_stability_vs_v2.csv",
+      "bytes": 1405,
+      "sha256": "c89fa615f5353858f7a70c5f53d2b927559b3318e636214fa43392cc92df5557"
+    },
+    {
+      "path": "reports/styles_execution.log",
+      "bytes": 477,
+      "sha256": "3c9ff8e0f2c4fc59be64e0e3adfffa61f15abbb8b18dd04abfee1a17fd962a10"
+    },
+    {
+      "path": "reports/task_instruction_V3.md",
+      "bytes": 21840,
+      "sha256": "3fd3d27142f374d5bacb9dee0eda6f7fa1126a295bbd335d5fbafd616d7dcf42"
+    },
+    {
+      "path": "requirements-cloud.txt",
+      "bytes": 936,
+      "sha256": "687f8766da548982fb85f93c559d0ef9ca37e7b941ef20ba0a5539580d0e68e3"
+    },
+    {
+      "path": "scripts/01_baseline.py",
+      "bytes": 2426,
+      "sha256": "e5fc572e8010a0472e749994a85de77d4a42efe8de9b7acd0b46eb3279d0d56d"
+    },
+    {
+      "path": "scripts/02_design_boundary.py",
+      "bytes": 3192,
+      "sha256": "91626b48fbace095cb292af04c455921d8d07468811d36db3f1b4a68235ba2af"
+    },
+    {
+      "path": "scripts/03_satellite.py",
+      "bytes": 6033,
+      "sha256": "fe9a21040a9088fe5aa5257ba94ff488cf51729548c354e88f1f4964849d9fd5"
+    },
+    {
+      "path": "scripts/04_multiscale.py",
+      "bytes": 9829,
+      "sha256": "05fbbd267e8a1e56291fd8cebba92ee2a111e68b2960a81657eae33aa9f4597e"
+    },
+    {
+      "path": "scripts/05_styles.py",
+      "bytes": 5267,
+      "sha256": "b4f6810daab8e203121fff26e3c51ae2610b77d9964b722a44c0b3c58ff20a39"
+    },
+    {
+      "path": "scripts/06_maps.py",
+      "bytes": 20275,
+      "sha256": "4816e7eb371627be58c238f58379367e9c143535ffa6044ca155a7a8328b1e55"
+    },
+    {
+      "path": "scripts/07_checks_comparisons.py",
+      "bytes": 8022,
+      "sha256": "33515fda3b245d82a56c926f7a5900a32f0dd9462a4a596e91dd132e648f6119"
+    },
+    {
+      "path": "scripts/08_qgis_project.py",
+      "bytes": 16400,
+      "sha256": "0ddea80a80cd056619637d5c10a2d677ac7b29d408420bb4261778cee48659b5"
+    },
+    {
+      "path": "scripts/09_qa.py",
+      "bytes": 10011,
+      "sha256": "fbfaf5e7e4bd85f1f31ed5244f7d7ada7bce06c2c7fa019b4d9b8ff4dbe44372"
+    },
+    {
+      "path": "scripts/10_reports.py",
+      "bytes": 8878,
+      "sha256": "1679d199178cd001ef87c6234c22aa2b94464509bcaa8c97d4c252342fbc6535"
+    },
+    {
+      "path": "scripts/11_package.py",
+      "bytes": 4792,
+      "sha256": "e5fe8e65c03d19e1ecccc1316107ccd4e044966e908330fb83e6977f6b87d919"
+    },
+    {
+      "path": "scripts/12_index.py",
+      "bytes": 2880,
+      "sha256": "ea1bd45e0f2773d59ec7a355699807d3f21d9413580b1f233517eb225e73251a"
+    },
+    {
+      "path": "scripts/common.py",
+      "bytes": 1281,
+      "sha256": "504366b9f08c160343e1a773f8ecf29c17656ed6252185fe1ed67c97ce07dcb2"
+    },
+    {
+      "path": "scripts/create_pull_request.py",
+      "bytes": 1478,
+      "sha256": "9bc30c62a386cc354b1ccccc9de939a316a131551bd60adf8849910a12292c7b"
+    },
+    {
+      "path": "scripts/run_pipeline.py",
+      "bytes": 1589,
+      "sha256": "1fa12d58b9b2c4768b9990bc59d1200ccc57c33347356fc07d5cac0391b1bb6f"
+    },
+    {
+      "path": "scripts/verify_delivery.py",
+      "bytes": 585,
+      "sha256": "46baa3b6e879545bbe899163d2fcdf3d2d03db0f077f385eec4f602644bdb377"
+    },
+    {
+      "path": "state/baseline.json",
+      "bytes": 167,
+      "sha256": "a1db37284a9890dff2436541f437934762a22e482991715cdab097a37d85249c"
+    },
+    {
+      "path": "state/comparisons.json",
+      "bytes": 133,
+      "sha256": "a05003f81792084f4a2b2297ca9dff536be863b28a87a40dbd28b572829fb14a"
+    },
+    {
+      "path": "state/design_boundary.json",
+      "bytes": 118,
+      "sha256": "e1daa6b35d8dbd5579897f65c75363a7368531a67e1772dfbbcec2f741e30136"
+    },
+    {
+      "path": "state/grid_100.json",
+      "bytes": 118,
+      "sha256": "6b17825847a48918dfcec7cd0cbfe3861adf5f96ef701132a9f2da4a4f4f6675"
+    },
+    {
+      "path": "state/grid_200.json",
+      "bytes": 117,
+      "sha256": "4049462f06cc1d1dd435890bcea21b59e84c58b703d262548bb795ae5b1d562b"
+    },
+    {
+      "path": "state/grid_50.json",
+      "bytes": 119,
+      "sha256": "0edf2dec27032eb3886b5a0f04b06983671bd0c25fad2c57eac89ed7d31c36b5"
+    },
+    {
+      "path": "state/maps.json",
+      "bytes": 109,
+      "sha256": "233907097cc6a66931bb9b816fa5ef5891b8221b2de9d3d3e2e021ef30ba8f2b"
+    },
+    {
+      "path": "state/qa.json",
+      "bytes": 125,
+      "sha256": "92eecf8720e28309be457bafd54035787c03bf5ebdeb32c2ce1e5ca9b5837d15"
+    },
+    {
+      "path": "state/satellite.json",
+      "bytes": 124,
+      "sha256": "c650b9790dd973f34b0980effe2e23f43f0e5d8a644d87b89170830186434d91"
+    },
+    {
+      "path": "state/styles.json",
+      "bytes": 91,
+      "sha256": "c1d01501fe49f283a222162605e68549c855cc0ce7a456828727a50bb9d0c342"
+    },
+    {
+      "path": "styles/01_v3.qml",
+      "bytes": 34701,
+      "sha256": "51ed6161c3c86a8a7edfba0ace3de3edbdf5748535aaf7658cf6ddd73980e29b"
+    },
+    {
+      "path": "styles/02_v3.qml",
+      "bytes": 49901,
+      "sha256": "20415927d1dc77dd2cf07272b76071f419f2dd2da1b477a7eda43cd88f8a2058"
+    },
+    {
+      "path": "styles/03_v3.qml",
+      "bytes": 44266,
+      "sha256": "2b8e00da0081394e1b412718f70236f32528264544f9f71ca494a0d1a4e5c0ec"
+    },
+    {
+      "path": "styles/04_v3.qml",
+      "bytes": 49845,
+      "sha256": "7af4b288ff04199283a1b97a1957684549eac5c8904dda9d0c234e4af1a0cd5f"
+    },
+    {
+      "path": "styles/05_v3.qml",
+      "bytes": 34113,
+      "sha256": "d66612e7d35206050356e7d0b9224c2def89fe13aa9085ab38fba851003f47a4"
+    },
+    {
+      "path": "styles/06_v3.qml",
+      "bytes": 49953,
+      "sha256": "5150df446184545ff0413ad238ef1c5d64b7f9d0335a5835bde21eeff29ee125"
+    },
+    {
+      "path": "styles/07_v3.qml",
+      "bytes": 44781,
+      "sha256": "13aca5964f584144933847c33c9d665f824d7402dc4f9f0a8d98ca071e7e392c"
+    },
+    {
+      "path": "styles/08_v3.qml",
+      "bytes": 49961,
+      "sha256": "58b660847292a76e213373afce2a72596d370759c96563b4bcdcfd250f31cc19"
+    },
+    {
+      "path": "styles/09_v3.qml",
+      "bytes": 24085,
+      "sha256": "7055cbf2ffa7e2210cbe7499fe2ba0af1d8377bdfc72918017b97f8a8a2ffa3d"
+    },
+    {
+      "path": "styles/10_v3.qml",
+      "bytes": 24095,
+      "sha256": "30c88e09ff97efe48987f82c70680afc615c92bcfbdcea10ad383540f06df464"
+    },
+    {
+      "path": "styles/11_v3.qml",
+      "bytes": 49895,
+      "sha256": "a0fbee97cc1978b8e73c84528324427cefaa13fd10170259cb95bf4a85af4f4b"
+    },
+    {
+      "path": "styles/12_v3.qml",
+      "bytes": 24095,
+      "sha256": "e9334229b68b97198bce929e3d06adf88d7cf0f1481f56406c83b378be681764"
+    },
+    {
+      "path": "styles/13_v3.qml",
+      "bytes": 25354,
+      "sha256": "df8e8410250abc5a976387d21a6a9cac0c0dfa45d7fe14057fa733128dd3c478"
+    },
+    {
+      "path": "styles/14_v3.qml",
+      "bytes": 24090,
+      "sha256": "6581f9576fdddcc334301feb97ce4528381b18af3f7148d57deac7c01d24b0e2"
+    },
+    {
+      "path": "styles/15_v3.qml",
+      "bytes": 50007,
+      "sha256": "504c29fc045722dd621ca45ab1ff7349e2ca2e758e58d1af52b276b8d01db202"
+    },
+    {
+      "path": "styles/16_v3.qml",
+      "bytes": 50002,
+      "sha256": "79b73f820d33444d0cb7862457552422d36bc47732d8b5f3b6b3dc8a434d92ad"
+    },
+    {
+      "path": "styles/17_v3.qml",
+      "bytes": 27641,
+      "sha256": "f2bd3de01098fdba69dbcbbd0b90cfe8629bdabe1f7af233ba4f3f9e6f54d7c1"
+    },
+    {
+      "path": "styles/18_v3.qml",
+      "bytes": 27641,
+      "sha256": "2b3f21814fa551089c3ba5701d6519407cd815e126baa4054e46e274baf91f30"
+    },
+    {
+      "path": "styles/19_v3.qml",
+      "bytes": 8200,
+      "sha256": "384a41261438c724af30b65919401140769b283249b59b5f50311186fedb252e"
+    },
+    {
+      "path": "styles/20_v3.qml",
+      "bytes": 8709,
+      "sha256": "5e3d0917dffaaf7056bf0c3551618ee2873b5d6f3ee3c6f0ea9c9b68c00d1339"
+    },
+    {
+      "path": "styles/21_v3.qml",
+      "bytes": 8707,
+      "sha256": "52c5f03e059eab46534f1a4f58c4fa8528cbe5405876b215792e7246fe49730e"
+    },
+    {
+      "path": "styles/22_v3.qml",
+      "bytes": 8774,
+      "sha256": "8f0475ea4734c59497c32bc11791797eb69b0555545b90ebe102d861439d1833"
+    },
+    {
+      "path": "styles/23_v3.qml",
+      "bytes": 8779,
+      "sha256": "3ea37990699b8d08d59a74fe666e021be8a957ccdfcef993e67c28926872d787"
+    },
+    {
+      "path": "styles/24_v3.qml",
+      "bytes": 8705,
+      "sha256": "5e7fbfd57c1fbeb9662138bd97e5173fec810dba4ac32040ccc762d154087676"
+    },
+    {
+      "path": "styles/25_v3.qml",
+      "bytes": 8701,
+      "sha256": "549fdd87e7b25fb21f6ad2aa530c54c946b1fb8c264d503eb2f7508c7ed3ed5c"
+    },
+    {
+      "path": "styles/26_v3.qml",
+      "bytes": 8028,
+      "sha256": "5021ce475a8e535e65ec9de5697251affa7cce014933a177e6cb9a7a834251b8"
+    },
+    {
+      "path": "styles/27_v3.qml",
+      "bytes": 8689,
+      "sha256": "1b17199a5bf103877489798613ef9a036cf56cdd485c89f78927523e826e31e1"
+    },
+    {
+      "path": "styles/28_v3.qml",
+      "bytes": 8707,
+      "sha256": "2c1ce8eeeae0c9719cb22d0b80fbba8161e76d9b84df37accf25192506a78d3d"
+    },
+    {
+      "path": "styles/COLOR_STYLE_SYSTEM.json",
+      "bytes": 4793,
+      "sha256": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb289532"
+    },
+    {
+      "path": "styles/COLOR_STYLE_SYSTEM.md",
+      "bytes": 515,
+      "sha256": "3fedd216e63941e93ac7aa507ac785e794f1965c0cad1d3ab548484eeab96665"
+    },
+    {
+      "path": "styles/R01_v3.qml",
+      "bytes": 49901,
+      "sha256": "20415927d1dc77dd2cf07272b76071f419f2dd2da1b477a7eda43cd88f8a2058"
+    },
+    {
+      "path": "styles/R02_v3.qml",
+      "bytes": 49845,
+      "sha256": "7af4b288ff04199283a1b97a1957684549eac5c8904dda9d0c234e4af1a0cd5f"
+    },
+    {
+      "path": "styles/R03_v3.qml",
+      "bytes": 49953,
+      "sha256": "5150df446184545ff0413ad238ef1c5d64b7f9d0335a5835bde21eeff29ee125"
+    },
+    {
+      "path": "styles/R04_v3.qml",
+      "bytes": 49961,
+      "sha256": "58b660847292a76e213373afce2a72596d370759c96563b4bcdcfd250f31cc19"
+    },
+    {
+      "path": "styles/R05_v3.qml",
+      "bytes": 49895,
+      "sha256": "a0fbee97cc1978b8e73c84528324427cefaa13fd10170259cb95bf4a85af4f4b"
+    },
+    {
+      "path": "styles/R06_v3.qml",
+      "bytes": 50007,
+      "sha256": "504c29fc045722dd621ca45ab1ff7349e2ca2e758e58d1af52b276b8d01db202"
+    },
+    {
+      "path": "styles/R07_v3.qml",
+      "bytes": 50002,
+      "sha256": "79b73f820d33444d0cb7862457552422d36bc47732d8b5f3b6b3dc8a434d92ad"
+    },
+    {
+      "path": "styles/R08_v3.qml",
+      "bytes": 27642,
+      "sha256": "4d1aad1220466b7bd8f0be15d28072eab866bdad2d1ace0077a9f6aad5f16bcd"
+    },
+    {
+      "path": "styles/S01_v3.qml",
+      "bytes": 7325,
+      "sha256": "fa50d1ea14bf8b839c202339dc2a38086798fdc8e4c11dc24aaae10595eef32e"
+    },
+    {
+      "path": "styles/S02_v3.qml",
+      "bytes": 7325,
+      "sha256": "fa50d1ea14bf8b839c202339dc2a38086798fdc8e4c11dc24aaae10595eef32e"
+    },
+    {
+      "path": "styles/S03_v3.qml",
+      "bytes": 7328,
+      "sha256": "55931a949ce5eaafaeda18a45edaf98cca6da46ff718d11298a6668af63ec09a"
+    }
+  ],
+  "imagery_repair": {
+    "date": "2026-10-29",
+    "branch": "planning-v3-imagery-repair-20261029",
+    "source_resolution_m": 10,
+    "high_resolution_replacement_complete": false,
+    "baseline_windows_prepared": 3,
+    "new_old_comparisons_completed": 0,
+    "formal_HD_maps_exported": 0,
+    "display_patch_verified": true,
+    "blocker": "Source-specific Esri license verification pending access to www.arcgis.com and goto.arcgisonline.com; no actual imagery acquired",
+    "candidate_core_GSD_metadata_m": 0.34,
+    "candidate_core_capture_date": "2025-04-07",
+    "candidate_metadata_footprint_coverage_fraction": 1.0,
+    "position_accuracy_metadata_m": 8.47,
+    "runtime_revision": "13"
+  }
+}
