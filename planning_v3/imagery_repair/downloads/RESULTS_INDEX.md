@@ -17,3 +17,5 @@
 三个上海主机现已放行，实际返回网站防护403或上游TLS校验失败503。Esri来源REST/查询可用；专属许可链接需新增www.arcgis.com、goto.arcgisonline.com，两个域名已保存到环境草稿，需要在环境设置保存并发布后复测。不抓瓦片、不购买、不提取应用密钥、不用AI造细节。
 
 分支planning-v3-imagery-repair-20261029，PR基线为planning-v3-cartography-20261028。实际PR状态见github_delivery_status.json，未自动合并任何分支。
+
+草稿PR已实际创建：[PR #1](https://github.com/yijunw811-sketch/shanghai-city-model/pull/1)。未合并；高清图像获取与验收仍未完成。

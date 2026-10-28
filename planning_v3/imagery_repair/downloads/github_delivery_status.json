@@ -2,10 +2,15 @@
   "branch": "planning-v3-imagery-repair-20261029",
   "base": "planning-v3-cartography-20261028",
   "main_not_merged": true,
-  "PR_created": false,
+  "PR_created": true,
   "response": "Post \"https://api.github.com/graphql\": Forbidden",
   "create_entry_not_existing_PR": "https://github.com/yijunw811-sketch/shanghai-city-model/compare/planning-v3-cartography-20261028...planning-v3-imagery-repair-20261029?expand=1",
   "high_resolution_replacement_complete": false,
   "runtime_policy_revision": "8",
-  "needed_domains_not_applied": true
+  "needed_domains_not_applied": true,
+  "PR_url": "https://github.com/yijunw811-sketch/shanghai-city-model/pull/1",
+  "PR_is_draft": true,
+  "PR_error": null,
+  "runtime_revision": "13",
+  "candidate_core_GSD_metadata_m": 0.34
 }
