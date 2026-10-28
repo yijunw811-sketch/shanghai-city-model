@@ -1,0 +1,10 @@
+{
+  "branch": "planning-v3-cartography-20261028",
+  "base": "main",
+  "main_not_merged": true,
+  "returncode": 1,
+  "status": "blocked_API_access",
+  "output": "Post \"https://api.github.com/graphql\": Forbidden",
+  "create_PR_entry_not_existing_PR": "https://github.com/yijunw811-sketch/shanghai-city-model/compare/main...planning-v3-cartography-20261028?expand=1&title=GIS+V3%EF%BC%9A%E7%9C%9F%E5%AE%9E%E5%8D%AB%E6%98%9F%E3%80%8166.0948%E5%85%AC%E9%A1%B7%E8%AE%BE%E8%AE%A1%E8%BE%B9%E7%95%8C%E4%B8%8E%E5%A4%9A%E5%B0%BA%E5%BA%A6%E5%88%B6%E5%9B%BE%E5%8D%87%E7%BA%A7&body=GIS+V3%EF%BC%9A39%E5%BC%A0%E5%9B%BE%E3%80%8166.0948ha%E7%9C%9F%E5%AE%9E%E8%AE%BE%E8%AE%A1%E7%BA%BF%E3%80%8110m%E5%8D%AB%E6%98%9F%E3%80%81%E5%A4%9A%E5%B0%BA%E5%BA%A6%E7%BB%9F%E8%AE%A1%E3%80%82%E6%AD%A3%E6%96%87%E8%A7%81planning_v3%2Freports%2FPR_BODY.md%EF%BC%9B%E4%B8%8B%E8%BD%BD%E8%A7%81planning_v3%2Fdownloads%2FRESULTS_INDEX.md%E3%80%82",
+  "full_PR_body": "planning_v3/reports/PR_BODY.md"
+}

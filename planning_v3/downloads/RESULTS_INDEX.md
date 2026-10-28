@@ -22,3 +22,11 @@
 独立分支：planning-v3-cartography-20261028。实际PR创建状态见 [github_delivery_status.json](github_delivery_status.json)；若API仍Forbidden，不宣称PR已经建立。PR正文已准备在 [PR_BODY.md](../reports/PR_BODY.md)，不自动合并main。
 
 © OpenStreetMap contributors（ODbL）/ Overture及各源许可保留；Contains modified Copernicus Sentinel data (2026)。
+
+## PR实际状态
+
+四个ZIP均已上传本独立分支，远端下载返回206且ZIP文件头与长度核验通过；main仍为abea6f3，未合并。
+
+实际PR创建返回：Post https://api.github.com/graphql: Forbidden。目前没有已经创建的PR编号或链接。允许api.github.com的环境配置草稿已保存，需在环境设置应用后才可重试自动创建；未索取或提取代理令牌。
+
+[打开已预填的PR创建入口（这不是已经建立的PR）](https://github.com/yijunw811-sketch/shanghai-city-model/compare/main...planning-v3-cartography-20261028?expand=1&title=GIS+V3%EF%BC%9A%E7%9C%9F%E5%AE%9E%E5%8D%AB%E6%98%9F%E3%80%8166.0948%E5%85%AC%E9%A1%B7%E8%AE%BE%E8%AE%A1%E8%BE%B9%E7%95%8C%E4%B8%8E%E5%A4%9A%E5%B0%BA%E5%BA%A6%E5%88%B6%E5%9B%BE%E5%8D%87%E7%BA%A7&body=GIS+V3%EF%BC%9A39%E5%BC%A0%E5%9B%BE%E3%80%8166.0948ha%E7%9C%9F%E5%AE%9E%E8%AE%BE%E8%AE%A1%E7%BA%BF%E3%80%8110m%E5%8D%AB%E6%98%9F%E3%80%81%E5%A4%9A%E5%B0%BA%E5%BA%A6%E7%BB%9F%E8%AE%A1%E3%80%82%E6%AD%A3%E6%96%87%E8%A7%81planning_v3%2Freports%2FPR_BODY.md%EF%BC%9B%E4%B8%8B%E8%BD%BD%E8%A7%81planning_v3%2Fdownloads%2FRESULTS_INDEX.md%E3%80%82)。完整正文在PR_BODY.md，访问恢复后可运行python planning_v3/scripts/create_pull_request.py。

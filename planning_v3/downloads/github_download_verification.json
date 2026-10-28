@@ -1,0 +1,35 @@
+{
+  "remote_main_unchanged": true,
+  "main_commit": "abea6f332ba64eca89717c0a4c3cf2c5b705b4f1",
+  "branch": "planning-v3-cartography-20261028",
+  "download_checks": [
+    {
+      "file": "shanghai-planning-v3-01-core-gis-project.zip",
+      "status": 206,
+      "ZIP_magic_verified": true,
+      "content_range": "bytes 0-3/43562405",
+      "expected_bytes": 43562405
+    },
+    {
+      "file": "shanghai-planning-v3-02-regional-maps-01-14.zip",
+      "status": 206,
+      "ZIP_magic_verified": true,
+      "content_range": "bytes 0-3/53639289",
+      "expected_bytes": 53639289
+    },
+    {
+      "file": "shanghai-planning-v3-03-regional-maps-15-28.zip",
+      "status": 206,
+      "ZIP_magic_verified": true,
+      "content_range": "bytes 0-3/23930287",
+      "expected_bytes": 23930287
+    },
+    {
+      "file": "shanghai-planning-v3-04-satellite-refined-comparisons.zip",
+      "status": 206,
+      "ZIP_magic_verified": true,
+      "content_range": "bytes 0-3/73767538",
+      "expected_bytes": 73767538
+    }
+  ]
+}
