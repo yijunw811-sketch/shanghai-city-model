@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-28 Asia/Shanghai",
+  "protected_files": 992,
+  "all_V2_and_old_model_files_unchanged": true,
+  "reference_GPKG_data_pages_exactly_match_V2": true,
+  "reference_header_differences": [
+    {
+      "file": "reference_v2.gpkg",
+      "different_header_offsets": [
+        27,
+        95,
+        98,
+        99
+      ],
+      "all_data_pages_SHA256_identical": true,
+      "data_pages_sha256": "3efb945067329329337832d64fc4d4191606a912e6acb2e72d2bc304200dcbe6",
+      "note": "Only runtime SQLite change counter/version fields may differ; all source geometry/attributes/index pages identical"
+    },
+    {
+      "file": "reference_analysis_v2.gpkg",
+      "different_header_offsets": [
+        27,
+        95,
+        98,
+        99
+      ],
+      "all_data_pages_SHA256_identical": true,
+      "data_pages_sha256": "69aba438ca411062a569d633d4094274a1a2d83945c4bdd4910f2ae741a4c3a2",
+      "note": "Only runtime SQLite change counter/version fields may differ; all source geometry/attributes/index pages identical"
+    }
+  ],
+  "spatial_tables_readback": 83,
+  "invalid_geometries": 0,
+  "design_area_ha": 66.09476494989632,
+  "source_boundary_repair": "0.000714m2 self-crossing closing sliver removed; original CSV unchanged",
+  "grid_checks": [
+    {
+      "size_m": 50,
+      "units": 1555,
+      "design_units": 318,
+      "scope_area_m2": 3652269.536334055,
+      "covered_area_m2": 3652269.535869275,
+      "design_area_m2": 660947.6494989801,
+      "footprint_conservation_error_m2": 0.0004649708280339837,
+      "known_function_low_coverage_mask_verified": true
+    },
+    {
+      "size_m": 100,
+      "units": 2300,
+      "design_units": 92,
+      "scope_area_m2": 22009120.78313864,
+      "covered_area_m2": 22009120.783138722,
+      "design_area_m2": 660947.6494990459,
+      "footprint_conservation_error_m2": 1.9702129065990448e-05,
+      "known_function_low_coverage_mask_verified": true
+    },
+    {
+      "size_m": 200,
+      "units": 600,
+      "design_units": 29,
+      "scope_area_m2": 22009120.78313864,
+      "covered_area_m2": 22009120.7831398,
+      "design_area_m2": 660947.6494989538,
+      "footprint_conservation_error_m2": 1.9565224647521973e-05,
+      "known_function_low_coverage_mask_verified": true
+    }
+  ],
+  "population2025_native_cells_preserved": 48,
+  "source_topology_preserved": true,
+  "map_count": 39,
+  "regional_optimized": 28,
+  "refined": 8,
+  "satellite_maps": 3,
+  "A1_and_A3_verified": true,
+  "A3_min_text_pt": 7.0,
+  "satellite": {
+    "count": 3,
+    "dtype": [
+      "uint8",
+      "uint8",
+      "uint8"
+    ],
+    "resolution_m": [
+      10.0,
+      10.0
+    ],
+    "overviews": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "crs": "EPSG:32651",
+    "native_product_not_invented_fine_detail": true
+  },
+  "capture_date": "2026-10-14T02:49:03.229000Z",
+  "qgis_valid_layers": 103,
+  "retained_V2_layouts": 28,
+  "new_V3_layouts": 39,
+  "map_themes": [
+    "V3_A_纯矢量专题",
+    "V3_B_真实卫星",
+    "V3_C_卫星与GIS叠加"
+  ],
+  "place_label_overlap_review_count": 0,
+  "limitations": [
+    "Native RGB10m; no verified0.5–2m orthophoto acquired",
+    "Inherited projectWGS84, not independently surveyed control",
+    "All building heights estimated/levels-derived; volume proxy notFAR",
+    "Function classification missingness retained; entropy changes fromV2 POI semantics",
+    "WorldPop2025 ~1kmALPHA kept; no invented population precision",
+    "GitHub API authorization/network outcome recorded separately; never imply PR exists without URL"
+  ]
+}

@@ -1,0 +1,4 @@
+8141a42f946e8b4e5db836bf7c5f4de41d79b852be6016b4a7b739cef05dc409  shanghai-planning-v3-01-core-gis-project.zip
+1e5c78241a5248a441677c86becf2dc182005b37bcae6229a6b60c5a46a04a05  shanghai-planning-v3-02-regional-maps-01-14.zip
+954a5b19c84269f58c8ac3ac7a8d8c01973643363d7dc56ebc183ddbd115ef09  shanghai-planning-v3-03-regional-maps-15-28.zip
+e676475b58dec2127e767fc96fb2bf84ecbbb0b4f3d96d73bb5b26fbb4809b3f  shanghai-planning-v3-04-satellite-refined-comparisons.zip

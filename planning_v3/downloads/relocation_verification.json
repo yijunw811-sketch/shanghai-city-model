@@ -1,0 +1,8 @@
+{
+  "core_ZIP_extracted_to_different_directory": true,
+  "all_datasources_resolved_inside_relocated_root": true,
+  "valid_layers": 103,
+  "layouts": 67,
+  "S02_native_export": "Success",
+  "no_original_workspace_datasource_dependency": true
+}

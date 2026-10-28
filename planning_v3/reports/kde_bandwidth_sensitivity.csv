@@ -1,0 +1,4 @@
+bandwidth_m,site_context_units,min_observed_intensity_km2,median,max,peak_center_x,peak_center_y,meaning
+100,92,3.3658765118608e-08,0.43969172247498045,17.06728236199238,351250.0,3464050.0,"kernel observation density, not commerce completeness or footfall"
+200,92,0.06803937057425005,3.5852519243405325,10.60880808043738,351150.0,3463850.0,"kernel observation density, not commerce completeness or footfall"
+400,92,3.071204411751554,7.046388338626365,10.716883200922158,351050.0,3464250.0,"kernel observation density, not commerce completeness or footfall"

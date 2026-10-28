@@ -1,0 +1,39 @@
+{
+  "id": "S02",
+  "title": "核心设计区卫星现状",
+  "en": "Design Site Satellite Map",
+  "kind": "satellite",
+  "series": "satellite",
+  "scope": "design-context view",
+  "scale": 4000,
+  "base_mode": "B",
+  "note": "真实Sentinel-2 TCI，自然色，拍摄2026-10-14，原生10m；许可Copernicus Sentinel开放数据。未取得可离线再分发的0.5–2m正射影像，不虚构建筑级细节。设计内外采用相同影像权重。",
+  "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+  "stem": "S02_核心设计区卫星现状",
+  "extent": [
+    349883.2078999912,
+    352338.92789999116,
+    3463147.439279222,
+    3464905.679279222
+  ],
+  "fixed_style": {},
+  "findings": [
+    "拍摄：2026-10-14；原生10m",
+    "真实设计范围：66.0948公顷",
+    "真彩色影像，不是NDVI/LST或合成细节"
+  ],
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A1_scale": 4000,
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_scale": 8009.523809523809,
+  "A3_min_font_pt": 7,
+  "design_line_mm": 1.2,
+  "design_fill": "none",
+  "outside_mask": false
+}

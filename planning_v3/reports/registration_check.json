@@ -1,0 +1,13 @@
+{
+  "same_crs": "EPSG:32651",
+  "native_resolution_m": [
+    10.0,
+    10.0
+  ],
+  "bounds_cover_aoi": true,
+  "data_repositioned": false,
+  "coordinate_accuracy_not_independently_surveyed": true,
+  "preview": "outputs/previews/satellite_vector_registration.png",
+  "review_locations": 16,
+  "limitations": "10m RGB, model footprint dates and parallax differ; visual/source-frame consistency is not geodetic accuracy proof"
+}

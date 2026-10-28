@@ -1,0 +1,10 @@
+baseline present reports/protected_v2_baseline.csv
+boundary present reports/design_boundary_validation.json
+satellite present reports/satellite_provenance.json
+multiscale present reports/indicator_scale_selection.json
+styles present styles/COLOR_STYLE_SYSTEM.json
+maps present reports/map_catalog_v3.json
+comparisons present reports/scale_stability_vs_v2.csv
+qgis present reports/qgis_validation_v3.json
+qa present reports/final_qa_v3.json
+reports present reports/delivery_summary_v3.md

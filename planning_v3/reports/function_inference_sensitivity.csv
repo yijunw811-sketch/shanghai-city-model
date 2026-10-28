@@ -1,0 +1,4 @@
+scale_m,same_original_coverage_eligibility,scenario,joint_units,mean_absolute_entropy_change,max_absolute_entropy_change,not_official_landuse
+50,>=50% mapped known area; compare same eligible units,Exclude mapped construction from completed-use entropy and renormalize remaining classes; fixed ln8 denominator; does not assign new uses,47,0.03892171943309114,0.32795348295652416,True
+100,>=50% mapped known area; compare same eligible units,Exclude mapped construction from completed-use entropy and renormalize remaining classes; fixed ln8 denominator; does not assign new uses,10,0.039688158564985185,0.2939191635591044,True
+200,>=50% mapped known area; compare same eligible units,Exclude mapped construction from completed-use entropy and renormalize remaining classes; fixed ln8 denominator; does not assign new uses,4,0.03264380832626891,0.13057523330507564,True

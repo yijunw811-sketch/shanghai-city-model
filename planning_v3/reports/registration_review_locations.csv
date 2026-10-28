@@ -1,0 +1,17 @@
+node_id,easting,northing,image_row,image_col,local_RGB_gradient,source_url,status
+90164393,351967.2110642948,3463839.9419877664,402,580,0.5820737577453263,https://www.openstreetmap.org/node/90164393,overlay_review_reference_not_surveyed_control
+477015323,353752.13124314486,3464570.4180890447,328,759,0.7757131932476579,https://www.openstreetmap.org/node/477015323,overlay_review_reference_not_surveyed_control
+827646972,352494.78261436033,3463418.199225516,444,633,0.3996367268345136,https://www.openstreetmap.org/node/827646972,overlay_review_reference_not_surveyed_control
+1623991262,350085.5157965311,3464142.738802084,371,392,0.37899029694598324,https://www.openstreetmap.org/node/1623991262,overlay_review_reference_not_surveyed_control
+1754603239,349454.60934727127,3464305.585691008,355,329,0.23126543807783176,https://www.openstreetmap.org/node/1754603239,overlay_review_reference_not_surveyed_control
+4320713570,352598.5473766207,3463018.2716276697,484,643,0.6916626328341151,https://www.openstreetmap.org/node/4320713570,overlay_review_reference_not_surveyed_control
+8406821721,352874.57264486037,3465732.7642364115,212,671,0.7709936456771673,https://www.openstreetmap.org/node/8406821721,overlay_review_reference_not_surveyed_control
+8712518490,348524.76454452757,3462329.384121508,553,236,0.8596279596265836,https://www.openstreetmap.org/node/8712518490,overlay_review_reference_not_surveyed_control
+9855495077,351900.0124251315,3464541.6637464394,331,574,0.2015023245734214,https://www.openstreetmap.org/node/9855495077,overlay_review_reference_not_surveyed_control
+10554530822,353766.2093977298,3464784.0908944635,307,760,0.24304587502004965,https://www.openstreetmap.org/node/10554530822,overlay_review_reference_not_surveyed_control
+11211786972,349519.3573784189,3463640.6294070976,421,335,0.9007304291955825,https://www.openstreetmap.org/node/11211786972,overlay_review_reference_not_surveyed_control
+11645469783,353493.32920149877,3464267.871204436,359,733,0.18114836288962094,https://www.openstreetmap.org/node/11645469783,overlay_review_reference_not_surveyed_control
+11891181034,353493.3198770572,3463986.304651401,387,733,0.3398692810457516,https://www.openstreetmap.org/node/11891181034,overlay_review_reference_not_surveyed_control
+12657781395,350453.0738207791,3462712.266800162,514,429,0.4308453899146185,https://www.openstreetmap.org/node/12657781395,overlay_review_reference_not_surveyed_control
+12658274331,350809.4221390312,3463659.7960232506,420,464,0.4133696287801804,https://www.openstreetmap.org/node/12658274331,overlay_review_reference_not_surveyed_control
+12683669623,350489.2607651009,3462130.9934610324,572,432,0.17751807251264892,https://www.openstreetmap.org/node/12683669623,overlay_review_reference_not_surveyed_control

@@ -1,0 +1,35 @@
+{
+  "source_file": "data/boundary/选定范围.csv",
+  "source_sha256": "0d1acebe6e070a4027d6df2c01a65cb4d8dd548f70124355cccb3f2281075bc9",
+  "input_rows": 18,
+  "input_was_closed": true,
+  "valid": true,
+  "source_valid": false,
+  "source_validity": "Self-intersection[121.424783176158 31.3011847087702]",
+  "repair": {
+    "performed": true,
+    "reason": "Self-intersection[350086.211906925 3464052.35776649]",
+    "method": "make_valid; retain dominant polygon, archive the0.000714m² closing sliver evidence",
+    "discarded_micro_fragment_m2": 0.0007142207686499124,
+    "source_signed_area_m2": 660947.6487847401,
+    "clean_area_m2": 660947.6494989631,
+    "hausdorff_change_m": 0.04149053610575712
+  },
+  "crs_analysis": "EPSG:32651",
+  "source_datum": "Inherited WGS84 project confirmation; no GCJ/BD correction guessed",
+  "area_m2": 660947.6494989631,
+  "area_ha": 66.09476494989632,
+  "area_km2": 0.6609476494989631,
+  "outside_aoi_m2": 0.0,
+  "source_vertices_preserved_in_csv": true,
+  "near_duplicate_vertex_note": "Original CSV retained exactly; a 0.000714m2 self-crossing closing sliver removed from analysis ring with explicit repair audit",
+  "z_ignored": true,
+  "styling": {
+    "stroke": "#CB493E",
+    "stroke_mm": 1.2,
+    "white_understroke_mm": 1.65,
+    "fill": "none",
+    "outside_mask": false,
+    "inside_outside_opacity_difference": false
+  }
+}

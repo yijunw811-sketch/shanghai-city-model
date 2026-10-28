@@ -1,0 +1,52 @@
+{
+  "id": "R06",
+  "title": "公共环境改善机会｜100米",
+  "en": "Research amenity-improvement screening",
+  "kind": "grid",
+  "series": "refined_analysis",
+  "scope": "design-context view; metrics still whole-AOI source units",
+  "scale": 5000,
+  "base_mode": "A",
+  "grid_size": 100,
+  "field": "research_amenity_priority",
+  "layer": null,
+  "note": "采用与全域相同固定分级；只是局部放大视图，不将设计线变成强制统计裁切。 V2三项等权体系沿用；不是政府更新、拆迁或建设名单。",
+  "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+  "stem": "R06_公共环境改善机会_100米",
+  "extent": [
+    349576.24289999116,
+    352645.8928999912,
+    3462927.659279222,
+    3465125.459279222
+  ],
+  "fixed_style": {
+    "palette": "opportunity",
+    "breaks": [
+      0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "unit": "三项等权百分位均值，非法定更新风险"
+  },
+  "findings": [
+    "100m真实几何统计；视图内736个单元",
+    "有效492；中位值0.518"
+  ],
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A1_scale": 5000,
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_scale": 10011.904761904761,
+  "A3_min_font_pt": 7,
+  "design_line_mm": 1.2,
+  "design_fill": "none",
+  "outside_mask": false
+}

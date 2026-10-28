@@ -1,0 +1,16 @@
+[
+  {
+    "source": "OpenAerialMap",
+    "url": "https://api.openaerialmap.org/meta?bbox=121.38385012775849,31.26494281595918,121.48685853933276,31.335225264086052",
+    "status": "ProxyError",
+    "offline_reuse": "not_verified",
+    "notes": "Public imagery metadata; per-image license must be checked"
+  },
+  {
+    "source": "Shanghai open data",
+    "url": "https://data.sh.gov.cn/view/",
+    "http": 503,
+    "offline_reuse": "not_verified",
+    "notes": "Official orthophoto/open data catalogue; no assumption that display services allow offline export"
+  }
+]

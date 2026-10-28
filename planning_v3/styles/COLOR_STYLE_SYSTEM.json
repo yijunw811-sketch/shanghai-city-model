@@ -1,0 +1,255 @@
+{
+  "version": "V3 2026-10-28",
+  "palettes": {
+    "density": [
+      "#B8D0D0",
+      "#8CB3B3",
+      "#609392",
+      "#397A7C",
+      "#24465B"
+    ],
+    "volume": [
+      "#B4CADB",
+      "#8FAAC5",
+      "#6784AA",
+      "#465E85",
+      "#293D63"
+    ],
+    "road": [
+      "#BCD3CB",
+      "#91B8AA",
+      "#65A08F",
+      "#3D8579",
+      "#255F61"
+    ],
+    "mix": [
+      "#C1D3AF",
+      "#99BE8C",
+      "#6BA77D",
+      "#3C8B72",
+      "#226859"
+    ],
+    "commercial": [
+      "#D8C58F",
+      "#C7A562",
+      "#AF8444",
+      "#8A622F",
+      "#644823"
+    ],
+    "opportunity": [
+      "#D2C39A",
+      "#A0B79B",
+      "#759D93",
+      "#4A7C82",
+      "#24465B"
+    ],
+    "population": [
+      "#BDD2D8",
+      "#92B3BE",
+      "#648F9F",
+      "#426D82",
+      "#24465B"
+    ],
+    "height": [
+      "#D4C89B",
+      "#B9B27F",
+      "#949B70",
+      "#6A805F",
+      "#445F52"
+    ],
+    "ndvi": [
+      "#C9B996",
+      "#A7BD83",
+      "#759A6A",
+      "#427659",
+      "#275147"
+    ],
+    "temperature": [
+      "#D5C98F",
+      "#C8AD6C",
+      "#B68C55",
+      "#9F6850",
+      "#754738"
+    ],
+    "dsm": [
+      "#CFCCB5",
+      "#B6B199",
+      "#9A967F",
+      "#7A7F6A",
+      "#566452"
+    ],
+    "water": [
+      "#C0D0CF",
+      "#9ABCC1",
+      "#76A5B4",
+      "#4D8298",
+      "#2F5E7B"
+    ],
+    "ndwi": [
+      "#9E744F",
+      "#C7AD7D",
+      "#C5CCC1",
+      "#78A5AF",
+      "#335F77"
+    ],
+    "ndbi": [
+      "#305F69",
+      "#75A5A7",
+      "#C5C5AC",
+      "#BE9D6A",
+      "#89613F"
+    ],
+    "seasonal": [
+      "#8E7251",
+      "#BEAB78",
+      "#C0C9AF",
+      "#78A087",
+      "#356B5C"
+    ]
+  },
+  "metric_styles": {
+    "building_density": {
+      "palette": "density",
+      "breaks": [
+        0,
+        0.15,
+        0.3,
+        0.45,
+        0.6,
+        1
+      ],
+      "unit": "建筑占地并集 / 实际单元面积"
+    },
+    "volume_proxy_m": {
+      "palette": "volume",
+      "breaks": [
+        0,
+        3,
+        6,
+        12,
+        24,
+        48
+      ],
+      "unit": "m³/m²，估高体量代理，非容积率"
+    },
+    "land_function_entropy": {
+      "palette": "mix",
+      "breaks": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "unit": "H(已映射功能面积)/ln(8)；已知功能比例≥50%"
+    },
+    "vehicle_density_km_km2": {
+      "palette": "road",
+      "breaks": [
+        0,
+        5,
+        10,
+        20,
+        35,
+        72.97480545445404
+      ],
+      "unit": "km / km²，双幅源道路分计"
+    },
+    "commercial_density_km2": {
+      "palette": "commercial",
+      "breaks": [
+        0,
+        10,
+        25,
+        50,
+        100,
+        250
+      ],
+      "unit": "已映射商业POI / km²；零值不表示无商业"
+    },
+    "research_amenity_priority": {
+      "palette": "opportunity",
+      "breaks": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "unit": "三项等权百分位均值，非法定更新风险"
+    },
+    "commercial_kde_h200_km2": {
+      "palette": "commercial",
+      "breaks": [
+        0,
+        5,
+        10,
+        25,
+        50,
+        100
+      ],
+      "unit": "核观测强度 / km²；h=200m，不是客流"
+    },
+    "height_m": {
+      "palette": "height",
+      "breaks": [
+        0,
+        12,
+        24,
+        54,
+        100,
+        150
+      ],
+      "unit": "m，全部估计/层数推算"
+    },
+    "population_density_km2": {
+      "palette": "population",
+      "breaks": [
+        0,
+        10000,
+        20000,
+        40000,
+        80000,
+        172065.2502463492
+      ],
+      "unit": "模型人 / km²；两年份产品不可直接作人口变化"
+    }
+  },
+  "landuse": {
+    "residential": "#C3A876",
+    "public_service": "#A6819B",
+    "commercial": "#B97766",
+    "industrial": "#918AA8",
+    "transport": "#8C9B9E",
+    "green_open": "#7C9F78",
+    "water": "#6B9DAD",
+    "construction": "#C6B574",
+    "unknown": "#DCD9D0"
+  },
+  "design_boundary": {
+    "color": "#CB493E",
+    "line_mm": 1.2,
+    "white_understroke_mm": 1.65,
+    "fill": "none",
+    "z_order": "top",
+    "outside_mask": false
+  },
+  "base": {
+    "paper": "#F8F7F2",
+    "text": "#24465B",
+    "buildings": "#CED2CD",
+    "road": "#8E9899",
+    "water": "#6B9DAD",
+    "green": "#7C9F78"
+  },
+  "satellite": {
+    "whole_image_overlay_mode_opacity": 0.72,
+    "inside_outside_same": true,
+    "natural_rgb_preserved": true
+  },
+  "classification": "Fixed metric boundaries shared across global/refined/scale comparisons; no quantile recalibration per sheet",
+  "missing": "Grey neutral; missing functional coverage remains missing, not zero",
+  "qgis_line_units": "mm; Matplotlib converts to points by72/25.4"
+}

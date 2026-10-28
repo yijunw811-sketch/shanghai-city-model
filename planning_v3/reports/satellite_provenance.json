@@ -1,0 +1,67 @@
+{
+  "dataset": "Sentinel-2 L2A true colour TCI",
+  "scene_id": "S2B_51RUQ_20261014_0_L2A",
+  "acquisition_datetime": "2026-10-14T02:49:03.229000Z",
+  "native_resolution_m": 10,
+  "output_crs": "EPSG:32651",
+  "source_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/51/R/UQ/2026/10/S2B_51RUQ_20261014_0_L2A/TCI.tif",
+  "license": "Copernicus Sentinel open data terms; attribution Contains modified Copernicus Sentinel data (2026)",
+  "offline_save": true,
+  "redistribution_with_attribution": true,
+  "rendering": "official TCI RGB; context-wide display adjustment only",
+  "selected_quality": {
+    "id": "S2B_51RUQ_20261014_0_L2A",
+    "datetime": "2026-10-14T02:49:03.229000Z",
+    "aoi_bad_fraction": 3.634315204157657e-05,
+    "site_bad_fraction": 0.0,
+    "stac_scene_cloud_percent": 1.98167
+  },
+  "all_candidates": [
+    {
+      "id": "S2B_51RUQ_20260914_0_L2A",
+      "datetime": "2026-09-14T02:49:02.210000Z",
+      "aoi_bad_fraction": 0.04939034362450255,
+      "site_bad_fraction": 0.16686819830713423,
+      "stac_scene_cloud_percent": 5.063333
+    },
+    {
+      "id": "S2C_51RUQ_20260221_0_L2A",
+      "datetime": "2026-02-21T02:49:06.443000Z",
+      "aoi_bad_fraction": 3.634315204157657e-05,
+      "site_bad_fraction": 0.0,
+      "stac_scene_cloud_percent": 0.025276
+    },
+    {
+      "id": "S2C_51RUQ_20261026_0_L2A",
+      "datetime": "2026-10-26T02:39:07.331000Z",
+      "aoi_bad_fraction": 0.08578801039414148,
+      "site_bad_fraction": 0.0,
+      "stac_scene_cloud_percent": 13.685219
+    },
+    {
+      "id": "S2B_51RUQ_20261014_0_L2A",
+      "datetime": "2026-10-14T02:49:03.229000Z",
+      "aoi_bad_fraction": 3.634315204157657e-05,
+      "site_bad_fraction": 0.0,
+      "stac_scene_cloud_percent": 1.98167
+    },
+    {
+      "id": "S2A_51RUQ_20261008_0_L2A",
+      "datetime": "2026-10-08T02:39:21.175000Z",
+      "aoi_bad_fraction": 0.0,
+      "site_bad_fraction": 0.0,
+      "stac_scene_cloud_percent": 0.94424
+    },
+    {
+      "id": "S2C_51RUQ_20261006_0_L2A",
+      "datetime": "2026-10-06T02:39:10.131000Z",
+      "aoi_bad_fraction": 0.0,
+      "site_bad_fraction": 0.0,
+      "stac_scene_cloud_percent": 4.487352
+    }
+  ],
+  "sha256": "a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fb",
+  "higher_resolution_status": "No verified licensed 0.5–2m orthophoto obtained; never advertised as high resolution survey",
+  "acquisition_not_download_date": true,
+  "registration": "Same native UTM51N scene and existing GIS overlay; manual overlays provided; no independently surveyed control points, no absolute accuracy claim"
+}

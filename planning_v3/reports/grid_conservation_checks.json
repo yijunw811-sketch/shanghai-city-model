@@ -1,0 +1,32 @@
+[
+  {
+    "size_m": 50,
+    "units": 1555,
+    "design_units": 318,
+    "scope_area_m2": 3652269.536334055,
+    "covered_area_m2": 3652269.535869275,
+    "design_area_m2": 660947.6494989801,
+    "footprint_conservation_error_m2": 0.0004649708280339837,
+    "known_function_low_coverage_mask_verified": true
+  },
+  {
+    "size_m": 100,
+    "units": 2300,
+    "design_units": 92,
+    "scope_area_m2": 22009120.78313864,
+    "covered_area_m2": 22009120.783138722,
+    "design_area_m2": 660947.6494990459,
+    "footprint_conservation_error_m2": 1.9702129065990448e-05,
+    "known_function_low_coverage_mask_verified": true
+  },
+  {
+    "size_m": 200,
+    "units": 600,
+    "design_units": 29,
+    "scope_area_m2": 22009120.78313864,
+    "covered_area_m2": 22009120.7831398,
+    "design_area_m2": 660947.6494989538,
+    "footprint_conservation_error_m2": 1.9565224647521973e-05,
+    "known_function_low_coverage_mask_verified": true
+  }
+]

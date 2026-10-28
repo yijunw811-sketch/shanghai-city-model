@@ -1,0 +1,2190 @@
+[
+  {
+    "id": "01",
+    "title": "现状土地功能分类",
+    "en": "Existing mapped land functions",
+    "kind": "land",
+    "layer": null,
+    "field": null,
+    "cmap": "YlOrRd",
+    "note": "现状功能研究分类；非法定用途。仅映射有证据的面，不用单个POI填满未知地。2023指南参考代码的最新修订未核实。",
+    "findings": [
+      "未知功能保留，非法定用途调查",
+      "设计线仅标注，不改变22.009km²统计范围"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "01_现状土地功能分类",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "02",
+    "title": "建筑密度分析",
+    "en": "Building footprint density",
+    "kind": "grid",
+    "layer": null,
+    "field": "building_density",
+    "cmap": "YlOrBr",
+    "note": "建筑占地并集面积 / 裁切后500米网格面积；边界网格修正，重叠占地不重复计入。 V3改为100m真实相交重算；设计线仅标注，不改变全域统计口径。",
+    "findings": [
+      "100m真实几何统计；视图内2300个单元",
+      "有效2300；中位值0.208"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "grid_size": 100,
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "02_建筑密度分析",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {
+      "palette": "density",
+      "breaks": [
+        0,
+        0.15,
+        0.3,
+        0.45,
+        0.6,
+        1
+      ],
+      "unit": "建筑占地并集 / 实际单元面积"
+    },
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "03",
+    "title": "建筑高度分布｜全部含估算",
+    "en": "Building height: source estimates",
+    "kind": "height",
+    "layer": null,
+    "field": null,
+    "cmap": "YlOrRd",
+    "note": "11,856体块均非实测高度：11,833默认/上下文估高，23由层数×3米推算。用于形态研究。",
+    "findings": [
+      "11,856个体块；实测高度0",
+      "11,833默认/上下文估高，23由层数推算"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "03_建筑高度分布_全部含估算",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "04",
+    "title": "建筑体量强度代理",
+    "en": "Estimated volume intensity proxy",
+    "kind": "grid",
+    "layer": null,
+    "field": "volume_proxy_m",
+    "cmap": "YlOrBr",
+    "note": "各高度占地互斥面×估算高度之和 / 网格面积（m³/m²）。重叠取较高值；不是容积率。 V3改为100m真实相交重算；设计线仅标注，不改变全域统计口径。",
+    "findings": [
+      "100m真实几何统计；视图内2300个单元",
+      "有效2300；中位值2.59"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "grid_size": 100,
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "04_建筑体量强度代理",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {
+      "palette": "volume",
+      "breaks": [
+        0,
+        3,
+        6,
+        12,
+        24,
+        48
+      ],
+      "unit": "m³/m²，估高体量代理，非容积率"
+    },
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "05",
+    "title": "城市肌理与图底关系",
+    "en": "Urban figure-ground",
+    "kind": "figure",
+    "layer": null,
+    "field": null,
+    "cmap": "YlOrRd",
+    "note": "现有建筑真实来源轮廓的图底表达；不表示产权、竣工状态或完整测绘。",
+    "findings": [
+      "保留原始建筑几何",
+      "白地不自动认定为空地或可开发空间"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "05_城市肌理与图底关系",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "06",
+    "title": "已映射土地功能面积混合度",
+    "en": "Mapped land-function area diversity",
+    "kind": "grid",
+    "layer": null,
+    "field": "land_function_entropy",
+    "cmap": "YlGnBu",
+    "note": "200m；按已映射功能面面积计算H/ln(8)，未知不入确定用途；已知功能面积比例不足50%不计算。与V2的POI熵是不同指标。",
+    "findings": [
+      "200m真实几何统计；视图内600个单元",
+      "有效343；中位值0.0985",
+      "全域已知功能占比仍约52.33%；低覆盖单元不计算"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "grid_size": 200,
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "06_已映射土地功能面积混合度",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {
+      "palette": "mix",
+      "breaks": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "unit": "H(已映射功能面积)/ln(8)；已知功能比例≥50%"
+    },
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "07",
+    "title": "道路等级与交通结构",
+    "en": "Road hierarchy and grade separation",
+    "kind": "road",
+    "layer": null,
+    "field": null,
+    "cmap": "YlOrRd",
+    "note": "保留源等级、桥隧、层级和单行属性；几何相交不自动连通。不是官方道路行政等级。",
+    "findings": [
+      "道路几何与等级标签沿用V2",
+      "层级、桥隧和真实节点拓扑保留"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "07_道路等级与交通结构",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "08",
+    "title": "车行路网密度与节点连通",
+    "en": "Mapped vehicle network density",
+    "kind": "grid",
+    "layer": null,
+    "field": "vehicle_density_km_km2",
+    "cmap": "YlOrRd",
+    "note": "200m；源线km/实际单元km²，双幅分计。叠加真实源节点度≥3的车行路口，桥隧几何交叉不增节点。",
+    "findings": [
+      "200m真实几何统计；视图内600个单元",
+      "有效600；中位值9.48"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "grid_size": 200,
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "08_车行路网密度与节点连通",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {
+      "palette": "road",
+      "breaks": [
+        0,
+        5,
+        10,
+        20,
+        35,
+        72.97480545445404
+      ],
+      "unit": "km / km²，双幅源道路分计"
+    },
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "09",
+    "title": "公共交通接入与步行网络覆盖",
+    "en": "Transit access on mapped walk network",
+    "kind": "access",
+    "layer": "transit",
+    "field": null,
+    "cmap": "YlOrRd",
+    "note": "5/10/15分钟，4.5km/h最短路径。站台/出入口/停靠点记录不是独立车站或班次；仅合格接入点进入计算。",
+    "findings": [
+      "复用V2真实源节点步行分析，4.5km/h",
+      "设施接入和门禁不确定性保留；非人口覆盖率"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "09_公共交通接入与步行网络覆盖",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "10",
+    "title": "日常服务慢行可达性",
+    "en": "Daily-service walking reach",
+    "kind": "access",
+    "layer": "daily_service",
+    "field": null,
+    "cmap": "YlOrRd",
+    "note": "基于OSM步行节点和已映射设施，5/10/15分钟；结果为可达路段，不是欧氏圈或服务人口比例。",
+    "findings": [
+      "复用V2真实源节点步行分析，4.5km/h",
+      "设施接入和门禁不确定性保留；非人口覆盖率"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "10_日常服务慢行可达性",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "11",
+    "title": "商业POI观察密度",
+    "en": "Mapped commercial POI observations",
+    "kind": "grid",
+    "layer": null,
+    "field": "commercial_density_km2",
+    "cmap": "OrRd",
+    "note": "200m网格；真实观测点数/裁切单元面积（POI/km²），零值不表示无商业。KDE100/200/400m仅作敏感性对照，不代表客流。",
+    "findings": [
+      "200m真实几何统计；视图内600个单元",
+      "有效600；中位值0"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "grid_size": 200,
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "11_商业POI观察密度",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {
+      "palette": "commercial",
+      "breaks": [
+        0,
+        10,
+        25,
+        50,
+        100,
+        250
+      ],
+      "unit": "已映射商业POI / km²；零值不表示无商业"
+    },
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "12",
+    "title": "已映射教育设施步行覆盖",
+    "en": "Mapped education walking access",
+    "kind": "access",
+    "layer": "education",
+    "field": null,
+    "cmap": "YlOrRd",
+    "note": "公共服务分项之一：教育。只计算能接入真实路网的设施；无床位、等级或容量推断。其它分项见数据库和覆盖表。",
+    "findings": [
+      "复用V2真实源节点步行分析，4.5km/h",
+      "设施接入和门禁不确定性保留；非人口覆盖率"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "12_已映射教育设施步行覆盖",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "13",
+    "title": "蓝绿空间现状网络",
+    "en": "Mapped blue and green spaces",
+    "kind": "bluegreen",
+    "layer": null,
+    "field": null,
+    "cmap": "YlOrRd",
+    "note": "绿地与水面为开放地图观察；不等同官方绿化覆盖率，不自动认定全部开放。",
+    "findings": [
+      "开放性不等于绿量",
+      "不将已映射面积称为官方绿化率"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "13_蓝绿空间现状网络",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "14",
+    "title": "公园绿地网络可达性",
+    "en": "Park access on mapped walking network",
+    "kind": "access",
+    "layer": "parks",
+    "field": null,
+    "cmap": "YlOrRd",
+    "note": "源步道真实穿越公园边界处的近似接入（端点≤20m），排除明确私有/禁入；开放时间和门禁未实地核实。",
+    "findings": [
+      "复用V2真实源节点步行分析，4.5km/h",
+      "设施接入和门禁不确定性保留；非人口覆盖率"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "14_公园绿地网络可达性",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "15",
+    "title": "公共环境改善机会研究初筛",
+    "en": "Research screening for amenity improvement",
+    "kind": "grid",
+    "layer": null,
+    "field": "research_amenity_priority",
+    "cmap": "YlOrRd",
+    "note": "等权：建筑密度百分位、已映射绿地不足百分位、日常服务可达路段不足百分位。仅研究初筛，不是旧改/拆迁名单。 V3改为100m真实相交重算；设计线仅标注，不改变全域统计口径。",
+    "findings": [
+      "100m真实几何统计；视图内2300个单元",
+      "有效1487；中位值0.499"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "grid_size": 100,
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "15_公共环境改善机会研究初筛",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {
+      "palette": "opportunity",
+      "breaks": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "unit": "三项等权百分位均值，非法定更新风险"
+    },
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "16",
+    "title": "现状数据问题与改善机会",
+    "en": "Evidence gaps and amenity priorities",
+    "kind": "issues",
+    "layer": null,
+    "field": "research_amenity_priority",
+    "cmap": "YlOrRd",
+    "note": "底色为透明初筛分数；叠加旧模型267端点复核位置，端点不自动视为错误。未分类地功能仍需补证。 V3改为100m真实相交重算；设计线仅标注，不改变全域统计口径。",
+    "findings": [
+      "100m真实几何统计；视图内2300个单元",
+      "有效1487；中位值0.499"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "grid_size": 100,
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "16_现状数据问题与改善机会",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {
+      "palette": "opportunity",
+      "breaks": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "unit": "三项等权百分位均值，非法定更新风险"
+    },
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "17",
+    "title": "模型人口密度｜2020年100米",
+    "en": "GHSL model population 2020",
+    "kind": "population",
+    "layer": "population_ghsl2020",
+    "field": "population_density_km2",
+    "cmap": "YlOrRd",
+    "note": "GHSL R2023A 2020原生100m格网，边界按像元面积比例裁切。模型不是普查街坊实测人口。",
+    "findings": [
+      "原生模型：2336个AOI裁切格网",
+      "2025约1km / 2020约100m；不重新细分"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "17_模型人口密度_2020年100米",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {
+      "palette": "population",
+      "breaks": [
+        0,
+        10000,
+        20000,
+        40000,
+        80000,
+        172065.2502463492
+      ],
+      "unit": "模型人 / km²；两年份产品不可直接作人口变化"
+    },
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "18",
+    "title": "模型人口密度｜2025年约1公里",
+    "en": "WorldPop ALPHA model population 2025",
+    "kind": "population",
+    "layer": "population_worldpop2025",
+    "field": "population_density_km2",
+    "cmap": "YlOrRd",
+    "note": "保持WorldPop2025 ALPHA原生约1km的48个裁切单元；不插值到100m。与2020不同模型不可解释为人口真实变化。",
+    "findings": [
+      "原生模型：48个AOI裁切格网",
+      "2025约1km / 2020约100m；不重新细分"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "18_模型人口密度_2025年约1公里",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {
+      "palette": "population",
+      "breaks": [
+        0,
+        10000,
+        20000,
+        40000,
+        80000,
+        172065.2502463492
+      ],
+      "unit": "模型人 / km²；两年份产品不可直接作人口变化"
+    },
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "19",
+    "title": "物理地表覆盖｜2021年",
+    "en": "worldcover2021_10m",
+    "kind": "raster",
+    "layer": "worldcover2021_10m",
+    "field": null,
+    "cmap": "tab10",
+    "note": "ESA WorldCover v200 10m物理覆盖，非功能/法定用地。",
+    "findings": [
+      "有效像元220,113；中位数50",
+      "源栅格复用，不改分辨率或数据值"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "raster_style": {
+      "palette": "dsm",
+      "vmin": 10.0,
+      "vmax": 60.0,
+      "categorical_codes": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        95,
+        100
+      ],
+      "categorical_colors": [
+        "#628568",
+        "#A5A56D",
+        "#92AE78",
+        "#C7B579",
+        "#A18C80",
+        "#B8AE97",
+        "#CBD6D8",
+        "#6595A7",
+        "#76A28E",
+        "#497C72",
+        "#A8B29C"
+      ],
+      "categorical_labels": [
+        "树木",
+        "灌丛",
+        "草地",
+        "耕地",
+        "建成覆盖",
+        "裸地",
+        "冰雪",
+        "水体",
+        "湿地",
+        "红树林",
+        "苔藓"
+      ]
+    },
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "19_物理地表覆盖_2021年",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "20",
+    "title": "夏季植被指数｜2026年9月14日",
+    "en": "ndvi_summer2026_10m",
+    "kind": "raster",
+    "layer": "ndvi_summer2026_10m",
+    "field": null,
+    "cmap": "YlGn",
+    "note": "Sentinel-2 10m NDVI；排除SCL云阴影。已逐波段同景镜像交叉核验1000DN差并避免重复扣offset。",
+    "findings": [
+      "有效像元209,229；中位数0.275",
+      "源栅格复用，不改分辨率或数据值"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "raster_style": {
+      "palette": "ndvi",
+      "vmin": -0.2,
+      "vmax": 0.8,
+      "categorical_codes": null,
+      "categorical_colors": null,
+      "categorical_labels": null
+    },
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "20_夏季植被指数_2026年9月14日",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "21",
+    "title": "冬季植被指数｜2026年2月21日",
+    "en": "ndvi_winter2026_10m",
+    "kind": "raster",
+    "layer": "ndvi_winter2026_10m",
+    "field": null,
+    "cmap": "YlGn",
+    "note": "Sentinel-2 10m NDVI；冬夏植被差异含季节、太阳高度和物候影响，非绿化退化结论。",
+    "findings": [
+      "有效像元220,090；中位数0.216",
+      "源栅格复用，不改分辨率或数据值"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "raster_style": {
+      "palette": "ndvi",
+      "vmin": -0.2,
+      "vmax": 0.8,
+      "categorical_codes": null,
+      "categorical_colors": null,
+      "categorical_labels": null
+    },
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "21_冬季植被指数_2026年2月21日",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "22",
+    "title": "夏季卫星地表温度｜2026年8月1日",
+    "en": "lst_summer2026_effective100m",
+    "kind": "raster",
+    "layer": "lst_summer2026_effective100m",
+    "field": null,
+    "cmap": "inferno",
+    "note": "Landsat L2 ST温度°C；原始30m产品聚合到热红外有效100m。云掩膜后单景地表温度，不是实测气温。",
+    "findings": [
+      "有效像元2,201；中位数49.6",
+      "源栅格复用，不改分辨率或数据值"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "raster_style": {
+      "palette": "temperature",
+      "vmin": 44.18803024291992,
+      "vmax": 54.95524597167969,
+      "categorical_codes": null,
+      "categorical_colors": null,
+      "categorical_labels": null
+    },
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "22_夏季卫星地表温度_2026年8月1日",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "23",
+    "title": "表面高程｜2021年约30米",
+    "en": "dsm_copernicus2021_30m",
+    "kind": "raster",
+    "layer": "dsm_copernicus2021_30m",
+    "field": null,
+    "cmap": "terrain",
+    "note": "Copernicus GLO30 DSM，含建筑和树冠；不是裸地DTM、道路实测高程或洪水淹没面。",
+    "findings": [
+      "有效像元24,448；中位数5.45",
+      "源栅格复用，不改分辨率或数据值"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "raster_style": {
+      "palette": "dsm",
+      "vmin": 1.6528431153297425,
+      "vmax": 12.418721504211426,
+      "categorical_codes": null,
+      "categorical_colors": null,
+      "categorical_labels": null
+    },
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "23_表面高程_2021年约30米",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "24",
+    "title": "夏季水体光谱指数",
+    "en": "ndwi_summer2026_10m",
+    "kind": "raster",
+    "layer": "ndwi_summer2026_10m",
+    "field": null,
+    "cmap": "BrBG",
+    "note": "Sentinel-2 NDWI=(绿光−近红外)/(绿光+近红外)，10m；不能直接等同真实水边界。",
+    "findings": [
+      "有效像元209,229；中位数-0.278",
+      "源栅格复用，不改分辨率或数据值"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "raster_style": {
+      "palette": "ndwi",
+      "vmin": -0.8,
+      "vmax": 0.8,
+      "categorical_codes": null,
+      "categorical_colors": null,
+      "categorical_labels": null
+    },
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "24_夏季水体光谱指数",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "25",
+    "title": "夏季建成光谱指数",
+    "en": "ndbi_summer2026_20m",
+    "kind": "raster",
+    "layer": "ndbi_summer2026_20m",
+    "field": null,
+    "cmap": "RdYlBu_r",
+    "note": "Sentinel-2 NDBI=(SWIR−NIR)/(SWIR+NIR)，20m；裸地等可混淆，不是法定建设用地。",
+    "findings": [
+      "有效像元52,313；中位数-0.062",
+      "源栅格复用，不改分辨率或数据值"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "raster_style": {
+      "palette": "ndbi",
+      "vmin": -0.8,
+      "vmax": 0.8,
+      "categorical_codes": null,
+      "categorical_colors": null,
+      "categorical_labels": null
+    },
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "25_夏季建成光谱指数",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "26",
+    "title": "历史物理地表覆盖｜2019年",
+    "en": "CLCD historical physical land cover 2019",
+    "kind": "raster",
+    "layer": "clcd2019_30m",
+    "field": null,
+    "cmap": "tab10",
+    "note": "CLCD2019原生约30米；仅选取压缩扫描行局部解码。与WorldCover2021年份/方法不同，不能直接把差异当真实变化。",
+    "findings": [
+      "有效像元24,451；中位数8",
+      "源栅格复用，不改分辨率或数据值"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "raster_style": {
+      "palette": "dsm",
+      "vmin": 1.0,
+      "vmax": 8.0,
+      "categorical_codes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "categorical_colors": [
+        "#C7B579",
+        "#628568",
+        "#A5A56D",
+        "#92AE78",
+        "#6595A7",
+        "#CBD6D8",
+        "#B8AE97",
+        "#A18C80",
+        "#76A28E"
+      ],
+      "categorical_labels": [
+        "耕地",
+        "林地",
+        "灌丛",
+        "草地",
+        "水体",
+        "冰雪",
+        "裸地",
+        "不透水",
+        "湿地"
+      ]
+    },
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "26_历史物理地表覆盖_2019年",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "27",
+    "title": "历史水面观测频率｜1984—2021",
+    "en": "Historical water observation occurrence",
+    "kind": "raster",
+    "layer": "jrc_water_occurrence1984_2021_30m",
+    "field": null,
+    "cmap": "Blues",
+    "note": "EC JRC GSW v1.4历史水面观测频率%；仅局部六瓦片压缩约20KB。不是2026水边界、洪水概率或法定蓝线。",
+    "findings": [
+      "有效像元24,467；中位数0",
+      "源栅格复用，不改分辨率或数据值"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "raster_style": {
+      "palette": "water",
+      "vmin": 0.0,
+      "vmax": 48.0,
+      "categorical_codes": null,
+      "categorical_colors": null,
+      "categorical_labels": null
+    },
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "27_历史水面观测频率_1984—2021",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "28",
+    "title": "冬夏植被指数季节差｜2026年",
+    "en": "Summer minus winter NDVI on joint valid pixels",
+    "kind": "raster",
+    "layer": "ndvi_seasonal_difference2026_10m",
+    "field": null,
+    "cmap": "RdYlGn",
+    "note": "9月14日NDVI减2月21日NDVI；只用双方有效像元10m。含物候、太阳角度与季节影响，不是永久绿化变化。",
+    "findings": [
+      "有效像元209,221；中位数0.0384",
+      "源栅格复用，不改分辨率或数据值"
+    ],
+    "extent_32651": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "A1_map_scale": 10000,
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_map_scale": 20023.809523809523,
+    "source_registry": "reports/source_registry.csv",
+    "series": "regional",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "A",
+    "raster_style": {
+      "palette": "seasonal",
+      "vmin": -0.5,
+      "vmax": 0.5,
+      "categorical_codes": null,
+      "categorical_colors": null,
+      "categorical_labels": null
+    },
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "28_冬夏植被指数季节差_2026年",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "A1_scale": 10000,
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "S01",
+    "title": "研究区卫星影像总览",
+    "en": "Satellite Context Map",
+    "kind": "satellite",
+    "series": "satellite",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "B",
+    "note": "真实Sentinel-2 TCI，自然色，拍摄2026-10-14，原生10m；许可Copernicus Sentinel开放数据。未取得可离线再分发的0.5–2m正射影像，不虚构建筑级细节。设计内外采用相同影像权重。",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "S01_研究区卫星影像总览",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "findings": [
+      "拍摄：2026-10-14；原生10m",
+      "真实设计范围：66.0948公顷",
+      "真彩色影像，不是NDVI/LST或合成细节"
+    ],
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A1_scale": 10000,
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "S02",
+    "title": "核心设计区卫星现状",
+    "en": "Design Site Satellite Map",
+    "kind": "satellite",
+    "series": "satellite",
+    "scope": "design-context view",
+    "scale": 4000,
+    "base_mode": "B",
+    "note": "真实Sentinel-2 TCI，自然色，拍摄2026-10-14，原生10m；许可Copernicus Sentinel开放数据。未取得可离线再分发的0.5–2m正射影像，不虚构建筑级细节。设计内外采用相同影像权重。",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "S02_核心设计区卫星现状",
+    "extent": [
+      349883.2078999912,
+      352338.92789999116,
+      3463147.439279222,
+      3464905.679279222
+    ],
+    "fixed_style": {},
+    "findings": [
+      "拍摄：2026-10-14；原生10m",
+      "真实设计范围：66.0948公顷",
+      "真彩色影像，不是NDVI/LST或合成细节"
+    ],
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A1_scale": 4000,
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_scale": 8009.523809523809,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "S03",
+    "title": "卫星影像与城市综合空间",
+    "en": "Urban Spatial Structure on Satellite Imagery",
+    "kind": "satellite",
+    "series": "satellite",
+    "scope": "whole AOI",
+    "scale": 10000,
+    "base_mode": "C",
+    "note": "真实Sentinel-2 TCI，自然色，拍摄2026-10-14，原生10m；许可Copernicus Sentinel开放数据。未取得可离线再分发的0.5–2m正射影像，不虚构建筑级细节。设计内外采用相同影像权重。",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "S03_卫星影像与城市综合空间",
+    "extent": [
+      348020.96295598266,
+      354160.2629559827,
+      3461718.5203195075,
+      3466114.120319507
+    ],
+    "fixed_style": {},
+    "findings": [
+      "拍摄：2026-10-14；原生10m",
+      "真实设计范围：66.0948公顷",
+      "真彩色影像，不是NDVI/LST或合成细节"
+    ],
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A1_scale": 10000,
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_scale": 20023.809523809523,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "R01",
+    "title": "建筑基底覆盖率｜100米",
+    "en": "Building footprint coverage",
+    "kind": "grid",
+    "series": "refined_analysis",
+    "scope": "design-context view; metrics still whole-AOI source units",
+    "scale": 5000,
+    "base_mode": "A",
+    "grid_size": 100,
+    "field": "building_density",
+    "layer": null,
+    "note": "采用与全域相同固定分级；只是局部放大视图，不将设计线变成强制统计裁切。 50m真实相交结果另存，100m为正式表达。",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "R01_建筑基底覆盖率_100米",
+    "extent": [
+      349576.24289999116,
+      352645.8928999912,
+      3462927.659279222,
+      3465125.459279222
+    ],
+    "fixed_style": {
+      "palette": "density",
+      "breaks": [
+        0,
+        0.15,
+        0.3,
+        0.45,
+        0.6,
+        1
+      ],
+      "unit": "建筑占地并集 / 实际单元面积"
+    },
+    "findings": [
+      "100m真实几何统计；视图内736个单元",
+      "有效736；中位值0.229"
+    ],
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A1_scale": 5000,
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_scale": 10011.904761904761,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "R02",
+    "title": "估高建筑体量代理｜100米",
+    "en": "Estimated volume proxy",
+    "kind": "grid",
+    "series": "refined_analysis",
+    "scope": "design-context view; metrics still whole-AOI source units",
+    "scale": 5000,
+    "base_mode": "A",
+    "grid_size": 100,
+    "field": "volume_proxy_m",
+    "layer": null,
+    "note": "采用与全域相同固定分级；只是局部放大视图，不将设计线变成强制统计裁切。 m³/m²；所有高度均非测绘，非容积率。",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "R02_估高建筑体量代理_100米",
+    "extent": [
+      349576.24289999116,
+      352645.8928999912,
+      3462927.659279222,
+      3465125.459279222
+    ],
+    "fixed_style": {
+      "palette": "volume",
+      "breaks": [
+        0,
+        3,
+        6,
+        12,
+        24,
+        48
+      ],
+      "unit": "m³/m²，估高体量代理，非容积率"
+    },
+    "findings": [
+      "100m真实几何统计；视图内736个单元",
+      "有效736；中位值2.97"
+    ],
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A1_scale": 5000,
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_scale": 10011.904761904761,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "R03",
+    "title": "已映射土地功能混合｜200米",
+    "en": "Mapped land-function area diversity",
+    "kind": "grid",
+    "series": "refined_analysis",
+    "scope": "design-context view; metrics still whole-AOI source units",
+    "scale": 5000,
+    "base_mode": "A",
+    "grid_size": 200,
+    "field": "land_function_entropy",
+    "layer": null,
+    "note": "采用与全域相同固定分级；只是局部放大视图，不将设计线变成强制统计裁切。 未知用地不当已知类别；已知比例<50%留空，另有剔除在建类敏感性。",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "R03_已映射土地功能混合_200米",
+    "extent": [
+      349576.24289999116,
+      352645.8928999912,
+      3462927.659279222,
+      3465125.459279222
+    ],
+    "fixed_style": {
+      "palette": "mix",
+      "breaks": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "unit": "H(已映射功能面积)/ln(8)；已知功能比例≥50%"
+    },
+    "findings": [
+      "200m真实几何统计；视图内204个单元",
+      "有效107；中位值0.152",
+      "全域已知功能占比仍约52.33%；低覆盖单元不计算"
+    ],
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A1_scale": 5000,
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_scale": 10011.904761904761,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "R04",
+    "title": "车行路网与真实节点｜200米",
+    "en": "Vehicle density and source-node junctions",
+    "kind": "grid",
+    "series": "refined_analysis",
+    "scope": "design-context view; metrics still whole-AOI source units",
+    "scale": 5000,
+    "base_mode": "A",
+    "grid_size": 200,
+    "field": "vehicle_density_km_km2",
+    "layer": null,
+    "note": "采用与全域相同固定分级；只是局部放大视图，不将设计线变成强制统计裁切。 只保留真实源拓扑；不把高架上下交点当路口。",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "R04_车行路网与真实节点_200米",
+    "extent": [
+      349576.24289999116,
+      352645.8928999912,
+      3462927.659279222,
+      3465125.459279222
+    ],
+    "fixed_style": {
+      "palette": "road",
+      "breaks": [
+        0,
+        5,
+        10,
+        20,
+        35,
+        72.97480545445404
+      ],
+      "unit": "km / km²，双幅源道路分计"
+    },
+    "findings": [
+      "200m真实几何统计；视图内204个单元",
+      "有效204；中位值10"
+    ],
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A1_scale": 5000,
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_scale": 10011.904761904761,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "R05",
+    "title": "商业观察密度｜200米",
+    "en": "Observed commercial POI density",
+    "kind": "grid",
+    "series": "refined_analysis",
+    "scope": "design-context view; metrics still whole-AOI source units",
+    "scale": 5000,
+    "base_mode": "A",
+    "grid_size": 200,
+    "field": "commercial_density_km2",
+    "layer": null,
+    "note": "采用与全域相同固定分级；只是局部放大视图，不将设计线变成强制统计裁切。 观察点密度，不是客流/就业；带宽100/200/400m对照见报告。",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "R05_商业观察密度_200米",
+    "extent": [
+      349576.24289999116,
+      352645.8928999912,
+      3462927.659279222,
+      3465125.459279222
+    ],
+    "fixed_style": {
+      "palette": "commercial",
+      "breaks": [
+        0,
+        10,
+        25,
+        50,
+        100,
+        250
+      ],
+      "unit": "已映射商业POI / km²；零值不表示无商业"
+    },
+    "findings": [
+      "200m真实几何统计；视图内204个单元",
+      "有效204；中位值0",
+      "局部观察点46；零格不能证明无商业"
+    ],
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A1_scale": 5000,
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_scale": 10011.904761904761,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "R06",
+    "title": "公共环境改善机会｜100米",
+    "en": "Research amenity-improvement screening",
+    "kind": "grid",
+    "series": "refined_analysis",
+    "scope": "design-context view; metrics still whole-AOI source units",
+    "scale": 5000,
+    "base_mode": "A",
+    "grid_size": 100,
+    "field": "research_amenity_priority",
+    "layer": null,
+    "note": "采用与全域相同固定分级；只是局部放大视图，不将设计线变成强制统计裁切。 V2三项等权体系沿用；不是政府更新、拆迁或建设名单。",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "R06_公共环境改善机会_100米",
+    "extent": [
+      349576.24289999116,
+      352645.8928999912,
+      3462927.659279222,
+      3465125.459279222
+    ],
+    "fixed_style": {
+      "palette": "opportunity",
+      "breaks": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "unit": "三项等权百分位均值，非法定更新风险"
+    },
+    "findings": [
+      "100m真实几何统计；视图内736个单元",
+      "有效492；中位值0.518"
+    ],
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A1_scale": 5000,
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_scale": 10011.904761904761,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "R07",
+    "title": "数据问题与改善机会｜100米",
+    "en": "Evidence issues and improvement screening",
+    "kind": "issues",
+    "series": "refined_analysis",
+    "scope": "design-context view; metrics still whole-AOI source units",
+    "scale": 5000,
+    "base_mode": "A",
+    "grid_size": 100,
+    "field": "research_amenity_priority",
+    "layer": null,
+    "note": "采用与全域相同固定分级；只是局部放大视图，不将设计线变成强制统计裁切。 点线面问题保留原位置，不是所有问题格网化。",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "R07_数据问题与改善机会_100米",
+    "extent": [
+      349576.24289999116,
+      352645.8928999912,
+      3462927.659279222,
+      3465125.459279222
+    ],
+    "fixed_style": {
+      "palette": "opportunity",
+      "breaks": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "unit": "三项等权百分位均值，非法定更新风险"
+    },
+    "findings": [
+      "100m真实几何统计；视图内736个单元",
+      "有效492；中位值0.518"
+    ],
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A1_scale": 5000,
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_scale": 10011.904761904761,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  },
+  {
+    "id": "R08",
+    "title": "2025模型人口｜原生约1公里",
+    "en": "Native WorldPop population model 2025",
+    "kind": "population",
+    "series": "refined_analysis",
+    "scope": "design-context view; metrics still whole-AOI source units",
+    "scale": 5000,
+    "base_mode": "C",
+    "grid_size": null,
+    "field": "population_density_km2",
+    "layer": "population_worldpop2025",
+    "note": "原生人口单元保持不变；卫星与建筑只增加空间参照，不制造人口局部差异。 2025 ALPHA模型，非普查实测人口。",
+    "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+    "stem": "R08_2025模型人口_原生约1公里",
+    "extent": [
+      349576.24289999116,
+      352645.8928999912,
+      3462927.659279222,
+      3465125.459279222
+    ],
+    "fixed_style": {
+      "palette": "population",
+      "breaks": [
+        0,
+        10000,
+        20000,
+        40000,
+        80000,
+        172065.2502463492
+      ],
+      "unit": "模型人 / km²；两年份产品不可直接作人口变化"
+    },
+    "findings": [
+      "原生模型：48个AOI裁切格网",
+      "2025约1km / 2020约100m；不重新细分"
+    ],
+    "A1_mm": [
+      841,
+      594
+    ],
+    "A1_scale": 5000,
+    "A3_mm": [
+      420,
+      297
+    ],
+    "A3_scale": 10011.904761904761,
+    "A3_min_font_pt": 7,
+    "design_line_mm": 1.2,
+    "design_fill": "none",
+    "outside_mask": false
+  }
+]

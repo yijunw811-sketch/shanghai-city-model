@@ -1,0 +1,17 @@
+{
+  "state": "resolved_by_user_upload",
+  "candidates": [],
+  "aoi_km2": 22.00912078313864,
+  "design_area_approx_user_only_km2": 0.661,
+  "not_substituted_by_aoi": true,
+  "blocked": [],
+  "can_continue": [
+    "true color imagery",
+    "whole AOI scale sensitivity",
+    "28-map color system",
+    "S01 and S03 context maps",
+    "independent V3 QGIS with explicit missing-boundary status"
+  ],
+  "initial_state": "awaiting_actual_design_boundary",
+  "resolved_source": "data/boundary/选定范围.csv"
+}

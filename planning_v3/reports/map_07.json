@@ -1,0 +1,50 @@
+{
+  "id": "07",
+  "title": "道路等级与交通结构",
+  "en": "Road hierarchy and grade separation",
+  "kind": "road",
+  "layer": null,
+  "field": null,
+  "cmap": "YlOrRd",
+  "note": "保留源等级、桥隧、层级和单行属性；几何相交不自动连通。不是官方道路行政等级。",
+  "findings": [
+    "道路几何与等级标签沿用V2",
+    "层级、桥隧和真实节点拓扑保留"
+  ],
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv",
+  "series": "regional",
+  "scope": "whole AOI",
+  "scale": 10000,
+  "base_mode": "A",
+  "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+  "stem": "07_道路等级与交通结构",
+  "extent": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "fixed_style": {},
+  "A1_scale": 10000,
+  "A3_scale": 20023.809523809523,
+  "A3_min_font_pt": 7,
+  "design_line_mm": 1.2,
+  "design_fill": "none",
+  "outside_mask": false
+}

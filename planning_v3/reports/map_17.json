@@ -1,0 +1,61 @@
+{
+  "id": "17",
+  "title": "模型人口密度｜2020年100米",
+  "en": "GHSL model population 2020",
+  "kind": "population",
+  "layer": "population_ghsl2020",
+  "field": "population_density_km2",
+  "cmap": "YlOrRd",
+  "note": "GHSL R2023A 2020原生100m格网，边界按像元面积比例裁切。模型不是普查街坊实测人口。",
+  "findings": [
+    "原生模型：2336个AOI裁切格网",
+    "2025约1km / 2020约100m；不重新细分"
+  ],
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv",
+  "series": "regional",
+  "scope": "whole AOI",
+  "scale": 10000,
+  "base_mode": "A",
+  "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+  "stem": "17_模型人口密度_2020年100米",
+  "extent": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "fixed_style": {
+    "palette": "population",
+    "breaks": [
+      0,
+      10000,
+      20000,
+      40000,
+      80000,
+      172065.2502463492
+    ],
+    "unit": "模型人 / km²；两年份产品不可直接作人口变化"
+  },
+  "A1_scale": 10000,
+  "A3_scale": 20023.809523809523,
+  "A3_min_font_pt": 7,
+  "design_line_mm": 1.2,
+  "design_fill": "none",
+  "outside_mask": false
+}

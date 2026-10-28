@@ -1,0 +1,52 @@
+{
+  "id": "R08",
+  "title": "2025模型人口｜原生约1公里",
+  "en": "Native WorldPop population model 2025",
+  "kind": "population",
+  "series": "refined_analysis",
+  "scope": "design-context view; metrics still whole-AOI source units",
+  "scale": 5000,
+  "base_mode": "C",
+  "grid_size": null,
+  "field": "population_density_km2",
+  "layer": "population_worldpop2025",
+  "note": "原生人口单元保持不变；卫星与建筑只增加空间参照，不制造人口局部差异。 2025 ALPHA模型，非普查实测人口。",
+  "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+  "stem": "R08_2025模型人口_原生约1公里",
+  "extent": [
+    349576.24289999116,
+    352645.8928999912,
+    3462927.659279222,
+    3465125.459279222
+  ],
+  "fixed_style": {
+    "palette": "population",
+    "breaks": [
+      0,
+      10000,
+      20000,
+      40000,
+      80000,
+      172065.2502463492
+    ],
+    "unit": "模型人 / km²；两年份产品不可直接作人口变化"
+  },
+  "findings": [
+    "原生模型：48个AOI裁切格网",
+    "2025约1km / 2020约100m；不重新细分"
+  ],
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A1_scale": 5000,
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_scale": 10011.904761904761,
+  "A3_min_font_pt": 7,
+  "design_line_mm": 1.2,
+  "design_fill": "none",
+  "outside_mask": false
+}

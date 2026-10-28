@@ -1,0 +1,95 @@
+{
+  "id": "19",
+  "title": "物理地表覆盖｜2021年",
+  "en": "worldcover2021_10m",
+  "kind": "raster",
+  "layer": "worldcover2021_10m",
+  "field": null,
+  "cmap": "tab10",
+  "note": "ESA WorldCover v200 10m物理覆盖，非功能/法定用地。",
+  "findings": [
+    "有效像元220,113；中位数50",
+    "源栅格复用，不改分辨率或数据值"
+  ],
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv",
+  "series": "regional",
+  "scope": "whole AOI",
+  "scale": 10000,
+  "base_mode": "A",
+  "raster_style": {
+    "palette": "dsm",
+    "vmin": 10.0,
+    "vmax": 60.0,
+    "categorical": true,
+    "codes": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      95,
+      100
+    ],
+    "labels": [
+      "树木",
+      "灌丛",
+      "草地",
+      "耕地",
+      "建成覆盖",
+      "裸地",
+      "冰雪",
+      "水体",
+      "湿地",
+      "红树林",
+      "苔藓"
+    ],
+    "colors": [
+      "#628568",
+      "#A5A56D",
+      "#92AE78",
+      "#C7B579",
+      "#A18C80",
+      "#B8AE97",
+      "#CBD6D8",
+      "#6595A7",
+      "#76A28E",
+      "#497C72",
+      "#A8B29C"
+    ]
+  },
+  "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+  "stem": "19_物理地表覆盖_2021年",
+  "extent": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "fixed_style": {},
+  "A1_scale": 10000,
+  "A3_scale": 20023.809523809523,
+  "A3_min_font_pt": 7,
+  "design_line_mm": 1.2,
+  "design_fill": "none",
+  "outside_mask": false
+}

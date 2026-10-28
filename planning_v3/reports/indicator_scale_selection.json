@@ -1,0 +1,50 @@
+{
+  "building_density": {
+    "test": [
+      50,
+      100
+    ],
+    "selected": 100,
+    "reason": "100m improves on500m, with50m design/context comparison retained; source footprints support true intersections"
+  },
+  "volume_proxy_m": {
+    "selected": 100,
+    "reason": "Actual clipped footprint×estimated height; max-height overlap assignment; not FAR"
+  },
+  "land_function_entropy": {
+    "test": [
+      100,
+      200
+    ],
+    "selected": 200,
+    "reason": "Sparse mapped functional coverage; conditional area entropy and known fraction>=50%; construction exclusion sensitivity retained"
+  },
+  "vehicle_density_km_km2": {
+    "test": [
+      100,
+      200
+    ],
+    "selected": 200,
+    "reason": "100m empty/one-road fluctuations compared with200m; true source node junctions independently retained"
+  },
+  "commercial_density_km2": {
+    "test": [
+      100,
+      200
+    ],
+    "selected": 200,
+    "reason": "138 observed AOI commercial points are sparse; count-based200m with KDE100/200/400 sensitivity, not inferred jobs/footfall"
+  },
+  "research_amenity_priority": {
+    "selected": 100,
+    "reason": "V2 equal weights retained; ranks recomputed per stated analysis domain"
+  },
+  "issues": {
+    "selected": 100,
+    "reason": "Grid score plus actual baseline review features, not every issue forced into cells"
+  },
+  "population2025": {
+    "selected": "native~1km",
+    "reason": "No licensed/efficient finer2025 subset verified; preserve original48 cells, no interpolation/downscaling"
+  }
+}

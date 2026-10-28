@@ -1,0 +1,26 @@
+[
+  {
+    "file": "reference_v2.gpkg",
+    "different_header_offsets": [
+      27,
+      95,
+      98,
+      99
+    ],
+    "all_data_pages_SHA256_identical": true,
+    "data_pages_sha256": "3efb945067329329337832d64fc4d4191606a912e6acb2e72d2bc304200dcbe6",
+    "note": "Only runtime SQLite change counter/version fields may differ; all source geometry/attributes/index pages identical"
+  },
+  {
+    "file": "reference_analysis_v2.gpkg",
+    "different_header_offsets": [
+      27,
+      95,
+      98,
+      99
+    ],
+    "all_data_pages_SHA256_identical": true,
+    "data_pages_sha256": "69aba438ca411062a569d633d4094274a1a2d83945c4bdd4910f2ae741a4c3a2",
+    "note": "Only runtime SQLite change counter/version fields may differ; all source geometry/attributes/index pages identical"
+  }
+]

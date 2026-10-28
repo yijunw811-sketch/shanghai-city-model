@@ -1,0 +1,30 @@
+[
+  {
+    "file": "shanghai-planning-v3-01-core-gis-project.zip",
+    "bytes": 43562405,
+    "sha256": "8141a42f946e8b4e5db836bf7c5f4de41d79b852be6016b4a7b739cef05dc409",
+    "members": 237,
+    "CRC_verified": true
+  },
+  {
+    "file": "shanghai-planning-v3-02-regional-maps-01-14.zip",
+    "bytes": 53639289,
+    "sha256": "1e5c78241a5248a441677c86becf2dc182005b37bcae6229a6b60c5a46a04a05",
+    "members": 58,
+    "CRC_verified": true
+  },
+  {
+    "file": "shanghai-planning-v3-03-regional-maps-15-28.zip",
+    "bytes": 23930287,
+    "sha256": "954a5b19c84269f58c8ac3ac7a8d8c01973643363d7dc56ebc183ddbd115ef09",
+    "members": 58,
+    "CRC_verified": true
+  },
+  {
+    "file": "shanghai-planning-v3-04-satellite-refined-comparisons.zip",
+    "bytes": 73767538,
+    "sha256": "e676475b58dec2127e767fc96fb2bf84ecbbb0b4f3d96d73bb5b26fbb4809b3f",
+    "members": 96,
+    "CRC_verified": true
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "23",
+  "title": "表面高程｜2021年约30米",
+  "en": "dsm_copernicus2021_30m",
+  "kind": "raster",
+  "layer": "dsm_copernicus2021_30m",
+  "field": null,
+  "cmap": "terrain",
+  "note": "Copernicus GLO30 DSM，含建筑和树冠；不是裸地DTM、道路实测高程或洪水淹没面。",
+  "findings": [
+    "有效像元24,448；中位数5.45",
+    "源栅格复用，不改分辨率或数据值"
+  ],
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv",
+  "series": "regional",
+  "scope": "whole AOI",
+  "scale": 10000,
+  "base_mode": "A",
+  "raster_style": {
+    "palette": "dsm",
+    "vmin": 1.6528431153297425,
+    "vmax": 12.418721504211426,
+    "categorical": false
+  },
+  "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+  "stem": "23_表面高程_2021年约30米",
+  "extent": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "fixed_style": {},
+  "A1_scale": 10000,
+  "A3_scale": 20023.809523809523,
+  "A3_min_font_pt": 7,
+  "design_line_mm": 1.2,
+  "design_fill": "none",
+  "outside_mask": false
+}

@@ -1,0 +1,56 @@
+{
+  "id": "25",
+  "title": "夏季建成光谱指数",
+  "en": "ndbi_summer2026_20m",
+  "kind": "raster",
+  "layer": "ndbi_summer2026_20m",
+  "field": null,
+  "cmap": "RdYlBu_r",
+  "note": "Sentinel-2 NDBI=(SWIR−NIR)/(SWIR+NIR)，20m；裸地等可混淆，不是法定建设用地。",
+  "findings": [
+    "有效像元52,313；中位数-0.062",
+    "源栅格复用，不改分辨率或数据值"
+  ],
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv",
+  "series": "regional",
+  "scope": "whole AOI",
+  "scale": 10000,
+  "base_mode": "A",
+  "raster_style": {
+    "palette": "ndbi",
+    "vmin": -0.8,
+    "vmax": 0.8,
+    "categorical": false
+  },
+  "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+  "stem": "25_夏季建成光谱指数",
+  "extent": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "fixed_style": {},
+  "A1_scale": 10000,
+  "A3_scale": 20023.809523809523,
+  "A3_min_font_pt": 7,
+  "design_line_mm": 1.2,
+  "design_fill": "none",
+  "outside_mask": false
+}

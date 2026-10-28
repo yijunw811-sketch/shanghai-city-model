@@ -1,0 +1,15 @@
+{
+  "origin": [
+    0,
+    0
+  ],
+  "crs": "EPSG:32651",
+  "50m_scope": "design site +500m intersect AOI",
+  "100m_200m_scope": "whole AOI, plus separate exact design intersections",
+  "boundary_area_correction": true,
+  "population_downscaled": false,
+  "functional_mix_changed_from_V2": "Area entropy of mapped functions; V2 POI entropy remains a different original indicator",
+  "KDE": "Observed counts kernel sum/(2*pi*h^2), units observed points/km2; AOI+2km source context; not normalized probability or traffic",
+  "score_population": "No population used in scores",
+  "topology": "V2 source-node junctions reused unchanged; no geometric crossing nodes created"
+}

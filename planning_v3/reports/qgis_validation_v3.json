@@ -1,0 +1,472 @@
+{
+  "QGIS_version": "3.40.6-Bratislava",
+  "project_reopened": true,
+  "valid_layers": 103,
+  "missing_layers": [],
+  "V2_reference_layouts": 28,
+  "new_V3_layouts": 39,
+  "layouts": [
+    {
+      "id": "01",
+      "name": "V3 01 现状土地功能分类",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "02",
+      "name": "V3 02 建筑密度分析",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "03",
+      "name": "V3 03 建筑高度分布｜全部含估算",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "04",
+      "name": "V3 04 建筑体量强度代理",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "05",
+      "name": "V3 05 城市肌理与图底关系",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "06",
+      "name": "V3 06 已映射土地功能面积混合度",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "07",
+      "name": "V3 07 道路等级与交通结构",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "08",
+      "name": "V3 08 车行路网密度与节点连通",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "09",
+      "name": "V3 09 公共交通接入与步行网络覆盖",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "10",
+      "name": "V3 10 日常服务慢行可达性",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "11",
+      "name": "V3 11 商业POI观察密度",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "12",
+      "name": "V3 12 已映射教育设施步行覆盖",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "13",
+      "name": "V3 13 蓝绿空间现状网络",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "14",
+      "name": "V3 14 公园绿地网络可达性",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "15",
+      "name": "V3 15 公共环境改善机会研究初筛",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "16",
+      "name": "V3 16 现状数据问题与改善机会",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "17",
+      "name": "V3 17 模型人口密度｜2020年100米",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "18",
+      "name": "V3 18 模型人口密度｜2025年约1公里",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "19",
+      "name": "V3 19 物理地表覆盖｜2021年",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "20",
+      "name": "V3 20 夏季植被指数｜2026年9月14日",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "21",
+      "name": "V3 21 冬季植被指数｜2026年2月21日",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "22",
+      "name": "V3 22 夏季卫星地表温度｜2026年8月1日",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "23",
+      "name": "V3 23 表面高程｜2021年约30米",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "24",
+      "name": "V3 24 夏季水体光谱指数",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "25",
+      "name": "V3 25 夏季建成光谱指数",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "26",
+      "name": "V3 26 历史物理地表覆盖｜2019年",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "27",
+      "name": "V3 27 历史水面观测频率｜1984—2021",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "28",
+      "name": "V3 28 冬夏植被指数季节差｜2026年",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "S01",
+      "name": "V3 S01 研究区卫星影像总览",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "S02",
+      "name": "V3 S02 核心设计区卫星现状",
+      "scale": 3999.9999999999545,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "S03",
+      "name": "V3 S03 卫星影像与城市综合空间",
+      "scale": 10000.000000000076,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "R01",
+      "name": "V3 R01 建筑基底覆盖率｜100米",
+      "scale": 5000.000000000038,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "R02",
+      "name": "V3 R02 估高建筑体量代理｜100米",
+      "scale": 5000.000000000038,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "R03",
+      "name": "V3 R03 已映射土地功能混合｜200米",
+      "scale": 5000.000000000038,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "R04",
+      "name": "V3 R04 车行路网与真实节点｜200米",
+      "scale": 5000.000000000038,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "R05",
+      "name": "V3 R05 商业观察密度｜200米",
+      "scale": 5000.000000000038,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "R06",
+      "name": "V3 R06 公共环境改善机会｜100米",
+      "scale": 5000.000000000038,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "R07",
+      "name": "V3 R07 数据问题与改善机会｜100米",
+      "scale": 5000.000000000038,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    },
+    {
+      "id": "R08",
+      "name": "V3 R08 2025模型人口｜原生约1公里",
+      "scale": 5000.000000000038,
+      "map_mm": [
+        613.93,
+        439.56
+      ],
+      "design_boundary_layer_id": "_________Design_Site_d4f5e229_146a_4996_8474_24226b4bcc74",
+      "new_layout": true
+    }
+  ],
+  "map_themes": [
+    "V3_A_纯矢量专题",
+    "V3_B_真实卫星",
+    "V3_C_卫星与GIS叠加"
+  ],
+  "native_exports": [
+    {
+      "id": "02",
+      "file": "outputs/previews/QGIS_native_02.png",
+      "result": "Success"
+    },
+    {
+      "id": "R01",
+      "file": "outputs/previews/QGIS_native_R01.png",
+      "result": "Success"
+    },
+    {
+      "id": "S02",
+      "file": "outputs/previews/QGIS_native_S02.png",
+      "result": "Success"
+    },
+    {
+      "id": "S03",
+      "file": "outputs/previews/QGIS_native_S03.png",
+      "result": "Success"
+    }
+  ],
+  "all_paths_relative": true,
+  "online_dependency": false,
+  "vector_layers_valid_independent_of_satellite": true,
+  "design_layer": "DESIGN_SITE_BOUNDARY",
+  "design_fill": "none",
+  "outside_mask": false
+}

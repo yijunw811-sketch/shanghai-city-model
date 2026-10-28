@@ -1,0 +1,9 @@
+scale_m,field,comparison,valid_cells,pearson_r,mean_absolute_difference,max_abs_difference,not_change_over_time
+100,building_density,area-weighted piecewise reaggregation toV2 500m for diagnostic only,103,0.9999999999999998,1.961345393001848e-13,9.74753611160395e-12,True
+100,volume_proxy_m,area-weighted piecewise reaggregation toV2 500m for diagnostic only,103,0.9999999999999999,2.5434988527443845e-12,1.2112177927292578e-10,True
+100,vehicle_density_km_km2,area-weighted piecewise reaggregation toV2 500m for diagnostic only,103,0.9999999999999997,2.2456815263886863e-12,1.0835066177605768e-10,True
+100,research_amenity_priority,area-weighted piecewise reaggregation toV2 500m for diagnostic only,101,0.8523399806095885,0.09464007585189159,0.27693427678696275,True
+200,building_density,area-weighted piecewise reaggregation toV2 500m for diagnostic only,103,0.9733798303644104,0.011411148743932526,0.05365439531225821,True
+200,volume_proxy_m,area-weighted piecewise reaggregation toV2 500m for diagnostic only,103,0.9815362955666532,0.13026492865417974,0.6438527437470376,True
+200,vehicle_density_km_km2,area-weighted piecewise reaggregation toV2 500m for diagnostic only,103,0.9763258582606631,1.2028592070560242,8.050101766873343,True
+200,research_amenity_priority,area-weighted piecewise reaggregation toV2 500m for diagnostic only,101,0.8884767664830875,0.08246844096907092,0.2271446127294843,True

@@ -1,0 +1,62 @@
+{
+  "id": "04",
+  "title": "建筑体量强度代理",
+  "en": "Estimated volume intensity proxy",
+  "kind": "grid",
+  "layer": null,
+  "field": "volume_proxy_m",
+  "cmap": "YlOrBr",
+  "note": "各高度占地互斥面×估算高度之和 / 网格面积（m³/m²）。重叠取较高值；不是容积率。 V3改为100m真实相交重算；设计线仅标注，不改变全域统计口径。",
+  "findings": [
+    "100m真实几何统计；视图内2300个单元",
+    "有效2300；中位值2.59"
+  ],
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv",
+  "series": "regional",
+  "scope": "whole AOI",
+  "scale": 10000,
+  "base_mode": "A",
+  "grid_size": 100,
+  "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+  "stem": "04_建筑体量强度代理",
+  "extent": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "fixed_style": {
+    "palette": "volume",
+    "breaks": [
+      0,
+      3,
+      6,
+      12,
+      24,
+      48
+    ],
+    "unit": "m³/m²，估高体量代理，非容积率"
+  },
+  "A1_scale": 10000,
+  "A3_scale": 20023.809523809523,
+  "A3_min_font_pt": 7,
+  "design_line_mm": 1.2,
+  "design_fill": "none",
+  "outside_mask": false
+}

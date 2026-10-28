@@ -1,0 +1,61 @@
+{
+  "id": "18",
+  "title": "模型人口密度｜2025年约1公里",
+  "en": "WorldPop ALPHA model population 2025",
+  "kind": "population",
+  "layer": "population_worldpop2025",
+  "field": "population_density_km2",
+  "cmap": "YlOrRd",
+  "note": "保持WorldPop2025 ALPHA原生约1km的48个裁切单元；不插值到100m。与2020不同模型不可解释为人口真实变化。",
+  "findings": [
+    "原生模型：48个AOI裁切格网",
+    "2025约1km / 2020约100m；不重新细分"
+  ],
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv",
+  "series": "regional",
+  "scope": "whole AOI",
+  "scale": 10000,
+  "base_mode": "A",
+  "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+  "stem": "18_模型人口密度_2025年约1公里",
+  "extent": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "fixed_style": {
+    "palette": "population",
+    "breaks": [
+      0,
+      10000,
+      20000,
+      40000,
+      80000,
+      172065.2502463492
+    ],
+    "unit": "模型人 / km²；两年份产品不可直接作人口变化"
+  },
+  "A1_scale": 10000,
+  "A3_scale": 20023.809523809523,
+  "A3_min_font_pt": 7,
+  "design_line_mm": 1.2,
+  "design_fill": "none",
+  "outside_mask": false
+}

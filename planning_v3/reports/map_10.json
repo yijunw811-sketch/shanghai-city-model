@@ -1,0 +1,50 @@
+{
+  "id": "10",
+  "title": "日常服务慢行可达性",
+  "en": "Daily-service walking reach",
+  "kind": "access",
+  "layer": "daily_service",
+  "field": null,
+  "cmap": "YlOrRd",
+  "note": "基于OSM步行节点和已映射设施，5/10/15分钟；结果为可达路段，不是欧氏圈或服务人口比例。",
+  "findings": [
+    "复用V2真实源节点步行分析，4.5km/h",
+    "设施接入和门禁不确定性保留；非人口覆盖率"
+  ],
+  "extent_32651": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "A1_map_scale": 10000,
+  "A1_mm": [
+    841,
+    594
+  ],
+  "A3_mm": [
+    420,
+    297
+  ],
+  "A3_map_scale": 20023.809523809523,
+  "source_registry": "reports/source_registry.csv",
+  "series": "regional",
+  "scope": "whole AOI",
+  "scale": 10000,
+  "base_mode": "A",
+  "signature": "7aae88252cf292fcfca72a051efe1fbefb05ccb9715896420b6026dcbb2895321040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fbmaps-v3.4",
+  "stem": "10_日常服务慢行可达性",
+  "extent": [
+    348020.96295598266,
+    354160.2629559827,
+    3461718.5203195075,
+    3466114.120319507
+  ],
+  "fixed_style": {},
+  "A1_scale": 10000,
+  "A3_scale": 20023.809523809523,
+  "A3_min_font_pt": 7,
+  "design_line_mm": 1.2,
+  "design_fill": "none",
+  "outside_mask": false
+}
