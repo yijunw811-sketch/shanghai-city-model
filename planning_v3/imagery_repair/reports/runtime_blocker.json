@@ -1,0 +1,11 @@
+{
+  "observed_runtime_revision": "8",
+  "network_policy": "restricted/enforced",
+  "relevant_hosts_allowed_in_current_instance": [],
+  "tested_error": "ProxyError: Tunnel connection failed403Forbidden",
+  "server_contact_not_established": true,
+  "network_draft_saved": true,
+  "requires_publish": true,
+  "runtime_change_not_assumed": true,
+  "service_auth_and_rights_not_yet_known": true
+}

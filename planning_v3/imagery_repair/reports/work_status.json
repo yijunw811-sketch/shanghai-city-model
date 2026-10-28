@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-29 Asia/Shanghai",
+  "native_GSD_m": 10,
+  "target_GSD_m": "0.3-1 preferred;1-2 secondary",
+  "high_resolution_acquired": false,
+  "high_resolution_replacement_complete": false,
+  "baseline_windows_prepared": 3,
+  "actual_old_new_comparisons_completed": 0,
+  "formal_HD_maps_exported": 0,
+  "display_patch_verified": true,
+  "source_pixel_equality_controls": [
+    {
+      "id": "P01",
+      "original_native_resolution": [
+        10.0,
+        10.0
+      ],
+      "source_values_identical": true,
+      "tested_RGB_values": 1200,
+      "mean_absolute_DN_difference": 0.0
+    },
+    {
+      "id": "P02",
+      "original_native_resolution": [
+        10.0,
+        10.0
+      ],
+      "source_values_identical": true,
+      "tested_RGB_values": 1200,
+      "mean_absolute_DN_difference": 0.0
+    },
+    {
+      "id": "P03",
+      "original_native_resolution": [
+        10.0,
+        10.0
+      ],
+      "source_values_identical": true,
+      "tested_RGB_values": 1200,
+      "mean_absolute_DN_difference": 0.0
+    }
+  ],
+  "blocker": "Runtime proxy403 to required hosts; draft saved but not applied; service rights/CRS/GSD/dates unknown",
+  "no_paid_API": true,
+  "no_AI_or_sharpening": true
+}

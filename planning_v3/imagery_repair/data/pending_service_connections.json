@@ -1,0 +1,11 @@
+{
+  "status": "UNVERIFIED_CONNECTIONS_NOT_ACTIVE_IMAGERY",
+  "reason": "Current cloud proxy blocks metadata. Do not activate or call these high-resolution until CRS, capture date, true source resolution and permitted uses are verified.",
+  "connections": [
+    {"name":"Shanghai official aerial imagery candidate","provider_candidate":"arcgismapserver (ams)","url":"https://mape.shanghai-map.net/arcgis/rest/services/SHMAP_IMAGE/MapServer","crs":null,"true_capture_GSD_m":null,"capture_date":null,"enabled":false},
+    {"name":"Shanghai shyx2024 candidate; year not yet a verified capture date","provider_candidate":"arcgismapserver (ams)","url":"https://map4.shanghai-map.net/arcgis/rest/services/shyx2024/MapServer","crs":null,"true_capture_GSD_m":null,"capture_date":null,"enabled":false},
+    {"name":"Tianditu Shanghai public map entry; not assumed reusable tile API","url":"https://shanghai.tianditu.gov.cn/map/views/theme.html","enabled":false}
+  ],
+  "rights_gate": "An anonymous readable map service does not by itself grant caching, downloading, academic publication or redistribution. Respect actual terms; do not extract application keys or scrape tiles.",
+  "fees": "No paid API or purchase authorized or performed"
+}

@@ -1,0 +1,43 @@
+{
+  "path": "planning_v3/data/satellite/sentinel_truecolor_10m_context.tif",
+  "sha256": "a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fb",
+  "native_resolution": [
+    10.0,
+    10.0
+  ],
+  "crs": "EPSG:32651",
+  "dtype": [
+    "uint8",
+    "uint8",
+    "uint8"
+  ],
+  "bands": 3,
+  "compression": "DEFLATE",
+  "overview_factors": [
+    2,
+    4,
+    8,
+    16
+  ],
+  "shape": [
+    787,
+    986
+  ],
+  "transform": [
+    10.0,
+    0.0,
+    346160.0,
+    0.0,
+    -10.0,
+    3467860.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "bounds": [
+    346160.0,
+    3459990.0,
+    356020.0,
+    3467860.0
+  ]
+}

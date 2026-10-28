@@ -1,0 +1,384 @@
+[
+  {
+    "name": "Shanghai existing public entry",
+    "url": "https://qucity.shanghai-map.net/",
+    "status": 200
+  },
+  {
+    "name": "Earth Search public collection metadata",
+    "url": "https://earth-search.aws.element84.com/v1/collections",
+    "status": 200,
+    "collections": [
+      {
+        "id": "sentinel-2-pre-c1-l2a",
+        "title": "Sentinel-2 Pre-Collection 1 Level-2A ",
+        "license": "proprietary",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "2015-06-27T10:25:31.456000Z",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "id": "naip",
+        "title": "NAIP: National Agriculture Imagery Program",
+        "license": "proprietary",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -160,
+                17,
+                -67,
+                50
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "2010-01-01T00:00:00Z",
+                "2022-12-31T00:00:00Z"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "id": "landsat-c2-l2",
+        "title": "Landsat Collection 2 Level-2",
+        "license": "proprietary",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "1982-08-22T00:00:00Z",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "id": "sentinel-2-l2a",
+        "title": "Sentinel-2 Level-2A",
+        "license": "proprietary",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "2015-06-27T10:25:31.456000Z",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "id": "sentinel-2-l1c",
+        "title": "Sentinel-2 Level-1C",
+        "license": "proprietary",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "2015-06-27T10:25:31.456000Z",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "id": "sentinel-2-c1-l2a",
+        "title": "Sentinel-2 Collection 1 Level-2A",
+        "license": "proprietary",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "2015-06-27T10:25:31.456000Z",
+                null
+              ]
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Planetary Computer public collection metadata",
+    "url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections",
+    "status": 200,
+    "collections": [
+      {
+        "id": "goes-cmi",
+        "title": "GOES-R Cloud & Moisture Imagery",
+        "license": "other",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -81.33,
+                6.3,
+                81.33
+              ],
+              [
+                141.7,
+                -81.33,
+                180,
+                81.33
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "2017-02-28T00:16:52Z",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "id": "hls2-l30",
+        "title": "Harmonized Landsat Sentinel-2 (HLS) Version 2.0, Landsat Data",
+        "license": "proprietary",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "2020-01-01T00:00:00Z",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "id": "hls2-s30",
+        "title": "Harmonized Landsat Sentinel-2 (HLS) Version 2.0, Sentinel-2 Data",
+        "license": "proprietary",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "2020-01-01T00:00:00Z",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "id": "landsat-c2-l1",
+        "title": "Landsat Collection 2 Level-1",
+        "license": "other",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "1972-07-25T00:00:00Z",
+                "2013-01-07T23:23:59Z"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "id": "landsat-c2-l2",
+        "title": "Landsat Collection 2 Level-2",
+        "license": "proprietary",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "1982-08-22T00:00:00Z",
+                null
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "id": "naip",
+        "title": "NAIP: National Agriculture Imagery Program",
+        "license": "other",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -124.784,
+                24.744,
+                -66.951,
+                49.346
+              ],
+              [
+                -156.003,
+                19.059,
+                -154.809,
+                20.127
+              ],
+              [
+                -67.316,
+                17.871,
+                -65.596,
+                18.565
+              ],
+              [
+                -64.94,
+                17.622,
+                -64.56,
+                17.814
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "2010-01-01T00:00:00Z",
+                "2023-12-31T00:00:00Z"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "id": "sentinel-2-l2a",
+        "title": "Sentinel-2 Level-2A",
+        "license": "proprietary",
+        "extent": {
+          "spatial": {
+            "bbox": [
+              [
+                -180,
+                -90,
+                180,
+                90
+              ]
+            ]
+          },
+          "temporal": {
+            "interval": [
+              [
+                "2015-06-27T10:25:31Z",
+                null
+              ]
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "source": "Planetary Computer",
+    "check": "NAIP advertised sub-metre aerial collection actual Shanghai bbox query",
+    "status": 200,
+    "features_returned": 0,
+    "not_used_as_Shanghai_data": true
+  },
+  {
+    "source": "Earth Search",
+    "check": "NAIP advertised sub-metre aerial collection actual Shanghai bbox query",
+    "status": 200,
+    "features_returned": 0,
+    "not_used_as_Shanghai_data": true
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "tianditu_shanghai",
+    "url": "https://shanghai.tianditu.gov.cn/map/views/theme.html",
+    "exception": "ProxyError",
+    "error": "HTTPSConnectionPool(host='shanghai.tianditu.gov.cn', port=443): Max retries exceeded with url: /map/views/theme.html (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+    "source_native_GSD_m": null,
+    "actual_capture_date": null,
+    "spatial_reference": null,
+    "supported_protocols": null,
+    "academic_map_use_allowed": null,
+    "offline_cache_allowed": null,
+    "download_allowed": null,
+    "redistribution_allowed": null,
+    "auth_requirement": "unknown; request did not reach server"
+  },
+  {
+    "id": "shanghai_airphoto",
+    "url": "https://mape.shanghai-map.net/arcgis/rest/services/SHMAP_IMAGE/MapServer?f=pjson",
+    "exception": "ProxyError",
+    "error": "HTTPSConnectionPool(host='mape.shanghai-map.net', port=443): Max retries exceeded with url: /arcgis/rest/services/SHMAP_IMAGE/MapServer?f=pjson (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+    "source_native_GSD_m": null,
+    "actual_capture_date": null,
+    "spatial_reference": null,
+    "supported_protocols": null,
+    "academic_map_use_allowed": null,
+    "offline_cache_allowed": null,
+    "download_allowed": null,
+    "redistribution_allowed": null,
+    "auth_requirement": "unknown; request did not reach server"
+  },
+  {
+    "id": "shanghai_2024",
+    "url": "https://map4.shanghai-map.net/arcgis/rest/services/shyx2024/MapServer?f=pjson",
+    "exception": "ProxyError",
+    "error": "HTTPSConnectionPool(host='map4.shanghai-map.net', port=443): Max retries exceeded with url: /arcgis/rest/services/shyx2024/MapServer?f=pjson (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+    "source_native_GSD_m": null,
+    "actual_capture_date": null,
+    "spatial_reference": null,
+    "supported_protocols": null,
+    "academic_map_use_allowed": null,
+    "offline_cache_allowed": null,
+    "download_allowed": null,
+    "redistribution_allowed": null,
+    "auth_requirement": "unknown; request did not reach server"
+  }
+]

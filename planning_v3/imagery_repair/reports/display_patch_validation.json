@@ -1,0 +1,39 @@
+{
+  "high_resolution_replacement_complete": false,
+  "actual_active_GSD_m": 10,
+  "source_capture_date": "2026-10-14",
+  "no_sharpen_or_AI": true,
+  "source_data_changed": false,
+  "native_local_raster_no_low_zoom_tiles": true,
+  "pure_vector_theme_retained": true,
+  "new_display_themes": [
+    "IMAGE_A_纯影像_原生10m备用",
+    "IMAGE_B_轻叠加_原生10m备用"
+  ],
+  "original_project_backup": "imagery_repair/state/planning_analysis_v3_before_imagery_repair.qgz",
+  "updated_project": "outputs/qgis/planning_analysis_v3.qgz",
+  "diagnostic_project": "outputs/qgis/planning_analysis_v3_imagery_diagnostic.qgz",
+  "valid_layers": 108,
+  "invalid_sources": [],
+  "satellite_layouts_export_DPI": 300,
+  "satellite_layouts_configured": [
+    "V3 S01 研究区卫星影像总览",
+    "V3 S02 核心设计区卫星现状",
+    "V3 S03 卫星影像与城市综合空间"
+  ],
+  "formal_HD_maps_exported": false,
+  "reason_formal_exports_deferred": "User requested real source replacement and comparisons before re-export; no verified authorized higher-resolution source yet",
+  "design_boundary_unchanged": true,
+  "outside_mask": false,
+  "inside_fill": false,
+  "all_protected_source_file_SHA256_unchanged": {
+    "planning_v3/outputs/gis/reference_v2.gpkg": true,
+    "planning_v3/outputs/gis/refined_analysis_v3.gpkg": true,
+    "planning_v3/outputs/gis/reference_analysis_v2.gpkg": true,
+    "planning_v3/data/satellite/sentinel_truecolor_10m_context.tif": true,
+    "上海城市模型_Codex云端起步包/outputs/gis/city.gpkg": true,
+    "上海城市模型_Codex云端起步包/outputs/gis/overture_audit.gpkg": true,
+    "planning_v3/data/boundary/选定范围.csv": true
+  },
+  "native_preview_export": "Success"
+}
