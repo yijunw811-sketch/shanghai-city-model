@@ -1,0 +1,44 @@
+[
+  {
+    "file": "Shanghai_GIS_V3_Analysis_A1_36maps.pdf",
+    "HTTP": 206,
+    "content_range": "bytes 0-3/22543688",
+    "signature_verified": true,
+    "url": "https://raw.githubusercontent.com/yijunw811-sketch/shanghai-city-model/planning-v3-analysis-notes-20261029/planning_v3/analysis_notes/downloads/Shanghai_GIS_V3_Analysis_A1_36maps.pdf"
+  },
+  {
+    "file": "Shanghai_GIS_V3_Analysis_A3_36maps.pdf",
+    "HTTP": 206,
+    "content_range": "bytes 0-3/22292860",
+    "signature_verified": true,
+    "url": "https://raw.githubusercontent.com/yijunw811-sketch/shanghai-city-model/planning-v3-analysis-notes-20261029/planning_v3/analysis_notes/downloads/Shanghai_GIS_V3_Analysis_A3_36maps.pdf"
+  },
+  {
+    "file": "shanghai-v3-analysis-notes-00-core.zip",
+    "HTTP": 206,
+    "content_range": "bytes 0-3/7887353",
+    "signature_verified": true,
+    "url": "https://raw.githubusercontent.com/yijunw811-sketch/shanghai-city-model/planning-v3-analysis-notes-20261029/planning_v3/analysis_notes/downloads/shanghai-v3-analysis-notes-00-core.zip"
+  },
+  {
+    "file": "shanghai-v3-analysis-notes-01-maps-01-12.zip",
+    "HTTP": 206,
+    "content_range": "bytes 0-3/71977992",
+    "signature_verified": true,
+    "url": "https://raw.githubusercontent.com/yijunw811-sketch/shanghai-city-model/planning-v3-analysis-notes-20261029/planning_v3/analysis_notes/downloads/shanghai-v3-analysis-notes-01-maps-01-12.zip"
+  },
+  {
+    "file": "shanghai-v3-analysis-notes-02-maps-13-24.zip",
+    "HTTP": 206,
+    "content_range": "bytes 0-3/46837318",
+    "signature_verified": true,
+    "url": "https://raw.githubusercontent.com/yijunw811-sketch/shanghai-city-model/planning-v3-analysis-notes-20261029/planning_v3/analysis_notes/downloads/shanghai-v3-analysis-notes-02-maps-13-24.zip"
+  },
+  {
+    "file": "shanghai-v3-analysis-notes-03-maps-25-28-R01-R08.zip",
+    "HTTP": 206,
+    "content_range": "bytes 0-3/41126770",
+    "signature_verified": true,
+    "url": "https://raw.githubusercontent.com/yijunw811-sketch/shanghai-city-model/planning-v3-analysis-notes-20261029/planning_v3/analysis_notes/downloads/shanghai-v3-analysis-notes-03-maps-25-28-R01-R08.zip"
+  }
+]

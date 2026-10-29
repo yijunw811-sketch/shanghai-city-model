@@ -26,3 +26,5 @@
 [SHA256](SHA256SUMS.txt) · [压缩包验证](package_verification.json) · [最终QA](../reports/FINAL_QA.json) · [使用说明](../README.md)
 
 分支planning-v3-analysis-notes-20261029；本包与未完成的影像搜集分开交付，原GIS、V2和三维模型不变。
+
+[草稿PR #2](https://github.com/yijunw811-sketch/shanghai-city-model/pull/2)已创建；6个远程下载文件签名已验证，未自动合并。

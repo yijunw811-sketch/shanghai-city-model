@@ -1,0 +1,12 @@
+{
+  "PR_url": "https://github.com/yijunw811-sketch/shanghai-city-model/pull/2",
+  "PR_created": true,
+  "PR_is_draft": true,
+  "base": "planning-v3-imagery-repair-20261029",
+  "head": "planning-v3-analysis-notes-20261029",
+  "main_merged": false,
+  "remote_download_artifacts_verified": 6,
+  "existing_maps_annotated": 36,
+  "paragraphs": 108,
+  "new_maps_or_basemaps": 0
+}
