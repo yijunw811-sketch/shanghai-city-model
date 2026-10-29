@@ -1,0 +1,25 @@
+{
+  "phase": 1,
+  "cases": 7,
+  "groups": {
+    "A": [
+      "01",
+      "02"
+    ],
+    "B": [
+      "03",
+      "04"
+    ],
+    "C": [
+      "05",
+      "06",
+      "07"
+    ]
+  },
+  "pdf_pages": 8,
+  "all_images_decode": true,
+  "all_source_pages_cached": true,
+  "pdf_source_links": 7,
+  "phase2_not_started": true,
+  "notes": "PDF为高质量图像排版；文字、来源与重建脚本另附。未修改GIS或模型。"
+}
