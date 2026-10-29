@@ -1,0 +1,74 @@
+[
+  {
+    "id": "S01",
+    "map_scale": 10000,
+    "PNG_pixels": [
+      3973,
+      2806
+    ],
+    "PNG_DPI": [
+      119.9896,
+      119.9896
+    ],
+    "PDF_embedded_images": [
+      {
+        "width": 2901,
+        "height": 2077,
+        "bpc": 8,
+        "filter": "FlateDecode"
+      }
+    ],
+    "ground_extent_width_m": 6139.300000000047,
+    "independent_native_samples_across_map": 613.9300000000046,
+    "source_pixel_on_paper_mm": 1.0,
+    "source_pixel_screen_pixels_at300dpi": 11.811023622047244
+  },
+  {
+    "id": "S02",
+    "map_scale": 4000,
+    "PNG_pixels": [
+      3973,
+      2806
+    ],
+    "PNG_DPI": [
+      119.9896,
+      119.9896
+    ],
+    "PDF_embedded_images": [
+      {
+        "width": 2901,
+        "height": 2077,
+        "bpc": 8,
+        "filter": "FlateDecode"
+      }
+    ],
+    "ground_extent_width_m": 2455.719999999972,
+    "independent_native_samples_across_map": 245.57199999999722,
+    "source_pixel_on_paper_mm": 2.5,
+    "source_pixel_screen_pixels_at300dpi": 29.52755905511811
+  },
+  {
+    "id": "S03",
+    "map_scale": 10000,
+    "PNG_pixels": [
+      3973,
+      2806
+    ],
+    "PNG_DPI": [
+      119.9896,
+      119.9896
+    ],
+    "PDF_embedded_images": [
+      {
+        "width": 2901,
+        "height": 2077,
+        "bpc": 8,
+        "filter": "FlateDecode"
+      }
+    ],
+    "ground_extent_width_m": 6139.300000000047,
+    "independent_native_samples_across_map": 613.9300000000046,
+    "source_pixel_on_paper_mm": 1.0,
+    "source_pixel_screen_pixels_at300dpi": 11.811023622047244
+  }
+]

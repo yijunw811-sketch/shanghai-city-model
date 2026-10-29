@@ -1,0 +1,98 @@
+[
+  {
+    "id": "shanghai_airphoto",
+    "url": "https://mape.shanghai-map.net/arcgis/rest/services/SHMAP_IMAGE/MapServer",
+    "access": "http_503",
+    "source_native_GSD_m": null,
+    "actual_capture_date": null,
+    "academic_map_use_allowed": null,
+    "offline_cache_allowed": null,
+    "download_allowed": null,
+    "redistribution_allowed": null,
+    "auth_requirement": "unverified",
+    "qgis_provider_candidate": "arcgismapserver (ams)",
+    "qgis_layer_enabled": false,
+    "http_status": 503
+  },
+  {
+    "id": "shanghai_2024",
+    "url": "https://map4.shanghai-map.net/arcgis/rest/services/shyx2024/MapServer",
+    "access": "http_503",
+    "source_native_GSD_m": null,
+    "actual_capture_date": null,
+    "academic_map_use_allowed": null,
+    "offline_cache_allowed": null,
+    "download_allowed": null,
+    "redistribution_allowed": null,
+    "auth_requirement": "unverified",
+    "qgis_provider_candidate": "arcgismapserver (ams)",
+    "qgis_layer_enabled": false,
+    "http_status": 503
+  },
+  {
+    "id": "esri_world_imagery",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "access": "metadata_accessible",
+    "source_native_GSD_m": null,
+    "actual_capture_date": null,
+    "academic_map_use_allowed": null,
+    "offline_cache_allowed": null,
+    "download_allowed": null,
+    "redistribution_allowed": null,
+    "auth_requirement": "unverified",
+    "qgis_provider_candidate": "arcgismapserver (ams)",
+    "qgis_layer_enabled": false,
+    "http_status": 200,
+    "copyright": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+    "service_description": "<div style='text-align:Left;font-size:12pt'><p><span>World Imagery provides one meter or better satellite and aerial imagery in many parts of the world and lower resolution satellite imagery worldwide. The map includes 15m TerraColor imagery at small and mid-scales (~1:591M down to ~1:288k) for the world. The map features Vantor imagery at 0.3m resolution for select metropolitan areas around the world, 0.5m resolution across the United States and parts of Western Europe, and 1m resolution imagery across the rest of the world. In addition to commercial sources, the World Imagery map features high-resolution aerial photography contributed by the GIS User Community. This imagery ranges from 0.3m to 0.03m resolution (down to ~1:280 in select communities). For more information on this map, including the terms of use, visit us online at https://goto.arcgisonline.com/maps/World_Imagery</span></p></div>",
+    "description": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><P><SPAN>World Imagery provides one meter or better satellite and aerial imagery in many parts of the world and lower resolution satellite imagery worldwide. The map includes 15m TerraColor imagery at small and mid-scales (~1:591M down to ~1:288k) for the world. The map features Vantor imagery at 0.3m resolution for select metropolitan areas around the world, 0.5m resolution across the United States and parts of Western Europe, and 1m resolution imagery across the rest of the world. In addition to commercial sources, the World Imagery map features high-resolution aerial photography contributed by the GIS User Community. This imagery ranges from 0.3m to 0.03m resolution (down to ~1:280 in select communities). For more information on this map, including the terms of use, visit us online at https://goto.arcgisonline.com/maps/World_Imagery</SPAN></P></DIV>",
+    "supported_image_formats": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+    "supported_extensions": "KmlServer",
+    "capabilities": "Map,Query,Data,Tilemap",
+    "tile_cache": true,
+    "max_export_size": [
+      4096,
+      4096
+    ],
+    "authInfo": null,
+    "document_info": {
+      "Title": "Layers",
+      "Author": "",
+      "Comments": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><P><SPAN>World Imagery provides one meter or better satellite and aerial imagery in many parts of the world and lower resolution satellite imagery worldwide. The map includes 15m TerraColor imagery at small and mid-scales (~1:591M down to ~1:288k) for the world. The map features Vantor imagery at 0.3m resolution for select metropolitan areas around the world, 0.5m resolution across the United States and parts of Western Europe, and 1m resolution imagery across the rest of the world. In addition to commercial sources, the World Imagery map features high-resolution aerial photography contributed by the GIS User Community. This imagery ranges from 0.3m to 0.03m resolution (down to ~1:280 in select communities). For more information on this map, including the terms of use, visit us online at https://goto.arcgisonline.com/maps/World_Imagery</SPAN></P></DIV>",
+      "Subject": "imagery, satellite, aerial, 500m (World), 15m (World)",
+      "Category": "",
+      "Version": "3.1.0",
+      "AntialiasingMode": "Fast",
+      "TextAntialiasingMode": "Force",
+      "Keywords": "World,Global,United States"
+    },
+    "spatial_reference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "xyUnits": 10000,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    },
+    "deepest_advertised_LOD": {
+      "level": 23,
+      "resolution": 0.01866138385297604,
+      "scale": 70.5310735
+    },
+    "nominal_display_ground_spacing_at31_3N_m": 0.01594538421567317,
+    "critical_warning": "Deepest tile pixel spacing is NOT proof of native acquisition GSD; service name2024/copyright year is NOT a verified capture date; public metadata is NOT a redistribution license",
+    "projection_operations": [
+      {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + UTM zone 51N",
+        "declared_accuracy_m": 0.0
+      }
+    ],
+    "best_transform_available": true
+  }
+]

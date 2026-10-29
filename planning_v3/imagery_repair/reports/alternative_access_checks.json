@@ -1,0 +1,23 @@
+[
+  {
+    "source": "Esri World Imagery public metadata",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=pjson",
+    "exception": "ProxyError",
+    "error": "HTTPSConnectionPool(host='services.arcgisonline.com', port=443): Max retries exceeded with url: /ArcGIS/rest/services/World_Imagery/MapServer?f=pjson (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+    "terms_and_capture_resolution_verified": false
+  },
+  {
+    "source": "Esri official terms",
+    "url": "https://www.esri.com/en-us/legal/terms/full-master-agreement",
+    "exception": "ProxyError",
+    "error": "HTTPSConnectionPool(host='www.esri.com', port=443): Max retries exceeded with url: /en-us/legal/terms/full-master-agreement (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+    "terms_and_capture_resolution_verified": false
+  },
+  {
+    "source": "OpenAerialMap public catalogue",
+    "url": "https://api.openaerialmap.org/meta?bbox=121.42,31.298,121.445,31.305",
+    "exception": "ProxyError",
+    "error": "HTTPSConnectionPool(host='api.openaerialmap.org', port=443): Max retries exceeded with url: /meta?bbox=121.42,31.298,121.445,31.305 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+    "terms_and_capture_resolution_verified": false
+  }
+]

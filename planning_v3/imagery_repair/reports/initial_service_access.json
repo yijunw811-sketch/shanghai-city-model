@@ -1,0 +1,20 @@
+[
+  {
+    "id": "tianditu_shanghai",
+    "url": "https://shanghai.tianditu.gov.cn/map/views/theme.html",
+    "exception": "ProxyError",
+    "error": "HTTPSConnectionPool(host='shanghai.tianditu.gov.cn', port=443): Max retries exceeded with url: /map/views/theme.html (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+  },
+  {
+    "id": "shanghai_airphoto",
+    "url": "https://mape.shanghai-map.net/arcgis/rest/services/SHMAP_IMAGE/MapServer?f=pjson",
+    "exception": "ProxyError",
+    "error": "HTTPSConnectionPool(host='mape.shanghai-map.net', port=443): Max retries exceeded with url: /arcgis/rest/services/SHMAP_IMAGE/MapServer?f=pjson (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+  },
+  {
+    "id": "shanghai_2024",
+    "url": "https://map4.shanghai-map.net/arcgis/rest/services/shyx2024/MapServer?f=pjson",
+    "exception": "ProxyError",
+    "error": "HTTPSConnectionPool(host='map4.shanghai-map.net', port=443): Max retries exceeded with url: /arcgis/rest/services/shyx2024/MapServer?f=pjson (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+  }
+]

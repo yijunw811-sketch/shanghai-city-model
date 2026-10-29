@@ -1,0 +1,10 @@
+{
+  "file": "shanghai-gis-v3-imagery-diagnostic-patch-20261029.zip",
+  "bytes": 2368432,
+  "sha256": "fd9972e9127bd518fc5636d037efa3af5d466d4dc08f9b018553ec4f35c19c6c",
+  "files": 42,
+  "CRC_verified": true,
+  "archive_member_SHA256_verified": true,
+  "requires_base_V3_core_data": true,
+  "high_resolution_replacement_complete": false
+}

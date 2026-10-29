@@ -1,0 +1,113 @@
+{
+  "raster_layers": [
+    {
+      "name": "B｜Sentinel-2 true RGB 2026-10-14 native10m",
+      "source": "../../data/satellite/sentinel_truecolor_10m_context.tif",
+      "provider": "gdal",
+      "raster_renderer": {
+        "opacity": "1",
+        "blueBand": "3",
+        "type": "multibandcolor",
+        "redBand": "1",
+        "greenBand": "2",
+        "nodataColor": "",
+        "alphaBand": "-1"
+      },
+      "resampling": "<rasterresampler maxOversampling=\"2\" />\n        ",
+      "resampling_filters": [
+        {
+          "tag": "resampling",
+          "enabled": "false",
+          "zoomedInResamplingMethod": "nearestNeighbour",
+          "maxOversampling": "2",
+          "zoomedOutResamplingMethod": "nearestNeighbour"
+        },
+        {
+          "tag": "brightnesscontrast",
+          "brightness": "0",
+          "contrast": "0",
+          "gamma": "1"
+        },
+        {
+          "tag": "rasterresampler",
+          "maxOversampling": "2"
+        }
+      ]
+    },
+    {
+      "name": "C｜Same RGB, uniform display weight72%",
+      "source": "../../data/satellite/sentinel_truecolor_10m_context.tif",
+      "provider": "gdal",
+      "raster_renderer": {
+        "opacity": "0.72",
+        "blueBand": "3",
+        "type": "multibandcolor",
+        "redBand": "1",
+        "greenBand": "2",
+        "nodataColor": "",
+        "alphaBand": "-1"
+      },
+      "resampling": "<rasterresampler maxOversampling=\"2\" />\n        ",
+      "resampling_filters": [
+        {
+          "tag": "resampling",
+          "enabled": "false",
+          "zoomedInResamplingMethod": "nearestNeighbour",
+          "maxOversampling": "2",
+          "zoomedOutResamplingMethod": "nearestNeighbour"
+        },
+        {
+          "tag": "brightnesscontrast",
+          "brightness": "0",
+          "contrast": "0",
+          "gamma": "1"
+        },
+        {
+          "tag": "rasterresampler",
+          "maxOversampling": "2"
+        }
+      ]
+    }
+  ],
+  "S02_layouts": [
+    {
+      "name": "V3 S02 核心设计区卫星现状",
+      "dpi_attribute": "300",
+      "map_items": [
+        {
+          "visibility": "1",
+          "frame": "false",
+          "uuid": "{f2851015-7e85-4cb5-946a-e3877c7a4be8}",
+          "positionLock": "false",
+          "opacity": "1",
+          "enableZRange": "0",
+          "mapRotation": "0",
+          "frameJoinStyle": "miter",
+          "itemRotation": "0",
+          "size": "613.93,439.56,mm",
+          "keepLayerSet": "true",
+          "outlineWidthM": "0.3,mm",
+          "labelMargin": "0,mm",
+          "mapFlags": "0",
+          "templateUuid": "{f2851015-7e85-4cb5-946a-e3877c7a4be8}",
+          "position": "29.435,71.28,mm",
+          "type": "65639",
+          "excludeFromExports": "0",
+          "isTemporal": "0",
+          "zValue": "3",
+          "id": "",
+          "background": "true",
+          "positionOnPage": "29.435,71.28,mm",
+          "groupUuid": "",
+          "blendMode": "0",
+          "drawCanvasItems": "true",
+          "followPreset": "false",
+          "followPresetName": "",
+          "referencePoint": "0"
+        }
+      ]
+    }
+  ],
+  "XYZ_low_zoom_source_in_use": false,
+  "note": "Actual active imagery is local GeoTIFF, not an online low-zoom tile"
+}

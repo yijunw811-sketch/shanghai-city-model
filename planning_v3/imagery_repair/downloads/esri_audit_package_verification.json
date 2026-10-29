@@ -1,0 +1,10 @@
+{
+  "file": "shanghai-gis-v3-esri-source-audit-20261029.zip",
+  "bytes": 930603,
+  "sha256": "8361c9469d4e87c3954fa0a8baebf5396c247d437024ba8866adc90893fb6f69",
+  "members": 18,
+  "CRC_and_member_SHA256_verified": true,
+  "contains_high_resolution_imagery": false,
+  "metadata_only": true,
+  "requires_original_V3_and_diagnostic_patch_for_full_project": true
+}

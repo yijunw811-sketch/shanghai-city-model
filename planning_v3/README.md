@@ -1,5 +1,7 @@
 # SHANGHAI PLANNING GIS V3
 
+> 2026-10-29影像诊断：真实高清替换尚未完成。当前10m源不足以判读屋顶；官方候选主机被运行中出站策略阻挡。已加入可逆显示诊断补丁，详见SATELLITE_IMAGE_QUALITY_REPORT.md与imagery_repair/README.md。
+
 2026-10-28，独立目录与分支 planning-v3-cartography-20261028。V2及原城市模型保持完整，992项源文件SHA256检查通过；不合并main。
 
 ## 下载与打开

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "P01",
+    "type": "建筑密集区",
+    "point_easting": 350750.0,
+    "point_northing": 3463950.0,
+    "center_inside_design": true,
+    "bounds_32651": [
+      350650.0,
+      3463850.0,
+      350850.0,
+      3464050.0
+    ],
+    "width_m": 200,
+    "height_m": 200,
+    "native_pixel_dimensions": [
+      20,
+      20
+    ],
+    "old_source_resolution_m": 10,
+    "source_row": 381,
+    "source_col": 449,
+    "source_reference": "100_350700_3463900",
+    "selection_basis": "Maximum observed footprint coverage among exact100m design-intersection cells",
+    "new_image": null,
+    "comparison_complete": false,
+    "reason": "No legally verified higher-resolution source acquired; this is baseline only"
+  },
+  {
+    "id": "P02",
+    "type": "道路交叉口",
+    "point_easting": 351941.5783348387,
+    "point_northing": 3463928.690214272,
+    "center_inside_design": true,
+    "bounds_32651": [
+      351840.0,
+      3463830.0,
+      352040.0,
+      3464030.0
+    ],
+    "width_m": 200,
+    "height_m": 200,
+    "native_pixel_dimensions": [
+      20,
+      20
+    ],
+    "old_source_resolution_m": 10,
+    "source_row": 383,
+    "source_col": 568,
+    "source_reference": "https://www.openstreetmap.org/node/827637052",
+    "selection_basis": "Actual mapped vehicle junction inside user design boundary; not surveyed control",
+    "new_image": null,
+    "comparison_complete": false,
+    "reason": "No legally verified higher-resolution source acquired; this is baseline only"
+  },
+  {
+    "id": "P03",
+    "type": "已映射绿地",
+    "point_easting": 350338.7682165541,
+    "point_northing": 3463890.923935336,
+    "center_inside_design": true,
+    "bounds_32651": [
+      350230.0,
+      3463800.0,
+      350430.0,
+      3464000.0
+    ],
+    "width_m": 200,
+    "height_m": 200,
+    "native_pixel_dimensions": [
+      20,
+      20
+    ],
+    "old_source_resolution_m": 10,
+    "source_row": 386,
+    "source_col": 407,
+    "source_reference": "https://www.openstreetmap.org/way/1210209334",
+    "selection_basis": "Largest mapped green polygon intersection inside design boundary; land status not independently surveyed",
+    "new_image": null,
+    "comparison_complete": false,
+    "reason": "No legally verified higher-resolution source acquired; this is baseline only"
+  }
+]
