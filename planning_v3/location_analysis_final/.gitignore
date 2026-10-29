@@ -1,0 +1,4 @@
+data/ne_land_cache/
+__pycache__/
+outputs/qgis/*~
+*.aux.xml

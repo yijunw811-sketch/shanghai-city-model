@@ -1,0 +1,197 @@
+[
+  {
+    "file": ".gitignore",
+    "bytes": 59,
+    "sha256": "11c716196335d0b23839f82af0e53cf141c8c3b51ce327b454995e32b7130f3b"
+  },
+  {
+    "file": "QA_REPORT.md",
+    "bytes": 2755,
+    "sha256": "2a894c520cdb82c2c46577507f8651b63af0f9301adbe82a6b912cc24b2bb918"
+  },
+  {
+    "file": "README.md",
+    "bytes": 5179,
+    "sha256": "659704160e9f147dafffeeb4d9c9c4e8d757dff6bc3622877ebd8113d7d7fb0e"
+  },
+  {
+    "file": "data/CHN_ADM1_2019_full.geojson",
+    "bytes": 270578,
+    "sha256": "3a00467a0db9b4136facb5f2f3d0edbfd96adb15651cfdf63991da9281030e85"
+  },
+  {
+    "file": "data/CHN_ADM1_2019_simplified.geojson",
+    "bytes": 263343,
+    "sha256": "bc4afc7eacf4351ae5b3ae7a612327987ce1123cb5deb8574fb49107091c6623"
+  },
+  {
+    "file": "data/geoboundaries_ADM1_metadata.json",
+    "bytes": 1763,
+    "sha256": "062d87325aa55ad52497d38ab142db2bc0c7f8fdea644b0fb7bd298bd9e98553"
+  },
+  {
+    "file": "data/location_context.gpkg",
+    "bytes": 15220736,
+    "sha256": "e8c2de95fe1aa5143f96409a34597d2cc26d400978393809b213e9ae89a5295b"
+  },
+  {
+    "file": "data/ne_10m_land.zip",
+    "bytes": 3269070,
+    "sha256": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc"
+  },
+  {
+    "file": "data/osm_shanghai_full.json",
+    "bytes": 907107,
+    "sha256": "35a7b1d6b5d876e88009dceccf92b5b2de5b7dde3dce924d43aaf4340b783fb6"
+  },
+  {
+    "file": "data/osm_shanghai_relation_metadata.json",
+    "bytes": 15182,
+    "sha256": "36e0e2937675f0ca671aeb881a884d8da6d74366681c9d46e7ef2a579035ad25"
+  },
+  {
+    "file": "data/shanghai_osm_reference.gpkg",
+    "bytes": 286720,
+    "sha256": "dbb6ca9366db9b8f709de3982617366b1b0501e1857d3e62909b54b25cba6e15"
+  },
+  {
+    "file": "fonts/LICENSE.txt",
+    "bytes": 14712,
+    "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+  },
+  {
+    "file": "fonts/ShanghaiLocationSans-Bold.ttf",
+    "bytes": 126312,
+    "sha256": "4149cdb6e0410935ab03a31613d0fa980c15fc4d122ed9a8bd6d6fe3f8f32f8e"
+  },
+  {
+    "file": "fonts/ShanghaiLocationSans-Regular.ttf",
+    "bytes": 127376,
+    "sha256": "d89360e179239117839084dca4c0287cad63acb7d7689a6c1070a9090eacd642"
+  },
+  {
+    "file": "outputs/location_01_draft_300dpi.png",
+    "bytes": 8472522,
+    "sha256": "cdf516decac51dd6ffc68b2e0c31d5ee3b846360d29f71c9486b00ba63fdd23b"
+  },
+  {
+    "file": "outputs/location_01_draft_A1.pdf",
+    "bytes": 1387033,
+    "sha256": "1b9aed3edda7e2059a38ac617dcabd8309942802834408fb552ef2d7a06009d1"
+  },
+  {
+    "file": "outputs/location_01_draft_A3.pdf",
+    "bytes": 1381801,
+    "sha256": "36f88c3ffd563ece0c29440283a096f361d7e26d7dc54330957ca1458a71cbde"
+  },
+  {
+    "file": "outputs/location_02_draft_300dpi.png",
+    "bytes": 8229257,
+    "sha256": "44be614136af31992ed575467c94edecf54e06f970e5a27c80dee96eef91475a"
+  },
+  {
+    "file": "outputs/location_02_draft_A1.pdf",
+    "bytes": 1386902,
+    "sha256": "e438f5c27fc6bbc149eb83a173f8c87feec92757227830d7e47bf39f9b0c34a5"
+  },
+  {
+    "file": "outputs/location_02_draft_A3.pdf",
+    "bytes": 1381687,
+    "sha256": "33cda5891cf5b1decab0a412f70f776a64fd11ba4f78f559c6588642b1dc97dc"
+  },
+  {
+    "file": "outputs/previews/location_01_draft_preview.png",
+    "bytes": 2290178,
+    "sha256": "ee0c3c556d2c92c4b08a9f56856dc3dc8369ef9b664a1e98f0c78a124eea0e0f"
+  },
+  {
+    "file": "outputs/previews/location_01_review.jpg",
+    "bytes": 389376,
+    "sha256": "e3060fae7336329390e7dda15a8efded65f36c58a1fe8fb2e7a85cc75b8665a6"
+  },
+  {
+    "file": "outputs/previews/location_02_draft_preview.png",
+    "bytes": 2234864,
+    "sha256": "65a787a82f209fb73a0194aca57fe1238c06509df64f8da8f756c6d370036f65"
+  },
+  {
+    "file": "outputs/previews/location_02_review.jpg",
+    "bytes": 386121,
+    "sha256": "92bd0d2a940f7457758c83f9ef617dddf450cf7d9bb334cea7f7a7b924d98edf"
+  },
+  {
+    "file": "outputs/previews/location_two_variants_comparison.png",
+    "bytes": 2483995,
+    "sha256": "d1aba3fe78d5b2b08b223b37aff59858fc5eddd6fa5cf2571f1a0c4a224e5461"
+  },
+  {
+    "file": "outputs/qgis/location_two_variants_draft.qgz",
+    "bytes": 99923,
+    "sha256": "5d6d0a9d1dd145973b06bedb63772cc3dfdc0e3f76be6e1583f8d1ad2876b673"
+  },
+  {
+    "file": "reports/data_validation.json",
+    "bytes": 2487,
+    "sha256": "63f6ee42c28730fbe045a704324881661c304ccecbe137b9e2b29abf8bf0c5d3"
+  },
+  {
+    "file": "reports/export_validation.json",
+    "bytes": 1143,
+    "sha256": "c77ea4a1457c77bec2b731d5bd780a7b18e3da5319f3458f075d3d228af77642"
+  },
+  {
+    "file": "reports/layer_sources.json",
+    "bytes": 3936,
+    "sha256": "4e24a33235f3123834598f5340dcf13f12237c8b79739155d165c825baeb2b5e"
+  },
+  {
+    "file": "reports/layout_validation.json",
+    "bytes": 1480,
+    "sha256": "c11f0e736857b14d70bdde18455a6fbbfda0d9363bc3e3023a81a4c0f366a294"
+  },
+  {
+    "file": "reports/macro_source_validation.json",
+    "bytes": 957,
+    "sha256": "0660e3f976d5e61099e23fac64c21daea184e6fd1f3db0c5f4b3b24d9d3ba796"
+  },
+  {
+    "file": "reports/portable_project_validation.json",
+    "bytes": 183,
+    "sha256": "4c3b821914f76090dc8ba5a88504efc214e1c79c863fbe8a6e3740e5c5ce701f"
+  },
+  {
+    "file": "scripts/00_macro_reference.py",
+    "bytes": 3488,
+    "sha256": "3266a77f0ea54f029ec9f3aee0a7391b3bd81be9cd16afb66a8ed45be709e9d4"
+  },
+  {
+    "file": "scripts/01_prepare.py",
+    "bytes": 5116,
+    "sha256": "9ee74ef5b9c160bb87a3923f88894be76e5961bf60e866371aba657793a012e2"
+  },
+  {
+    "file": "scripts/02_build_qgis.py",
+    "bytes": 12843,
+    "sha256": "86abc4d647171602f2844d86d68b571653c29f76d12b46833ea9065b23ac09e5"
+  },
+  {
+    "file": "scripts/03_prepare_fonts.py",
+    "bytes": 2316,
+    "sha256": "738fde21a57d16d57725106e86ae304e1935f38af72d72bb332296e4b1793230"
+  },
+  {
+    "file": "scripts/04_review_package.py",
+    "bytes": 3600,
+    "sha256": "c5a65ffcb512fa442c6446a39c4a7df9713bc84b694fa7eecc14b745b8ad4cc2"
+  },
+  {
+    "file": "scripts/05_verify_portable.py",
+    "bytes": 1392,
+    "sha256": "0f4e4521ce5481970089f7f65a0563036b43c3b11c66c40cfe7c4512b22d69a4"
+  },
+  {
+    "file": "scripts/06_package.py",
+    "bytes": 1007,
+    "sha256": "25ade84fce0f5f1f2b410cae7a27f4893ab92004c9db5370c3ad7cb827525687"
+  }
+]

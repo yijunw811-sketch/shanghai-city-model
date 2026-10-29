@@ -1,0 +1,634 @@
+{
+  "version": "0.6",
+  "generator": "openstreetmap-cgimap 2.1.0 (1962158 spike-07.openstreetmap.org)",
+  "copyright": "OpenStreetMap and contributors",
+  "attribution": "http://www.openstreetmap.org/copyright",
+  "license": "http://opendatacommons.org/licenses/odbl/1-0/",
+  "elements": [
+    {
+      "type": "relation",
+      "id": 913067,
+      "timestamp": "2026-10-23T05:47:03Z",
+      "version": 157,
+      "changeset": 190912665,
+      "user": "TheLoller",
+      "uid": 16660406,
+      "members": [
+        {
+          "type": "way",
+          "ref": 1316017106,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1316373164,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1384517049,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1384517041,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 746759445,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1384517046,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1316017107,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1316373149,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 343376233,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1316373145,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 160057026,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1462523898,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 244652983,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 827379437,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 754601440,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 754601930,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 377297060,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1462523883,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1462523879,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 163977351,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1462523855,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 163979014,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395559622,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1336085812,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395558190,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1364309218,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1364309217,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1056560384,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 395553748,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1364309190,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 738119387,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 729062238,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 738119388,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 738119389,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 546823346,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 319098069,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 546319538,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 729062530,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 243557452,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 328316655,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1238041910,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1436092241,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1436092243,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 546319537,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1238041907,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 546271011,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 243557451,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1238041920,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 545172831,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 328326888,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 964961804,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 964961820,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 964961825,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 544704607,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 964961830,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 544704625,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 544704628,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806024613,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 806024614,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 675815183,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 183886592,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 675815184,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 675815185,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1343622751,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 964961829,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 243557453,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1343418799,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1343418800,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 328247787,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1022209074,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1122142496,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1277772430,
+          "role": "outer"
+        },
+        {
+          "type": "node",
+          "ref": 778910398,
+          "role": "admin_centre"
+        },
+        {
+          "type": "node",
+          "ref": 10823521483,
+          "role": "label"
+        },
+        {
+          "type": "relation",
+          "ref": 371650,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 1278188,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 398899,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 398353,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 398886,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 398351,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 398350,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 1278189,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 398374,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 1673543,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 398348,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 3292756,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 3293722,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 3292760,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 3292751,
+          "role": "subarea"
+        },
+        {
+          "type": "relation",
+          "ref": 3292750,
+          "role": "subarea"
+        }
+      ],
+      "tags": {
+        "admin_level": "4",
+        "alt_name": "上海",
+        "alt_name:ar": "شنغهاي",
+        "alt_name:cs": "Šang-chaj",
+        "alt_name:hr": "Šangaj",
+        "boundary": "administrative",
+        "int_name": "Shanghai",
+        "is_in:country": "China",
+        "is_in:country_code": "CN",
+        "ISO3166-2": "CN-SH",
+        "name": "上海市",
+        "name:af": "Sjanghai",
+        "name:am": "ሻንግሃይ",
+        "name:an": "Xangai",
+        "name:ar": "شانغهاي",
+        "name:as": "ছাংহাই",
+        "name:ay": "Shanghai",
+        "name:az": "Şanxay",
+        "name:ba": "Шанхай",
+        "name:be": "Шанхай",
+        "name:bg": "Шанхай",
+        "name:bi": "Shanghai",
+        "name:bm": "Shanghai",
+        "name:bn": "সাংহাই",
+        "name:bo": "ཧྲང་ཧའེ་གྲོང་ཁྱེར།",
+        "name:br": "Shanghai",
+        "name:bs": "Šangaj",
+        "name:ca": "Xangai",
+        "name:cdo": "Siông-hāi",
+        "name:ce": "Шанхай",
+        "name:ceb": "Shanghai",
+        "name:cnr": "Šangaj",
+        "name:cs": "Šanghaj",
+        "name:cv": "Шанхай",
+        "name:cy": "Shanghai",
+        "name:da": "Shanghai",
+        "name:de": "Shanghai",
+        "name:el": "Σαγκάη",
+        "name:en": "Shanghai",
+        "name:eo": "Ŝanhajo",
+        "name:es": "Shanghái",
+        "name:et": "Shanghai",
+        "name:eu": "Shanghai",
+        "name:fa": "شانگهای",
+        "name:fi": "Shanghai",
+        "name:fj": "Shaghai",
+        "name:fo": "Shanghai",
+        "name:fr": "Shanghaï",
+        "name:fy": "Shanghai",
+        "name:ga": "Shang-hai",
+        "name:gan": "上海",
+        "name:gd": "Shanghai",
+        "name:gl": "Shanghai",
+        "name:gn": "Changái",
+        "name:gv": "Shanghai",
+        "name:ha": "Shanghai",
+        "name:hak": "Sông-hói",
+        "name:he": "שאנגחאי",
+        "name:hi": "शंघाई",
+        "name:hr": "Šangaj",
+        "name:ht": "Shanghai",
+        "name:hu": "Sanghaj",
+        "name:hy": "Շանհայ",
+        "name:ia": "Shanghai",
+        "name:id": "Shanghai",
+        "name:ie": "Shanghai",
+        "name:io": "Shanghai",
+        "name:is": "Sjanghæ",
+        "name:it": "Shanghai",
+        "name:ja": "上海市",
+        "name:jv": "Shanghai",
+        "name:ka": "შანხაი",
+        "name:kg": "Shanghai",
+        "name:ki": "Shanghai",
+        "name:kk": "Шанхай",
+        "name:kl": "Shanghai",
+        "name:kn": "ಶಾಂಘೈ",
+        "name:ko": "상하이",
+        "name:ku": "Şanghay",
+        "name:kv": "Шанхай",
+        "name:kw": "Shanghai",
+        "name:ky": "Шанхай",
+        "name:la": "Sciamhaevum",
+        "name:lb": "Shanghai",
+        "name:li": "Sjanghai",
+        "name:ln": "Shanghai",
+        "name:lo": "ຊຽງໄຮ້",
+        "name:lt": "Šanchajus",
+        "name:lv": "Šanhaja",
+        "name:lzh": "上海市",
+        "name:mg": "Shanghai",
+        "name:mi": "Hangahai",
+        "name:mk": "Шангај",
+        "name:ml": "ഷാങ്ഹായ്",
+        "name:mn": "Шанхай",
+        "name:mr": "शांघाय",
+        "name:ms": "Shanghai",
+        "name:my": "ရှန်ဟိုင်းမြို့",
+        "name:nan": "Siōng-hái-chhī",
+        "name:ne": "शाङ्घाई",
+        "name:nl": "Shanghai",
+        "name:nn": "Shanghai",
+        "name:no": "Shanghai",
+        "name:ny": "Shanghai",
+        "name:oc": "Shanghai",
+        "name:om": "Shaangaayi",
+        "name:os": "Шанхай",
+        "name:pa": "ਸ਼ੰਘਾਈ",
+        "name:pl": "Szanghaj",
+        "name:ps": "شانگهای",
+        "name:pt": "Xangai",
+        "name:qu": "Shanghai",
+        "name:rm": "Schanghai",
+        "name:ro": "Shanghai",
+        "name:ru": "Шанхай",
+        "name:si": "ෂැංහයි",
+        "name:sk": "Šanghaj",
+        "name:sl": "Šanghaj",
+        "name:sq": "Shangai",
+        "name:sr": "Шангај",
+        "name:su": "Shanghai",
+        "name:sv": "Shanghai",
+        "name:sw": "Shanghai",
+        "name:ta": "சாங்காய்",
+        "name:te": "షాంఘై",
+        "name:tg": "Шанхай",
+        "name:th": "เซี่ยงไฮ้",
+        "name:tk": "Şanhaý",
+        "name:tl": "Shanghai",
+        "name:tn": "Shanghai",
+        "name:tr": "Şanghay",
+        "name:tt": "Şanxay",
+        "name:tw": "Shangai",
+        "name:ug": "شاڭخەي شەھىرى",
+        "name:uk": "Шанхай",
+        "name:ur": "شنگھائی",
+        "name:uz": "Shanxay",
+        "name:vi": "Thượng Hải",
+        "name:vo": "Shanghai",
+        "name:wo": "Shanghai",
+        "name:wuu": "上海市",
+        "name:yi": "שאנכיי",
+        "name:yue": "上海",
+        "name:za": "Sanghaij",
+        "name:zh": "上海市",
+        "name:zh-Hans": "上海市",
+        "name:zh-Hant": "上海市",
+        "name:zu": "Shanghai",
+        "nickname:en": "Wonderful everyday",
+        "nickname:zh-Hans": "精彩每一天",
+        "nickname:zh-Hant": "精彩每一天",
+        "nickname:zh-Latn-pinyin": "Jīngcǎi měiyītiān",
+        "official_name": "上海市",
+        "population": "24870895",
+        "population:date": "2020-11-01",
+        "ref": "沪",
+        "ref:en": "SH",
+        "ref:zh": "沪",
+        "short_name": "沪",
+        "type": "boundary",
+        "wikidata": "Q8686",
+        "wikipedia": "zh:上海市"
+      }
+    }
+  ]
+}
