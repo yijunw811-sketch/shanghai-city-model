@@ -1,0 +1,848 @@
+{
+  "existing_maps_annotated": 36,
+  "paragraphs": 108,
+  "new_basemaps": 0,
+  "qgis": "outputs/qgis/planning_analysis_v3_with_notes.qgz",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 89,
+      "sha256": "9ea5ac89ef6c817ba1ccd654d24a474ecf7d5ccc66b8fa15e49e3b85721478e9"
+    },
+    {
+      "path": "DESIGN_COORDINATION_SUMMARY.md",
+      "bytes": 3206,
+      "sha256": "92bb1f221220e72b5ed2a61baa0ce0e820b6b7f54a8036c5eaa04647acf0b7fc"
+    },
+    {
+      "path": "MAP_ANALYSIS_NOTES.md",
+      "bytes": 27726,
+      "sha256": "f03337acb7529ca5b24adf2dcfdf29016ca96d281f1a6e069774c86d4fb4c1bc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3480,
+      "sha256": "14a23afe9e5c360f06b20fe2c6851567547fafaacb0fb7c1d1a25f5c87986bd3"
+    },
+    {
+      "path": "outputs/A1/01_现状土地功能分类_分析说明.pdf",
+      "bytes": 1016677,
+      "sha256": "acf7f23a09e0c49ec5dd83c1c209cc8583f7a8fbf36c066399701048181bed6e"
+    },
+    {
+      "path": "outputs/A1/02_建筑密度分析_分析说明.pdf",
+      "bytes": 926607,
+      "sha256": "bdffbc0eb2b2e59a09f60d3d95aaa4bda31f2dbe0723f0ea9bcfbff7f97fd971"
+    },
+    {
+      "path": "outputs/A1/03_建筑高度分布_全部含估算_分析说明.pdf",
+      "bytes": 1512539,
+      "sha256": "b0a4dfb8cdac59bd56392ca528d2a92236f22a4a6ba542d7aa86eff104205435"
+    },
+    {
+      "path": "outputs/A1/04_建筑体量强度代理_分析说明.pdf",
+      "bytes": 923588,
+      "sha256": "5ff02c4566888de0944622f10a20af79d16239ea1888cb0688d5617519eeb72f"
+    },
+    {
+      "path": "outputs/A1/05_城市肌理与图底关系_分析说明.pdf",
+      "bytes": 893674,
+      "sha256": "2073e62a67291a192eb584a3961a2c12cc28c892c2789ab3781ca0c39fe02e5a"
+    },
+    {
+      "path": "outputs/A1/06_已映射土地功能面积混合度_分析说明.pdf",
+      "bytes": 908395,
+      "sha256": "014b6553b8e5a575bfc9989567bed0f367aa7217008f88736d69a6a60cae2223"
+    },
+    {
+      "path": "outputs/A1/07_道路等级与交通结构_分析说明.pdf",
+      "bytes": 1099395,
+      "sha256": "a1562db4f6b732a0ef6dcf223c2a6161116121dd37a8e4eaa6f4f016c9cc47c5"
+    },
+    {
+      "path": "outputs/A1/08_车行路网密度与节点连通_分析说明.pdf",
+      "bytes": 921640,
+      "sha256": "82068646fd4c8d184238e9a16ca8835ea3d68affb0c99f8913b4ad4a7ade7f68"
+    },
+    {
+      "path": "outputs/A1/09_公共交通接入与步行网络覆盖_分析说明.pdf",
+      "bytes": 1188145,
+      "sha256": "f0fe427adf2eee2cc418047d5ad69713fbd5ba31717412924a3bf1cbb87be440"
+    },
+    {
+      "path": "outputs/A1/10_日常服务慢行可达性_分析说明.pdf",
+      "bytes": 931887,
+      "sha256": "ec85e7c1c737da114505587be0a5b518821f6f977e5f1ffff570474b91655723"
+    },
+    {
+      "path": "outputs/A1/11_商业POI观察密度_分析说明.pdf",
+      "bytes": 903996,
+      "sha256": "d9f2f8af62b6ed3fe6edfd07ce0cedcf28afa8836c04c10d0551543fea7af2bd"
+    },
+    {
+      "path": "outputs/A1/12_已映射教育设施步行覆盖_分析说明.pdf",
+      "bytes": 964390,
+      "sha256": "90ff1bc8d41aa3ab5eb527c929d12aa0d4514bd0b3b727105c8f3a8b45de66c5"
+    },
+    {
+      "path": "outputs/A1/13_蓝绿空间现状网络_分析说明.pdf",
+      "bytes": 977094,
+      "sha256": "8ed14288db7f6b9b70fac5d4c002a82992d3235dafcc4a4cf309233b10c4df3e"
+    },
+    {
+      "path": "outputs/A1/14_公园绿地网络可达性_分析说明.pdf",
+      "bytes": 1073788,
+      "sha256": "623592f90611a7dcb30a00ffd286d1678cfff6ae2888db6ecbbe7895c9c29272"
+    },
+    {
+      "path": "outputs/A1/15_公共环境改善机会研究初筛_分析说明.pdf",
+      "bytes": 934947,
+      "sha256": "10c257c5e004c2dd03bd1e6fab29140a1c9b5bd07488e9fbc025ab84efe7b4c3"
+    },
+    {
+      "path": "outputs/A1/16_现状数据问题与改善机会_分析说明.pdf",
+      "bytes": 941410,
+      "sha256": "075adc95e058ec61ea93a3ffda4f3152d24aabc2a21b5f9f59024a479d373b3f"
+    },
+    {
+      "path": "outputs/A1/17_模型人口密度_2020年100米_分析说明.pdf",
+      "bytes": 944514,
+      "sha256": "8e9d97ea8a27f3baf4aa9e2ad4b6bdd1a4004836145dea839fdec455b120428f"
+    },
+    {
+      "path": "outputs/A1/18_模型人口密度_2025年约1公里_分析说明.pdf",
+      "bytes": 895047,
+      "sha256": "0b7fb0c8a12305dabcfde6d1786a6e400a81290e78cba93157ac3ab4d467fb83"
+    },
+    {
+      "path": "outputs/A1/19_物理地表覆盖_2021年_分析说明.pdf",
+      "bytes": 332614,
+      "sha256": "51f0856623b9e1233502db2d63c99e8e5e227d99202cfa82b08306e5258c22f0"
+    },
+    {
+      "path": "outputs/A1/20_夏季植被指数_2026年9月14日_分析说明.pdf",
+      "bytes": 676777,
+      "sha256": "c9cac64712020ecfb5011438391c148a0ea65f1140d3b6142c59450ea6cbf296"
+    },
+    {
+      "path": "outputs/A1/21_冬季植被指数_2026年2月21日_分析说明.pdf",
+      "bytes": 684769,
+      "sha256": "0a8a18246e62d736dcd9beb06de3f4c67070ffab483b6e0d0eefd707ec15d95c"
+    },
+    {
+      "path": "outputs/A1/22_夏季卫星地表温度_2026年8月1日_分析说明.pdf",
+      "bytes": 330768,
+      "sha256": "0f6061a0e4b7563e8b9858ec7b96477042f397fb71eecf6e15009a795f2166b2"
+    },
+    {
+      "path": "outputs/A1/23_表面高程_2021年约30米_分析说明.pdf",
+      "bytes": 372206,
+      "sha256": "75e39154a255cc4671e18bf9f70661b420b277cb8a76e722756abdaef20fe77b"
+    },
+    {
+      "path": "outputs/A1/24_夏季水体光谱指数_分析说明.pdf",
+      "bytes": 654247,
+      "sha256": "1f6432fe4996537e587f4da1ac9cf86ebb03cf206af14a42da53a9e94c3786b1"
+    },
+    {
+      "path": "outputs/A1/25_夏季建成光谱指数_分析说明.pdf",
+      "bytes": 416528,
+      "sha256": "860b7726f35b0c8df1a75e2592a0656fe1de1b2b65dc97495a70825f69efa925"
+    },
+    {
+      "path": "outputs/A1/26_历史物理地表覆盖_2019年_分析说明.pdf",
+      "bytes": 299688,
+      "sha256": "c04ddfae57a42a000ed35695395cffa66da056f041e06fce2b6b68a20efd9d84"
+    },
+    {
+      "path": "outputs/A1/27_历史水面观测频率_1984—2021_分析说明.pdf",
+      "bytes": 311143,
+      "sha256": "ad92523db70fde77d3b4007b554d3afb49797131fb372bed5a4575d1c86cf54b"
+    },
+    {
+      "path": "outputs/A1/28_冬夏植被指数季节差_2026年_分析说明.pdf",
+      "bytes": 669546,
+      "sha256": "28362f693ae00b3c3be2ac93a01a61e8604dd6000025a5766190617310705999"
+    },
+    {
+      "path": "outputs/A1/R01_建筑基底覆盖率_100米_分析说明.pdf",
+      "bytes": 950326,
+      "sha256": "cee2e47f97db8066186ea8315a73ef3a4665a52e24476083a588d00be156d6ff"
+    },
+    {
+      "path": "outputs/A1/R02_估高建筑体量代理_100米_分析说明.pdf",
+      "bytes": 947320,
+      "sha256": "e0a7ae3cb783106d696a9091384fbbbfe66a3a745b74305ef4b24bec2f4af3d9"
+    },
+    {
+      "path": "outputs/A1/R03_已映射土地功能混合_200米_分析说明.pdf",
+      "bytes": 938113,
+      "sha256": "dee1095b7f884d6cf78e3ff21360e63eca9a1f60849cc136ee6cdc8f390ac3fe"
+    },
+    {
+      "path": "outputs/A1/R04_车行路网与真实节点_200米_分析说明.pdf",
+      "bytes": 934126,
+      "sha256": "8da5ea2876c3eac65bf9b1c8a81aaa9279371a59f98822205081e95ebeceae4e"
+    },
+    {
+      "path": "outputs/A1/R05_商业观察密度_200米_分析说明.pdf",
+      "bytes": 934144,
+      "sha256": "cee1f58a295e172b3b843d7e49d76665626084b46cd7a22856d02587351becf0"
+    },
+    {
+      "path": "outputs/A1/R06_公共环境改善机会_100米_分析说明.pdf",
+      "bytes": 954685,
+      "sha256": "6cea662aa3d6777c366fb9ff82c29edce6b9e29d0594a26fad8e17e349a2d6e3"
+    },
+    {
+      "path": "outputs/A1/R07_数据问题与改善机会_100米_分析说明.pdf",
+      "bytes": 959370,
+      "sha256": "9b9784e9cacea18d962c8ff86b25147480292359f294fe3fdcb443e6d4471d6b"
+    },
+    {
+      "path": "outputs/A1/R08_2025模型人口_原生约1公里_分析说明.pdf",
+      "bytes": 958960,
+      "sha256": "d5fb64fe8c435caab544fdd8e1cac7f69a034dce1bd75463c90440ccaa9dd45c"
+    },
+    {
+      "path": "outputs/A3/01_现状土地功能分类_分析说明.pdf",
+      "bytes": 1018469,
+      "sha256": "cfa05e1ecc34f05c7d7485bcbe28e69741125117b5cc846008fdd5cad733aa05"
+    },
+    {
+      "path": "outputs/A3/02_建筑密度分析_分析说明.pdf",
+      "bytes": 931530,
+      "sha256": "ae7f3def04f510166933f4817d2aee69672881c1dfa657763e1ea8079098816f"
+    },
+    {
+      "path": "outputs/A3/03_建筑高度分布_全部含估算_分析说明.pdf",
+      "bytes": 1524913,
+      "sha256": "513282da4dfd325180c019074357fb8bd9aed1e9106ee4613fe01aa95093b2ac"
+    },
+    {
+      "path": "outputs/A3/04_建筑体量强度代理_分析说明.pdf",
+      "bytes": 928680,
+      "sha256": "87cba1a1dfdb048c0bf523fd7bd2603c648acb3dacb6ee4ddb8b30e9e67b449c"
+    },
+    {
+      "path": "outputs/A3/05_城市肌理与图底关系_分析说明.pdf",
+      "bytes": 899815,
+      "sha256": "584d458387bfd33a6c22710200f2d8a01a5f444c5c86a1afa8c2cde14250a915"
+    },
+    {
+      "path": "outputs/A3/06_已映射土地功能面积混合度_分析说明.pdf",
+      "bytes": 914161,
+      "sha256": "f2e77cd65fd8e9380847091f314795d4500317ba3eff0be17b9eda715f118192"
+    },
+    {
+      "path": "outputs/A3/07_道路等级与交通结构_分析说明.pdf",
+      "bytes": 1100394,
+      "sha256": "47c6bf990a7a2ba35457d7d9b39da491609e26914934c09b9aa6d6d86b499ae2"
+    },
+    {
+      "path": "outputs/A3/08_车行路网密度与节点连通_分析说明.pdf",
+      "bytes": 927161,
+      "sha256": "5213821830622aea40816f7004a71bda3c3d7e95f4ffe8c5c840181170808a47"
+    },
+    {
+      "path": "outputs/A3/09_公共交通接入与步行网络覆盖_分析说明.pdf",
+      "bytes": 1185529,
+      "sha256": "253def64cad0f232b88726aae64f6f2e2741f0c7871a0fd1c4c2a0df1c3ae28f"
+    },
+    {
+      "path": "outputs/A3/10_日常服务慢行可达性_分析说明.pdf",
+      "bytes": 936348,
+      "sha256": "c7405ef083cd1ddb0c07e43ba2853752cefcf2c8764c2d73d233b5eae2cc4356"
+    },
+    {
+      "path": "outputs/A3/11_商业POI观察密度_分析说明.pdf",
+      "bytes": 909858,
+      "sha256": "f996926167cafc8639f061f67b65e31eaf4ae4c4917f4e4b13b59c84628142f4"
+    },
+    {
+      "path": "outputs/A3/12_已映射教育设施步行覆盖_分析说明.pdf",
+      "bytes": 968794,
+      "sha256": "0d53302264ad1e24013e905b32b5e74cd02e4e4270cbbac44f45c049ef9c9995"
+    },
+    {
+      "path": "outputs/A3/13_蓝绿空间现状网络_分析说明.pdf",
+      "bytes": 979743,
+      "sha256": "799b0ce3c8f18dc93981130a9f1421c3bcdfb76df1402a66496600bf35d6efda"
+    },
+    {
+      "path": "outputs/A3/14_公园绿地网络可达性_分析说明.pdf",
+      "bytes": 1074844,
+      "sha256": "51decb3da00932ba8cc5a5995af5b253f4f7e10b93d63d20ca92205e9b05871b"
+    },
+    {
+      "path": "outputs/A3/15_公共环境改善机会研究初筛_分析说明.pdf",
+      "bytes": 940036,
+      "sha256": "1b53fed6386cf1458340e4eaf4b231c62430022cfddb5258f3c0d014bcdff5fc"
+    },
+    {
+      "path": "outputs/A3/16_现状数据问题与改善机会_分析说明.pdf",
+      "bytes": 946412,
+      "sha256": "8b13af07aa90ab1f9abbe4a0de8d0ef4ad43aa3ed2716d4c0d1370717a8890fb"
+    },
+    {
+      "path": "outputs/A3/17_模型人口密度_2020年100米_分析说明.pdf",
+      "bytes": 948632,
+      "sha256": "e4e1dc825e6ae003e65d03cb8418b52b5d3c3895bb1056f1e767dffdf5c10293"
+    },
+    {
+      "path": "outputs/A3/18_模型人口密度_2025年约1公里_分析说明.pdf",
+      "bytes": 900974,
+      "sha256": "91dc7d0c1566541ac26fe9849afbb03f55173ff85271e877dfea199054c5d520"
+    },
+    {
+      "path": "outputs/A3/19_物理地表覆盖_2021年_分析说明.pdf",
+      "bytes": 313269,
+      "sha256": "8956553ef9bbe33fdef255300b906503d040d449a7a101682adf08e2088d4d31"
+    },
+    {
+      "path": "outputs/A3/20_夏季植被指数_2026年9月14日_分析说明.pdf",
+      "bytes": 651642,
+      "sha256": "a4eeea5f5859034716888bbea4b2824e5cdb7ea4c263c24adea0f6226cf3c856"
+    },
+    {
+      "path": "outputs/A3/21_冬季植被指数_2026年2月21日_分析说明.pdf",
+      "bytes": 652906,
+      "sha256": "79edc6fcfd501092432c40fa599d379f6e2c178a7b0ef053ca6e0863af287867"
+    },
+    {
+      "path": "outputs/A3/22_夏季卫星地表温度_2026年8月1日_分析说明.pdf",
+      "bytes": 296034,
+      "sha256": "1a1e7c00b95dc49a925b8b167d56cd6d2f4866193388d5cf43cffc462c0620d8"
+    },
+    {
+      "path": "outputs/A3/23_表面高程_2021年约30米_分析说明.pdf",
+      "bytes": 332716,
+      "sha256": "20a44f2a5e46946778225babcf6e66cd70c628d2c39d5f0a4c669e7c55e69540"
+    },
+    {
+      "path": "outputs/A3/24_夏季水体光谱指数_分析说明.pdf",
+      "bytes": 601931,
+      "sha256": "70c2b75054d9d54c1d61ba20121fc7fcdc899fae6e5bad426b31500bc9cae8be"
+    },
+    {
+      "path": "outputs/A3/25_夏季建成光谱指数_分析说明.pdf",
+      "bytes": 370701,
+      "sha256": "ddeff7dbec0a9eebd022853234a89111b70991a4dc6725398a9a92a06036296e"
+    },
+    {
+      "path": "outputs/A3/26_历史物理地表覆盖_2019年_分析说明.pdf",
+      "bytes": 288150,
+      "sha256": "9ff1868365ddf3d50e3e73b6fafaf7010e8b5d32412356316d8dc4b04c88cafc"
+    },
+    {
+      "path": "outputs/A3/27_历史水面观测频率_1984—2021_分析说明.pdf",
+      "bytes": 289350,
+      "sha256": "93e22420de1bce343d7bf83c882b75ec504e6d14a265ed5672a165d69bee9f66"
+    },
+    {
+      "path": "outputs/A3/28_冬夏植被指数季节差_2026年_分析说明.pdf",
+      "bytes": 629421,
+      "sha256": "04b4748b9cb9f29bc6ba2996dd29a0855b0c13225bc89d4f709b33b1ae09d944"
+    },
+    {
+      "path": "outputs/A3/R01_建筑基底覆盖率_100米_分析说明.pdf",
+      "bytes": 954062,
+      "sha256": "87493a874a71fdaeaad9f23b18722164dab0ef2cd26b32c9800dac58e9262005"
+    },
+    {
+      "path": "outputs/A3/R02_估高建筑体量代理_100米_分析说明.pdf",
+      "bytes": 951331,
+      "sha256": "cac0331692b442aa2629a19162dfcb3da2d958a0fd838a86ada213e26d800baa"
+    },
+    {
+      "path": "outputs/A3/R03_已映射土地功能混合_200米_分析说明.pdf",
+      "bytes": 942670,
+      "sha256": "01db26f80e67e5efe750b1dac963eb1cd4c5aa6c16dcac62526a865c687b5f5b"
+    },
+    {
+      "path": "outputs/A3/R04_车行路网与真实节点_200米_分析说明.pdf",
+      "bytes": 938669,
+      "sha256": "c20e32a0c8f75c25808e0f96dae67edd7ed0839494827e02d30b5b4470cd8b2d"
+    },
+    {
+      "path": "outputs/A3/R05_商业观察密度_200米_分析说明.pdf",
+      "bytes": 938493,
+      "sha256": "8226b3624b64b9b3fa8dce2cca07b7f2cac694908b743ff9d2d881f7ff03416c"
+    },
+    {
+      "path": "outputs/A3/R06_公共环境改善机会_100米_分析说明.pdf",
+      "bytes": 958683,
+      "sha256": "c94d4c5a8893873ed45817d00a81dd5cad10a378d562a6d102b8154e62c914fa"
+    },
+    {
+      "path": "outputs/A3/R07_数据问题与改善机会_100米_分析说明.pdf",
+      "bytes": 963247,
+      "sha256": "aef7bd653a3a105dbc3fcc0c5866ec35f47942d1ec657bde3c412b3c8e9797ac"
+    },
+    {
+      "path": "outputs/A3/R08_2025模型人口_原生约1公里_分析说明.pdf",
+      "bytes": 913797,
+      "sha256": "6a021f2146b329bd08a4b6a5850b71bf47ea3d740170a02cd0106d62d5c1a249"
+    },
+    {
+      "path": "outputs/PNG300/01_现状土地功能分类_分析说明.png",
+      "bytes": 2272693,
+      "sha256": "02f8131d674b1698e69c8325544907bcf8e11737b815a6eb4d80f692e3e5a873"
+    },
+    {
+      "path": "outputs/PNG300/02_建筑密度分析_分析说明.png",
+      "bytes": 1619786,
+      "sha256": "a5db512ff41dee266a99f02a270359ae75a4e770463d8dff9905274a316e2284"
+    },
+    {
+      "path": "outputs/PNG300/03_建筑高度分布_全部含估算_分析说明.png",
+      "bytes": 4495015,
+      "sha256": "64ec37c3749b246450a5a5fb46601235ef02a5dca0e99f845f971eff437b7d16"
+    },
+    {
+      "path": "outputs/PNG300/04_建筑体量强度代理_分析说明.png",
+      "bytes": 1603302,
+      "sha256": "e0c58a73f1d50599d3f8b6305037fb07779eccbbc194cabcdfe4b944053fdcd6"
+    },
+    {
+      "path": "outputs/PNG300/05_城市肌理与图底关系_分析说明.png",
+      "bytes": 4924341,
+      "sha256": "f9579673496c486ae25e0949b69540176b4e6eefa22fde67a2a07f30007301e8"
+    },
+    {
+      "path": "outputs/PNG300/06_已映射土地功能面积混合度_分析说明.png",
+      "bytes": 1259676,
+      "sha256": "96242ba6edee3ea6f666beed96df4ed7ed94762ea159718ab3def1f61eed5f4d"
+    },
+    {
+      "path": "outputs/PNG300/07_道路等级与交通结构_分析说明.png",
+      "bytes": 6535305,
+      "sha256": "dd45e9eec9b9805df2e6e7740d3cdde3c1d555f4c99cdfe7bd068e0c0eb36deb"
+    },
+    {
+      "path": "outputs/PNG300/08_车行路网密度与节点连通_分析说明.png",
+      "bytes": 1474534,
+      "sha256": "776d4dbd993321d17283db48a2ec80b662992088c0452aa78a19f2d60c1e63ca"
+    },
+    {
+      "path": "outputs/PNG300/09_公共交通接入与步行网络覆盖_分析说明.png",
+      "bytes": 6212059,
+      "sha256": "e139e064f132c4a7172d4b0c40307e6ec1885cd1e3548a783260cd960dd1b453"
+    },
+    {
+      "path": "outputs/PNG300/10_日常服务慢行可达性_分析说明.png",
+      "bytes": 4306462,
+      "sha256": "08b89c913bb0c02249952a44db6fa843cfb1b2692c3b6a3019d2d6cddce8da62"
+    },
+    {
+      "path": "outputs/PNG300/11_商业POI观察密度_分析说明.png",
+      "bytes": 1211590,
+      "sha256": "585e2b6408479d969e22cdf8051eabecc5cbbaacfbf8746279311e96a42f46fb"
+    },
+    {
+      "path": "outputs/PNG300/12_已映射教育设施步行覆盖_分析说明.png",
+      "bytes": 4639738,
+      "sha256": "287ecf7dc60424ad622e405cdd6c303e7aa629fd137a68ab146b5ae8392e4419"
+    },
+    {
+      "path": "outputs/PNG300/13_蓝绿空间现状网络_分析说明.png",
+      "bytes": 4201045,
+      "sha256": "f295a3b884906a3c07968a09f65388163ef9192193c5cb47cbc09685034aa88a"
+    },
+    {
+      "path": "outputs/PNG300/14_公园绿地网络可达性_分析说明.png",
+      "bytes": 5603846,
+      "sha256": "715f49aa111b8033d4fa1e036722d59d21bb466bbd5d0f6978f4f7f158bb7cb5"
+    },
+    {
+      "path": "outputs/PNG300/15_公共环境改善机会研究初筛_分析说明.png",
+      "bytes": 1660762,
+      "sha256": "cf6a398e1b6d5c53ff1c35bc95d3c0f4752eeb46823a9fa10cbcb8bd4d0ef64a"
+    },
+    {
+      "path": "outputs/PNG300/16_现状数据问题与改善机会_分析说明.png",
+      "bytes": 1752836,
+      "sha256": "577e1f293a41bdb31e18e9a71a312c177b1b4d349fe2aa333c802a927e9eed65"
+    },
+    {
+      "path": "outputs/PNG300/17_模型人口密度_2020年100米_分析说明.png",
+      "bytes": 2684230,
+      "sha256": "3b5a32c2fdb602453f73519402db900dcf75a116e3f3586cafac2136ea5cb5cd"
+    },
+    {
+      "path": "outputs/PNG300/18_模型人口密度_2025年约1公里_分析说明.png",
+      "bytes": 1018472,
+      "sha256": "f38f5db424801895ed395d011f9269ce00316697f6e04a39242b29f32d0a080c"
+    },
+    {
+      "path": "outputs/PNG300/19_物理地表覆盖_2021年_分析说明.png",
+      "bytes": 1312737,
+      "sha256": "fb11e2ed351abe2f989f257a425cae2bb0f10cc503bda7829e982e447bc5075b"
+    },
+    {
+      "path": "outputs/PNG300/20_夏季植被指数_2026年9月14日_分析说明.png",
+      "bytes": 1977858,
+      "sha256": "cbae0a114c7705b3ed2b1e673f3529b8bd3b04cadc040668f604078fd35e8247"
+    },
+    {
+      "path": "outputs/PNG300/21_冬季植被指数_2026年2月21日_分析说明.png",
+      "bytes": 2045887,
+      "sha256": "1b116b9d257e246bd11dca0f133060ef5af14bf900918ba1c1d7872468e9da55"
+    },
+    {
+      "path": "outputs/PNG300/22_夏季卫星地表温度_2026年8月1日_分析说明.png",
+      "bytes": 1709239,
+      "sha256": "438eca11f7d1fcf0e7505c26c976b6d1eaa80ab57d93ae3c282b496ab844f46e"
+    },
+    {
+      "path": "outputs/PNG300/23_表面高程_2021年约30米_分析说明.png",
+      "bytes": 1607179,
+      "sha256": "f8e9a7f5c7d166b357af2e26c4e7bd1d51430c894cd230e534e83c1835216dcd"
+    },
+    {
+      "path": "outputs/PNG300/24_夏季水体光谱指数_分析说明.png",
+      "bytes": 1985954,
+      "sha256": "f6cc4a34bd6411c2407bc0dbe61de79ac71dee5ce686920170ad0f5877d5c5c5"
+    },
+    {
+      "path": "outputs/PNG300/25_夏季建成光谱指数_分析说明.png",
+      "bytes": 2006860,
+      "sha256": "35e06dd65741b357e7d49156f822a0ebaed31dc078dc20f2eb41035c6093dd23"
+    },
+    {
+      "path": "outputs/PNG300/26_历史物理地表覆盖_2019年_分析说明.png",
+      "bytes": 884091,
+      "sha256": "37878f9c81c82a6b27947f1bc1ed0b4c8fbef43051212707b1855efd722f0197"
+    },
+    {
+      "path": "outputs/PNG300/27_历史水面观测频率_1984—2021_分析说明.png",
+      "bytes": 886998,
+      "sha256": "3bb81d8f5df2621e2a7a54b0e1bdbacac26d5299854b75fb8ebe5d3fa9291c76"
+    },
+    {
+      "path": "outputs/PNG300/28_冬夏植被指数季节差_2026年_分析说明.png",
+      "bytes": 2098038,
+      "sha256": "b408248fe3376c226a425d76316b398e911b60621f7e9f9d7c49e8ca4e4141f3"
+    },
+    {
+      "path": "outputs/PNG300/R01_建筑基底覆盖率_100米_分析说明.png",
+      "bytes": 1283881,
+      "sha256": "6b671e891c06afe449f1092c18130f6d77974f29dd25b51fbb977c6937098294"
+    },
+    {
+      "path": "outputs/PNG300/R02_估高建筑体量代理_100米_分析说明.png",
+      "bytes": 1271037,
+      "sha256": "555ae8bb39dd28673a307369b1572f3547d7c992a6601c2583f259b3d8362633"
+    },
+    {
+      "path": "outputs/PNG300/R03_已映射土地功能混合_200米_分析说明.png",
+      "bytes": 1076544,
+      "sha256": "3b32f601c40852c55758c8443423cd54f595b52de6235308662d58c8ef682043"
+    },
+    {
+      "path": "outputs/PNG300/R04_车行路网与真实节点_200米_分析说明.png",
+      "bytes": 1126775,
+      "sha256": "a71fe12e6d460d5f9eb5e307aa05ef0fdd8f26a10b2c968155f3183e048f9b40"
+    },
+    {
+      "path": "outputs/PNG300/R05_商业观察密度_200米_分析说明.png",
+      "bytes": 1085456,
+      "sha256": "9522f8b06d8a0be171553e20a6e22b5f16b9a8e051b4b01cb328f36d06052812"
+    },
+    {
+      "path": "outputs/PNG300/R06_公共环境改善机会_100米_分析说明.png",
+      "bytes": 1309526,
+      "sha256": "c71e243654efd64c1bc83d45ce2d9508b8513597debf14081bc09228a313ef06"
+    },
+    {
+      "path": "outputs/PNG300/R07_数据问题与改善机会_100米_分析说明.png",
+      "bytes": 1332613,
+      "sha256": "fe737b870d595c6eb0013c3951c323836c948cb9df7b6fda7b631e6f115d0137"
+    },
+    {
+      "path": "outputs/PNG300/R08_2025模型人口_原生约1公里_分析说明.png",
+      "bytes": 5795139,
+      "sha256": "d063b9e2f4c8897b3e812f90d1b1b08d694ac0a22fa4c9fa17955604c55727d5"
+    },
+    {
+      "path": "outputs/SVG/01_现状土地功能分类_分析说明.svg",
+      "bytes": 3234037,
+      "sha256": "66c71c90279e5b94620201e332f9be46f4416bdbfbf978b7234ea0cfbc56d061"
+    },
+    {
+      "path": "outputs/SVG/02_建筑密度分析_分析说明.svg",
+      "bytes": 3190026,
+      "sha256": "9a9e2bd5908cec56b5fdfaf73e5703a06743eed0eebc7086aac975590529ea4e"
+    },
+    {
+      "path": "outputs/SVG/03_建筑高度分布_全部含估算_分析说明.svg",
+      "bytes": 4862400,
+      "sha256": "956f1095b8eed9cc90cc6dfc127e5c0a915d5192525123de6496407ba71253ee"
+    },
+    {
+      "path": "outputs/SVG/04_建筑体量强度代理_分析说明.svg",
+      "bytes": 3198615,
+      "sha256": "f1d6c345e16f6093735342b0b3a790a515db834747408452d5d38fa9848cabac"
+    },
+    {
+      "path": "outputs/SVG/05_城市肌理与图底关系_分析说明.svg",
+      "bytes": 2908220,
+      "sha256": "9a49ee982717e699b3a39a9b8b6cb2470c122b26f1238b651604ac569e4e1c51"
+    },
+    {
+      "path": "outputs/SVG/06_已映射土地功能面积混合度_分析说明.svg",
+      "bytes": 3004294,
+      "sha256": "dd12db12622df4651912fce7914e562d820be01829303fbb6525a683f56f1823"
+    },
+    {
+      "path": "outputs/SVG/07_道路等级与交通结构_分析说明.svg",
+      "bytes": 5406306,
+      "sha256": "fb1e71558513b4b1a80de044d2bf80ef47363261a34683d5cc863853fa3f0f85"
+    },
+    {
+      "path": "outputs/SVG/08_车行路网密度与节点连通_分析说明.svg",
+      "bytes": 4243424,
+      "sha256": "92d48f8603d84c724b2d9f191345dae7c16f4e772f6ff96b4848ab6af4a69aad"
+    },
+    {
+      "path": "outputs/SVG/09_公共交通接入与步行网络覆盖_分析说明.svg",
+      "bytes": 7654301,
+      "sha256": "f607bb76b0e05a803ee8df115543bd2619569bb4c17d790c62652c1e9f3ebb20"
+    },
+    {
+      "path": "outputs/SVG/10_日常服务慢行可达性_分析说明.svg",
+      "bytes": 3423630,
+      "sha256": "f6a9ecf5839eb6d15659b51a9663b9808a8497d1f698767c7b42c108904495c3"
+    },
+    {
+      "path": "outputs/SVG/11_商业POI观察密度_分析说明.svg",
+      "bytes": 2986851,
+      "sha256": "c2dc9a43363464fe6262089fd53935bffefc44046d9aa4d8389868165f9bce44"
+    },
+    {
+      "path": "outputs/SVG/12_已映射教育设施步行覆盖_分析说明.svg",
+      "bytes": 3738880,
+      "sha256": "a50261352d65e22dd0850b1d37fff944f530228b5f3c8c48b53230c669a34876"
+    },
+    {
+      "path": "outputs/SVG/13_蓝绿空间现状网络_分析说明.svg",
+      "bytes": 3060416,
+      "sha256": "23b3718bc8ead6277ac16684140aa85fd93718e9ec054c3308ae18ca2a6dd877"
+    },
+    {
+      "path": "outputs/SVG/14_公园绿地网络可达性_分析说明.svg",
+      "bytes": 5311449,
+      "sha256": "fc5f591101b8f1385c498455b0e9f2dcaf61db46ba2fa3681ba08d62cd0a83fd"
+    },
+    {
+      "path": "outputs/SVG/15_公共环境改善机会研究初筛_分析说明.svg",
+      "bytes": 3322071,
+      "sha256": "4f848ae3dd4b1462cbd365888bce8efb3cd7fadfc2fd68d4bf167060b25899dd"
+    },
+    {
+      "path": "outputs/SVG/16_现状数据问题与改善机会_分析说明.svg",
+      "bytes": 3582499,
+      "sha256": "a0b74a167e8a7b4b5cb43ab14e521cecc899f5605f5bb8c75a19ac07595e99b6"
+    },
+    {
+      "path": "outputs/SVG/17_模型人口密度_2020年100米_分析说明.svg",
+      "bytes": 3264077,
+      "sha256": "a4d11457a471a29abadd110dbea8d0ea54c4d5c9d73df0ec7b37c3cd11830057"
+    },
+    {
+      "path": "outputs/SVG/18_模型人口密度_2025年约1公里_分析说明.svg",
+      "bytes": 2916531,
+      "sha256": "f6953dba0cebe44bb63e488932fe6fef87ff31d1e79d06d745951e70972da37f"
+    },
+    {
+      "path": "outputs/SVG/19_物理地表覆盖_2021年_分析说明.svg",
+      "bytes": 1167972,
+      "sha256": "f9f14a56037073e5b3171596e8c3670f8cc0759873b53b0eef46b1f827de9f15"
+    },
+    {
+      "path": "outputs/SVG/20_夏季植被指数_2026年9月14日_分析说明.svg",
+      "bytes": 1727262,
+      "sha256": "b264f93ba161988fe1653afdf480fe2fc05664b21b1309a7e655c056abc95003"
+    },
+    {
+      "path": "outputs/SVG/21_冬季植被指数_2026年2月21日_分析说明.svg",
+      "bytes": 1741955,
+      "sha256": "559975d4b4bfbcdb26dd9e536764642fa815486c8cce28af996fd87aef601096"
+    },
+    {
+      "path": "outputs/SVG/22_夏季卫星地表温度_2026年8月1日_分析说明.svg",
+      "bytes": 1137211,
+      "sha256": "d3481461018c3a95b2a51c3b18e6d8b456b119490151aeb27bcf79ae1034984e"
+    },
+    {
+      "path": "outputs/SVG/23_表面高程_2021年约30米_分析说明.svg",
+      "bytes": 1189354,
+      "sha256": "1ab58c999638698358cf4c544fa6462393eda5b4a018518ed86a432469382210"
+    },
+    {
+      "path": "outputs/SVG/24_夏季水体光谱指数_分析说明.svg",
+      "bytes": 1670608,
+      "sha256": "3ed63b1c83dc87cd7310e9827bcb61744ebee9545a661e1f2bb048983f07b81b"
+    },
+    {
+      "path": "outputs/SVG/25_夏季建成光谱指数_分析说明.svg",
+      "bytes": 1248590,
+      "sha256": "1673f91347dadef3ada732cb8e9e77a16e2562919f8f5173b68699b5752b4816"
+    },
+    {
+      "path": "outputs/SVG/26_历史物理地表覆盖_2019年_分析说明.svg",
+      "bytes": 1068611,
+      "sha256": "1435492183fdb57a70f33175a32295459410f66d4554edb7df8e27dd12160561"
+    },
+    {
+      "path": "outputs/SVG/27_历史水面观测频率_1984—2021_分析说明.svg",
+      "bytes": 1088855,
+      "sha256": "c381ce8241538641dd8b448c0da1faf2615345665807b3ff344adf1deeb015e1"
+    },
+    {
+      "path": "outputs/SVG/28_冬夏植被指数季节差_2026年_分析说明.svg",
+      "bytes": 1737274,
+      "sha256": "831c9d12282fc5ad3ad2c913c023959ce7f12faf824b9f4b50c9738a531f4e9d"
+    },
+    {
+      "path": "outputs/SVG/R01_建筑基底覆盖率_100米_分析说明.svg",
+      "bytes": 3239107,
+      "sha256": "8c1eddc9c2e4dcbdc2ee9a5f11e51a8cd023c9dc812d790dad264ba45a0a9a4c"
+    },
+    {
+      "path": "outputs/SVG/R02_估高建筑体量代理_100米_分析说明.svg",
+      "bytes": 3242782,
+      "sha256": "8f5fffafd092a9c8c634135a0b61798c67961fad66bd9c9a9c3173612d298bad"
+    },
+    {
+      "path": "outputs/SVG/R03_已映射土地功能混合_200米_分析说明.svg",
+      "bytes": 3075988,
+      "sha256": "e98f715e4560e2946cbd2ea36174fd207aeda115d772dc3c0eab05c769b2f71c"
+    },
+    {
+      "path": "outputs/SVG/R04_车行路网与真实节点_200米_分析说明.svg",
+      "bytes": 3388666,
+      "sha256": "5d708f2ffe9dff0dee1cc5af53b3b71c8f69359fc92959f7f82e916033c8ced2"
+    },
+    {
+      "path": "outputs/SVG/R05_商业观察密度_200米_分析说明.svg",
+      "bytes": 3151568,
+      "sha256": "b2b84bbe2c0ca9b705436fe29923b26560d9ec9ad60a3edfbdae9e9001685243"
+    },
+    {
+      "path": "outputs/SVG/R06_公共环境改善机会_100米_分析说明.svg",
+      "bytes": 3319085,
+      "sha256": "15166f9630fb4118aad4237d9fba5a3b67ad5ad4b7e9e5e5f8419d90fd1a3273"
+    },
+    {
+      "path": "outputs/SVG/R07_数据问题与改善机会_100米_分析说明.svg",
+      "bytes": 3477796,
+      "sha256": "5189cc3a700bf4650d306bd8f2685528e11a08a17a4e7787f9cd8338ce5ff9b4"
+    },
+    {
+      "path": "outputs/SVG/R08_2025模型人口_原生约1公里_分析说明.svg",
+      "bytes": 3346624,
+      "sha256": "38c60a8d4698116f73dc6c71d26c4a8c5b3a6524a682c3f6095ee9e2272326c7"
+    },
+    {
+      "path": "outputs/previews/INDEX_36_ANALYSIS_NOTES.png",
+      "bytes": 4552564,
+      "sha256": "ef073d45779ff3711d2747dc0ac21c56a671464aa4421dc687c359de9ed07cab"
+    },
+    {
+      "path": "outputs/previews/QGIS_notes_02.png",
+      "bytes": 413885,
+      "sha256": "06bf26fa10956fb7395b2bcbf3b337465a20772fff62ca6f16ba8939220dd802"
+    },
+    {
+      "path": "outputs/previews/QGIS_notes_10.png",
+      "bytes": 1734439,
+      "sha256": "654d7644272d1e30ced57a686a656410651aa356eb4f5fba2f1824c8c2981acb"
+    },
+    {
+      "path": "outputs/previews/QGIS_notes_22.png",
+      "bytes": 302184,
+      "sha256": "729a5872c385adbb5130cae1cf161a6a618b224d42c053c67914aeb9173fe3b7"
+    },
+    {
+      "path": "outputs/previews/QGIS_notes_R01.png",
+      "bytes": 326847,
+      "sha256": "0dbea7d0f2ae1826c13c887a58e7fb44fe371be93465e0bc3e6032f26cc06b4d"
+    },
+    {
+      "path": "outputs/qgis/planning_analysis_v3_with_notes.qgz",
+      "bytes": 744500,
+      "sha256": "a17adbe71ed4e4bc41c777d25d0d8147b35360a400402ae2def7b1e71bb9d362"
+    },
+    {
+      "path": "reports/FINAL_QA.json",
+      "bytes": 13550,
+      "sha256": "c61f1eae6f5c0160882825b6ed34cc68120fef2a5fc57209b9266da89bc868c4"
+    },
+    {
+      "path": "reports/export_validation.json",
+      "bytes": 171268,
+      "sha256": "926860b96821372a404c33c5e712b40dd3b2831f92edd23699f68f59460d1ffb"
+    },
+    {
+      "path": "reports/input_baseline.json",
+      "bytes": 894,
+      "sha256": "8333cd31227d57f83fef8e58f45b321579444cac9a5f44ae445bfe65b1f2574d"
+    },
+    {
+      "path": "reports/map_analysis_notes.json",
+      "bytes": 38394,
+      "sha256": "33bcd69abbc04b598af7879fe493b460e87c2887a54069265802d5e08cdb540b"
+    },
+    {
+      "path": "reports/qgis_caption_validation.json",
+      "bytes": 1222,
+      "sha256": "da4d58e32d98d54460f4629cf7b94761723ff30ba351b8486f237f5d563b4366"
+    },
+    {
+      "path": "reports/spatial_evidence.json",
+      "bytes": 49729,
+      "sha256": "4834443afc42672c621659c04fc6ae702fe99e0a10d27f8e621a7770c450b8a8"
+    },
+    {
+      "path": "scripts/01_evidence.py",
+      "bytes": 7959,
+      "sha256": "99e0a72740f5a15643dedb5c90854d44d3ef4cfe50dff11f6c5f7fe0974ef590"
+    },
+    {
+      "path": "scripts/02_write_notes.py",
+      "bytes": 29593,
+      "sha256": "1d82f9e93e7355e08ca52fcd963bbd37bfa2b38c51ab0677e882ce1335f89df8"
+    },
+    {
+      "path": "scripts/03_export_annotated.py",
+      "bytes": 7473,
+      "sha256": "c30d86c4ac2553473079802a6b09361f392132d3c0da43011772e959e6474c2b"
+    },
+    {
+      "path": "scripts/04_qgis_notes.py",
+      "bytes": 4851,
+      "sha256": "f19250ece8378a61b78600f08df37df424680405edd2277ce8b9465ff55e5fe0"
+    },
+    {
+      "path": "scripts/05_qa.py",
+      "bytes": 4338,
+      "sha256": "c79d1459583425f30c13bd24e49cecb4a79f55dcded042d34a9d1be758da28a4"
+    },
+    {
+      "path": "scripts/06_package.py",
+      "bytes": 5717,
+      "sha256": "baa945517e5f2acbf0fd7337898541992dd433b6329e8560f268922f6ce3ba90"
+    },
+    {
+      "path": "scripts/font_compat.py",
+      "bytes": 3526,
+      "sha256": "1f2f4600f1571a3baea175e2260c20b067a1fcfa0ed5fe0561ece4bdbedacb28"
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "bytes": 493,
+      "sha256": "31a54b0a962a45d1ddafd124e0de20a7cc72c1f8e0329e0d49aeebdd9a2fec3d"
+    }
+  ]
+}

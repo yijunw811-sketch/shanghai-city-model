@@ -1,0 +1,29 @@
+{
+  "updated_existing_layouts": 36,
+  "editable_analysis_paragraphs": 108,
+  "valid_layers": 108,
+  "layouts": 67,
+  "invalid_layers": [],
+  "map_extent_size_scale_positions_unchanged": true,
+  "source_project_untouched": true,
+  "relative_paths": true,
+  "default_display": "existing pure-vector theme",
+  "source_project_sha256": "6113636fc30c58c769fd7c9a1694746c1d8ecee33947f72fd6c0f9747bcfdc63",
+  "no_added_basemap_or_topic": true,
+  "protected_source_SHA256_unchanged": {
+    "planning_v3/outputs/gis/reference_v2.gpkg": true,
+    "planning_v3/outputs/gis/refined_analysis_v3.gpkg": true,
+    "planning_v3/outputs/gis/reference_analysis_v2.gpkg": true,
+    "planning_v3/data/satellite/sentinel_truecolor_10m_context.tif": true,
+    "上海城市模型_Codex云端起步包/outputs/gis/city.gpkg": true,
+    "上海城市模型_Codex云端起步包/outputs/gis/overture_audit.gpkg": true,
+    "planning_v3/data/boundary/选定范围.csv": true
+  },
+  "native_preview_exports": [
+    "outputs/previews/QGIS_notes_02.png",
+    "outputs/previews/QGIS_notes_10.png",
+    "outputs/previews/QGIS_notes_22.png",
+    "outputs/previews/QGIS_notes_R01.png"
+  ],
+  "project": "outputs/qgis/planning_analysis_v3_with_notes.qgz"
+}

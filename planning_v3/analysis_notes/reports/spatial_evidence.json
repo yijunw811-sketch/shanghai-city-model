@@ -1,0 +1,1447 @@
+{
+  "definition": {
+    "site": "Exact user design polygon;66.09476495ha",
+    "near500": "500m Euclidean surrounding ring excluding site, clipped to22.009km2 AOI; not walking catchment",
+    "region": "Full unchanged22.009km2 research boundary",
+    "ratios": "Exact geometry clipping, union for polygon coverage; no implicit population allocation",
+    "access": "Share of mapped walk-edge union length reachable from mapped seeds, not land/population/actual service coverage",
+    "height": "All estimated; overlap volume uses max height, not measured FAR",
+    "raster": "Exact pixel-footprint intersection area weights, native pixels unchanged"
+  },
+  "zones": {
+    "site": {
+      "area_m2": 660947.6494989631,
+      "building_records_intersecting": 298,
+      "building_union_fraction": 0.2656682302532909,
+      "estimated_volume_proxy_m": 3.2539642298535716,
+      "known_function_fraction": 0.21184217746458203,
+      "mapped_function_area_fraction": {
+        "construction": 0.028222527628478815,
+        "green_open": 0.06597962394408206,
+        "residential": 0.04292865569620392,
+        "transport": 0.007055659148242908,
+        "unknown": 0.7881578225353945,
+        "water": 0.0676557110475743
+      },
+      "mapped_green_fraction": 0.06597962394408206,
+      "mapped_water_fraction": 0.0676557110475743,
+      "vehicle_length_m": 9189.67613354792,
+      "vehicle_density_km_km2": 13.903788205486821,
+      "walk_union_length_m": 9940.572911390665,
+      "mapped_vehicle_nodes": 48,
+      "longest_mapped_roads": {
+        "江场西路": 2830.9663983042637,
+        "万荣路": 1255.5043328171773,
+        "南北高架路": 868.0678891432685,
+        "万荣一路": 796.8511604290125,
+        "共和新路": 456.33297526135857,
+        "原平路": 266.70110939761145
+      },
+      "poi_observations": {
+        "commercial": 2,
+        "daily_service": 1,
+        "elderly": 1,
+        "other_service": 5
+      },
+      "access": {
+        "transit": {
+          "5": 0.8334787041012535,
+          "10": 0.9992559216214083,
+          "15": 0.9992559216214089
+        },
+        "daily_service": {
+          "5": 0.0,
+          "10": 0.0,
+          "15": 0.10110364611484697
+        },
+        "education": {
+          "5": 0.14978881110204506,
+          "10": 0.35993215597012695,
+          "15": 0.5112745269395861
+        },
+        "parks": {
+          "5": 0.5326546486072281,
+          "10": 0.997218823585912,
+          "15": 0.9992559216214085
+        }
+      },
+      "road_dangling_review_records_intersecting": 15,
+      "road_building_conflicts_records_intersecting": 2,
+      "road_schematic_steep_review_records_intersecting": 1,
+      "open_spaces_records_intersecting": 3,
+      "population_ghsl2020": {
+        "mean": 26471.117524604786,
+        "median": 20428.32043556511,
+        "p10": 7548.651876475097,
+        "p90": 55004.663291416146,
+        "valid_weight": 660947.6494990329,
+        "intersecting_native_cells": 92
+      },
+      "population_worldpop2025": {
+        "mean": 20999.163955947704,
+        "median": 20612.899217925027,
+        "p10": 18678.53834261716,
+        "p90": 22695.203080661606,
+        "valid_weight": 660947.6494988941,
+        "intersecting_native_cells": 7
+      },
+      "raster": {
+        "clcd2019_30m": {
+          "mean": null,
+          "median": null,
+          "p10": null,
+          "p90": null,
+          "valid_weight": 660947.6494989825,
+          "valid_area_fraction": 1.0000000000000293,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true,
+          "class_fraction_of_valid": {
+            "1": 0.002723362434777478,
+            "8": 0.9972766375652226
+          }
+        },
+        "dsm_copernicus2021_30m": {
+          "mean": 5.648850321937789,
+          "median": 5.175863265991211,
+          "p10": 3.2414820194244385,
+          "p90": 9.06429386138916,
+          "valid_weight": 660947.649498946,
+          "valid_area_fraction": 0.9999999999999741,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true
+        },
+        "dsm_slope2021_30m": {
+          "mean": 3.0320077707939803,
+          "median": 2.6896443367004395,
+          "p10": 0.873727560043335,
+          "p90": 5.743561744689941,
+          "valid_weight": 660947.649498946,
+          "valid_area_fraction": 0.9999999999999741,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true
+        },
+        "jrc_water_occurrence1984_2021_30m": {
+          "mean": 0.008170097908709954,
+          "median": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "valid_weight": 660946.7916220666,
+          "valid_area_fraction": 0.9999987020501591,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true
+        },
+        "lst_summer2026_effective100m": {
+          "mean": 48.56867546601601,
+          "median": 48.68180847167969,
+          "p10": 44.782325744628906,
+          "p90": 52.589012145996094,
+          "valid_weight": 660947.6494989195,
+          "valid_area_fraction": 0.9999999999999339,
+          "pixel_size_m": [
+            100.0,
+            100.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndbi_summer2026_20m": {
+          "mean": -0.03912198697818235,
+          "median": -0.02752772718667984,
+          "p10": -0.20291592180728912,
+          "p90": 0.1054575964808464,
+          "valid_weight": 550486.6690461045,
+          "valid_area_fraction": 0.8328748418477704,
+          "pixel_size_m": [
+            20.0,
+            20.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndvi_seasonal_difference2026_10m": {
+          "mean": 0.06515772838200329,
+          "median": 0.04005344957113266,
+          "p10": -0.06221548467874527,
+          "p90": 0.23676297068595886,
+          "valid_weight": 550486.6690460801,
+          "valid_area_fraction": 0.8328748418477334,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndvi_summer2026_10m": {
+          "mean": 0.2721667769186681,
+          "median": 0.23173604905605316,
+          "p10": 0.014884979464113712,
+          "p90": 0.6084429621696472,
+          "valid_weight": 550486.6690460801,
+          "valid_area_fraction": 0.8328748418477334,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndvi_winter2026_10m": {
+          "mean": 0.2021948100047874,
+          "median": 0.16233766078948975,
+          "p10": 0.03248310089111328,
+          "p90": 0.45739424228668213,
+          "valid_weight": 660947.6494989848,
+          "valid_area_fraction": 1.0000000000000329,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndwi_summer2026_10m": {
+          "mean": -0.25594377810227453,
+          "median": -0.23447710275650024,
+          "p10": -0.5402750372886658,
+          "p90": -0.02680257335305214,
+          "valid_weight": 550486.6690460801,
+          "valid_area_fraction": 0.8328748418477334,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "worldcover2021_10m": {
+          "mean": null,
+          "median": null,
+          "p10": null,
+          "p90": null,
+          "valid_weight": 660947.649498948,
+          "valid_area_fraction": 0.9999999999999771,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true,
+          "class_fraction_of_valid": {
+            "10": 0.05593647496083296,
+            "30": 0.025418049391257785,
+            "40": 0.04323998474982002,
+            "50": 0.850119674451131,
+            "60": 0.019839091577402917,
+            "80": 0.0054467248695552395
+          }
+        }
+      },
+      "grid100": {
+        "intersecting_cells": 92,
+        "entropy_eligible_cells": 20,
+        "entropy_eligible_area_fraction": 0.17509254915490713,
+        "priority_score": {
+          "mean": 0.4772961243128628,
+          "median": 0.5020952116409853,
+          "p10": 0.2576135688040311,
+          "p90": 0.6919502841047533,
+          "valid_weight": 453742.1958529179
+        },
+        "high_density_fraction": 0.11034847213766917,
+        "high_density_threshold": 0.45
+      },
+      "grid200": {
+        "intersecting_cells": 29,
+        "entropy_eligible_cells": 10,
+        "entropy_eligible_area_fraction": 0.23486318687615632,
+        "priority_score": {
+          "mean": 0.4942326151963038,
+          "median": 0.5177101816645543,
+          "p10": 0.25715462610899875,
+          "p90": 0.67326573722011,
+          "valid_weight": 660947.6494989537
+        },
+        "high_density_fraction": 0.0,
+        "high_density_threshold": 0.45
+      }
+    },
+    "near500": {
+      "area_m2": 2991321.8868350945,
+      "building_records_intersecting": 1473,
+      "building_union_fraction": 0.22518200169321156,
+      "estimated_volume_proxy_m": 2.950536728410072,
+      "known_function_fraction": 0.5764332737221676,
+      "mapped_function_area_fraction": {
+        "commercial": 0.13638608286893944,
+        "construction": 0.003631872943693162,
+        "green_open": 0.03884131460511461,
+        "public_service": 0.027704558667590553,
+        "residential": 0.3181802068375757,
+        "transport": 0.0373238768718054,
+        "unknown": 0.4235667262778248,
+        "water": 0.014365360927458319
+      },
+      "mapped_green_fraction": 0.039215577244578255,
+      "mapped_water_fraction": 0.014365360927458317,
+      "vehicle_length_m": 36833.23662865258,
+      "vehicle_density_km_km2": 12.31336446631065,
+      "walk_union_length_m": 39690.26160840146,
+      "mapped_vehicle_nodes": 141,
+      "longest_mapped_roads": {
+        "场中路": 5011.084547867837,
+        "共和新路": 4901.793468099769,
+        "南北高架路": 2005.0229550619986,
+        "江场西路": 1658.123301423675,
+        "江场路": 1029.5067392973913,
+        "万荣路": 1010.9240744901573
+      },
+      "poi_observations": {
+        "commercial": 24,
+        "culture_sports": 4,
+        "daily_service": 3,
+        "education": 8,
+        "employment_proxy": 1,
+        "health": 4,
+        "other_service": 21
+      },
+      "access": {
+        "transit": {
+          "5": 0.7732390945202234,
+          "10": 0.9466963624730497,
+          "15": 0.9508472125121595
+        },
+        "daily_service": {
+          "5": 0.00358229144080838,
+          "10": 0.10282056376091389,
+          "15": 0.20819475652379474
+        },
+        "education": {
+          "5": 0.040916971399955246,
+          "10": 0.15148280286922633,
+          "15": 0.3445131116833208
+        },
+        "parks": {
+          "5": 0.44321271318803795,
+          "10": 0.6053973997812014,
+          "15": 0.8062722659467486
+        }
+      },
+      "road_dangling_review_records_intersecting": 34,
+      "road_building_conflicts_records_intersecting": 4,
+      "road_schematic_steep_review_records_intersecting": 3,
+      "open_spaces_records_intersecting": 20,
+      "population_ghsl2020": {
+        "mean": 39724.991717182835,
+        "median": 29258.058742570913,
+        "p10": 8450.956164779844,
+        "p90": 82979.61998672967,
+        "valid_weight": 2991321.8868348347,
+        "intersecting_native_cells": 371
+      },
+      "population_worldpop2025": {
+        "mean": 20715.585954441965,
+        "median": 21324.837527184005,
+        "p10": 15512.254652459216,
+        "p90": 27418.69552715231,
+        "valid_weight": 2991321.886835069,
+        "intersecting_native_cells": 9
+      },
+      "raster": {
+        "clcd2019_30m": {
+          "mean": null,
+          "median": null,
+          "p10": null,
+          "p90": null,
+          "valid_weight": 2991321.8868350578,
+          "valid_area_fraction": 0.9999999999999877,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true,
+          "class_fraction_of_valid": {
+            "1": 0.0066515025823616234,
+            "8": 0.9933484974176384
+          }
+        },
+        "dsm_copernicus2021_30m": {
+          "mean": 5.668009666791916,
+          "median": 5.396131992340088,
+          "p10": 2.995762586593628,
+          "p90": 8.640825271606445,
+          "valid_weight": 2991321.886835132,
+          "valid_area_fraction": 1.0000000000000124,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true
+        },
+        "dsm_slope2021_30m": {
+          "mean": 2.6507307010348042,
+          "median": 2.2779319286346436,
+          "p10": 0.78396075963974,
+          "p90": 5.004752159118652,
+          "valid_weight": 2991321.886835132,
+          "valid_area_fraction": 1.0000000000000124,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true
+        },
+        "jrc_water_occurrence1984_2021_30m": {
+          "mean": 0.07342339898448398,
+          "median": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "valid_weight": 2991321.886835108,
+          "valid_area_fraction": 1.0000000000000044,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true
+        },
+        "lst_summer2026_effective100m": {
+          "mean": 49.60960777425297,
+          "median": 50.06809616088867,
+          "p10": 45.041038513183594,
+          "p90": 53.44561004638672,
+          "valid_weight": 2991321.8868351365,
+          "valid_area_fraction": 1.000000000000014,
+          "pixel_size_m": [
+            100.0,
+            100.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndbi_summer2026_20m": {
+          "mean": -0.07691903962956388,
+          "median": -0.07124055922031403,
+          "p10": -0.21779274940490723,
+          "p90": 0.052270304411649704,
+          "valid_weight": 2810982.867287967,
+          "valid_area_fraction": 0.9397125998573388,
+          "pixel_size_m": [
+            20.0,
+            20.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndvi_seasonal_difference2026_10m": {
+          "mean": 0.03565393650734273,
+          "median": 0.027224011719226837,
+          "p10": -0.0870058536529541,
+          "p90": 0.17979075014591217,
+          "valid_weight": 2810982.8672879804,
+          "valid_area_fraction": 0.9397125998573433,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndvi_summer2026_10m": {
+          "mean": 0.3052807988007146,
+          "median": 0.2648475170135498,
+          "p10": 0.06481482833623886,
+          "p90": 0.6200693845748901,
+          "valid_weight": 2810982.8672879804,
+          "valid_area_fraction": 0.9397125998573433,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndvi_winter2026_10m": {
+          "mean": 0.2708092342396988,
+          "median": 0.23382045328617096,
+          "p10": 0.06641970574855804,
+          "p90": 0.5432624816894531,
+          "valid_weight": 2991321.8868350754,
+          "valid_area_fraction": 0.9999999999999937,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndwi_summer2026_10m": {
+          "mean": -0.2890842182491333,
+          "median": -0.2679814398288727,
+          "p10": -0.5510204434394836,
+          "p90": -0.07678531855344772,
+          "valid_weight": 2810982.8672879804,
+          "valid_area_fraction": 0.9397125998573433,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "worldcover2021_10m": {
+          "mean": null,
+          "median": null,
+          "p10": null,
+          "p90": null,
+          "valid_weight": 2991321.8868351225,
+          "valid_area_fraction": 1.0000000000000093,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true,
+          "class_fraction_of_valid": {
+            "10": 0.09237023555393215,
+            "30": 0.00846353390484507,
+            "40": 0.014232913324423705,
+            "50": 0.8655455159815433,
+            "60": 0.01635455500920884,
+            "80": 0.003033246226047
+          }
+        }
+      },
+      "grid100": {
+        "intersecting_cells": 370,
+        "entropy_eligible_cells": 219,
+        "entropy_eligible_area_fraction": 0.6174729723595971,
+        "priority_score": {
+          "mean": 0.47774512039895134,
+          "median": 0.511080718887362,
+          "p10": 0.2550662261337388,
+          "p90": 0.6470227478728692,
+          "valid_weight": 1962867.3272101532
+        },
+        "high_density_fraction": 0.05519596741929835,
+        "high_density_threshold": 0.45
+      },
+      "grid200": {
+        "intersecting_cells": 110,
+        "entropy_eligible_cells": 61,
+        "entropy_eligible_area_fraction": 0.6089710456385253,
+        "priority_score": {
+          "mean": 0.47928706822139355,
+          "median": 0.4999324038867765,
+          "p10": 0.2604795099281791,
+          "p90": 0.6677101816645544,
+          "valid_weight": 2563878.9008903597
+        },
+        "high_density_fraction": 0.0,
+        "high_density_threshold": 0.45
+      }
+    },
+    "region": {
+      "area_m2": 22009120.78313864,
+      "building_records_intersecting": 11856,
+      "building_union_fraction": 0.22570511996668902,
+      "estimated_volume_proxy_m": 2.845492950375367,
+      "known_function_fraction": 0.5232968187067548,
+      "mapped_function_area_fraction": {
+        "commercial": 0.058495596014042125,
+        "construction": 0.008936091132885486,
+        "green_open": 0.030961916531060715,
+        "industrial": 0.02442977612619079,
+        "public_service": 0.03394543624460346,
+        "residential": 0.3342424344114512,
+        "transport": 0.018279235020192713,
+        "unknown": 0.4767031812932193,
+        "water": 0.01400633322632938
+      },
+      "mapped_green_fraction": 0.029304299503311038,
+      "mapped_water_fraction": 0.014019411957024004,
+      "vehicle_length_m": 267644.05645799986,
+      "vehicle_density_km_km2": 12.160597376658684,
+      "walk_union_length_m": 263441.7139057811,
+      "mapped_vehicle_nodes": 1091,
+      "longest_mapped_roads": {
+        "共和新路": 12731.488402696257,
+        "中环路": 11918.35573052654,
+        "场中路": 11293.19780051959,
+        "沪太路": 10787.414482858723,
+        "汶水路": 10693.250347495517,
+        "汶水东路": 7691.872862432823
+      },
+      "poi_observations": {
+        "commercial": 138,
+        "culture_sports": 80,
+        "daily_service": 29,
+        "education": 63,
+        "elderly": 2,
+        "employment_proxy": 7,
+        "health": 15,
+        "other_service": 133,
+        "safety": 2
+      },
+      "access": {
+        "transit": {
+          "5": 0.8017104507981034,
+          "10": 0.9429457475443208,
+          "15": 0.952567809203661
+        },
+        "daily_service": {
+          "5": 0.017790116201711222,
+          "10": 0.08054450030124367,
+          "15": 0.1848688068736227
+        },
+        "education": {
+          "5": 0.032042075028044056,
+          "10": 0.13780444908295175,
+          "15": 0.32459353267248997
+        },
+        "parks": {
+          "5": 0.24941275870616372,
+          "10": 0.49122698535208287,
+          "15": 0.7121057404102002
+        }
+      },
+      "road_dangling_review_records_intersecting": 267,
+      "road_building_conflicts_records_intersecting": 19,
+      "road_schematic_steep_review_records_intersecting": 9,
+      "open_spaces_records_intersecting": 116,
+      "population_ghsl2020": {
+        "mean": 23685.13287285217,
+        "median": 17807.696915769247,
+        "p10": 4592.321679005119,
+        "p90": 50595.56315131634,
+        "valid_weight": 22009120.783138514,
+        "intersecting_native_cells": 2336
+      },
+      "population_worldpop2025": {
+        "mean": 20722.519619460887,
+        "median": 21556.024457189993,
+        "p10": 8261.756456771358,
+        "p90": 29275.876429764852,
+        "valid_weight": 22009120.78313815,
+        "intersecting_native_cells": 48
+      },
+      "raster": {
+        "clcd2019_30m": {
+          "mean": null,
+          "median": null,
+          "p10": null,
+          "p90": null,
+          "valid_weight": 21936558.68409118,
+          "valid_area_fraction": 0.9967030896071483,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true,
+          "class_fraction_of_valid": {
+            "1": 0.02705647703271583,
+            "2": 0.0004923288176386741,
+            "5": 4.102740146988951e-05,
+            "8": 0.9724101667481756
+          }
+        },
+        "dsm_copernicus2021_30m": {
+          "mean": 5.816824381844562,
+          "median": 5.445991039276123,
+          "p10": 2.7948617935180664,
+          "p90": 9.150137901306152,
+          "valid_weight": 21934900.547465228,
+          "valid_area_fraction": 0.9966277509944753,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true
+        },
+        "dsm_slope2021_30m": {
+          "mean": 2.779528409484567,
+          "median": 2.3018290996551514,
+          "p10": 0.711836040019989,
+          "p90": 5.3880085945129395,
+          "valid_weight": 21934900.547465228,
+          "valid_area_fraction": 0.9966277509944753,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true
+        },
+        "jrc_water_occurrence1984_2021_30m": {
+          "mean": 0.041536730371119476,
+          "median": 0.0,
+          "p10": 0.0,
+          "p90": 0.0,
+          "valid_weight": 21942688.620219037,
+          "valid_area_fraction": 0.9969816075992233,
+          "pixel_size_m": [
+            30.0,
+            30.0
+          ],
+          "native_grid_preserved": true
+        },
+        "lst_summer2026_effective100m": {
+          "mean": 49.5915906378121,
+          "median": 49.627655029296875,
+          "p10": 45.96564483642578,
+          "p90": 53.24815368652344,
+          "valid_weight": 21717043.694682505,
+          "valid_area_fraction": 0.9867292704995332,
+          "pixel_size_m": [
+            100.0,
+            100.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndbi_summer2026_20m": {
+          "mean": -0.06719189663004009,
+          "median": -0.06200450286269188,
+          "p10": -0.23336437344551086,
+          "p90": 0.08629163354635239,
+          "valid_weight": 20879279.231656622,
+          "valid_area_fraction": 0.9486648484228594,
+          "pixel_size_m": [
+            20.0,
+            20.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndvi_seasonal_difference2026_10m": {
+          "mean": 0.05508506696404034,
+          "median": 0.038380593061447144,
+          "p10": -0.07549525797367096,
+          "p90": 0.22449636459350586,
+          "valid_weight": 20899486.048800677,
+          "valid_area_fraction": 0.9495829594797779,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndvi_summer2026_10m": {
+          "mean": 0.3160567720246821,
+          "median": 0.27490633726119995,
+          "p10": 0.05996347963809967,
+          "p90": 0.6442952752113342,
+          "valid_weight": 20900286.048800677,
+          "valid_area_fraction": 0.9496193080467145,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndvi_winter2026_10m": {
+          "mean": 0.2615890921127047,
+          "median": 0.21632122993469238,
+          "p10": 0.062340982258319855,
+          "p90": 0.5456936359405518,
+          "valid_weight": 21984737.138900638,
+          "valid_area_fraction": 0.9988921118440731,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "ndwi_summer2026_10m": {
+          "mean": -0.29954721483944496,
+          "median": -0.27787208557128906,
+          "p10": -0.5664621591567993,
+          "p90": -0.07577749341726303,
+          "valid_weight": 20900286.048800677,
+          "valid_area_fraction": 0.9496193080467145,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true
+        },
+        "worldcover2021_10m": {
+          "mean": null,
+          "median": null,
+          "p10": null,
+          "p90": null,
+          "valid_weight": 21985876.87546332,
+          "valid_area_fraction": 0.9989438965824966,
+          "pixel_size_m": [
+            10.0,
+            10.0
+          ],
+          "native_grid_preserved": true,
+          "class_fraction_of_valid": {
+            "10": 0.0999096806191775,
+            "30": 0.021819301625289157,
+            "40": 0.0405052140705362,
+            "50": 0.8140428700906885,
+            "60": 0.020239480320526734,
+            "80": 0.0034834532737818644
+          }
+        }
+      },
+      "grid100": {
+        "intersecting_cells": 2300,
+        "entropy_eligible_cells": 1274,
+        "entropy_eligible_area_fraction": 0.5503257841779804,
+        "priority_score": {
+          "mean": 0.4847886857320936,
+          "median": 0.49992129859750695,
+          "p10": 0.27382259777979195,
+          "p90": 0.6649937623656229,
+          "valid_weight": 14384931.789938992
+        },
+        "high_density_fraction": 0.07134264877353091,
+        "high_density_threshold": 0.45
+      },
+      "grid200": {
+        "intersecting_cells": 600,
+        "entropy_eligible_cells": 343,
+        "entropy_eligible_area_fraction": 0.5684500686493721,
+        "priority_score": {
+          "mean": 0.49778758889706676,
+          "median": 0.5121546261089988,
+          "p10": 0.2771546261089987,
+          "p90": 0.6915990705534432,
+          "valid_weight": 19662752.095758554
+        },
+        "high_density_fraction": 0.025520770341463665,
+        "high_density_threshold": 0.45
+      }
+    }
+  },
+  "protected_SHA256_unchanged": {
+    "planning_v3/outputs/gis/reference_v2.gpkg": true,
+    "planning_v3/outputs/gis/refined_analysis_v3.gpkg": true,
+    "planning_v3/outputs/gis/reference_analysis_v2.gpkg": true,
+    "planning_v3/data/satellite/sentinel_truecolor_10m_context.tif": true,
+    "上海城市模型_Codex云端起步包/outputs/gis/city.gpkg": true,
+    "上海城市模型_Codex云端起步包/outputs/gis/overture_audit.gpkg": true,
+    "planning_v3/data/boundary/选定范围.csv": true
+  },
+  "named_resources_near500": {
+    "green_parks": [
+      {
+        "name": "彭浦公园",
+        "source_url": "https://www.openstreetmap.org/way/255752279",
+        "distance_to_site_m": 207.29071314951082,
+        "intersects_site": false,
+        "public_access_status": "public_park_semantics_not_field_verified"
+      },
+      {
+        "name": "静安青年体育公园",
+        "source_url": "https://www.openstreetmap.org/way/868440462",
+        "distance_to_site_m": 356.3217815325852,
+        "intersects_site": false,
+        "public_access_status": "public_park_semantics_not_field_verified"
+      },
+      {
+        "name": "数智花园",
+        "source_url": "https://www.openstreetmap.org/way/1465273350",
+        "distance_to_site_m": 0.0,
+        "intersects_site": true,
+        "public_access_status": "public_park_semantics_not_field_verified"
+      },
+      {
+        "name": "半里绿廊",
+        "source_url": "https://www.openstreetmap.org/way/1465273351",
+        "distance_to_site_m": 6.74431366071566,
+        "intersects_site": false,
+        "public_access_status": "public_park_semantics_not_field_verified"
+      }
+    ],
+    "transit_stations": [
+      {
+        "name": "彭浦新村",
+        "source_url": "https://www.openstreetmap.org/node/469788048",
+        "distance_to_site_m": 373.37335783297715,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "原平路交城路",
+        "source_url": "https://www.openstreetmap.org/node/828086117",
+        "distance_to_site_m": 398.26584116029636,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路原平路",
+        "source_url": "https://www.openstreetmap.org/node/1754019654",
+        "distance_to_site_m": 0.0,
+        "intersects_site": true,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路少年村路",
+        "source_url": "https://www.openstreetmap.org/node/3357341519",
+        "distance_to_site_m": 417.5190588167884,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路少年村路",
+        "source_url": "https://www.openstreetmap.org/node/3357342629",
+        "distance_to_site_m": 458.05068681997983,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "彭浦新村",
+        "source_url": "https://www.openstreetmap.org/node/4559664009",
+        "distance_to_site_m": 373.71130747369085,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "彭浦新村",
+        "source_url": "https://www.openstreetmap.org/node/4559664370",
+        "distance_to_site_m": 373.25615768759803,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "汶水路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/9112443528",
+        "distance_to_site_m": 416.02472850018273,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "汶水路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/9112443529",
+        "distance_to_site_m": 420.8458904830502,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路万荣路",
+        "source_url": "https://www.openstreetmap.org/node/9113123212",
+        "distance_to_site_m": 6.8701200754232,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路万荣路",
+        "source_url": "https://www.openstreetmap.org/node/9113123213",
+        "distance_to_site_m": 0.131821971976341,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场三路江场西路",
+        "source_url": "https://www.openstreetmap.org/node/9113135196",
+        "distance_to_site_m": 181.066711649646,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场三路江场西路",
+        "source_url": "https://www.openstreetmap.org/node/9113135197",
+        "distance_to_site_m": 179.24453709540958,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场三路汶水路",
+        "source_url": "https://www.openstreetmap.org/node/9113135198",
+        "distance_to_site_m": 435.4797672489105,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场三路汶水路",
+        "source_url": "https://www.openstreetmap.org/node/9113135199",
+        "distance_to_site_m": 434.87770665494105,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "共和新路江场路",
+        "source_url": "https://www.openstreetmap.org/node/9113158342",
+        "distance_to_site_m": 209.2057067152174,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "共和新路江场路",
+        "source_url": "https://www.openstreetmap.org/node/9113158343",
+        "distance_to_site_m": 209.96141584319219,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "共和新路闻喜路",
+        "source_url": "https://www.openstreetmap.org/node/9113158348",
+        "distance_to_site_m": 469.1451233572253,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "共和新路闻喜路",
+        "source_url": "https://www.openstreetmap.org/node/9113158349",
+        "distance_to_site_m": 469.6757318864786,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "共和新路闻喜路",
+        "source_url": "https://www.openstreetmap.org/node/9113158350",
+        "distance_to_site_m": 484.50654066127316,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "共和新路闻喜路",
+        "source_url": "https://www.openstreetmap.org/node/9113158351",
+        "distance_to_site_m": 484.89618811696306,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/9113164369",
+        "distance_to_site_m": 0.0,
+        "intersects_site": true,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/9113164370",
+        "distance_to_site_m": 0.0,
+        "intersects_site": true,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/9113164371",
+        "distance_to_site_m": 0.0,
+        "intersects_site": true,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/9113164372",
+        "distance_to_site_m": 4.043402289588888,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路江场三路",
+        "source_url": "https://www.openstreetmap.org/node/9113164373",
+        "distance_to_site_m": 5.9749685647672495,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路江场三路",
+        "source_url": "https://www.openstreetmap.org/node/9113164374",
+        "distance_to_site_m": 0.05877561815935735,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路江场三路",
+        "source_url": "https://www.openstreetmap.org/node/9113164375",
+        "distance_to_site_m": 0.0,
+        "intersects_site": true,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路江场三路",
+        "source_url": "https://www.openstreetmap.org/node/9113164376",
+        "distance_to_site_m": 0.0,
+        "intersects_site": true,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路万荣路",
+        "source_url": "https://www.openstreetmap.org/node/9113164377",
+        "distance_to_site_m": 0.0,
+        "intersects_site": true,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路万荣路",
+        "source_url": "https://www.openstreetmap.org/node/9113164378",
+        "distance_to_site_m": 0.0,
+        "intersects_site": true,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场三路江场西路",
+        "source_url": "https://www.openstreetmap.org/node/9113176120",
+        "distance_to_site_m": 198.46249436357698,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场三路江场西路",
+        "source_url": "https://www.openstreetmap.org/node/9113176121",
+        "distance_to_site_m": 198.21738371652566,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "共和新路江场路",
+        "source_url": "https://www.openstreetmap.org/node/9855498030",
+        "distance_to_site_m": 92.6258447931522,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "共和新路江场路",
+        "source_url": "https://www.openstreetmap.org/node/9855498031",
+        "distance_to_site_m": 93.2447420343005,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "少年村路",
+        "source_url": "https://www.openstreetmap.org/node/10554504245",
+        "distance_to_site_m": 475.16364322044257,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "少年村路",
+        "source_url": "https://www.openstreetmap.org/node/10554504246",
+        "distance_to_site_m": 474.88431557871877,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "少年村路",
+        "source_url": "https://www.openstreetmap.org/node/10554504247",
+        "distance_to_site_m": 465.75229331531915,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路少年村路",
+        "source_url": "https://www.openstreetmap.org/node/10554504248",
+        "distance_to_site_m": 430.74842628445913,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路三号桥",
+        "source_url": "https://www.openstreetmap.org/node/10554504249",
+        "distance_to_site_m": 437.3584260320619,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路三号桥",
+        "source_url": "https://www.openstreetmap.org/node/10554504250",
+        "distance_to_site_m": 428.8275871504766,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路三泉路",
+        "source_url": "https://www.openstreetmap.org/node/10554504251",
+        "distance_to_site_m": 422.87585751213356,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路三号桥",
+        "source_url": "https://www.openstreetmap.org/node/10554513818",
+        "distance_to_site_m": 451.20331423095087,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路三泉路",
+        "source_url": "https://www.openstreetmap.org/node/10554513824",
+        "distance_to_site_m": 414.49719735181435,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路少年村路",
+        "source_url": "https://www.openstreetmap.org/node/10554525583",
+        "distance_to_site_m": 448.1836290660683,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路三泉路",
+        "source_url": "https://www.openstreetmap.org/node/10554531688",
+        "distance_to_site_m": 408.3476803223005,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路三泉路",
+        "source_url": "https://www.openstreetmap.org/node/10554531689",
+        "distance_to_site_m": 415.39146823074617,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路三号桥",
+        "source_url": "https://www.openstreetmap.org/node/10554531690",
+        "distance_to_site_m": 460.38938664328947,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "少年村路",
+        "source_url": "https://www.openstreetmap.org/node/10554532113",
+        "distance_to_site_m": 481.2632857498271,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "汶水路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/11247236705",
+        "distance_to_site_m": 476.7615999166471,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "汶水路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/11247236706",
+        "distance_to_site_m": 472.29373714895974,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "汶水路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/11247236707",
+        "distance_to_site_m": 433.6486838835788,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "汶水路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/11247236708",
+        "distance_to_site_m": 427.3605558651315,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "原平路交城路",
+        "source_url": "https://www.openstreetmap.org/node/11462666790",
+        "distance_to_site_m": 399.69846223230434,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "交城路高平路",
+        "source_url": "https://www.openstreetmap.org/node/11462666791",
+        "distance_to_site_m": 384.2948510320155,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "交城路高平路",
+        "source_url": "https://www.openstreetmap.org/node/11462666792",
+        "distance_to_site_m": 380.8359505244137,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路沪太支路",
+        "source_url": "https://www.openstreetmap.org/node/11462666793",
+        "distance_to_site_m": 430.9969944243217,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路沪太支路",
+        "source_url": "https://www.openstreetmap.org/node/11462666794",
+        "distance_to_site_m": 429.9933335724074,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路平顺路",
+        "source_url": "https://www.openstreetmap.org/node/11477304059",
+        "distance_to_site_m": 472.3194567912554,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "场中路平顺路",
+        "source_url": "https://www.openstreetmap.org/node/11477304062",
+        "distance_to_site_m": 478.5223562937957,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路原平路",
+        "source_url": "https://www.openstreetmap.org/node/11814752128",
+        "distance_to_site_m": 8.200693990123442,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路原平路",
+        "source_url": "https://www.openstreetmap.org/node/11814752129",
+        "distance_to_site_m": 0.3420614063250523,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路原平路",
+        "source_url": "https://www.openstreetmap.org/node/11814752130",
+        "distance_to_site_m": 0.0,
+        "intersects_site": true,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "少年村路场中路",
+        "source_url": "https://www.openstreetmap.org/node/11814752131",
+        "distance_to_site_m": 353.1755267491629,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "少年村路场中路",
+        "source_url": "https://www.openstreetmap.org/node/11814752132",
+        "distance_to_site_m": 332.1981227121611,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "少年村路场中路",
+        "source_url": "https://www.openstreetmap.org/node/11814752133",
+        "distance_to_site_m": 333.02150340661336,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "少年村路场中路",
+        "source_url": "https://www.openstreetmap.org/node/11814752134",
+        "distance_to_site_m": 353.8035387054473,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "原平路交城路",
+        "source_url": "https://www.openstreetmap.org/node/12240542978",
+        "distance_to_site_m": 252.2892823327466,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "原平路交城路",
+        "source_url": "https://www.openstreetmap.org/node/12240542979",
+        "distance_to_site_m": 249.80663489031105,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路高平路",
+        "source_url": "https://www.openstreetmap.org/node/12241509421",
+        "distance_to_site_m": 109.0846577170986,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场西路高平路",
+        "source_url": "https://www.openstreetmap.org/node/12241509422",
+        "distance_to_site_m": 109.44827711409893,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/12258569303",
+        "distance_to_site_m": 244.83763963010895,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/12258569304",
+        "distance_to_site_m": 110.75464245021435,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/12258569305",
+        "distance_to_site_m": 246.40959718727493,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "江场路共和新路",
+        "source_url": "https://www.openstreetmap.org/node/12258569306",
+        "distance_to_site_m": 109.18962074630345,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "汶水路共和新路",
+        "source_url": "https://www.openstreetmap.org/way/163764007",
+        "distance_to_site_m": 496.9553876860738,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      }
+    ],
+    "poi_education": [
+      {
+        "name": "上海市闸北第八中学",
+        "source_url": "https://www.openstreetmap.org/way/255657045",
+        "distance_to_site_m": 122.65099752877323,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "上海市田家炳小学",
+        "source_url": "https://www.openstreetmap.org/way/302209022",
+        "distance_to_site_m": 343.1032814226582,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "上海市新中初级中学",
+        "source_url": "https://www.openstreetmap.org/way/1331888578",
+        "distance_to_site_m": 280.25959229453696,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "永和小学",
+        "source_url": "https://www.openstreetmap.org/way/1365028442",
+        "distance_to_site_m": 446.7289912291041,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "上海市田家炳小学",
+        "source_url": "https://www.openstreetmap.org/way/1365550778",
+        "distance_to_site_m": 340.41703775122727,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "海鹰幼儿园",
+        "source_url": "https://www.openstreetmap.org/way/1430500417",
+        "distance_to_site_m": 268.5828835515804,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "民办小小虎幼稚园",
+        "source_url": "https://www.openstreetmap.org/way/1431625905",
+        "distance_to_site_m": 172.6810451684147,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      },
+      {
+        "name": "Shanghai Xinzhong Senior High School",
+        "source_url": "https://stac.overturemaps.org/2026-10-21.0/places/place/collection.json",
+        "distance_to_site_m": 18.26239557199458,
+        "intersects_site": false,
+        "public_access_status": "unverified"
+      }
+    ]
+  }
+}

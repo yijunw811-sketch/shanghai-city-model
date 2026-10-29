@@ -1,0 +1,5978 @@
+[
+  {
+    "id": "01",
+    "format": "A1",
+    "signature": "d7145d149a3302ac48fd61f3f949532d6451ff52a2e5fe23d571807b440c7952",
+    "files": {
+      "pdf": "outputs/A1/01_现状土地功能分类_分析说明.pdf",
+      "png300": "outputs/PNG300/01_现状土地功能分类_分析说明.png",
+      "svg": "outputs/SVG/01_现状土地功能分类_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "eae4c763ed96f5a2ffa46e635b20f4a9fee1357cc128c7eaad969912900477d2",
+      "fonts_repaired": [
+        {
+          "font": "BIXGRC+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CGASBJ+NotoSansCJKjp-Bold",
+          "glyphs": 18,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CMPCHQ+NotoSansCJKjp-Regular",
+          "glyphs": 84,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FNSEJI+NotoSansCJKjp-Regular",
+          "glyphs": 257,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "eae4c763ed96f5a2ffa46e635b20f4a9fee1357cc128c7eaad969912900477d2",
+    "no_new_imagery": true
+  },
+  {
+    "id": "01",
+    "format": "A3",
+    "signature": "fae706458ee5802bafcb3a60d3678c46674cb5f0bd0e266a38a3b49bf5ff0b29",
+    "files": {
+      "pdf": "outputs/A3/01_现状土地功能分类_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "2325092554ec2a917dd7341ceb3d6c3c59c5ba1b9b5f15551d66cb0954f7b2ee",
+      "fonts_repaired": [
+        {
+          "font": "BIXGRC+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CGASBJ+NotoSansCJKjp-Bold",
+          "glyphs": 18,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EZMEXL+NotoSansCJKjp-Regular",
+          "glyphs": 85,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FNSEJI+NotoSansCJKjp-Regular",
+          "glyphs": 257,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "2325092554ec2a917dd7341ceb3d6c3c59c5ba1b9b5f15551d66cb0954f7b2ee",
+    "no_new_imagery": true
+  },
+  {
+    "id": "02",
+    "format": "A1",
+    "signature": "f145c035afffefc6301a919e67b9147d9bc16936a7478b5a72621b4485df72f2",
+    "files": {
+      "pdf": "outputs/A1/02_建筑密度分析_分析说明.pdf",
+      "png300": "outputs/PNG300/02_建筑密度分析_分析说明.png",
+      "svg": "outputs/SVG/02_建筑密度分析_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "23adaae3dac46cd4427cc2cc4ca2f8b5f41b511f3723e84a9231db58f7949d08",
+      "fonts_repaired": [
+        {
+          "font": "CQCCCM+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GUTQFT+NotoSansCJKjp-Bold",
+          "glyphs": 16,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EWJAVR+NotoSansCJKjp-Regular",
+          "glyphs": 84,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CQSPAV+NotoSansCJKjp-Regular",
+          "glyphs": 224,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "23adaae3dac46cd4427cc2cc4ca2f8b5f41b511f3723e84a9231db58f7949d08",
+    "no_new_imagery": true
+  },
+  {
+    "id": "02",
+    "format": "A3",
+    "signature": "a5d83db91f811c7203882163c85dac6426e8c3509ca73ebee440b9e51e26aa15",
+    "files": {
+      "pdf": "outputs/A3/02_建筑密度分析_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "1e0d7f6f8221aa453d4deb61dfe76818b94cae765e5dc196372ba1f98ede2c27",
+      "fonts_repaired": [
+        {
+          "font": "CQCCCM+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GUTQFT+NotoSansCJKjp-Bold",
+          "glyphs": 16,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FXAWKG+NotoSansCJKjp-Regular",
+          "glyphs": 85,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CQSPAV+NotoSansCJKjp-Regular",
+          "glyphs": 224,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "1e0d7f6f8221aa453d4deb61dfe76818b94cae765e5dc196372ba1f98ede2c27",
+    "no_new_imagery": true
+  },
+  {
+    "id": "03",
+    "format": "A1",
+    "signature": "f82557cc762c4bba11f377b95bd77420399d2e0ced1fe5152b77aad655a62c97",
+    "files": {
+      "pdf": "outputs/A1/03_建筑高度分布_全部含估算_分析说明.pdf",
+      "png300": "outputs/PNG300/03_建筑高度分布_全部含估算_分析说明.png",
+      "svg": "outputs/SVG/03_建筑高度分布_全部含估算_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "4db7e06bebb4c100c22d1892777ab46b69a0f84b0fd530c878f2805e217d4ac5",
+      "fonts_repaired": [
+        {
+          "font": "BGNUGQ+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CYOJCQ+NotoSansCJKjp-Bold",
+          "glyphs": 28,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BQGCNZ+NotoSansCJKjp-Regular",
+          "glyphs": 77,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CJZLEB+NotoSansCJKjp-Regular",
+          "glyphs": 188,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "4db7e06bebb4c100c22d1892777ab46b69a0f84b0fd530c878f2805e217d4ac5",
+    "no_new_imagery": true
+  },
+  {
+    "id": "03",
+    "format": "A3",
+    "signature": "88edae96c8cce45b4ebde810665175ac24b19d72e036fced734ce82c7182bce7",
+    "files": {
+      "pdf": "outputs/A3/03_建筑高度分布_全部含估算_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "2f1dd5f1a4097ec9f07e64851f339a316a84888103757252779c57c820d29de9",
+      "fonts_repaired": [
+        {
+          "font": "BGNUGQ+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CYOJCQ+NotoSansCJKjp-Bold",
+          "glyphs": 28,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "QYBKBX+NotoSansCJKjp-Regular",
+          "glyphs": 78,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CJZLEB+NotoSansCJKjp-Regular",
+          "glyphs": 188,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "2f1dd5f1a4097ec9f07e64851f339a316a84888103757252779c57c820d29de9",
+    "no_new_imagery": true
+  },
+  {
+    "id": "04",
+    "format": "A1",
+    "signature": "7226be1ec52ebf249fac9792e135cffc02ff5dfbc5fea0966c7da65c0fd5b727",
+    "files": {
+      "pdf": "outputs/A1/04_建筑体量强度代理_分析说明.pdf",
+      "png300": "outputs/PNG300/04_建筑体量强度代理_分析说明.png",
+      "svg": "outputs/SVG/04_建筑体量强度代理_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "83816421d8b11c1607f64800ebc9364f3b5e0bf91f5a44cb8d1bdb09dfa31d1d",
+      "fonts_repaired": [
+        {
+          "font": "CSXEQX+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ERVMKH+NotoSansCJKjp-Bold",
+          "glyphs": 14,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GPYZXF+NotoSansCJKjp-Regular",
+          "glyphs": 82,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GVUWZC+NotoSansCJKjp-Regular",
+          "glyphs": 218,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "83816421d8b11c1607f64800ebc9364f3b5e0bf91f5a44cb8d1bdb09dfa31d1d",
+    "no_new_imagery": true
+  },
+  {
+    "id": "04",
+    "format": "A3",
+    "signature": "22dc8c9c4988839fc019fc70aa1ef76fc3b96301715304fd174df39666ff5074",
+    "files": {
+      "pdf": "outputs/A3/04_建筑体量强度代理_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "182f1983100092ce64de48e939b4caa399a470c83f9f7865ad40ab6d72b09618",
+      "fonts_repaired": [
+        {
+          "font": "CSXEQX+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ERVMKH+NotoSansCJKjp-Bold",
+          "glyphs": 14,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DVFLEF+NotoSansCJKjp-Regular",
+          "glyphs": 83,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GVUWZC+NotoSansCJKjp-Regular",
+          "glyphs": 218,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "182f1983100092ce64de48e939b4caa399a470c83f9f7865ad40ab6d72b09618",
+    "no_new_imagery": true
+  },
+  {
+    "id": "05",
+    "format": "A1",
+    "signature": "be81a2da79482e2b001eab15d11de215a93c41d39cea5e01b7449c02e37eac27",
+    "files": {
+      "pdf": "outputs/A1/05_城市肌理与图底关系_分析说明.pdf",
+      "png300": "outputs/PNG300/05_城市肌理与图底关系_分析说明.png",
+      "svg": "outputs/SVG/05_城市肌理与图底关系_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "d345824f584a7098fd159c810113b29f62ae860f228dccecb9b0dd08d3a37660",
+      "fonts_repaired": [
+        {
+          "font": "CYIDVG+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CPSHFS+NotoSansCJKjp-Bold",
+          "glyphs": 19,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CQGXXG+NotoSansCJKjp-Regular",
+          "glyphs": 72,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CBOETZ+NotoSansCJKjp-Regular",
+          "glyphs": 199,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "d345824f584a7098fd159c810113b29f62ae860f228dccecb9b0dd08d3a37660",
+    "no_new_imagery": true
+  },
+  {
+    "id": "05",
+    "format": "A3",
+    "signature": "29038e6bbbe5716588027620fc3632451992b6f4ea28203b748320bd95ee854e",
+    "files": {
+      "pdf": "outputs/A3/05_城市肌理与图底关系_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "4d121cf5e05fd9ecb4d563cdee67d13158c745b3df22f65eeced8dc2512447d4",
+      "fonts_repaired": [
+        {
+          "font": "CYIDVG+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CPSHFS+NotoSansCJKjp-Bold",
+          "glyphs": 19,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CWTIWD+NotoSansCJKjp-Regular",
+          "glyphs": 73,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CBOETZ+NotoSansCJKjp-Regular",
+          "glyphs": 199,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "4d121cf5e05fd9ecb4d563cdee67d13158c745b3df22f65eeced8dc2512447d4",
+    "no_new_imagery": true
+  },
+  {
+    "id": "06",
+    "format": "A1",
+    "signature": "f6486443f926f5a1023264988e803b4535453b39a49c5e2b76670e0892fe6de0",
+    "files": {
+      "pdf": "outputs/A1/06_已映射土地功能面积混合度_分析说明.pdf",
+      "png300": "outputs/PNG300/06_已映射土地功能面积混合度_分析说明.png",
+      "svg": "outputs/SVG/06_已映射土地功能面积混合度_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "f0daba74e6b06a6008930d3569b932461fc987f097caf245f87dc55884ebe128",
+      "fonts_repaired": [
+        {
+          "font": "EPBGIO+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CAPBAX+NotoSansCJKjp-Bold",
+          "glyphs": 24,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BPAKYL+NotoSansCJKjp-Regular",
+          "glyphs": 85,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GFSWDE+NotoSansCJKjp-Regular",
+          "glyphs": 223,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "f0daba74e6b06a6008930d3569b932461fc987f097caf245f87dc55884ebe128",
+    "no_new_imagery": true
+  },
+  {
+    "id": "06",
+    "format": "A3",
+    "signature": "80256eb81ed22e51b0165158a3d1a187c98946153f79f6cf9a7ee878f96bf40b",
+    "files": {
+      "pdf": "outputs/A3/06_已映射土地功能面积混合度_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "ff41d33762203da9049d6f6b4571098abff963df5a81d40422c627201818c7b4",
+      "fonts_repaired": [
+        {
+          "font": "EPBGIO+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CAPBAX+NotoSansCJKjp-Bold",
+          "glyphs": 24,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GENUDB+NotoSansCJKjp-Regular",
+          "glyphs": 86,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GFSWDE+NotoSansCJKjp-Regular",
+          "glyphs": 223,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "ff41d33762203da9049d6f6b4571098abff963df5a81d40422c627201818c7b4",
+    "no_new_imagery": true
+  },
+  {
+    "id": "07",
+    "format": "A1",
+    "signature": "430f2058d86714d326d93361b2d016b4dc88eeff051a02292352bae5703b52cc",
+    "files": {
+      "pdf": "outputs/A1/07_道路等级与交通结构_分析说明.pdf",
+      "png300": "outputs/PNG300/07_道路等级与交通结构_分析说明.png",
+      "svg": "outputs/SVG/07_道路等级与交通结构_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "70b2086d9c0f7e49b4a06715cfc26121d8f59242580ce463b80e65ee8f35de2e",
+      "fonts_repaired": [
+        {
+          "font": "DQIVRF+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CIDTGV+NotoSansCJKjp-Bold",
+          "glyphs": 22,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BGCHHW+NotoSansCJKjp-Regular",
+          "glyphs": 75,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ERAUMG+NotoSansCJKjp-Regular",
+          "glyphs": 192,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "70b2086d9c0f7e49b4a06715cfc26121d8f59242580ce463b80e65ee8f35de2e",
+    "no_new_imagery": true
+  },
+  {
+    "id": "07",
+    "format": "A3",
+    "signature": "bb84945dabec903500f731b3676100e2c22db0255e500fb0f69a9271ae94d034",
+    "files": {
+      "pdf": "outputs/A3/07_道路等级与交通结构_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "e791ac076c50531d15df88592cfae51323ccbc950edfb0464135e09b759d5e24",
+      "fonts_repaired": [
+        {
+          "font": "DQIVRF+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CIDTGV+NotoSansCJKjp-Bold",
+          "glyphs": 22,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CXQODO+NotoSansCJKjp-Regular",
+          "glyphs": 76,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ERAUMG+NotoSansCJKjp-Regular",
+          "glyphs": 192,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "e791ac076c50531d15df88592cfae51323ccbc950edfb0464135e09b759d5e24",
+    "no_new_imagery": true
+  },
+  {
+    "id": "08",
+    "format": "A1",
+    "signature": "ae5a24575586682f14e7a735f28d9c63c8f287e3a01663198bc341b532b0493e",
+    "files": {
+      "pdf": "outputs/A1/08_车行路网密度与节点连通_分析说明.pdf",
+      "png300": "outputs/PNG300/08_车行路网密度与节点连通_分析说明.png",
+      "svg": "outputs/SVG/08_车行路网密度与节点连通_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "160afbfc881f0a1d60ab2069eb32032ea39677826ca8222c2767e32cb2fc9a32",
+      "fonts_repaired": [
+        {
+          "font": "FFORDD+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DLTMSA+NotoSansCJKjp-Bold",
+          "glyphs": 20,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CGMTTF+NotoSansCJKjp-Regular",
+          "glyphs": 83,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GOOLXN+NotoSansCJKjp-Regular",
+          "glyphs": 200,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "160afbfc881f0a1d60ab2069eb32032ea39677826ca8222c2767e32cb2fc9a32",
+    "no_new_imagery": true
+  },
+  {
+    "id": "08",
+    "format": "A3",
+    "signature": "50aab2fcc1c6b250b9c0e3e06748f037adf95c35997622fe82efda859242b31f",
+    "files": {
+      "pdf": "outputs/A3/08_车行路网密度与节点连通_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "17f5e8d3f2b84974d5b1848fc516a671ae93cdceeab18daeb6ec3f95a87a09b8",
+      "fonts_repaired": [
+        {
+          "font": "FFORDD+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DLTMSA+NotoSansCJKjp-Bold",
+          "glyphs": 20,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CGMTTF+NotoSansCJKjp-Regular",
+          "glyphs": 83,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BYBVAY+NotoSansCJKjp-Regular",
+          "glyphs": 201,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "17f5e8d3f2b84974d5b1848fc516a671ae93cdceeab18daeb6ec3f95a87a09b8",
+    "no_new_imagery": true
+  },
+  {
+    "id": "09",
+    "format": "A1",
+    "signature": "3f37eb441ee269cafe98782ed42ee1d40bc6ba4f640488c411519c757462e640",
+    "files": {
+      "pdf": "outputs/A1/09_公共交通接入与步行网络覆盖_分析说明.pdf",
+      "png300": "outputs/PNG300/09_公共交通接入与步行网络覆盖_分析说明.png",
+      "svg": "outputs/SVG/09_公共交通接入与步行网络覆盖_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "cb83609b56b65e6e0c71c932e3715f457bac945d1b1bc44240669729c5c5cf56",
+      "fonts_repaired": [
+        {
+          "font": "GOIZWY+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HGRKRC+NotoSansCJKjp-Bold",
+          "glyphs": 30,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EERQDN+NotoSansCJKjp-Regular",
+          "glyphs": 75,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HJBGBM+NotoSansCJKjp-Regular",
+          "glyphs": 248,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "cb83609b56b65e6e0c71c932e3715f457bac945d1b1bc44240669729c5c5cf56",
+    "no_new_imagery": true
+  },
+  {
+    "id": "09",
+    "format": "A3",
+    "signature": "6625ef344ffb9064e598e4567d5b10c57983dd3bb18a25c63207b608fd0f4756",
+    "files": {
+      "pdf": "outputs/A3/09_公共交通接入与步行网络覆盖_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "f34f495c7643bbdeda400b57f4f330be4fe2257e12f2f51f3a14e9b3425250fc",
+      "fonts_repaired": [
+        {
+          "font": "GOIZWY+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HGRKRC+NotoSansCJKjp-Bold",
+          "glyphs": 30,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CWBBKH+NotoSansCJKjp-Regular",
+          "glyphs": 76,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HJBGBM+NotoSansCJKjp-Regular",
+          "glyphs": 248,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "f34f495c7643bbdeda400b57f4f330be4fe2257e12f2f51f3a14e9b3425250fc",
+    "no_new_imagery": true
+  },
+  {
+    "id": "10",
+    "format": "A1",
+    "signature": "bd77d69ba4331883c27636227eccfb7e6ef00559e7894105598f63857e2e44fe",
+    "files": {
+      "pdf": "outputs/A1/10_日常服务慢行可达性_分析说明.pdf",
+      "png300": "outputs/PNG300/10_日常服务慢行可达性_分析说明.png",
+      "svg": "outputs/SVG/10_日常服务慢行可达性_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "a381dfc77c8c8be91d3753d4fa99aac95afb6093c3733ad139c4099907a467c0",
+      "fonts_repaired": [
+        {
+          "font": "BIXGRC+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BIMHVE+NotoSansCJKjp-Bold",
+          "glyphs": 14,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "UBOHRH+NotoSansCJKjp-Regular",
+          "glyphs": 76,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HHWRMP+NotoSansCJKjp-Regular",
+          "glyphs": 224,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "a381dfc77c8c8be91d3753d4fa99aac95afb6093c3733ad139c4099907a467c0",
+    "no_new_imagery": true
+  },
+  {
+    "id": "10",
+    "format": "A3",
+    "signature": "eab9c3fe98d26ef90e0b8358ecb73961c51b998f29f40c75453ff7efbf863a06",
+    "files": {
+      "pdf": "outputs/A3/10_日常服务慢行可达性_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "789533ca77832ad3821f3a4f5300294acfadf667021d52fccfd33171c5f9e018",
+      "fonts_repaired": [
+        {
+          "font": "BIXGRC+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BIMHVE+NotoSansCJKjp-Bold",
+          "glyphs": 14,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HAFRBC+NotoSansCJKjp-Regular",
+          "glyphs": 77,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HHWRMP+NotoSansCJKjp-Regular",
+          "glyphs": 224,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "789533ca77832ad3821f3a4f5300294acfadf667021d52fccfd33171c5f9e018",
+    "no_new_imagery": true
+  },
+  {
+    "id": "11",
+    "format": "A1",
+    "signature": "24c0281dde8b03f77039eb2453bb5dbe71fff7438ea13e2bfb04125997a4a382",
+    "files": {
+      "pdf": "outputs/A1/11_商业POI观察密度_分析说明.pdf",
+      "png300": "outputs/PNG300/11_商业POI观察密度_分析说明.png",
+      "svg": "outputs/SVG/11_商业POI观察密度_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "9084f06efc1c85c17f1302acb20245e5ff9ba79ceb07ed955af3b0326ae86638",
+      "fonts_repaired": [
+        {
+          "font": "CUHKVV+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HJYQFB+NotoSansCJKjp-Bold",
+          "glyphs": 13,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HDUNJL+NotoSansCJKjp-Regular",
+          "glyphs": 76,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EDARVW+NotoSansCJKjp-Regular",
+          "glyphs": 211,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "9084f06efc1c85c17f1302acb20245e5ff9ba79ceb07ed955af3b0326ae86638",
+    "no_new_imagery": true
+  },
+  {
+    "id": "11",
+    "format": "A3",
+    "signature": "0bebf6a3cb7ed26882406a0bd943a10305a2d93bb0b641c921ed479cd36968bb",
+    "files": {
+      "pdf": "outputs/A3/11_商业POI观察密度_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "09498e5b583d9b72d1717c35435ab79bae1339ccc56d6a0592112c3ed50a8cbe",
+      "fonts_repaired": [
+        {
+          "font": "CUHKVV+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HJYQFB+NotoSansCJKjp-Bold",
+          "glyphs": 13,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CVXKWR+NotoSansCJKjp-Regular",
+          "glyphs": 77,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EDARVW+NotoSansCJKjp-Regular",
+          "glyphs": 211,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "09498e5b583d9b72d1717c35435ab79bae1339ccc56d6a0592112c3ed50a8cbe",
+    "no_new_imagery": true
+  },
+  {
+    "id": "12",
+    "format": "A1",
+    "signature": "da80e625d6a32de52fbe997602b24e0110ca832af9a6530089cce3a8e1701f03",
+    "files": {
+      "pdf": "outputs/A1/12_已映射教育设施步行覆盖_分析说明.pdf",
+      "png300": "outputs/PNG300/12_已映射教育设施步行覆盖_分析说明.png",
+      "svg": "outputs/SVG/12_已映射教育设施步行覆盖_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "7a3729fb5690291b62965eb994679e99ecd7aebc7a0b0bf558ccd50a0c912a98",
+      "fonts_repaired": [
+        {
+          "font": "DSNCKX+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ESRHUN+NotoSansCJKjp-Bold",
+          "glyphs": 24,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EERQDN+NotoSansCJKjp-Regular",
+          "glyphs": 75,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CMOFXF+NotoSansCJKjp-Regular",
+          "glyphs": 255,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "7a3729fb5690291b62965eb994679e99ecd7aebc7a0b0bf558ccd50a0c912a98",
+    "no_new_imagery": true
+  },
+  {
+    "id": "12",
+    "format": "A3",
+    "signature": "a19455a7d0ba1875f40ad822dc287e131d90530cd5820626efcf4153b54e6347",
+    "files": {
+      "pdf": "outputs/A3/12_已映射教育设施步行覆盖_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "461aa4029c0fa88a389f8cb7653a71e6885eea59986704d9de8952bb8bf08197",
+      "fonts_repaired": [
+        {
+          "font": "DSNCKX+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ESRHUN+NotoSansCJKjp-Bold",
+          "glyphs": 24,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CWBBKH+NotoSansCJKjp-Regular",
+          "glyphs": 76,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CMOFXF+NotoSansCJKjp-Regular",
+          "glyphs": 255,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "461aa4029c0fa88a389f8cb7653a71e6885eea59986704d9de8952bb8bf08197",
+    "no_new_imagery": true
+  },
+  {
+    "id": "13",
+    "format": "A1",
+    "signature": "6e31ac04b081b5cfb2a4bd6d53d31bfe0120bc34bf986bc48ca388cd13be8abf",
+    "files": {
+      "pdf": "outputs/A1/13_蓝绿空间现状网络_分析说明.pdf",
+      "png300": "outputs/PNG300/13_蓝绿空间现状网络_分析说明.png",
+      "svg": "outputs/SVG/13_蓝绿空间现状网络_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "2b620e590c324097d2d845beabf6b07065d4c73448372a74643535875b64f614",
+      "fonts_repaired": [
+        {
+          "font": "CIDTEH+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EMIHCY+NotoSansCJKjp-Bold",
+          "glyphs": 12,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CQGXXG+NotoSansCJKjp-Regular",
+          "glyphs": 72,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BMFZMR+NotoSansCJKjp-Regular",
+          "glyphs": 196,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "2b620e590c324097d2d845beabf6b07065d4c73448372a74643535875b64f614",
+    "no_new_imagery": true
+  },
+  {
+    "id": "13",
+    "format": "A3",
+    "signature": "f16254bba4d4695bdbb24b7cc1b86e659fc3aed0daf721126fd170e9ac1ee785",
+    "files": {
+      "pdf": "outputs/A3/13_蓝绿空间现状网络_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "af618dc34ddb90cf7dd5da191f88d8f74e92c3819fe0a9a3c69d2794f551d446",
+      "fonts_repaired": [
+        {
+          "font": "CIDTEH+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EMIHCY+NotoSansCJKjp-Bold",
+          "glyphs": 12,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CWTIWD+NotoSansCJKjp-Regular",
+          "glyphs": 73,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BMFZMR+NotoSansCJKjp-Regular",
+          "glyphs": 196,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "af618dc34ddb90cf7dd5da191f88d8f74e92c3819fe0a9a3c69d2794f551d446",
+    "no_new_imagery": true
+  },
+  {
+    "id": "14",
+    "format": "A1",
+    "signature": "c2cc3ddee2fff5d41e136db9ff5e0225c2a84f92d42dbb92be18daeab4046f6b",
+    "files": {
+      "pdf": "outputs/A1/14_公园绿地网络可达性_分析说明.pdf",
+      "png300": "outputs/PNG300/14_公园绿地网络可达性_分析说明.png",
+      "svg": "outputs/SVG/14_公园绿地网络可达性_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "fa4e6545c710fc71fbd4797d08ffb2ac1ce6b26d591f78a172ea44067f0f4f23",
+      "fonts_repaired": [
+        {
+          "font": "BDTIGI+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EESXYV+NotoSansCJKjp-Bold",
+          "glyphs": 17,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EERQDN+NotoSansCJKjp-Regular",
+          "glyphs": 75,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GZTIWE+NotoSansCJKjp-Regular",
+          "glyphs": 254,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "fa4e6545c710fc71fbd4797d08ffb2ac1ce6b26d591f78a172ea44067f0f4f23",
+    "no_new_imagery": true
+  },
+  {
+    "id": "14",
+    "format": "A3",
+    "signature": "078af7bcc2011f1e4b0c7f17d139b8ddbdfd09a74aff5979422db6b6eb2c6568",
+    "files": {
+      "pdf": "outputs/A3/14_公园绿地网络可达性_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "ebf429299510486b1959e98e577ffb87805189ed6f631905adc586c12439c8e4",
+      "fonts_repaired": [
+        {
+          "font": "BDTIGI+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EESXYV+NotoSansCJKjp-Bold",
+          "glyphs": 17,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CWBBKH+NotoSansCJKjp-Regular",
+          "glyphs": 76,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GZTIWE+NotoSansCJKjp-Regular",
+          "glyphs": 254,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "ebf429299510486b1959e98e577ffb87805189ed6f631905adc586c12439c8e4",
+    "no_new_imagery": true
+  },
+  {
+    "id": "15",
+    "format": "A1",
+    "signature": "2f6bbcd11ce7c7c03c9e0abc47d2f1e41d084902db79abcbce30ce420e97d2f4",
+    "files": {
+      "pdf": "outputs/A1/15_公共环境改善机会研究初筛_分析说明.pdf",
+      "png300": "outputs/PNG300/15_公共环境改善机会研究初筛_分析说明.png",
+      "svg": "outputs/SVG/15_公共环境改善机会研究初筛_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "1c4ef3601e97fb2c9d17f72bcfc2319fee558e4989468ef5f92533ce8b8771e4",
+      "fonts_repaired": [
+        {
+          "font": "ECSSVJ+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EHIZLT+NotoSansCJKjp-Bold",
+          "glyphs": 24,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GZPSYJ+NotoSansCJKjp-Regular",
+          "glyphs": 87,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GFVDDW+NotoSansCJKjp-Regular",
+          "glyphs": 255,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "1c4ef3601e97fb2c9d17f72bcfc2319fee558e4989468ef5f92533ce8b8771e4",
+    "no_new_imagery": true
+  },
+  {
+    "id": "15",
+    "format": "A3",
+    "signature": "d0c1ce5d0cc57881bd44c6cd396347e21316eab84c8d98f03fe472daa76eb203",
+    "files": {
+      "pdf": "outputs/A3/15_公共环境改善机会研究初筛_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "a8b75ca1d3041dd53bc338a400cddb779c8d27e289ee3132108ea9f045357b6e",
+      "fonts_repaired": [
+        {
+          "font": "ECSSVJ+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EHIZLT+NotoSansCJKjp-Bold",
+          "glyphs": 24,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GZPSYJ+NotoSansCJKjp-Regular",
+          "glyphs": 87,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GJTKAJ+NotoSansCJKjp-Regular",
+          "glyphs": 256,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "a8b75ca1d3041dd53bc338a400cddb779c8d27e289ee3132108ea9f045357b6e",
+    "no_new_imagery": true
+  },
+  {
+    "id": "16",
+    "format": "A1",
+    "signature": "f0762a4827fb298160c1c539f747e3f74492afc99881e1ec913e4782f75664b7",
+    "files": {
+      "pdf": "outputs/A1/16_现状数据问题与改善机会_分析说明.pdf",
+      "png300": "outputs/PNG300/16_现状数据问题与改善机会_分析说明.png",
+      "svg": "outputs/SVG/16_现状数据问题与改善机会_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "15f2914e689fe8fad445d7ef78afefd2422e846badc7daa0d9ef929d1ba7c8f8",
+      "fonts_repaired": [
+        {
+          "font": "CNOZYN+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GTVYRP+NotoSansCJKjp-Bold",
+          "glyphs": 19,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CEPAFW+NotoSansCJKjp-Regular",
+          "glyphs": 81,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DOLTVO+NotoSansCJKjp-Regular",
+          "glyphs": 266,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "15f2914e689fe8fad445d7ef78afefd2422e846badc7daa0d9ef929d1ba7c8f8",
+    "no_new_imagery": true
+  },
+  {
+    "id": "16",
+    "format": "A3",
+    "signature": "ee84646671813e3e723e28fe19b0798a1dff2437597c03993b5f22877010b1a5",
+    "files": {
+      "pdf": "outputs/A3/16_现状数据问题与改善机会_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "022283b0611f154f9035448deb371a857c26cd79a6f57cbe6bad1e967ef1b42a",
+      "fonts_repaired": [
+        {
+          "font": "CNOZYN+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GTVYRP+NotoSansCJKjp-Bold",
+          "glyphs": 19,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CEPAFW+NotoSansCJKjp-Regular",
+          "glyphs": 81,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CAYUMJ+NotoSansCJKjp-Regular",
+          "glyphs": 267,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "022283b0611f154f9035448deb371a857c26cd79a6f57cbe6bad1e967ef1b42a",
+    "no_new_imagery": true
+  },
+  {
+    "id": "17",
+    "format": "A1",
+    "signature": "7602f60bb3ea085f9d25835934566970433e952b5108b20fda9cfa074c8b4a48",
+    "files": {
+      "pdf": "outputs/A1/17_模型人口密度_2020年100米_分析说明.pdf",
+      "png300": "outputs/PNG300/17_模型人口密度_2020年100米_分析说明.png",
+      "svg": "outputs/SVG/17_模型人口密度_2020年100米_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "cf3c1af44186fa49c40e15c57244d7426336cbe355bcd8e22f241d8d4a426b14",
+      "fonts_repaired": [
+        {
+          "font": "BWIYPE+NotoSansCJKjp-Bold",
+          "glyphs": 11,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BNFQIM+NotoSansCJKjp-Bold",
+          "glyphs": 16,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EALTFL+NotoSansCJKjp-Regular",
+          "glyphs": 79,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DVLVBZ+NotoSansCJKjp-Regular",
+          "glyphs": 206,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "cf3c1af44186fa49c40e15c57244d7426336cbe355bcd8e22f241d8d4a426b14",
+    "no_new_imagery": true
+  },
+  {
+    "id": "17",
+    "format": "A3",
+    "signature": "079494f9eba2c2d2b7ad8133fae12f9ae1a46cabeae53aeac79d876b6e8e916f",
+    "files": {
+      "pdf": "outputs/A3/17_模型人口密度_2020年100米_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "2f57f5a14b94868d46db9d7446382a64badb1435169f74031a5d693e39871e41",
+      "fonts_repaired": [
+        {
+          "font": "BWIYPE+NotoSansCJKjp-Bold",
+          "glyphs": 11,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BNFQIM+NotoSansCJKjp-Bold",
+          "glyphs": 16,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EALTFL+NotoSansCJKjp-Regular",
+          "glyphs": 79,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DVLVBZ+NotoSansCJKjp-Regular",
+          "glyphs": 206,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "2f57f5a14b94868d46db9d7446382a64badb1435169f74031a5d693e39871e41",
+    "no_new_imagery": true
+  },
+  {
+    "id": "18",
+    "format": "A1",
+    "signature": "f569ea92ec33c269c3c28b0b3e2482b14b6ada06de2c99c16b88be1ecc8e6447",
+    "files": {
+      "pdf": "outputs/A1/18_模型人口密度_2025年约1公里_分析说明.pdf",
+      "png300": "outputs/PNG300/18_模型人口密度_2025年约1公里_分析说明.png",
+      "svg": "outputs/SVG/18_模型人口密度_2025年约1公里_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "e57add29b12f5c9bc5142ad5bbac6f9aedd068d746bca9cdefe7dae80664a041",
+      "fonts_repaired": [
+        {
+          "font": "EXUCOQ+NotoSansCJKjp-Bold",
+          "glyphs": 13,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DZXCTD+NotoSansCJKjp-Bold",
+          "glyphs": 20,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DVEAKE+NotoSansCJKjp-Regular",
+          "glyphs": 79,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GOVNEO+NotoSansCJKjp-Regular",
+          "glyphs": 199,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "e57add29b12f5c9bc5142ad5bbac6f9aedd068d746bca9cdefe7dae80664a041",
+    "no_new_imagery": true
+  },
+  {
+    "id": "18",
+    "format": "A3",
+    "signature": "135649d7985f7665f68987d0c95a5956c92280c0d1854028bd94c631b61fcd01",
+    "files": {
+      "pdf": "outputs/A3/18_模型人口密度_2025年约1公里_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "236dc35badd5e4104bce85c1c37521c453c11b33e13d89c0ab9e29007f10f37c",
+      "fonts_repaired": [
+        {
+          "font": "EXUCOQ+NotoSansCJKjp-Bold",
+          "glyphs": 13,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DZXCTD+NotoSansCJKjp-Bold",
+          "glyphs": 20,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DVEAKE+NotoSansCJKjp-Regular",
+          "glyphs": 79,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GOVNEO+NotoSansCJKjp-Regular",
+          "glyphs": 199,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "236dc35badd5e4104bce85c1c37521c453c11b33e13d89c0ab9e29007f10f37c",
+    "no_new_imagery": true
+  },
+  {
+    "id": "19",
+    "format": "A1",
+    "signature": "fc182b6adc4b39bee6c02eff17357a46eefdd2be4efeeef1fd44d8c2ee4fd7f0",
+    "files": {
+      "pdf": "outputs/A1/19_物理地表覆盖_2021年_分析说明.pdf",
+      "png300": "outputs/PNG300/19_物理地表覆盖_2021年_分析说明.png",
+      "svg": "outputs/SVG/19_物理地表覆盖_2021年_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "450de8ef298021b5da0c0d2fcaa8428dba90e4b33b6e522cd81cc17803ebe86f",
+      "fonts_repaired": [
+        {
+          "font": "EXBFTS+NotoSansCJKjp-Bold",
+          "glyphs": 11,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HIFUXL+NotoSansCJKjp-Bold",
+          "glyphs": 14,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EASFDG+NotoSansCJKjp-Regular",
+          "glyphs": 76,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DRUUFC+NotoSansCJKjp-Regular",
+          "glyphs": 209,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "450de8ef298021b5da0c0d2fcaa8428dba90e4b33b6e522cd81cc17803ebe86f",
+    "no_new_imagery": true
+  },
+  {
+    "id": "19",
+    "format": "A3",
+    "signature": "680b9990fc96c83a6d3bbe87316b2e5688e78f927591d9995baf932cd99ae8e7",
+    "files": {
+      "pdf": "outputs/A3/19_物理地表覆盖_2021年_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "91dad9c906c2b23bed5278a492eb6e99838850fdc7df508ab2b2755b17072873",
+      "fonts_repaired": [
+        {
+          "font": "EXBFTS+NotoSansCJKjp-Bold",
+          "glyphs": 11,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HIFUXL+NotoSansCJKjp-Bold",
+          "glyphs": 14,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ELYXDF+NotoSansCJKjp-Regular",
+          "glyphs": 77,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DRUUFC+NotoSansCJKjp-Regular",
+          "glyphs": 209,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "91dad9c906c2b23bed5278a492eb6e99838850fdc7df508ab2b2755b17072873",
+    "no_new_imagery": true
+  },
+  {
+    "id": "20",
+    "format": "A1",
+    "signature": "3b8ec61a90551ff3920f72e158de2b52c7841f0f1a64dd0e9b1c739ce8ae009f",
+    "files": {
+      "pdf": "outputs/A1/20_夏季植被指数_2026年9月14日_分析说明.pdf",
+      "png300": "outputs/PNG300/20_夏季植被指数_2026年9月14日_分析说明.png",
+      "svg": "outputs/SVG/20_夏季植被指数_2026年9月14日_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "9564c86900b55901682cd9dbf1fcfb16a3164d570d924785c808635f1019bb70",
+      "fonts_repaired": [
+        {
+          "font": "GMPVGP+NotoSansCJKjp-Bold",
+          "glyphs": 15,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EAWPAZ+NotoSansCJKjp-Bold",
+          "glyphs": 20,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BLQFBX+NotoSansCJKjp-Regular",
+          "glyphs": 80,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FQPGVR+NotoSansCJKjp-Regular",
+          "glyphs": 218,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "9564c86900b55901682cd9dbf1fcfb16a3164d570d924785c808635f1019bb70",
+    "no_new_imagery": true
+  },
+  {
+    "id": "20",
+    "format": "A3",
+    "signature": "8bbc2804a31d90bf90c3564792ce07ecb93f3d7b3e19df4c94afe02d808bd3c5",
+    "files": {
+      "pdf": "outputs/A3/20_夏季植被指数_2026年9月14日_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "618d6db29b30dbde034104bbe19e3907bb1c47dee4d1c45d691eef8429709a2b",
+      "fonts_repaired": [
+        {
+          "font": "GMPVGP+NotoSansCJKjp-Bold",
+          "glyphs": 15,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EAWPAZ+NotoSansCJKjp-Bold",
+          "glyphs": 20,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DSZBUU+NotoSansCJKjp-Regular",
+          "glyphs": 77,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "UYGUJG+NotoSansCJKjp-Regular",
+          "glyphs": 222,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "618d6db29b30dbde034104bbe19e3907bb1c47dee4d1c45d691eef8429709a2b",
+    "no_new_imagery": true
+  },
+  {
+    "id": "21",
+    "format": "A1",
+    "signature": "e627cd4cf1c36c42e7070f4a559ba9812d1481ac86654ca3903cdd95b7268168",
+    "files": {
+      "pdf": "outputs/A1/21_冬季植被指数_2026年2月21日_分析说明.pdf",
+      "png300": "outputs/PNG300/21_冬季植被指数_2026年2月21日_分析说明.png",
+      "svg": "outputs/SVG/21_冬季植被指数_2026年2月21日_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "4e0fa6beb55cb7cd07b02f02bd3309a09aa0d6edfc740cc4501872e81ab657a8",
+      "fonts_repaired": [
+        {
+          "font": "HHZGXA+NotoSansCJKjp-Bold",
+          "glyphs": 11,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FDKUEK+NotoSansCJKjp-Bold",
+          "glyphs": 21,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BAJSDQ+NotoSansCJKjp-Regular",
+          "glyphs": 79,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ETMQAW+NotoSansCJKjp-Regular",
+          "glyphs": 221,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "4e0fa6beb55cb7cd07b02f02bd3309a09aa0d6edfc740cc4501872e81ab657a8",
+    "no_new_imagery": true
+  },
+  {
+    "id": "21",
+    "format": "A3",
+    "signature": "7ef9a3d238da002367b04be1a672ef431c9f70402db7fd9c21f76c5d9bf9c566",
+    "files": {
+      "pdf": "outputs/A3/21_冬季植被指数_2026年2月21日_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "df2754989e9f6780f5c935ea0c1e64001f5fba0313f6f7ec1d9ec5f868d6c7d0",
+      "fonts_repaired": [
+        {
+          "font": "HHZGXA+NotoSansCJKjp-Bold",
+          "glyphs": 11,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FDKUEK+NotoSansCJKjp-Bold",
+          "glyphs": 21,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EYRVVK+NotoSansCJKjp-Regular",
+          "glyphs": 79,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EYFTYT+NotoSansCJKjp-Regular",
+          "glyphs": 224,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "df2754989e9f6780f5c935ea0c1e64001f5fba0313f6f7ec1d9ec5f868d6c7d0",
+    "no_new_imagery": true
+  },
+  {
+    "id": "22",
+    "format": "A1",
+    "signature": "2a1f17c7f55855789162ab945d2880f71bb65bec22081f6b1cc9261df6c3523f",
+    "files": {
+      "pdf": "outputs/A1/22_夏季卫星地表温度_2026年8月1日_分析说明.pdf",
+      "png300": "outputs/PNG300/22_夏季卫星地表温度_2026年8月1日_分析说明.png",
+      "svg": "outputs/SVG/22_夏季卫星地表温度_2026年8月1日_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "486fc0bd4564d762b3e26109697edff3c794da435d7e3a9910f78a33ac827fda",
+      "fonts_repaired": [
+        {
+          "font": "DGVAOG+NotoSansCJKjp-Bold",
+          "glyphs": 13,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EWMXVM+NotoSansCJKjp-Bold",
+          "glyphs": 20,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FPNPXF+NotoSansCJKjp-Regular",
+          "glyphs": 80,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FFJXUT+NotoSansCJKjp-Regular",
+          "glyphs": 211,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "486fc0bd4564d762b3e26109697edff3c794da435d7e3a9910f78a33ac827fda",
+    "no_new_imagery": true
+  },
+  {
+    "id": "22",
+    "format": "A3",
+    "signature": "a108e9c50b8535b0d69aec510eb0467a58cf22bbd27661f8a5da42d6672ca167",
+    "files": {
+      "pdf": "outputs/A3/22_夏季卫星地表温度_2026年8月1日_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "ce11f28899347073c879d4847fcf1b9c272102baf66d93bc24b876cef0bd028e",
+      "fonts_repaired": [
+        {
+          "font": "DGVAOG+NotoSansCJKjp-Bold",
+          "glyphs": 13,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EWMXVM+NotoSansCJKjp-Bold",
+          "glyphs": 20,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FTOVSQ+NotoSansCJKjp-Regular",
+          "glyphs": 80,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FHKBUX+NotoSansCJKjp-Regular",
+          "glyphs": 212,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "ce11f28899347073c879d4847fcf1b9c272102baf66d93bc24b876cef0bd028e",
+    "no_new_imagery": true
+  },
+  {
+    "id": "23",
+    "format": "A1",
+    "signature": "5f6f39b48fe3e5217f07b0c16becfd18bc8609b9dcab173a909715eff44c717e",
+    "files": {
+      "pdf": "outputs/A1/23_表面高程_2021年约30米_分析说明.pdf",
+      "png300": "outputs/PNG300/23_表面高程_2021年约30米_分析说明.png",
+      "svg": "outputs/SVG/23_表面高程_2021年约30米_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "80cbaa3745b26f5a25ff3828d1b7e274e8159965aa8ee6a1e18b7da9a17fa30d",
+      "fonts_repaired": [
+        {
+          "font": "FUEHBK+NotoSansCJKjp-Bold",
+          "glyphs": 11,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "COQEPT+NotoSansCJKjp-Bold",
+          "glyphs": 15,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FOEUDM+NotoSansCJKjp-Regular",
+          "glyphs": 77,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DYJFBO+NotoSansCJKjp-Regular",
+          "glyphs": 212,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "80cbaa3745b26f5a25ff3828d1b7e274e8159965aa8ee6a1e18b7da9a17fa30d",
+    "no_new_imagery": true
+  },
+  {
+    "id": "23",
+    "format": "A3",
+    "signature": "c6958d222255f588cb8875879c329b000088a7c936f9166e579c5533ccb24464",
+    "files": {
+      "pdf": "outputs/A3/23_表面高程_2021年约30米_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "493a0972f5f2cebb2639525ba52d624ca79bc216fe51d42bd0fbadfdc451fa83",
+      "fonts_repaired": [
+        {
+          "font": "FUEHBK+NotoSansCJKjp-Bold",
+          "glyphs": 11,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "COQEPT+NotoSansCJKjp-Bold",
+          "glyphs": 15,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FPVLMD+NotoSansCJKjp-Regular",
+          "glyphs": 77,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FAGGZN+NotoSansCJKjp-Regular",
+          "glyphs": 213,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "493a0972f5f2cebb2639525ba52d624ca79bc216fe51d42bd0fbadfdc451fa83",
+    "no_new_imagery": true
+  },
+  {
+    "id": "24",
+    "format": "A1",
+    "signature": "6f4dfc9708a22e8285073cfdd532271f60aabffcfec729e0a62778491b38a8db",
+    "files": {
+      "pdf": "outputs/A1/24_夏季水体光谱指数_分析说明.pdf",
+      "png300": "outputs/PNG300/24_夏季水体光谱指数_分析说明.png",
+      "svg": "outputs/SVG/24_夏季水体光谱指数_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "d329644b43752d234e0dffc30daa2dc5e350f97cccf25105f46d98702532f0ca",
+      "fonts_repaired": [
+        {
+          "font": "FKFOXU+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CRGCXV+NotoSansCJKjp-Bold",
+          "glyphs": 15,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CQXCAP+NotoSansCJKjp-Regular",
+          "glyphs": 83,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "RPBGZD+NotoSansCJKjp-Regular",
+          "glyphs": 210,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "d329644b43752d234e0dffc30daa2dc5e350f97cccf25105f46d98702532f0ca",
+    "no_new_imagery": true
+  },
+  {
+    "id": "24",
+    "format": "A3",
+    "signature": "4dd8fa5b5ef87443d8a61da29f05b4789c51b87fff4e3b9a7e881c0184be9350",
+    "files": {
+      "pdf": "outputs/A3/24_夏季水体光谱指数_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "914a0be0f5d378854410795a268391fb31cf80513e048112a8a636545efe4efa",
+      "fonts_repaired": [
+        {
+          "font": "FKFOXU+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CRGCXV+NotoSansCJKjp-Bold",
+          "glyphs": 15,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ECPJQL+NotoSansCJKjp-Regular",
+          "glyphs": 81,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "IBZBIQ+NotoSansCJKjp-Regular",
+          "glyphs": 213,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "914a0be0f5d378854410795a268391fb31cf80513e048112a8a636545efe4efa",
+    "no_new_imagery": true
+  },
+  {
+    "id": "25",
+    "format": "A1",
+    "signature": "22e26137cf793adc861ed55ed129749096915e8477b2b90ebfb7bfb83c2dee22",
+    "files": {
+      "pdf": "outputs/A1/25_夏季建成光谱指数_分析说明.pdf",
+      "png300": "outputs/PNG300/25_夏季建成光谱指数_分析说明.png",
+      "svg": "outputs/SVG/25_夏季建成光谱指数_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "88f1a8f7747572c6aa369db05059581ce589796604bc48fc2dac5144045cb098",
+      "fonts_repaired": [
+        {
+          "font": "GUVUUO+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HDWYVP+NotoSansCJKjp-Bold",
+          "glyphs": 15,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HBODUL+NotoSansCJKjp-Regular",
+          "glyphs": 80,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HADEFG+NotoSansCJKjp-Regular",
+          "glyphs": 198,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "88f1a8f7747572c6aa369db05059581ce589796604bc48fc2dac5144045cb098",
+    "no_new_imagery": true
+  },
+  {
+    "id": "25",
+    "format": "A3",
+    "signature": "17de362af97c4e35cd02836c93b67db7999964a275b122702f686fc493aa7cc7",
+    "files": {
+      "pdf": "outputs/A3/25_夏季建成光谱指数_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "5913785293e7f3112e4538e1012c1bc55c1fa29bfa9999c242b209bd5657251e",
+      "fonts_repaired": [
+        {
+          "font": "GUVUUO+NotoSansCJKjp-Bold",
+          "glyphs": 7,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HDWYVP+NotoSansCJKjp-Bold",
+          "glyphs": 15,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CHOBOF+NotoSansCJKjp-Regular",
+          "glyphs": 79,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CKKWIB+NotoSansCJKjp-Regular",
+          "glyphs": 200,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "5913785293e7f3112e4538e1012c1bc55c1fa29bfa9999c242b209bd5657251e",
+    "no_new_imagery": true
+  },
+  {
+    "id": "26",
+    "format": "A1",
+    "signature": "98de6dd07e6fe5e2dc48b76d7579c3ec2f10d659052b25471f361ae35798cfc2",
+    "files": {
+      "pdf": "outputs/A1/26_历史物理地表覆盖_2019年_分析说明.pdf",
+      "png300": "outputs/PNG300/26_历史物理地表覆盖_2019年_分析说明.png",
+      "svg": "outputs/SVG/26_历史物理地表覆盖_2019年_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "11a8f143d62ec159baa5857fb5e870110a120ff4abff8b440ba7c6abba0877ab",
+      "fonts_repaired": [
+        {
+          "font": "FQAQSF+NotoSansCJKjp-Bold",
+          "glyphs": 13,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FFCWUC+NotoSansCJKjp-Bold",
+          "glyphs": 16,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DIXJAT+NotoSansCJKjp-Regular",
+          "glyphs": 77,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GCOCQL+NotoSansCJKjp-Regular",
+          "glyphs": 233,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "11a8f143d62ec159baa5857fb5e870110a120ff4abff8b440ba7c6abba0877ab",
+    "no_new_imagery": true
+  },
+  {
+    "id": "26",
+    "format": "A3",
+    "signature": "1f017073570a2a5ff454e92a9479859d6cf644fe26d3957d7bb0c48ea8f399b2",
+    "files": {
+      "pdf": "outputs/A3/26_历史物理地表覆盖_2019年_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "30f6bb1b4d950b29997aa82a32cf2ca9ce71b015c6d893a2a99a668790185d8c",
+      "fonts_repaired": [
+        {
+          "font": "FQAQSF+NotoSansCJKjp-Bold",
+          "glyphs": 13,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FFCWUC+NotoSansCJKjp-Bold",
+          "glyphs": 16,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EUHVBO+NotoSansCJKjp-Regular",
+          "glyphs": 78,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GCOCQL+NotoSansCJKjp-Regular",
+          "glyphs": 233,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "30f6bb1b4d950b29997aa82a32cf2ca9ce71b015c6d893a2a99a668790185d8c",
+    "no_new_imagery": true
+  },
+  {
+    "id": "27",
+    "format": "A1",
+    "signature": "bee77a48a9ab1d68eacc035d569a80f8539ac9a1083378433e5673c2d0e99ff6",
+    "files": {
+      "pdf": "outputs/A1/27_历史水面观测频率_1984—2021_分析说明.pdf",
+      "png300": "outputs/PNG300/27_历史水面观测频率_1984—2021_分析说明.png",
+      "svg": "outputs/SVG/27_历史水面观测频率_1984—2021_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "c6fd217e1cd3611ee55715d929310fd10d93c0ec73ea32f0222a892789d47ee6",
+      "fonts_repaired": [
+        {
+          "font": "GPPTAY+NotoSansCJKjp-Bold",
+          "glyphs": 17,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BLXDRP+NotoSansCJKjp-Bold",
+          "glyphs": 23,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BPEMON+NotoSansCJKjp-Regular",
+          "glyphs": 81,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BTZDGF+NotoSansCJKjp-Regular",
+          "glyphs": 213,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "c6fd217e1cd3611ee55715d929310fd10d93c0ec73ea32f0222a892789d47ee6",
+    "no_new_imagery": true
+  },
+  {
+    "id": "27",
+    "format": "A3",
+    "signature": "10d88a37761097536cbd8e56a133688d54e731b55dba9c7070991f3802f88717",
+    "files": {
+      "pdf": "outputs/A3/27_历史水面观测频率_1984—2021_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "0f7c5f98f7f6197a3189ecb63b0ddee3f40d7d94dd1814d0810bc66ea904019c",
+      "fonts_repaired": [
+        {
+          "font": "GPPTAY+NotoSansCJKjp-Bold",
+          "glyphs": 17,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BLXDRP+NotoSansCJKjp-Bold",
+          "glyphs": 23,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FDLZAG+NotoSansCJKjp-Regular",
+          "glyphs": 80,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BLOBSW+NotoSansCJKjp-Regular",
+          "glyphs": 213,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "0f7c5f98f7f6197a3189ecb63b0ddee3f40d7d94dd1814d0810bc66ea904019c",
+    "no_new_imagery": true
+  },
+  {
+    "id": "28",
+    "format": "A1",
+    "signature": "29e2f1fef5ccd62602376996b9570debcad13c55e204dedc4bda5786b7423694",
+    "files": {
+      "pdf": "outputs/A1/28_冬夏植被指数季节差_2026年_分析说明.pdf",
+      "png300": "outputs/PNG300/28_冬夏植被指数季节差_2026年_分析说明.png",
+      "svg": "outputs/SVG/28_冬夏植被指数季节差_2026年_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "71cce8d369dcff0709b154dfd1ef749f558bc090524ec67fad56c254f2a57fc8",
+      "fonts_repaired": [
+        {
+          "font": "CHDTYF+NotoSansCJKjp-Bold",
+          "glyphs": 11,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CWVUHI+NotoSansCJKjp-Bold",
+          "glyphs": 24,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GUDHGF+NotoSansCJKjp-Regular",
+          "glyphs": 80,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BKPHYB+NotoSansCJKjp-Regular",
+          "glyphs": 211,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "71cce8d369dcff0709b154dfd1ef749f558bc090524ec67fad56c254f2a57fc8",
+    "no_new_imagery": true
+  },
+  {
+    "id": "28",
+    "format": "A3",
+    "signature": "4b4b5a4025642e472923b8ce8bc86f3791b48d736944e9936b2c65d9dec7a2fe",
+    "files": {
+      "pdf": "outputs/A3/28_冬夏植被指数季节差_2026年_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "4e470ff36a4db3d92f6bd6bf931f5033c0d361622ffade01b6f0eaa3f3b27653",
+      "fonts_repaired": [
+        {
+          "font": "CHDTYF+NotoSansCJKjp-Bold",
+          "glyphs": 11,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CWVUHI+NotoSansCJKjp-Bold",
+          "glyphs": 24,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CJFOGM+NotoSansCJKjp-Regular",
+          "glyphs": 81,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BKPHYB+NotoSansCJKjp-Regular",
+          "glyphs": 211,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "4e470ff36a4db3d92f6bd6bf931f5033c0d361622ffade01b6f0eaa3f3b27653",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R01",
+    "format": "A1",
+    "signature": "6c95319d89d9c5083c412383bf3bb56b9524df02235e262b697d4de1cbfc47ae",
+    "files": {
+      "pdf": "outputs/A1/R01_建筑基底覆盖率_100米_分析说明.pdf",
+      "png300": "outputs/PNG300/R01_建筑基底覆盖率_100米_分析说明.png",
+      "svg": "outputs/SVG/R01_建筑基底覆盖率_100米_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "9b0dfc94106052b5ed95d0270cb31a7d32ca4e8c5085ec5d3f186ac2cd70b2f7",
+      "fonts_repaired": [
+        {
+          "font": "FIWNHN+NotoSansCJKjp-Bold",
+          "glyphs": 6,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GXWLRL+NotoSansCJKjp-Bold",
+          "glyphs": 24,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FEBDJQ+NotoSansCJKjp-Regular",
+          "glyphs": 84,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EVFOBG+NotoSansCJKjp-Regular",
+          "glyphs": 225,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "9b0dfc94106052b5ed95d0270cb31a7d32ca4e8c5085ec5d3f186ac2cd70b2f7",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R01",
+    "format": "A3",
+    "signature": "9080cecc447d9fb99ac6d3e5138962ed66dca0793795bc16c3093b84de738bfb",
+    "files": {
+      "pdf": "outputs/A3/R01_建筑基底覆盖率_100米_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "70ea5b1553a257041310d1b87cf05a4fd669fb6c80026f912a524bf27f9e09c6",
+      "fonts_repaired": [
+        {
+          "font": "FIWNHN+NotoSansCJKjp-Bold",
+          "glyphs": 6,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GXWLRL+NotoSansCJKjp-Bold",
+          "glyphs": 24,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ERSFGP+NotoSansCJKjp-Regular",
+          "glyphs": 85,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HHJTHX+NotoSansCJKjp-Regular",
+          "glyphs": 224,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "70ea5b1553a257041310d1b87cf05a4fd669fb6c80026f912a524bf27f9e09c6",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R02",
+    "format": "A1",
+    "signature": "4d56cb0684571e5f802d3c6c70c15739f8a5eeaa8a533120233bc9425fc316e5",
+    "files": {
+      "pdf": "outputs/A1/R02_估高建筑体量代理_100米_分析说明.pdf",
+      "png300": "outputs/PNG300/R02_估高建筑体量代理_100米_分析说明.png",
+      "svg": "outputs/SVG/R02_估高建筑体量代理_100米_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "1e57366bb0d62ac470a7afe3a07cb64bbe77120453d7019d38ed2d681968756e",
+      "fonts_repaired": [
+        {
+          "font": "CQYRUO+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DVDLTW+NotoSansCJKjp-Bold",
+          "glyphs": 19,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BNOEOP+NotoSansCJKjp-Regular",
+          "glyphs": 83,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HDIYHQ+NotoSansCJKjp-Regular",
+          "glyphs": 220,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "1e57366bb0d62ac470a7afe3a07cb64bbe77120453d7019d38ed2d681968756e",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R02",
+    "format": "A3",
+    "signature": "2616545dc505dd1b314e6ded53c98f7ad0bbed620c9fc3e7400a53634c659d45",
+    "files": {
+      "pdf": "outputs/A3/R02_估高建筑体量代理_100米_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "6a5c959d6c041888e452659c50de76e66b0e3c1e1e9ab03e2773ef88966175b5",
+      "fonts_repaired": [
+        {
+          "font": "CQYRUO+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DVDLTW+NotoSansCJKjp-Bold",
+          "glyphs": 19,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BNOEOP+NotoSansCJKjp-Regular",
+          "glyphs": 83,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CSOMVI+NotoSansCJKjp-Regular",
+          "glyphs": 220,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "6a5c959d6c041888e452659c50de76e66b0e3c1e1e9ab03e2773ef88966175b5",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R03",
+    "format": "A1",
+    "signature": "00aa5770fe297c2a77fcf7c15d22e5c2b9a8011bec13c226029465ccfbbb3910",
+    "files": {
+      "pdf": "outputs/A1/R03_已映射土地功能混合_200米_分析说明.pdf",
+      "png300": "outputs/PNG300/R03_已映射土地功能混合_200米_分析说明.png",
+      "svg": "outputs/SVG/R03_已映射土地功能混合_200米_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "f826777c61d8276b80feffc22add67189231c0076614ee5856655643be0dbf2d",
+      "fonts_repaired": [
+        {
+          "font": "DNRXLM+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BVHNXM+NotoSansCJKjp-Bold",
+          "glyphs": 26,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "TQXRRH+NotoSansCJKjp-Regular",
+          "glyphs": 87,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "HASKNV+NotoSansCJKjp-Regular",
+          "glyphs": 261,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "f826777c61d8276b80feffc22add67189231c0076614ee5856655643be0dbf2d",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R03",
+    "format": "A3",
+    "signature": "6b76bcb66e1d76d97cfc171681c690a079a4f511227275731c12237f629862d7",
+    "files": {
+      "pdf": "outputs/A3/R03_已映射土地功能混合_200米_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "01b59038c87a9bdab5c1197fb15a165a6e587c41fbc483efb33fb6a2d73fc3a8",
+      "fonts_repaired": [
+        {
+          "font": "DNRXLM+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BVHNXM+NotoSansCJKjp-Bold",
+          "glyphs": 26,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "TQXRRH+NotoSansCJKjp-Regular",
+          "glyphs": 87,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FNJQCF+NotoSansCJKjp-Regular",
+          "glyphs": 262,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "01b59038c87a9bdab5c1197fb15a165a6e587c41fbc483efb33fb6a2d73fc3a8",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R04",
+    "format": "A1",
+    "signature": "d7abfa3b460214dd790183ecf6ac7941eab598ef4bb0fcb822626b349ce00e00",
+    "files": {
+      "pdf": "outputs/A1/R04_车行路网与真实节点_200米_分析说明.pdf",
+      "png300": "outputs/PNG300/R04_车行路网与真实节点_200米_分析说明.png",
+      "svg": "outputs/SVG/R04_车行路网与真实节点_200米_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "8837158b64310bf9f8bde2d53e7a25afba78f6566d63c12b4d19906a53773a73",
+      "fonts_repaired": [
+        {
+          "font": "ZPLSSG+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DZIDTU+NotoSansCJKjp-Bold",
+          "glyphs": 21,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GSGLTX+NotoSansCJKjp-Regular",
+          "glyphs": 81,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DUQTEZ+NotoSansCJKjp-Regular",
+          "glyphs": 225,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "8837158b64310bf9f8bde2d53e7a25afba78f6566d63c12b4d19906a53773a73",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R04",
+    "format": "A3",
+    "signature": "63532a132962e71eec08475a8b4396f685ce8798bee1e72862db0fbd1969a811",
+    "files": {
+      "pdf": "outputs/A3/R04_车行路网与真实节点_200米_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "9ab3bdb00234dc5f5a0553984235022d31b00781e75a7b8548d494cdaa5106e3",
+      "fonts_repaired": [
+        {
+          "font": "ZPLSSG+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DZIDTU+NotoSansCJKjp-Bold",
+          "glyphs": 21,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CDRZTP+NotoSansCJKjp-Regular",
+          "glyphs": 82,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "JQTFSI+NotoSansCJKjp-Regular",
+          "glyphs": 224,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "9ab3bdb00234dc5f5a0553984235022d31b00781e75a7b8548d494cdaa5106e3",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R05",
+    "format": "A1",
+    "signature": "d3a514eadc1604f4fb98a9e7c1d1eb6c748b035685c472ba8cea710efc87e18c",
+    "files": {
+      "pdf": "outputs/A1/R05_商业观察密度_200米_分析说明.pdf",
+      "png300": "outputs/PNG300/R05_商业观察密度_200米_分析说明.png",
+      "svg": "outputs/SVG/R05_商业观察密度_200米_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "d2f96458b167ed828338c7a188aab5b3fec84c892481dc3c6de1b2bf2d4e3fad",
+      "fonts_repaired": [
+        {
+          "font": "PLGPWU+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CRLGPL+NotoSansCJKjp-Bold",
+          "glyphs": 19,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DZQVDK+NotoSansCJKjp-Regular",
+          "glyphs": 78,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FNFXVL+NotoSansCJKjp-Regular",
+          "glyphs": 241,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "d2f96458b167ed828338c7a188aab5b3fec84c892481dc3c6de1b2bf2d4e3fad",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R05",
+    "format": "A3",
+    "signature": "1bc738e402fa4d787881ac0a90198dd20ac9ddc6b3531fdf50791cb77705fcf8",
+    "files": {
+      "pdf": "outputs/A3/R05_商业观察密度_200米_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "30e629c51bca6fb078954e28b2ac3d7f4bb0a90025ea04d1a68e8919ea055749",
+      "fonts_repaired": [
+        {
+          "font": "PLGPWU+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CRLGPL+NotoSansCJKjp-Bold",
+          "glyphs": 19,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "COBSKG+NotoSansCJKjp-Regular",
+          "glyphs": 80,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CTOWGG+NotoSansCJKjp-Regular",
+          "glyphs": 239,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "30e629c51bca6fb078954e28b2ac3d7f4bb0a90025ea04d1a68e8919ea055749",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R06",
+    "format": "A1",
+    "signature": "4fcb84971eb8d598d6357fec9d968912582fd8210deebc60a1065e379eb0d925",
+    "files": {
+      "pdf": "outputs/A1/R06_公共环境改善机会_100米_分析说明.pdf",
+      "png300": "outputs/PNG300/R06_公共环境改善机会_100米_分析说明.png",
+      "svg": "outputs/SVG/R06_公共环境改善机会_100米_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "2fcfb94f1491a1008d8e9669ae68f7f73fd6676b5ebba9b6e21902186eed174a",
+      "fonts_repaired": [
+        {
+          "font": "FKWVEV+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ELKWNZ+NotoSansCJKjp-Bold",
+          "glyphs": 23,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DEFOOK+NotoSansCJKjp-Regular",
+          "glyphs": 80,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DRUNZT+NotoSansCJKjp-Regular",
+          "glyphs": 247,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "2fcfb94f1491a1008d8e9669ae68f7f73fd6676b5ebba9b6e21902186eed174a",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R06",
+    "format": "A3",
+    "signature": "93a1aedea36e92d62428d3d7fdbf5d2fc4ee533508ec8835a6d28eedbcbd89a7",
+    "files": {
+      "pdf": "outputs/A3/R06_公共环境改善机会_100米_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "3479134b65902a1950526d3941e48c566fbaf53abd82c0041eeed4bd4b9ecb24",
+      "fonts_repaired": [
+        {
+          "font": "FKWVEV+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "ELKWNZ+NotoSansCJKjp-Bold",
+          "glyphs": 23,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DEFOOK+NotoSansCJKjp-Regular",
+          "glyphs": 80,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "CXRFJP+NotoSansCJKjp-Regular",
+          "glyphs": 247,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "3479134b65902a1950526d3941e48c566fbaf53abd82c0041eeed4bd4b9ecb24",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R07",
+    "format": "A1",
+    "signature": "25895afb5b230a802a2cfffedb8e6174ef8c29f4eaf6383021ccdfb112f5d9f1",
+    "files": {
+      "pdf": "outputs/A1/R07_数据问题与改善机会_100米_分析说明.pdf",
+      "png300": "outputs/PNG300/R07_数据问题与改善机会_100米_分析说明.png",
+      "svg": "outputs/SVG/R07_数据问题与改善机会_100米_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "93d1e378ef41c314774cb267663e3ce00580a6843624e3bb80ca4284adb451d0",
+      "fonts_repaired": [
+        {
+          "font": "FAJGMA+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GKWWJC+NotoSansCJKjp-Bold",
+          "glyphs": 23,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EQRXFV+NotoSansCJKjp-Regular",
+          "glyphs": 79,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FZNHZY+NotoSansCJKjp-Regular",
+          "glyphs": 254,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "93d1e378ef41c314774cb267663e3ce00580a6843624e3bb80ca4284adb451d0",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R07",
+    "format": "A3",
+    "signature": "769dfecec1da2dad6486cdaaa9b986c29934d6cdb92e6cde0223d0a956dacc97",
+    "files": {
+      "pdf": "outputs/A3/R07_数据问题与改善机会_100米_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "110d4430597c22c04051573a1bfef8b523b83f2ade541945aa3daac39a761fcc",
+      "fonts_repaired": [
+        {
+          "font": "FAJGMA+NotoSansCJKjp-Bold",
+          "glyphs": 8,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "GKWWJC+NotoSansCJKjp-Bold",
+          "glyphs": 23,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "EQRXFV+NotoSansCJKjp-Regular",
+          "glyphs": 79,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "IPTEIQ+NotoSansCJKjp-Regular",
+          "glyphs": 254,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "110d4430597c22c04051573a1bfef8b523b83f2ade541945aa3daac39a761fcc",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R08",
+    "format": "A1",
+    "signature": "a4ec47a460240ccf9ba4ee436eafe204a32236a3e0ddfad4ee56926a5797b777",
+    "files": {
+      "pdf": "outputs/A1/R08_2025模型人口_原生约1公里_分析说明.pdf",
+      "png300": "outputs/PNG300/R08_2025模型人口_原生约1公里_分析说明.png",
+      "svg": "outputs/SVG/R08_2025模型人口_原生约1公里_分析说明.svg"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          85.03937007874016,
+          1550.5511811023623,
+          796.5354330708662,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 11,
+        "lines": 1,
+        "spare_pt": 77.6153072229897,
+        "rect_pt": [
+          833.3858267716537,
+          1550.5511811023623,
+          1544.8818897637798,
+          1644.0944881889766
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 11,
+        "lines": 2,
+        "spare_pt": 64.85530722298971,
+        "rect_pt": [
+          1581.732283464567,
+          1550.5511811023623,
+          2293.228346456693,
+          1644.0944881889766
+        ]
+      }
+    ],
+    "page_mm": [
+      841.0000013563367,
+      594.0000047471788
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "6f9cf6aaf89c7f91691771480fe7b0723b857c5aaf9f2cc87b63467768e112e5",
+      "fonts_repaired": [
+        {
+          "font": "BZANJR+NotoSansCJKjp-Bold",
+          "glyphs": 10,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BBZMHF+NotoSansCJKjp-Bold",
+          "glyphs": 18,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DVEAKE+NotoSansCJKjp-Regular",
+          "glyphs": 79,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FRCERU+NotoSansCJKjp-Regular",
+          "glyphs": 225,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "6f9cf6aaf89c7f91691771480fe7b0723b857c5aaf9f2cc87b63467768e112e5",
+    "no_new_imagery": true
+  },
+  {
+    "id": "R08",
+    "format": "A3",
+    "signature": "7c680ef825664bf9c3b2028d80dd2cdd53425f36a2d4b120e4a57b342b593446",
+    "files": {
+      "pdf": "outputs/A3/R08_2025模型人口_原生约1公里_分析说明.pdf"
+    },
+    "captions": [
+      {
+        "section": "site_problem",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          42.51968503937008,
+          775.2755905511812,
+          398.2677165354331,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "regional_coordination",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          416.69291338582684,
+          775.2755905511812,
+          772.4409448818899,
+          822.0472440944883
+        ]
+      },
+      {
+        "section": "improvement_direction",
+        "font_pt": 7.5,
+        "lines": 2,
+        "spare_pt": 27.211653636290386,
+        "rect_pt": [
+          790.8661417322835,
+          775.2755905511812,
+          1146.6141732283465,
+          822.0472440944883
+        ]
+      }
+    ],
+    "page_mm": [
+      419.9999881320529,
+      297.0000023735894
+    ],
+    "text_selectable_verified": true,
+    "font_repaired_base_map_crop_pixels_identical": true,
+    "font_repair": {
+      "source_sha256": "5c3fb4a9b1bc7a5309d1a9fe36924b6fb3faf5c6627ddf9b1583ef279a5704c2",
+      "fonts_repaired": [
+        {
+          "font": "BZANJR+NotoSansCJKjp-Bold",
+          "glyphs": 10,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "BBZMHF+NotoSansCJKjp-Bold",
+          "glyphs": 18,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "DVEAKE+NotoSansCJKjp-Regular",
+          "glyphs": 79,
+          "glyph_order_and_advances_preserved": true
+        },
+        {
+          "font": "FRCERU+NotoSansCJKjp-Regular",
+          "glyphs": 225,
+          "glyph_order_and_advances_preserved": true
+        }
+      ],
+      "page_graphics_commands_unchanged": true,
+      "embedded_image_streams_unchanged": true,
+      "outline_max_conversion_error_font_units": 0.5
+    },
+    "source_pdf_sha256": "5c3fb4a9b1bc7a5309d1a9fe36924b6fb3faf5c6627ddf9b1583ef279a5704c2",
+    "no_new_imagery": true
+  }
+]

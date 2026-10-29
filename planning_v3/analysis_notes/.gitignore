@@ -1,0 +1,8 @@
+cache/
+state/
+**/__pycache__/
+outputs/A1/
+outputs/A3/
+outputs/PNG300/
+outputs/SVG/
+*.log
