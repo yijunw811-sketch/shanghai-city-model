@@ -1,0 +1,73 @@
+{
+  "site_area_m2": 660947.6494989631,
+  "site_area_ha": 66.09476494989632,
+  "study_area_km2": 22.00912078313864,
+  "crs": "EPSG:32651",
+  "site_geometry_sha256": "669c115dfab4ca098e64ec8718e86fef1c444cceadd2fdc28b0c1a6176bb0ab4",
+  "source_site_geometry_sha256": "669c115dfab4ca098e64ec8718e86fef1c444cceadd2fdc28b0c1a6176bb0ab4",
+  "design_extent_m": [
+    350086.21190692455,
+    3463744.1342950235,
+    351967.39013201045,
+    3464353.4437521705
+  ],
+  "site_centroid_wgs84": [
+    121.43555226003834,
+    31.30108363419996
+  ],
+  "source_admin_site_jingan_overlap_m2": 660947.6494989629,
+  "nodes": [
+    {
+      "id": "01",
+      "name": "彭浦公园",
+      "label": "01 彭浦公园",
+      "kind": "park",
+      "source_url": "https://www.openstreetmap.org/way/255752279",
+      "distance_to_site_m": 207.29071314951082
+    },
+    {
+      "id": "02",
+      "name": "静安青年体育公园",
+      "label": "02 静安青年体育公园",
+      "kind": "park",
+      "source_url": "https://www.openstreetmap.org/way/868440462",
+      "distance_to_site_m": 356.3217815325852
+    },
+    {
+      "id": "03",
+      "name": "半里绿廊",
+      "label": "03 半里绿廊",
+      "kind": "park",
+      "source_url": "https://www.openstreetmap.org/way/1465273351",
+      "distance_to_site_m": 6.74431366071566
+    },
+    {
+      "id": "04",
+      "name": "市北高新商务中心",
+      "label": "04 市北高新商务中心",
+      "kind": "resource",
+      "source_url": "https://www.openstreetmap.org/way/1366773096",
+      "distance_to_site_m": 206.97733490712727
+    },
+    {
+      "id": "05",
+      "name": "汶水路站",
+      "label": "05 汶水路站",
+      "kind": "metro",
+      "source_url": "https://www.openstreetmap.org/node/4559664371",
+      "distance_to_site_m": 638.6596664095866
+    },
+    {
+      "id": "06",
+      "name": "彭浦新村站",
+      "label": "06 彭浦新村站",
+      "kind": "metro",
+      "source_url": "https://www.openstreetmap.org/node/4559664370",
+      "distance_to_site_m": 373.25615768759803
+    }
+  ],
+  "macro_boundary_snapshot": "2026-10-29",
+  "macro_boundary_use": "OSM administrative reference intersected with Natural Earth 1:10m land for city orientation, not certified legal or coastal survey boundary; 2019 coarse alternative rejected",
+  "road_line_widths": "cartographic hierarchy, not measured road width",
+  "proposed_connections": "textual recommendations only; no invented network links or travel time isochrones"
+}

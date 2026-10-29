@@ -1,0 +1,52 @@
+{
+  "draft": true,
+  "not_formal_final_delivery": true,
+  "site_area_ha": 66.09476494989632,
+  "exact_site_wkb_matches_source": true,
+  "same_three_extents": true,
+  "building_coverage": {
+    "core_footprint_fraction": 0.2656682302532909,
+    "study_footprint_fraction": 0.2257051199675851,
+    "method": "union footprints, intersect exact polygons, divide by actual polygon areas; not floor area ratio"
+  },
+  "exports": [
+    {
+      "variant": "01",
+      "A1_mm": [
+        841,
+        594
+      ],
+      "A3_mm": [
+        420,
+        297
+      ],
+      "png_px": [
+        9933,
+        7015
+      ],
+      "png_dpi": 300,
+      "pdf_true_type_fonts_embedded": 2,
+      "pdf_chinese_and_key_numeric_text_verified": true,
+      "registered_redline_hit_fraction": 1.0
+    },
+    {
+      "variant": "02",
+      "A1_mm": [
+        841,
+        594
+      ],
+      "A3_mm": [
+        420,
+        297
+      ],
+      "png_px": [
+        9933,
+        7015
+      ],
+      "png_dpi": 300,
+      "pdf_true_type_fonts_embedded": 2,
+      "pdf_chinese_and_key_numeric_text_verified": true,
+      "registered_redline_hit_fraction": 1.0
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "layer": "buildings_enriched",
+    "features": 11856,
+    "origin": "planning_v3/outputs/gis/reference_v2.gpkg",
+    "source_layer": "buildings_enriched",
+    "selection": "intersects study area +1800 m; subway only for rail layer; station only and deduplicated names for station points",
+    "geometry_preserved": true,
+    "providers": [
+      "OpenStreetMap",
+      "Overture / East Asian Buildings"
+    ],
+    "licenses": [
+      "ODbL-1.0",
+      "ODbL-1.0 (Overture building collection)"
+    ]
+  },
+  {
+    "layer": "road_network_vehicle",
+    "features": 16162,
+    "origin": "planning_v3/outputs/gis/reference_v2.gpkg",
+    "source_layer": "road_network_vehicle",
+    "selection": "intersects study area +1800 m; subway only for rail layer; station only and deduplicated names for station points",
+    "geometry_preserved": true,
+    "providers": [],
+    "licenses": [
+      "ODbL-1.0"
+    ]
+  },
+  {
+    "layer": "green_spaces_all",
+    "features": 209,
+    "origin": "planning_v3/outputs/gis/reference_v2.gpkg",
+    "source_layer": "green_spaces_all",
+    "selection": "intersects study area +1800 m; subway only for rail layer; station only and deduplicated names for station points",
+    "geometry_preserved": true,
+    "providers": [
+      "OpenStreetMap contributors"
+    ],
+    "licenses": [
+      "ODbL-1.0"
+    ]
+  },
+  {
+    "layer": "blue_network",
+    "features": 98,
+    "origin": "planning_v3/outputs/gis/reference_v2.gpkg",
+    "source_layer": "blue_network",
+    "selection": "intersects study area +1800 m; subway only for rail layer; station only and deduplicated names for station points",
+    "geometry_preserved": true,
+    "providers": [
+      "OpenStreetMap contributors"
+    ],
+    "licenses": [
+      "ODbL-1.0"
+    ]
+  },
+  {
+    "layer": "waterway_centerlines",
+    "features": 70,
+    "origin": "planning_v3/outputs/gis/reference_v2.gpkg",
+    "source_layer": "waterway_centerlines",
+    "selection": "intersects study area +1800 m; subway only for rail layer; station only and deduplicated names for station points",
+    "geometry_preserved": true,
+    "providers": [
+      "OpenStreetMap contributors"
+    ],
+    "licenses": [
+      "ODbL-1.0"
+    ]
+  },
+  {
+    "layer": "green_parks",
+    "features": 87,
+    "origin": "planning_v3/outputs/gis/reference_v2.gpkg",
+    "source_layer": "green_parks",
+    "selection": "intersects study area +1800 m; subway only for rail layer; station only and deduplicated names for station points",
+    "geometry_preserved": true,
+    "providers": [
+      "OpenStreetMap contributors"
+    ],
+    "licenses": [
+      "ODbL-1.0"
+    ]
+  },
+  {
+    "layer": "transit_lines",
+    "features": 10,
+    "origin": "planning_v3/outputs/gis/reference_v2.gpkg",
+    "source_layer": "transit_lines",
+    "selection": "intersects study area +1800 m; subway only for rail layer; station only and deduplicated names for station points",
+    "geometry_preserved": true,
+    "providers": [
+      "OpenStreetMap contributors"
+    ],
+    "licenses": [
+      "ODbL-1.0"
+    ]
+  },
+  {
+    "layer": "transit_stations",
+    "features": 19,
+    "origin": "planning_v3/outputs/gis/reference_v2.gpkg",
+    "source_layer": "transit_stations",
+    "selection": "intersects study area +1800 m; subway only for rail layer; station only and deduplicated names for station points",
+    "geometry_preserved": true,
+    "providers": [
+      "OpenStreetMap contributors"
+    ],
+    "licenses": [
+      "ODbL-1.0"
+    ]
+  },
+  {
+    "layer": "poi_all",
+    "features": 1695,
+    "origin": "planning_v3/outputs/gis/reference_v2.gpkg",
+    "source_layer": "poi_all",
+    "selection": "intersects study area +1800 m; subway only for rail layer; station only and deduplicated names for station points",
+    "geometry_preserved": true,
+    "providers": [
+      "OpenStreetMap contributors",
+      "Overture Maps Foundation"
+    ],
+    "licenses": [
+      "ODbL-1.0",
+      "other"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "source_url": "https://www.openstreetmap.org/api/0.6/relation/913067/full.json",
+  "license": "ODbL-1.0",
+  "snapshot_date": "2026-10-29",
+  "relation_modified": "2026-10-23T05:47:03Z",
+  "admin_area_including_marine_km2": 16204.73975037837,
+  "land_reference_km2": 6735.960535138651,
+  "land_geometry_valid": true,
+  "contains_exact_design_site": true,
+  "natural_earth_url": "https://naturalearth.s3.amazonaws.com/10m_physical/ne_10m_land.zip",
+  "natural_earth_license": "Public domain",
+  "natural_earth_scale": "1:10 million cartographic reference, not a survey",
+  "source_osm_sha256": "35a7b1d6b5d876e88009dceccf92b5b2de5b7dde3dce924d43aaf4340b783fb6",
+  "source_natural_earth_sha256": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc",
+  "rejected_source": "geoBoundaries CHN ADM1 2019 (35 vertices in Shanghai; too coarse for selected design)",
+  "overpass_attempt": "HTTP 406; switched to standard public OSM API, no bypass"
+}
