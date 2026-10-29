@@ -16,8 +16,8 @@
     },
     {
       "path": "MAP_ANALYSIS_NOTES.md",
-      "bytes": 27726,
-      "sha256": "f03337acb7529ca5b24adf2dcfdf29016ca96d281f1a6e069774c86d4fb4c1bc"
+      "bytes": 27725,
+      "sha256": "68367bfbcc4ed7b5c3033c4a17a0620fea2920973ae3c6cad12a7c3f8ab99f13"
     },
     {
       "path": "README.md",
@@ -811,8 +811,8 @@
     },
     {
       "path": "scripts/02_write_notes.py",
-      "bytes": 29593,
-      "sha256": "1d82f9e93e7355e08ca52fcd963bbd37bfa2b38c51ab0677e882ce1335f89df8"
+      "bytes": 29602,
+      "sha256": "4142fcc70ed16b8e7cd710825b4622fd310d03e152f3e6325fde31ea0b65d900"
     },
     {
       "path": "scripts/03_export_annotated.py",

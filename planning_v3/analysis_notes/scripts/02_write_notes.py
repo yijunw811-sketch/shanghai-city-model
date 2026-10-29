@@ -173,5 +173,5 @@ for m in catalog:
 md=['# 上海GIS V3逐图分析说明','', '范围：36张既有非卫星专题图；不增加新底图或新专题。周边指设计范围之外500米欧氏环带与研究区的交集；可达比例均为已映射步行路段长度，非居民/用地覆盖率。事实与研究建议分开，数据不支持的短板不作确定判断。','']
 for m in catalog:
     n=notes[m['id']];md += [f"## {m['id']} {m['title']}",'','**地块现状与问题**：'+n['site_problem'],'','**区域协同关系**：'+n['regional_coordination'],'','**改善方向**：'+n['improvement_direction'],'','证据字段：'+', '.join(n['evidence_keys']),'']
-(P/'MAP_ANALYSIS_NOTES.md').write_text('\n'.join(md)+'\n')
+(P/'MAP_ANALYSIS_NOTES.md').write_text('\n'.join(md).rstrip()+'\n')
 print('36 maps / 108 distinct interpretation paragraphs written; all tied to spatial evidence.')
