@@ -1,0 +1,534 @@
+{
+  "existing_topics_annotated": 36,
+  "interpretation_paragraphs": 108,
+  "A1_PDF": 36,
+  "A3_PDF": 36,
+  "PNG_300DPI": 36,
+  "SVG": 36,
+  "all_caption_text_and_headings_complete": true,
+  "caption_font_A1_pt": 11,
+  "caption_font_A3_pt": 7.5,
+  "A3_footer_font_pt": 7,
+  "CFF_mislabeled_as_TrueType_remaining": 0,
+  "font_repair": "Cubic CFF outlines converted to actual TrueType, preserving glyph order/advances; old graphics commands/images unchanged. Original files not rewritten.",
+  "new_maps_or_basemaps": 0,
+  "maps_keep_original_geometry_color_scale_extent": true,
+  "all_original_source_PDF_SHA256_unchanged": true,
+  "protected_source_SHA256_unchanged": {
+    "planning_v3/outputs/gis/reference_v2.gpkg": true,
+    "planning_v3/outputs/gis/refined_analysis_v3.gpkg": true,
+    "planning_v3/outputs/gis/reference_analysis_v2.gpkg": true,
+    "planning_v3/data/satellite/sentinel_truecolor_10m_context.tif": true,
+    "上海城市模型_Codex云端起步包/outputs/gis/city.gpkg": true,
+    "上海城市模型_Codex云端起步包/outputs/gis/overture_audit.gpkg": true,
+    "planning_v3/data/boundary/选定范围.csv": true
+  },
+  "QGIS_valid_layers": 108,
+  "QGIS_editable_paragraphs": 108,
+  "checks": [
+    {
+      "id": "01",
+      "format": "A1",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "01",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "02",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "02",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "03",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "03",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "04",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "04",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "05",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "05",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "06",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "06",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "07",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "07",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "08",
+      "format": "A1",
+      "caption_spans": 9,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "08",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "09",
+      "format": "A1",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "09",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "10",
+      "format": "A1",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "10",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "11",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "11",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "12",
+      "format": "A1",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "12",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "13",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "13",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "14",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "14",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "15",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "15",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "16",
+      "format": "A1",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "16",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "17",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "17",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "18",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "18",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "19",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "19",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "20",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "20",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "21",
+      "format": "A1",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "21",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "22",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "22",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "23",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "23",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "24",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "24",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "25",
+      "format": "A1",
+      "caption_spans": 9,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "25",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "26",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "26",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "27",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "27",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "28",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "28",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R01",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R01",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R02",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R02",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R03",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R03",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R04",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R04",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R05",
+      "format": "A1",
+      "caption_spans": 9,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R05",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R06",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R06",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R07",
+      "format": "A1",
+      "caption_spans": 11,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R07",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R08",
+      "format": "A1",
+      "caption_spans": 10,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    },
+    {
+      "id": "R08",
+      "format": "A3",
+      "caption_spans": 12,
+      "map_content_unchanged_after_font_repair": true,
+      "caption_text_complete": true
+    }
+  ]
+}

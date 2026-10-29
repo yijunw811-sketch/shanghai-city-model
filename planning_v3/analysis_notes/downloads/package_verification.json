@@ -1,0 +1,44 @@
+[
+  {
+    "file": "Shanghai_GIS_V3_Analysis_A1_36maps.pdf",
+    "bytes": 22543688,
+    "sha256": "8a3a9724408abed14fde1248375c4a3cec7205969cec4400ddb16d8af65a6a88",
+    "pages": 36,
+    "text_verified_all_pages": true
+  },
+  {
+    "file": "Shanghai_GIS_V3_Analysis_A3_36maps.pdf",
+    "bytes": 22292860,
+    "sha256": "d6e612fae9df0ae01c39f55e4bc35590d66c689a512f25dc21be5dfd7bda181e",
+    "pages": 36,
+    "text_verified_all_pages": true
+  },
+  {
+    "file": "shanghai-v3-analysis-notes-00-core.zip",
+    "bytes": 7887353,
+    "sha256": "60564f0ed9a23cb881eab8eccdc2ef3ce8c25c3fb6386870d4f09534068580fa",
+    "members": 25,
+    "CRC_and_member_SHA256_verified": true
+  },
+  {
+    "file": "shanghai-v3-analysis-notes-01-maps-01-12.zip",
+    "bytes": 71977992,
+    "sha256": "a7a037f63c6c13b4ad3d6eb198401e29117062d8670cc74e0c49f8a246b535f3",
+    "members": 48,
+    "CRC_and_member_SHA256_verified": true
+  },
+  {
+    "file": "shanghai-v3-analysis-notes-02-maps-13-24.zip",
+    "bytes": 46837318,
+    "sha256": "1e11895f0ed05904eba8f771e93fe95bdd1e7e2a9c7861517355a39e83de3938",
+    "members": 48,
+    "CRC_and_member_SHA256_verified": true
+  },
+  {
+    "file": "shanghai-v3-analysis-notes-03-maps-25-28-R01-R08.zip",
+    "bytes": 41126770,
+    "sha256": "45a161069ca6a34ccb0d796dea03ea28ef800a4ffcb5ee16ee652b0b0139a07b",
+    "members": 48,
+    "CRC_and_member_SHA256_verified": true
+  }
+]

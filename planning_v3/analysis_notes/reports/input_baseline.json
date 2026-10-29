@@ -1,0 +1,9 @@
+{
+  "planning_v3/outputs/gis/reference_v2.gpkg": "240b7bfdab61b24fe3badad1e9144617318ac227b0ae83ca29e7a1becde84798",
+  "planning_v3/outputs/gis/refined_analysis_v3.gpkg": "1040a95ac03638dc01d6d42fb296b70b27d1c79e442f5309eaa1867442345b03",
+  "planning_v3/outputs/gis/reference_analysis_v2.gpkg": "12c2718ed77ed66b0bc2ee0fe15226bf0739c4cd024aa60c3fcd0d3865c20ad4",
+  "planning_v3/data/satellite/sentinel_truecolor_10m_context.tif": "a683e283f0d8cd44d09ea94409fa7ac7d729d9bb1dc9190801a0398c22c122fb",
+  "上海城市模型_Codex云端起步包/outputs/gis/city.gpkg": "5ccb1214e3842c22d111224f4ab6567233fa10f19252a2689d8cf9cbec6e33ad",
+  "上海城市模型_Codex云端起步包/outputs/gis/overture_audit.gpkg": "e997f0fc357dd471d2d26a969fc18d1ff845a55fd63fd515373d2887af99838d",
+  "planning_v3/data/boundary/选定范围.csv": "0d1acebe6e070a4027d6df2c01a65cb4d8dd548f70124355cccb3f2281075bc9"
+}
